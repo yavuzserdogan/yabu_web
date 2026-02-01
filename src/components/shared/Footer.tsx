@@ -30,9 +30,9 @@ export function Footer() {
                             className="flex items-center gap-2 mb-4"
                         >
                             <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
-                                <span className="text-white font-bold text-xl">D</span>
+                                <span className="text-white font-bold text-xl">YaBu </span>
                             </div>
-                            <span className="font-semibold text-white">Digital Studio</span>
+                            <span className="font-semibold text-white">Digital</span>
                         </button>
 
                         <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-md">
