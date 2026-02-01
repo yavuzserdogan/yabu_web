@@ -42,8 +42,8 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? "bg-slate-50/90 backdrop-blur-lg shadow-sm"
-          : "bg-transparent"
+        ? "bg-slate-50/90 backdrop-blur-lg shadow-sm"
+        : "bg-transparent"
 
         }`}
     >
@@ -54,13 +54,18 @@ export function Header() {
             onClick={() => handleNavigate("/")}
             className="flex items-center gap-2 group"
           >
-            <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition-colors">
-              <span className="text-white font-bold text-xl">D</span>
-            </div>
-            <span className="hidden sm:block font-semibold text-slate-900">
-              Digital Studio
+            {/* Brand */}
+            <span className="text-[26px] font-extrabold tracking-tight">
+              <span className="text-[#1f2a11]">Ya</span>
+              <span className="text-black">Bu</span>
+            </span>
+
+            {/* Digital */}
+            <span className="text-[26px] font-extrabold tracking-tight">
+              <span className="text-[#008BFF]">Digital</span>
             </span>
           </button>
+
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center gap-8">
@@ -71,8 +76,8 @@ export function Header() {
                   key={item.path}
                   onClick={() => handleNavigate(item.path)}
                   className={`relative text-sm font-medium transition-colors ${isActive
-                      ? "text-slate-900"
-                      : "text-slate-600 hover:text-slate-900"
+                    ? "text-slate-900"
+                    : "text-slate-600 hover:text-slate-900"
                     }`}
                 >
                   {item.name}
@@ -89,12 +94,20 @@ export function Header() {
           </nav>
 
           {/* CTA */}
+          {/* CTA */}
           <button
             onClick={() => handleNavigate("/contact")}
-            className="hidden md:block px-6 py-2.5 bg-slate-900 text-white rounded-lg hover:bg-blue-600 transition-all hover:scale-105"
+            className="hidden md:block px-6 py-2.5 text-white rounded-lg 
+             bg-gradient-to-r from-blue-600 to-indigo-600
+             shadow-lg shadow-blue-500/30
+             hover:shadow-xl hover:shadow-blue-500/40
+             hover:from-blue-700 hover:to-indigo-700
+             transition-all duration-300 hover:scale-105"
           >
             İletişime Geç
           </button>
+
+
 
           {/* Mobile Button */}
           <button
@@ -124,8 +137,8 @@ export function Header() {
                     key={item.path}
                     onClick={() => handleNavigate(item.path)}
                     className={`block w-full text-left px-4 py-3 rounded-lg transition-colors ${isActive
-                        ? "bg-slate-900 text-white"
-                        : "text-slate-600 hover:bg-slate-100"
+                      ? "bg-slate-900 text-white"
+                      : "text-slate-600 hover:bg-slate-100"
                       }`}
                   >
                     {item.name}
