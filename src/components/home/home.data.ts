@@ -5,7 +5,11 @@ import {
   TrendingUp,
 } from "lucide-react";
 
-export const services = [
+import type { ServiceSummary } from "@/types/service";
+import type { Step } from "@/types/step";
+import type { Project } from "@/types/project";
+
+export const services: ServiceSummary[] = [
   {
     icon: Code2,
     title: "Web Geliştirme",
@@ -32,7 +36,7 @@ export const services = [
   },
 ];
 
-export const steps = [
+export const steps: Step[] = [
   {
     number: "01",
     title: "Keşif & Planlama",
@@ -59,7 +63,7 @@ export const steps = [
   },
 ];
 
-export const projects = [
+export const projects: Project[] = [
   {
     title: "E-Ticaret Platformu",
     category: "Web Geliştirme",
