@@ -13,4 +13,5 @@ export interface Project {
   id?: number;
   description?: string;
   tags?: string[];
+  link?: string;
 }

@@ -8,7 +8,7 @@ import { AboutWhyUs } from "@/components/about/AboutWhyUs";
 
 export default function AboutPage() {
   return (
-    <div className="pt-32">
+    <div>
       <AboutHero />
       <AboutStory />
       <AboutValues />
