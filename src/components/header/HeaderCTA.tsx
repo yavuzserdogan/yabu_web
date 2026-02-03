@@ -13,7 +13,9 @@ export function HeaderCTA() {
         shadow-lg shadow-blue-500/30
         hover:shadow-xl hover:shadow-blue-500/40
         hover:from-blue-700 hover:to-indigo-700
-        transition-all duration-300 hover:scale-105"
+        transition-all duration-300 hover:scale-105
+        cursor-pointer
+        "
     >
       İletişime Geç
     </button>

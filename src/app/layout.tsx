@@ -20,24 +20,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="tr" suppressHydrationWarning>
-      <body
-        className={`${inter.variable} font-sans bg-white text-slate-900 antialiased`}
-      >
-        {/* Global Header */}
+    <html lang="tr" className="scroll-smooth">
+      <body className={`${inter.variable} font-sans bg-white antialiased`}>
         <Header />
-
-        {/* Sayfa içeriği (Header fixed olduğu için padding-top veriyoruz) */}
-        <main className="pt-24">
-          {children}
-        </main>
-
+        {/* pt-24'ü sildik; sayfalar kendi boşluğunu yönetecek */}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
