@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { HeroBackground } from "../ui/HeroBackground";
+import ShinyText from "../ui/ShinyText";
 
 export function ServicesHero() {
   return (
@@ -19,15 +20,22 @@ export function ServicesHero() {
             Dijital <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Çözümler</span>
           </h1>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-            className="max-w-2xl mx-auto text-lg md:text-2xl text-slate-600 leading-relaxed font-light"
-          >
-            İşinizi büyütmek, markanızı dijital dünyada zirveye taşımak için
-            modern teknolojileri yaratıcı tasarımlarla harmanlıyoruz.
-          </motion.p>
+          <div className="max-w-5xl mx-auto">
+            <ShinyText
+              text="✨İşinizi büyütmek, markanızı dijital dünyada zirveye taşımak için modern teknolojileri yaratıcı tasarımlarla harmanlıyoruz."
+              speed={5}
+              delay={2}
+              className="text-xl md:text-3xl leading-relaxed font-medium"
+              color="#94a3b8"
+              shineColor="#ffffff"
+              spread={90}
+              direction="left"
+              yoyo={false}
+              pauseOnHover={false}
+              disabled={false}
+            />
+          </div>
+
         </motion.div>
       </div>
 

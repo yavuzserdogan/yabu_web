@@ -15,50 +15,55 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className={`flex flex-col ${
         reverse ? "lg:flex-row-reverse" : "lg:flex-row"
-      } gap-12 lg:gap-24 items-center`}
+      } gap-12 lg:gap-24 items-center relative`}
     >
       {/* 1. Metin İçeriği */}
-      <div className="flex-1 w-full">
-        <div className="w-14 h-14 mb-8 rounded-2xl bg-linear-to-br from-blue-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-blue-200">
+      <div className="flex-1 w-full z-10">
+        <motion.div 
+          whileHover={{ scale: 1.05 }}
+          className="w-14 h-14 mb-8 rounded-2xl bg-linear-to-br from-blue-600 to-indigo-600 flex items-center justify-center shadow-xl shadow-blue-200"
+        >
           <Icon className="text-white" size={28} />
-        </div>
+        </motion.div>
 
         <h3 className="text-4xl font-bold text-slate-900 mb-6 tracking-tight">
           {service.title}
         </h3>
-        <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+        <p className="text-lg text-slate-600 mb-8 leading-relaxed font-light">
           {service.description}
         </p>
 
-        {/* Özellikler ve Uygunluk Listesi */}
-        <div className="space-y-6">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="space-y-8">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6">
             {service.features.map((f: string, i: number) => (
-              <li key={i} className="flex items-center gap-3 text-slate-700 font-medium">
-                <div className="shrink-0 w-6 h-6 rounded-full bg-blue-50 flex items-center justify-center">
-                  <Check className="text-blue-600" size={14} strokeWidth={3} />
+              <motion.li 
+                key={i} 
+                whileHover={{ x: 5 }}
+                className="flex items-center gap-3 text-slate-700 font-medium group"
+              >
+                <div className="shrink-0 w-6 h-6 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                  <Check className="text-blue-600 group-hover:text-white transition-colors duration-300" size={14} strokeWidth={3} />
                 </div>
                 {f}
-              </li>
+              </motion.li>
             ))}
           </ul>
 
-          {/* Kimler İçin Uygun (Artık Liste Formatında) */}
-          <div className="pt-6 border-t border-slate-100">
-            <h4 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-4 flex items-center gap-2">
-              <Target size={16} /> Kimler İçin Uygun?
+          <div className="pt-8 border-t border-slate-100">
+            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-[0.2em] mb-5 flex items-center gap-2">
+              <Target size={14} className="text-blue-500" /> Kimler İçin Uygun?
             </h4>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {service.suitable.map((s: string, i: number) => (
                 <span
                   key={i}
-                  className="px-4 py-2 rounded-xl bg-slate-50 text-slate-600 text-sm font-semibold border border-slate-100 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-100 transition-colors"
+                  className="px-5 py-2.5 rounded-xl bg-white text-slate-600 text-sm font-semibold border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 hover:text-blue-600 transition-all duration-300 cursor-default"
                 >
                   {s}
                 </span>
@@ -68,22 +73,35 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
         </div>
       </div>
 
-      {/* 2. Görsel Alanı (Sağ Taraf) */}
-      <div className="flex-1 w-full relative group">
-        <div className="relative aspect-square md:aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+      {/* 2. Görsel Alanı (ReactBits Style Effects) */}
+      <motion.div 
+        className="flex-1 w-full relative"
+        // Floating Effect: Hafif yukarı aşağı hareket
+        animate={{ y: [0, -12, 0] }}
+        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+      >
+        {/* Dekoratif Dot Grid Arka Plan */}
+        <div className="absolute -top-10 -right-10 w-32 h-32 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] bg-size-[16px_16px] -z-10 opacity-60" />
+        
+        <div className="relative aspect-video w-full rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-white/50 group">
+          {/* Spotlight Glow Overlay */}
+          <div className="absolute inset-0 z-10 bg-linear-to-tr from-blue-600/10 via-transparent to-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+          
           <Image
             src={service.image || `https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426`}
             alt={service.title}
             fill
-            className="object-cover"
+            className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+            priority
           />
-          {/* Üzerine hafif bir overlay */}
-          <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 to-transparent" />
+          
+          {/* Görsel içi soft gölge (Inner Vignette) */}
+          <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 via-transparent to-transparent opacity-60" />
         </div>
         
-        {/* Dekoratif Arka Plan Elemanı */}
-        <div className="absolute -z-10 -bottom-6 -right-6 w-full h-full border-2 border-slate-100 rounded-3xl" />
-      </div>
+        {/* Blurry Background Blob */}
+        <div className="absolute -inset-10 bg-linear-to-tr from-blue-400/10 to-purple-400/10 blur-[80px] -z-20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
+      </motion.div>
     </motion.div>
   );
 }
