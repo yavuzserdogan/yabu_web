@@ -13,4 +13,5 @@ export interface ServiceDetail extends ServiceSummary {
   features: string[];
   suitable: string[];
   accent?: "blue" | "indigo" | "purple" | "emerald";
+  image?: string;
 }
