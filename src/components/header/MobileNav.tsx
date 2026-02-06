@@ -21,7 +21,7 @@ export function MobileNav({
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: "auto" }}
           exit={{ opacity: 0, height: 0 }}
-          className="md:hidden bg-white border-t border-slate-200"
+          className="md:hidden bg-white border-t border-slate-200 cursor-pointer"
         >
           <nav className="px-4 py-4 space-y-2">
             {mainNavigation.map((item) => {

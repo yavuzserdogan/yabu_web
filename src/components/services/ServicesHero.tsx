@@ -15,15 +15,6 @@ export function ServicesHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <motion.span
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="inline-block px-4 py-1.5 mb-6 text-sm font-medium tracking-wider text-blue-600 uppercase bg-blue-50 rounded-full"
-          >
-            Neler Yapıyoruz?
-          </motion.span>
-
           <h1 className="text-5xl md:text-8xl font-bold text-slate-900 mb-8 tracking-tight">
             Dijital <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Çözümler</span>
           </h1>
