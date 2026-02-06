@@ -19,31 +19,35 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className={`flex flex-col ${
-        reverse ? "lg:flex-row-reverse" : "lg:flex-row"
-      } gap-12 lg:gap-24 items-center relative`}
+      className={`flex flex-col ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"
+        } gap-12 lg:gap-24 items-center relative`}
     >
       {/* 1. Metin İçeriği */}
       <div className="flex-1 w-full z-10">
-        <motion.div 
-          whileHover={{ scale: 1.05 }}
-          className="w-14 h-14 mb-8 rounded-2xl bg-linear-to-br from-blue-600 to-indigo-600 flex items-center justify-center shadow-xl shadow-blue-200"
-        >
-          <Icon className="text-white" size={28} />
-        </motion.div>
+        <div className="flex items-center gap-5 mb-8">
+          <motion.div
+            whileHover={{ scale: 1.08, rotate: 2 }}
+            className="w-13 h-13 rounded-2xl bg-linear-to-br from-blue-600 to-indigo-600 flex items-center justify-center shadow-xl shadow-blue-200 shrink-0"
+          >
+            <Icon className="text-white" size={28} />
+          </motion.div>
 
-        <h3 className="text-4xl font-bold text-slate-900 mb-6 tracking-tight">
-          {service.title}
-        </h3>
-        <p className="text-lg text-slate-600 mb-8 leading-relaxed font-light">
+          <h3 className="text-[2.6rem] leading-tight font-bold text-slate-900 tracking-tight">
+
+            {service.title}
+          </h3>
+        </div>
+
+        <p className="text-lg text-slate-500 max-w-xl mb-8 leading-relaxed">
+
           {service.description}
         </p>
 
         <div className="space-y-8">
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6">
             {service.features.map((f: string, i: number) => (
-              <motion.li 
-                key={i} 
+              <motion.li
+                key={i}
                 whileHover={{ x: 5 }}
                 className="flex items-center gap-3 text-slate-700 font-medium group"
               >
@@ -74,7 +78,7 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
       </div>
 
       {/* 2. Görsel Alanı (ReactBits Style Effects) */}
-      <motion.div 
+      <motion.div
         className="flex-1 w-full relative"
         // Floating Effect: Hafif yukarı aşağı hareket
         animate={{ y: [0, -12, 0] }}
@@ -82,11 +86,11 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
       >
         {/* Dekoratif Dot Grid Arka Plan */}
         <div className="absolute -top-10 -right-10 w-32 h-32 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] bg-size-[16px_16px] -z-10 opacity-60" />
-        
+
         <div className="relative aspect-video w-full rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-white/50 group">
           {/* Spotlight Glow Overlay */}
           <div className="absolute inset-0 z-10 bg-linear-to-tr from-blue-600/10 via-transparent to-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-          
+
           <Image
             src={service.image || `https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426`}
             alt={service.title}
@@ -94,11 +98,11 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
             className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
             priority
           />
-          
+
           {/* Görsel içi soft gölge (Inner Vignette) */}
           <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 via-transparent to-transparent opacity-60" />
         </div>
-        
+
         {/* Blurry Background Blob */}
         <div className="absolute -inset-10 bg-linear-to-tr from-blue-400/10 to-purple-400/10 blur-[80px] -z-20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
       </motion.div>

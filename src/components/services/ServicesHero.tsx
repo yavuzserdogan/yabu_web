@@ -22,7 +22,7 @@ export function ServicesHero() {
 
           <div className="max-w-5xl mx-auto">
             <ShinyText
-              text="✨İşinizi büyütmek, markanızı dijital dünyada zirveye taşımak için modern teknolojileri yaratıcı tasarımlarla harmanlıyoruz."
+              text="İşinizi büyütmek, markanızı dijital dünyada zirveye taşımak için modern teknolojileri yaratıcı tasarımlarla harmanlıyoruz."
               speed={5}
               delay={2}
               className="text-xl md:text-3xl leading-relaxed font-medium"
@@ -39,21 +39,6 @@ export function ServicesHero() {
         </motion.div>
       </div>
 
-      {/* Aşağı Kaydır İkonu (Opsiyonel ama şıktır) */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:block"
-      >
-        <div className="w-6 h-10 border-2 border-slate-300 rounded-full flex justify-center p-1">
-          <motion.div
-            animate={{ y: [0, 12, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
-            className="w-1.5 h-1.5 bg-slate-400 rounded-full"
-          />
-        </div>
-      </motion.div>
 
       {/* Alt geçiş gradyanı */}
       <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-white to-transparent" />
