@@ -1,7 +1,7 @@
 "use client";
 
 import { HomeFeaturedProjects } from "@/components/home/HomeFeaturedProjects";
-import { HomeHero } from "@/components/home/HomeHero";
+import HomeHero from "@/components/home/HomeHero";
 import { HomeServices } from "@/components/home/HomeServices";
 import { HomeSteps } from "@/components/home/HomeSteps";
 

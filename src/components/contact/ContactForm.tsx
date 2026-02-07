@@ -43,6 +43,7 @@ export function ContactForm() {
       form.reset();
     } catch (err) {
       toast.error("Bir hata oluştu.");
+      console.error(err);
     }
   }
 
@@ -114,7 +115,7 @@ export function ContactForm() {
         >
           <div className="relative">
             {/* Subtle gradient background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-white to-slate-50/30 rounded-3xl" />
+            <div className="absolute inset-0 bg-linear-to-br from-blue-50/50 via-white to-slate-50/30 rounded-3xl" />
 
             {/* Form container */}
             <div className="relative bg-white/60 backdrop-blur-sm rounded-3xl border border-slate-200/60 p-8 lg:p-10 shadow-sm">
