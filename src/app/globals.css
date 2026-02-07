@@ -45,10 +45,106 @@
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
   --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+  --animate-fluid-1: fluid-rotate 20s linear infinite;
+  --animate-fluid-2: fluid-rotate-reverse 25s linear infinite;
 
   @keyframes infinite-scroll {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes fluid-rotate {
+    0% {
+      transform: translate(0%, 0%) rotate(0deg) scale(1);
+    }
+    33% {
+      transform: translate(10%, -5%) rotate(120deg) scale(1.1);
+    }
+    66% {
+      transform: translate(-5%, 10%) rotate(240deg) scale(0.9);
+    }
+    100% {
+      transform: translate(0%, 0%) rotate(360deg) scale(1);
+    }
+  }
+
+  @keyframes fluid-rotate-reverse {
+    0% {
+      transform: translate(0%, 0%) rotate(360deg) scale(1);
+    }
+    50% {
+      transform: translate(-10%, 10%) rotate(180deg) scale(1.2);
+    }
+    100% {
+      transform: translate(0%, 0%) rotate(0deg) scale(1);
+    }
+  }
+
+  @keyframes mesh-1 {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(30%, -20%) scale(1.2);
+    }
+    66% {
+      transform: translate(-20%, 40%) scale(0.8);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+
+  @keyframes mesh-2 {
+    0% {
+      transform: translate(0, 0) scale(1.2);
+    }
+    50% {
+      transform: translate(-30%, -30%) scale(0.9);
+    }
+    100% {
+      transform: translate(0, 0) scale(1.2);
+    }
+  }
+
+  @keyframes pulse-slow {
+    0%,
+    100% {
+      opacity: 0.2;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.4;
+      transform: scale(1.1);
+    }
+  }
+
+  @keyframes gradient {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+      transform: translate(10%, -10%) rotate(180deg);
+    }
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+    }
+  }
+
+  @keyframes gradient-slow {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+      transform: translate(-10%, 10%) rotate(180deg);
+    }
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+    }
   }
 }
 
@@ -129,3 +225,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .animate-gradient {
+    animation: gradient 20s ease-in-out infinite;
+  }
+
+  .animate-gradient-slow {
+    animation: gradient-slow 30s ease-in-out infinite;
+  }
+}
+

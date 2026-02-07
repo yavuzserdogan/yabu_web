@@ -32,7 +32,7 @@ export function ContactFaq() {
           >
             <AccordionItem 
               value={`item-${i}`} 
-              className="border-none bg-white rounded-2xl px-6 shadow-sm hover:shadow-md transition-all duration-300 [&[data-state=open]]:shadow-lg [&[data-state=open]]:ring-1 [&[data-state=open]]:ring-blue-100"
+              className="border-none bg-white rounded-2xl px-6 shadow-sm hover:shadow-md transition-all duration-300 data-[state=open]:shadow-lg data-[state=open]:ring-1 data-[state=open]:ring-blue-100"
             >
               <AccordionTrigger className="hover:no-underline py-6 group">
                 <span className="text-left font-semibold text-slate-800 text-lg group-hover:text-blue-600 transition-colors">
