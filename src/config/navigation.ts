@@ -2,7 +2,7 @@ export const mainNavigation = [
   { name: "Ana Sayfa", path: "/" },
   { name: "Hizmetler", path: "/services" },
   { name: "Projelerimiz", path: "/projects" },
-  { name: "Hakkımda", path: "/about" },
+  { name: "Hakkımızda", path: "/about" },
   { name: "İletişim", path: "/contact" },
 ] as const;
 

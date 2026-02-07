@@ -9,7 +9,7 @@ export const siteConfig = {
     { label: "Ana Sayfa", path: "/" },
     { label: "Hizmetler", path: "/services" },
     { label: "Projelerimiz", path: "/projects" },
-    { label: "Hakkımda", path: "/about" },
+    { label: "Hakkımızda", path: "/about" },
     { label: "İletişim", path: "/contact" },
   ],
 

@@ -1,4 +1,3 @@
-import { AboutCTA } from "@/components/about/AboutCTA";
 import { AboutHero } from "@/components/about/AboutHero";
 import { AboutProcess } from "@/components/about/AboutProcess";
 import { AboutStats } from "@/components/about/AboutStats";
@@ -15,7 +14,6 @@ export default function AboutPage() {
       <AboutStats />
       <AboutProcess />
       <AboutWhyUs />
-      <AboutCTA />
     </div>
   );
 }
