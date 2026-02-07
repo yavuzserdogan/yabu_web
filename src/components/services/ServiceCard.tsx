@@ -4,6 +4,7 @@ import { ServiceDetail } from "@/types/service";
 import { motion } from "framer-motion";
 import { Check, Target } from "lucide-react";
 import Image from "next/image";
+import { contentTheme } from "@/config/content-theme";
 
 interface ServiceCardProps {
   service: ServiceDetail;
@@ -11,6 +12,7 @@ interface ServiceCardProps {
 }
 
 export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
+  const t = contentTheme;
   const Icon = service.icon;
 
   return (
@@ -22,24 +24,20 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
       className={`flex flex-col ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"
         } gap-12 lg:gap-24 items-center relative`}
     >
-      {/* 1. Metin İçeriği */}
       <div className="flex-1 w-full z-10">
         <div className="flex items-center gap-5 mb-8">
           <motion.div
-            whileHover={{ scale: 1.08, rotate: 2 }}
-            className="w-13 h-13 rounded-2xl bg-linear-to-br from-blue-600 to-indigo-600 flex items-center justify-center shadow-xl shadow-blue-200 shrink-0"
+            className={`${t.iconBox.lg} ${t.iconBox.gradient} group-hover:scale-110 transition-transform`}
           >
+
             <Icon className="text-white" size={28} />
           </motion.div>
-
-          <h3 className="text-[2.6rem] leading-tight font-bold text-slate-900 tracking-tight">
-
+          <h3 className={`${t.typography.sectionTitle} leading-tight ${t.colors.text.primary}`}>
             {service.title}
           </h3>
         </div>
 
-        <p className="text-lg text-slate-500 max-w-xl mb-8 leading-relaxed">
-
+        <p className={`${t.typography.bodyLarge} max-w-xl mb-8`}>
           {service.description}
         </p>
 
@@ -49,10 +47,10 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
               <motion.li
                 key={i}
                 whileHover={{ x: 5 }}
-                className="flex items-center gap-3 text-slate-700 font-medium group"
+                className={`${t.checklist.item} group`}
               >
-                <div className="shrink-0 w-6 h-6 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
-                  <Check className="text-blue-600 group-hover:text-white transition-colors duration-300" size={14} strokeWidth={3} />
+                <div className={`shrink-0 ${t.checklist.icon}`}>
+                  <Check className={`${t.checklist.iconSvg}`} size={14} strokeWidth={3} />
                 </div>
                 {f}
               </motion.li>
@@ -60,15 +58,12 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
           </ul>
 
           <div className="pt-8 border-t border-slate-100">
-            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-[0.2em] mb-5 flex items-center gap-2">
-              <Target size={14} className="text-blue-500" /> Kimler İçin Uygun?
+            <h4 className={`${t.typography.label} mb-5 flex items-center gap-2`}>
+              <Target size={14} className={t.colors.icon.primary} /> Kimler İçin Uygun?
             </h4>
             <div className="flex flex-wrap gap-3">
               {service.suitable.map((s: string, i: number) => (
-                <span
-                  key={i}
-                  className="px-5 py-2.5 rounded-xl bg-white text-slate-600 text-sm font-semibold border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 hover:text-blue-600 transition-all duration-300 cursor-default"
-                >
+                <span key={i} className={t.badge.tag}>
                   {s}
                 </span>
               ))}

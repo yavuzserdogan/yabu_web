@@ -1,3 +1,5 @@
+import { contentTheme } from "@/config/content-theme";
+
 interface Props {
   categories: readonly string[];
   active: string;
@@ -5,17 +7,16 @@ interface Props {
 }
 
 export function ProjectsFilter({ categories, active, onChange }: Props) {
+  const t = contentTheme;
   return (
-    <section className="py-8 bg-white sticky top-20 z-40 border-b border-slate-200">
+    <section className={t.filter.section}>
       <div className="flex flex-wrap gap-3 justify-center">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => onChange(cat)}
-            className={`px-6 py-2.5 rounded-full font-medium transition-all ${
-              active === cat
-                ? 'bg-slate-900 text-white'
-                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            className={`${t.filter.button} ${
+              active === cat ? t.filter.buttonActive : t.filter.buttonInactive
             }`}
           >
             {cat}

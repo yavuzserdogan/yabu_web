@@ -1,12 +1,14 @@
 "use client";
 
 import { ServiceCard } from "./ServiceCard";
+import { contentTheme } from "@/config/content-theme";
 import { services } from "./services.data";
 
 export function ServicesList() {
+  const t = contentTheme;
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-7xl mx-auto space-y-24">
+    <section className={t.section.padding}>
+      <div className={`${t.section.container} space-y-24`}>
         {services.map((service, i) => (
           <ServiceCard
             key={service.slug}

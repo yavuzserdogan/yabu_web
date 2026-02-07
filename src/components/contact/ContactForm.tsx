@@ -8,6 +8,7 @@ import { Send, Loader2, MapPin, User, Mail, Phone, MessageSquare } from "lucide-
 import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
+import { contentTheme } from "@/config/content-theme";
 import {
   Form,
   FormControl,
@@ -45,27 +46,26 @@ export function ContactForm() {
     }
   }
 
+  const t = contentTheme;
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-20">
+    <section className={`w-full max-w-6xl mx-auto px-4 ${t.section.padding}`}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="grid lg:grid-cols-3 gap-8"
       >
-        {/* LEFT: CONTACT INFORMATION */}
         <div className="lg:col-span-1 space-y-6">
           <div>
-            <h2 className="text-3xl font-bold text-slate-900 mb-3">
+            <h2 className={`${t.typography.sectionTitle} md:text-4xl ${t.colors.text.primary} mb-3`}>
               Projenizi Hayata Geçirelim
             </h2>
-            <p className="text-slate-600 leading-relaxed">
+            <p className={t.typography.bodyLarge}>
               Teknik detaylarla boğulmayın. Fikrinizi anlatın, biz en uygun teknolojiyle hayata geçirelim.
             </p>
           </div>
 
           <div className="space-y-4 pt-4">
-            {/* CONTACT INFO  */}
             {contactInfo.map((info, idx) => (
               <motion.a
                 key={idx}
@@ -74,19 +74,18 @@ export function ContactForm() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 + idx * 0.1 }}
-                className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 hover:border-blue-600 hover:shadow-md transition-all group"
+                className={t.contactCard.base}
               >
-                <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center group-hover:bg-blue-600 transition-colors">
-                  <info.icon size={20} className="text-blue-600 group-hover:text-white transition-colors" />
+                <div className={t.contactCard.icon}>
+                  <info.icon size={20} className={t.contactCard.iconSvg} />
                 </div>
                 <div>
-                  <p className="text-xs text-slate-500 font-medium">{info.title}</p>
-                  <p className="text-sm font-semibold text-slate-900">{info.value}</p>
+                  <p className={t.contactCard.label}>{info.title}</p>
+                  <p className={t.contactCard.value}>{info.value}</p>
                 </div>
               </motion.a>
             ))}
 
-            {/* Location */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -94,12 +93,12 @@ export function ContactForm() {
               transition={{ delay: 0.3 }}
               className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200"
             >
-              <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center">
-                <MapPin size={20} className="text-slate-600" />
+              <div className={`${t.iconBox.md} bg-slate-50 flex items-center justify-center`}>
+                <MapPin size={20} className={t.colors.text.secondary} />
               </div>
               <div>
-                <p className="text-xs text-slate-500 font-medium">Konum</p>
-                <p className="text-sm font-semibold text-slate-900">Ankara, Türkiye</p>
+                <p className={t.contactCard.label}>Konum</p>
+                <p className={t.contactCard.value}>Ankara, Türkiye</p>
               </div>
             </motion.div>
           </div>
@@ -129,7 +128,7 @@ export function ContactForm() {
                       name="name"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-slate-800 font-semibold text-sm">
+                          <FormLabel className={t.form.label}>
                             İsim Soyisim
                           </FormLabel>
                           <FormControl>
@@ -139,7 +138,7 @@ export function ContactForm() {
                                 placeholder="Ahmet Yılmaz"
                                 {...field}
                                 // pl-10 ekleyerek ikon için yer açtık
-                                className="h-11 pl-10 bg-white border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10 rounded-xl transition-all"
+                                className={t.form.input}
                               />
                             </div>
                           </FormControl>
@@ -154,7 +153,7 @@ export function ContactForm() {
                       name="email"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-slate-800 font-semibold text-sm">
+                          <FormLabel className={t.form.label}>
                             E-posta
                           </FormLabel>
                           <FormControl>
@@ -165,7 +164,7 @@ export function ContactForm() {
                                 type="email"
                                 {...field}
                                 // pl-10 ekleyerek ikon için yer açtık
-                                className="h-11 pl-10 bg-white border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10 rounded-xl transition-all"
+                                className={t.form.input}
                               />
                             </div>
                           </FormControl>
@@ -181,7 +180,7 @@ export function ContactForm() {
                     name="phone"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-slate-800 font-semibold text-sm">
+                        <FormLabel className={t.form.label}>
                           Telefon{" "}
                           <span className="text-slate-500 font-normal text-xs">
                             (Opsiyonel)
@@ -193,7 +192,7 @@ export function ContactForm() {
                               <Input
                                 placeholder="5XX XXX XX XX"
                                 {...field}
-                                className="h-11 pl-10 bg-white border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10 rounded-xl transition-all"
+                                className={t.form.input}
                               />
                             </div>
                         </FormControl>
@@ -208,7 +207,7 @@ export function ContactForm() {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-slate-800 font-semibold text-sm">
+                        <FormLabel className={t.form.label}>
                           Projeniz Hakkında
                         </FormLabel>
                         <FormControl>
@@ -216,7 +215,7 @@ export function ContactForm() {
                             <MessageSquare size={18} className="absolute left-3 top-3 text-slate-400" />
                             <Textarea
                               placeholder="Projenizin detaylarını, hedeflerinizi ve ne tür bir çözüm aradığınızı kısaca anlatın..."
-                              className="min-h-32 pl-10 bg-white border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10 rounded-xl resize-none transition-all"
+                              className={t.form.textarea}
                               {...field}
                             />
                           </div>
@@ -230,7 +229,7 @@ export function ContactForm() {
                   <div className="pt-3">
                     <Button
                       type="submit"
-                      className="w-full h-12 bg-slate-900 hover:bg-blue-600 text-white font-semibold text-sm rounded-xl transition-all duration-300 group shadow-md hover:shadow-lg"
+                      className={`w-full h-12 ${t.form.button} group shadow-md hover:shadow-lg`}
                       disabled={form.formState.isSubmitting}
                     >
                       {form.formState.isSubmitting ? (
