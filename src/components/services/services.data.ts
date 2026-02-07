@@ -10,17 +10,19 @@ export const services: ServiceDetail[] = [
     description:
       "Modern web teknolojileriyle hızlı, güvenli ve ölçeklenebilir web uygulamaları.",
     features: [
-      "SEO uyumlu yapı",
-      "Yüksek performans",
-      "Responsive tasarım",
-      "React & Next.js",
+      "Tüm Cihazlarda Mükemmel Görünüm",
+      "Google'da Üst Sıralarda Yer Alın",
+      "Saniyeler İçinde Yüklenen Sayfalar",
+      "Kolay İçerik Yönetimi & Güncelleme",
     ],
+
     suitable: [
-      "Kurumsal Siteler",
-      "E-Ticaret",
-      "SaaS Platformları",
-      "Yönetim Panelleri",
+      "Kurumsal Web Siteleri",
+      "E-Ticaret Platformları",
+      "Özel Web Uygulamaları",
+      "Yönetim Panelleri & Dashboardlar",
     ],
+
     accent: "blue",
   },
   {
@@ -31,15 +33,16 @@ export const services: ServiceDetail[] = [
     description:
       "iOS ve Android için kullanıcı dostu, performanslı mobil uygulamalar.",
     features: [
-      "React Native / Flutter",
-      "Offline destek",
-      "Push Notification",
-      "App Store yayını",
+      "iOS ve Android için Tek Çözüm",
+      "Çevrimdışı Çalışma Özelliği",
+      "Anlık Bildirimler & Kullanıcı Etkileşimi",
+      "App Store & Play Store Yayınlama Desteği",
     ],
+
     suitable: [
-      "Startup MVP",
-      "E-Ticaret App",
-      "Servis Uygulamaları",
+      "Startup & MVP Projeleri",
+      "Mobil E-Ticaret Uygulamaları",
+      "Rezervasyon & Servis Platformları",
     ],
     accent: "indigo",
   },
@@ -51,14 +54,15 @@ export const services: ServiceDetail[] = [
     description:
       "Markanızı yansıtan modern, etkileyici ve dönüşüm odaklı arayüzler.",
     features: [
-      "Minimal tasarım",
-      "Animasyonlu UI",
-      "CMS entegrasyonu",
+      "Göz Alıcı Modern Tasarımlar",
+      "Kullanıcı Deneyimi Odaklı Arayüz",
+      "Akıcı Animasyonlar & Geçişler",
+      "Kolay Güncellenebilir İçerik Yönetimi",
     ],
     suitable: [
-      "Kişisel Portföy",
-      "Ajans Siteleri",
-      "Mimar & Tasarımcılar",
+      "Kişisel Portfolyolar",
+      "Ajans & Stüdyo Siteleri",
+      "Mimar, Tasarımcı & Sanatçılar",
     ],
     accent: "purple",
   },
@@ -70,14 +74,15 @@ export const services: ServiceDetail[] = [
     description:
       "Stratejik dijital pazarlama ile markanızı büyütüyoruz.",
     features: [
-      "Meta & Google Ads",
-      "İçerik planlama",
-      "Performans raporları",
+      "Meta & Google Reklam Kampanyaları",
+      "Hedef Kitle Analizi & Strateji",
+      "Profesyonel İçerik Stratejisi",
+      "Detaylı Analiz & Performans Raporları",
     ],
     suitable: [
-      "KOBİ",
-      "E-Ticaret",
-      "Kişisel Markalar",
+      "KOBİ & Yerel İşletmeler",
+      "E-Ticaret Markaları",
+      "İçerik Üreticileri & Influencerlar",
     ],
     accent: "emerald",
   },
