@@ -2,25 +2,24 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { contentTheme } from "@/config/content-theme";
 import { projects } from "./home.data";
 
 export function HomeFeaturedProjects() {
+  const t = contentTheme;
   return (
-    <section className="py-20 px-4 bg-white">
-      <div className="max-w-7xl mx-auto">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-800 mb-4">
+    <section className={`${t.section.padding} ${t.section.bg.white}`}>
+      <div className={t.section.container}>
+        <div className={`text-center ${t.section.header.margin}`}>
+          <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
             Öne Çıkan Projeler
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className={t.typography.sectionSubtitle}>
             Müşterilerimiz için gerçekleştirdiğimiz başarılı projelere göz atın
           </p>
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className={t.grid.projects}>
           {projects.map((p, i) => (
             <motion.div
               key={i}
@@ -28,7 +27,7 @@ export function HomeFeaturedProjects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="group rounded-xl overflow-hidden border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 bg-white"
+              className={`group rounded-xl overflow-hidden ${t.card.base} ${t.card.hover} ${t.card.bg.white}`}
             >
               <div className="relative h-56 w-full overflow-hidden">
                 <Image
@@ -41,11 +40,11 @@ export function HomeFeaturedProjects() {
                 <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
 
-              <div className="p-5">
-                <span className="inline-block px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full mb-2">
+              <div className={t.card.padding.sm}>
+                <span className={`${t.badge.base} ${t.badge.primary} mb-2`}>
                   {p.category}
                 </span>
-                <h3 className="font-semibold text-slate-800 text-lg group-hover:text-blue-600 transition-colors">
+                <h3 className={`${t.typography.cardTitle} ${t.colors.text.primary} group-hover:text-blue-600 transition-colors`}>
                   {p.title}
                 </h3>
               </div>

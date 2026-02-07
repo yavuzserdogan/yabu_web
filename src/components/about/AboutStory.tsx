@@ -2,10 +2,12 @@
 
 import { motion } from "motion/react";
 import ShinyText from "../ui/ShinyText";
+import { contentTheme } from "@/config/content-theme";
 
 export function AboutStory() {
+  const t = contentTheme;
   return (
-    <section className="py-24 px-4 overflow-hidden">
+    <section className={`${t.section.paddingLarge} overflow-hidden`}>
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
@@ -13,15 +15,12 @@ export function AboutStory() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <ShinyText
-            text="Hikayemiz"
-            className="text-4xl md:text-5xl font-bold mb-8 block"
-            color="#0f172a"
-            shineColor="#3b82f6"
-            speed={3}
-          />
-          <div className="space-y-6 text-slate-600 text-lg leading-relaxed font-light">
-            <p className="border-l-4 border-blue-500 pl-6 italic text-slate-800">
+          <h2 className={`${t.typography.sectionTitle} mb-8 text-slate-900`}>
+            Hikayemiz
+          </h2>
+
+          <div className={`space-y-6 ${t.typography.bodyLarge} font-light`}>
+            <p className={`border-l-4 border-blue-500 pl-6 italic ${t.colors.text.primary}`}>
               &quot;Büyük ajansların karmaşık süreçlerine alternatif, şeffaf bir teknoloji partneri olmak için yola çıktık.&quot;
             </p>
             <p>
@@ -40,11 +39,8 @@ export function AboutStory() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           className="relative group max-w-sm md:max-w-md lg:max-w-lg mx-auto"
-
         >
-          {/* Arka plan dekoratif element */}
           <div className="absolute -inset-4 bg-linear-to-tr from-blue-100 to-purple-100 rounded-3xl blur-2xl opacity-50 group-hover:opacity-80 transition-opacity" />
-
           <div className="relative aspect-square rounded-3xl bg-linear-to-br from-blue-600 to-purple-700 p-0.5 shadow-2xl">
             <div className="w-full h-full bg-white rounded-[22px] flex flex-col items-center justify-center p-12 text-center">
               <motion.div
@@ -54,8 +50,10 @@ export function AboutStory() {
               >
                 5+
               </motion.div>
-              <div className="text-xl font-medium text-slate-900 mb-2">Yıllık Sektörel Deneyim</div>
-              <div className="text-slate-500 text-sm tracking-widest uppercase font-semibold">Engineering Excellence</div>
+              <div className={`${t.typography.cardTitleLarge} ${t.colors.text.primary} mb-2`}>
+                Yıllık Sektörel Deneyim
+              </div>
+              <div className={t.typography.label}>Engineering Excellence</div>
             </div>
           </div>
         </motion.div>

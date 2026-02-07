@@ -2,17 +2,16 @@
 
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { contentTheme } from '@/config/content-theme';
 
 export function ProjectsCTA() {
+  const t = contentTheme;
   return (
-    <section className="py-20 bg-slate-50 text-center">
-      <h2 className="text-3xl font-bold mb-6">
+    <section className={`${t.section.padding} ${t.section.bg.slate} text-center`}>
+      <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-6`}>
         Bir Sonraki Proje Sizin mi?
       </h2>
-      <Link
-        href="/contact"
-        className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-lg hover:bg-blue-600 transition"
-      >
+      <Link href="/contact" className={t.ctaButton}>
         Projenizi Başlatalım
         <ArrowRight size={20} />
       </Link>
