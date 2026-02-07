@@ -7,6 +7,18 @@ export function AboutStats() {
   return (
     <section className="py-20 px-4 bg-slate-50/50">
       <div className="max-w-7xl mx-auto">
+
+        {/* SECTION TITLE */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4 tracking-tight">
+            Sayılara Yansıyan Deneyim
+          </h2>
+          <p className="text-slate-500 max-w-2xl mx-auto">
+            Gerçek projelerden elde edilen sonuçlarla markalara nasıl değer kattığımızı gösteriyoruz.
+          </p>
+        </div>
+
+        {/* STATS GRID */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, i) => (
             <motion.div
@@ -27,6 +39,7 @@ export function AboutStats() {
             </motion.div>
           ))}
         </div>
+
       </div>
     </section>
   );
