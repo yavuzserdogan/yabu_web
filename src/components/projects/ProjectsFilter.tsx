@@ -15,7 +15,7 @@ export function ProjectsFilter({ categories, active, onChange }: Props) {
           <button
             key={cat}
             onClick={() => onChange(cat)}
-            className={`${t.filter.button} ${
+            className={`${t.filter.button} cursor-pointer ${
               active === cat ? t.filter.buttonActive : t.filter.buttonInactive
             }`}
           >

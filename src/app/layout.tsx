@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
+import { Toaster } from "sonner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,8 +26,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="tr" className="scroll-smooth">
       <body className={`${inter.variable} font-sans bg-white antialiased`}>
         <Header />
-        {/* pt-24'ü sildik; sayfalar kendi boşluğunu yönetecek */}
         <main>{children}</main>
+        <Toaster
+          position="bottom-center" // Orta-alt konum
+          expand={false}
+          richColors // Başarı/Hata renklerini aktif eder
+          duration={4000} // 4 saniye sonra kapanır
+        />
         <Footer />
       </body>
     </html>

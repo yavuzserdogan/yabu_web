@@ -11,7 +11,7 @@ export function ContactPage() {
       <ContactHero />
 
       {/* Sert Geçişle Başlayan Form Alanı */}
-      <section className="relative py-24 bg-white z-10">
+      <section className="relative py-24 bg-white z-10" id="contact-section">
         <div className="max-w-7xl mx-auto px-4">
           <ContactForm />
         </div>

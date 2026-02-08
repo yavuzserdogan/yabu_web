@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function HomeHero() {
   return (
@@ -77,16 +78,22 @@ export default function HomeHero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <button className="group px-8 py-4 rounded-xl bg-white text-gray-900 font-semibold shadow-2xl hover:scale-105 transition">
-              <span className="flex items-center gap-2">
-                Projenizi Başlatın
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition" />
-              </span>
-            </button>
+            <Link href="/contact#contact-section">
+              <button className="group px-8 py-4 rounded-xl bg-white text-gray-900 font-semibold shadow-2xl hover:scale-105 transition cursor-pointer"
+              >
+                <span className="flex items-center gap-2">
+                  Hadi Başlayalım
+                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition" />
+                </span>
+              </button>
+            </Link>
 
-            <button className="px-8 py-4 rounded-xl bg-white/10 border border-white/30 text-white font-semibold hover:bg-white/20 transition">
-              Çalışmalarımız
-            </button>
+
+            <Link href="/projects#projects-section">
+              <button className="px-8 py-4 rounded-xl bg-white/10 border border-white/30 text-white font-semibold hover:bg-white/20 transition cursor-pointer">
+                Projelerimiz
+              </button>
+            </Link>
           </motion.div>
         </div>
       </div>
