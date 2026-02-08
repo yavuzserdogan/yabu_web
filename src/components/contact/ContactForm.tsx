@@ -22,10 +22,25 @@ import { Textarea } from "@/components/ui/textarea";
 import { contactInfo } from "./contact.data";
 
 const formSchema = z.object({
-  name: z.string().min(2, "İsim en az 2 karakter olmalıdır"),
-  email: z.string().email("Geçerli bir e-posta adresi giriniz"),
-  phone: z.string().min(10, "Geçerli bir numara giriniz").optional().or(z.literal("")),
-  message: z.string().min(10, "Lütfen projenizden biraz daha detaylı bahsedin"),
+  name: z
+    .string()
+    .min(2, "İsim en az 2 karakter olmalıdır")
+    .max(40, "İsim ve soyisim toplam 40 karakteri geçemez"), // Ad + Soyad toplamı için
+  email: z
+    .string()
+    .email("Geçerli bir e-posta adresi giriniz")
+    .max(40, "E-posta adresi 40 karakteri geçemez"),
+  phone: z
+    .string()
+    .regex(/^[0-9+\s()]*$/, "Geçerli bir telefon numarası giriniz")
+    .min(10, "Telefon numarası en az 10 haneli olmalıdır")
+    .max(14, "Telefon numarası çok uzun")
+    .optional()
+    .or(z.literal("")),
+  message: z
+    .string()
+    .min(10, "Lütfen projenizden biraz daha detaylı bahsedin")
+    .max(1000, "Mesajınız çok uzun (Maksimum 1000 karakter)"),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -38,25 +53,40 @@ export function ContactForm() {
 
   async function onSubmit(values: FormValues) {
     try {
-      await new Promise((r) => setTimeout(r, 1500));
-      toast.success("Mesajınız başarıyla iletildi!");
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error?.message || "Bir hata oluştu");
+      }
+
+      toast.success("Mesajınız başarıyla iletildi! En kısa sürede döneceğiz.");
       form.reset();
     } catch (err) {
-      toast.error("Bir hata oluştu.");
-      console.error(err);
+      toast.error("Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin.");
+      console.error("Gönderim hatası:", err);
     }
   }
 
   const t = contentTheme;
+
   return (
     <section className={`w-full max-w-6xl mx-auto px-4 ${t.section.padding}`}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="grid lg:grid-cols-3 gap-8"
+        className="grid lg:grid-cols-3 gap-12" // Gap değerini biraz artırdım daha ferah durması için
       >
-        <div className="lg:col-span-1 space-y-6">
+        {/* SOL SÜTUN: İLETİŞİM BİLGİLERİ */}
+        <div className="lg:col-span-1 space-y-8">
           <div>
             <h2 className={`${t.typography.sectionTitle} md:text-4xl ${t.colors.text.primary} mb-3`}>
               Projenizi Hayata Geçirelim
@@ -91,11 +121,11 @@ export function ContactForm() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200"
+              transition={{ delay: 0.1 + contactInfo.length * 0.1 }}
+              className={t.contactCard.base}
             >
-              <div className={`${t.iconBox.md} bg-slate-50 flex items-center justify-center`}>
-                <MapPin size={20} className={t.colors.text.secondary} />
+              <div className={t.contactCard.icon}>
+                <MapPin size={20} className={t.contactCard.iconSvg} />
               </div>
               <div>
                 <p className={t.contactCard.label}>Konum</p>
@@ -103,9 +133,9 @@ export function ContactForm() {
               </div>
             </motion.div>
           </div>
-        </div>
+        </div> 
 
-        {/* Form Content */}
+        {/* SAĞ SÜTUN: FORM İÇERİĞİ */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -114,33 +144,23 @@ export function ContactForm() {
           className="lg:col-span-2"
         >
           <div className="relative">
-            {/* Subtle gradient background */}
             <div className="absolute inset-0 bg-linear-to-br from-blue-50/50 via-white to-slate-50/30 rounded-3xl" />
 
-            {/* Form container */}
             <div className="relative bg-white/60 backdrop-blur-sm rounded-3xl border border-slate-200/60 p-8 lg:p-10 shadow-sm">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
                   <div className="grid md:grid-cols-2 gap-5">
-                    
-                    {/* Name Surname*/}
+                    {/* İsim Soyisim */}
                     <FormField
                       control={form.control}
                       name="name"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className={t.form.label}>
-                            İsim Soyisim
-                          </FormLabel>
+                          <FormLabel className={t.form.label}>İsim Soyisim</FormLabel>
                           <FormControl>
                             <div className="relative">
                               <User size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-                              <Input
-                                placeholder="Ahmet Yılmaz"
-                                {...field}
-                                // pl-10 ekleyerek ikon için yer açtık
-                                className={t.form.input}
-                              />
+                              <Input placeholder="Ahmet Yılmaz" {...field} className={t.form.input} />
                             </div>
                           </FormControl>
                           <FormMessage />
@@ -148,15 +168,13 @@ export function ContactForm() {
                       )}
                     />
 
-                    {/* Mail */}
+                    {/* E-posta */}
                     <FormField
                       control={form.control}
                       name="email"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className={t.form.label}>
-                            E-posta
-                          </FormLabel>
+                          <FormLabel className={t.form.label}>E-posta</FormLabel>
                           <FormControl>
                             <div className="relative">
                               <Mail size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
@@ -164,7 +182,8 @@ export function ContactForm() {
                                 placeholder="ahmet@mail.com"
                                 type="email"
                                 {...field}
-                                // pl-10 ekleyerek ikon için yer açtık
+                                maxLength={40}
+                                onKeyDown={(e) => e.key === " " && e.preventDefault()}
                                 className={t.form.input}
                               />
                             </div>
@@ -175,47 +194,38 @@ export function ContactForm() {
                     />
                   </div>
 
-                  {/* TELEFON */}
+                  {/* Telefon */}
                   <FormField
                     control={form.control}
                     name="phone"
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className={t.form.label}>
-                          Telefon{" "}
-                          <span className="text-slate-500 font-normal text-xs">
-                            (Opsiyonel)
-                          </span>
+                          Telefon <span className="text-slate-500 font-normal text-xs">(Opsiyonel)</span>
                         </FormLabel>
                         <FormControl>
-                           <div className="relative">
-                              <Phone size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-                              <Input
-                                placeholder="5XX XXX XX XX"
-                                {...field}
-                                className={t.form.input}
-                              />
-                            </div>
+                          <div className="relative">
+                            <Phone size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                            <Input placeholder="5XX XXX XX XX" {...field} className={t.form.input} />
+                          </div>
                         </FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
                   />
 
-                  {/* MESAJ */}
+                  {/* Mesaj */}
                   <FormField
                     control={form.control}
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className={t.form.label}>
-                          Projeniz Hakkında
-                        </FormLabel>
+                        <FormLabel className={t.form.label}>Projeniz Hakkında</FormLabel>
                         <FormControl>
                           <div className="relative">
                             <MessageSquare size={18} className="absolute left-3 top-3 text-slate-400" />
                             <Textarea
-                              placeholder="Projenizin detaylarını, hedeflerinizi ve ne tür bir çözüm aradığınızı kısaca anlatın..."
+                              placeholder="Projenizin detaylarını anlatın..."
                               className={t.form.textarea}
                               {...field}
                             />
@@ -226,11 +236,10 @@ export function ContactForm() {
                     )}
                   />
 
-                  {/* BUTON */}
                   <div className="pt-3">
                     <Button
                       type="submit"
-                      className={`w-full h-12 ${t.form.button} group shadow-md hover:shadow-lg`}
+                      className={`w-full h-12 ${t.form.button} group shadow-md hover:shadow-lg cursor-pointer`}
                       disabled={form.formState.isSubmitting}
                     >
                       {form.formState.isSubmitting ? (
@@ -238,10 +247,7 @@ export function ContactForm() {
                       ) : (
                         <span className="flex items-center justify-center gap-2">
                           Gönder
-                          <Send
-                            size={16}
-                            className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
-                          />
+                          <Send size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                         </span>
                       )}
                     </Button>

@@ -33,7 +33,7 @@ export function ContactFaq() {
             transition={{ delay: i * 0.05 }}
           >
             <AccordionItem value={`item-${i}`} className={t.accordion.item}>
-              <AccordionTrigger className={`hover:no-underline ${t.accordion.trigger}`}>
+              <AccordionTrigger className={`hover:no-underline cursor-pointer ${t.accordion.trigger}`}>
                 <span className={`${t.accordion.title} ${t.colors.text.primary}`}>
                   {faq.q}
                 </span>

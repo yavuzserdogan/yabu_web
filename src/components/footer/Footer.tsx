@@ -1,35 +1,66 @@
 import { FooterBrand } from "./FooterBrand";
 import { FooterLinks } from "./FooterLinks";
 import { FooterContact } from "./FooterContact";
+import { Sparkles } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="relative bg-[#155dfc] text-white overflow-hidden border-t border-white/5">
-      {/* Üst Kısımda Çok Hafif Bir Işık Sızması (Bölümü ayırmak için) */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-blue-500/20 to-transparent" />
+    <footer className="relative w-full overflow-hidden bg-[#050a1f] border-t border-white/10" id="footer">
       
-      <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 lg:gap-24">
-          <div className="md:col-span-1">
+      {/* 1. KATMAN: Arka Plan Gradient (InnerHeroLayout ile Birebir) */}
+      <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-indigo-700 to-cyan-600 opacity-90" />
+        <div className="absolute inset-0 bg-linear-to-tl from-cyan-500/30 via-blue-700/40 to-indigo-900/60" />
+      </div>
+
+      {/* 2. KATMAN: Diagonal Şekiller (InnerHeroLayout ile Birebir) */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Sağ Üst Diagonal */}
+        <div 
+          className="absolute -right-1/4 top-[-20%] w-[120%] h-[120%] bg-linear-to-br from-blue-500/20 via-indigo-600/20 to-cyan-500/20" 
+          style={{ clipPath: "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)" }} 
+        />
+        {/* Sol Alt Diagonal */}
+        <div 
+          className="absolute -left-1/4 bottom-[-30%] w-[120%] h-[120%] bg-linear-to-tr from-cyan-500/10 via-blue-600/10 to-indigo-700/10" 
+          style={{ clipPath: "polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%)" }} 
+        />
+      </div>
+
+      {/* 3. KATMAN: İçerik (Hero İçeriği Gibi Center Değil, Grid Yapısında) */}
+      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 text-white">
+          
+          {/* Marka Alanı */}
+          <div className="md:col-span-5 lg:col-span-4">
             <FooterBrand />
           </div>
           
-          <FooterLinks />
-          <FooterContact />
+          {/* Linkler ve İletişim */}
+          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-8">
+            <FooterLinks />
+            <FooterContact />
+          </div>
         </div>
 
         {/* Alt Bilgi Alanı */}
-        <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} YaBu Digital. Tüm hakları saklıdır.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-blue-400 transition-colors">Gizlilik Politikası</a>
-            <a href="#" className="hover:text-blue-400 transition-colors">Kullanım Şartları</a>
+        <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex items-center gap-2 text-white/60 hover:text-white transition-colors cursor-default">
+            <Sparkles size={16} className="text-cyan-300" />
+            <p className="text-sm font-light tracking-wide">
+              © {new Date().getFullYear()} YaBu Digital. Türkiye&apos;den dünyaya.
+            </p>
+          </div>
+          
+          <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-white/40">
+            <a href="#" className="hover:text-cyan-300 transition-colors">Gizlilik</a>
+            <a href="#" className="hover:text-cyan-300 transition-colors">Şartlar</a>
           </div>
         </div>
       </div>
 
-      {/* Sağ Köşede Çok Hafif Sabit Bir Parlama (Zifiri karanlığı kırmak için) */}
-      <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-blue-600/5 blur-[100px] pointer-events-none" />
+      {/* Hero'daki Alt Gölgelendirme (Yumuşak Geçiş İçin) */}
+      <div className="absolute top-0 left-0 right-0 h-32 bg-linear-to-b from-black/20 to-transparent z-20 pointer-events-none" />
     </footer>
   );
 }
