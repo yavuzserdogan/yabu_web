@@ -64,6 +64,11 @@ export const steps: Step[] = [
 ];
 
 export const projects: Project[] = [
+    {
+    title: "Online DKT Terapi",
+    category: "Web Geliştirme",
+    image: "/images/onlinedktterapi.png",
+  },
   {
     title: "E-Ticaret Platformu",
     category: "Web Geliştirme",
@@ -74,9 +79,5 @@ export const projects: Project[] = [
     category: "Mobil Uygulama",
     image: "https://images.unsplash.com/photo-1707836916010-3c4ad261936c",
   },
-  {
-    title: "Mimar Portfolyo Sitesi",
-    category: "UI / UX",
-    image: "https://images.unsplash.com/photo-1695634621375-0b66a9d5d1bc",
-  },
+
 ];

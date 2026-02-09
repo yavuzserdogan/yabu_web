@@ -2,14 +2,17 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { contentTheme } from "@/config/content-theme";
 import { projects } from "./home.data";
 
 export function HomeFeaturedProjects() {
   const t = contentTheme;
+  
   return (
     <section className={`${t.section.padding} ${t.section.bg.white}`}>
       <div className={t.section.container}>
+        {/* --- BAŞLIK BÖLÜMÜ --- */}
         <div className={`text-center ${t.section.header.margin}`}>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
             Öne Çıkan Projeler
@@ -19,6 +22,7 @@ export function HomeFeaturedProjects() {
           </p>
         </div>
 
+        {/* --- PROJELER GRID --- */}
         <div className={t.grid.projects}>
           {projects.map((p, i) => (
             <motion.div
@@ -29,25 +33,33 @@ export function HomeFeaturedProjects() {
               transition={{ delay: i * 0.1 }}
               className={`group rounded-xl overflow-hidden ${t.card.base} ${t.card.hover} ${t.card.bg.white}`}
             >
-              <div className="relative h-56 w-full overflow-hidden">
-                <Image
-                  src={p.image}
-                  alt={p.title}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
+              {/* LINK: Tüm kartı kapsıyor */}
+              <Link href="/projects#projects-section" className="block h-full cursor-pointer">
+                
+                {/* --- RESİM BÖLÜMÜ --- */}
+                <div className="relative h-56 w-full overflow-hidden">
+                  <Image
+                    src={p.image}
+                    alt={p.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                  {/* Resim üzerine gelen hafif karartma efekti */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
 
-              <div className={t.card.padding.sm}>
-                <span className={`${t.badge.base} ${t.badge.primary} mb-2`}>
-                  {p.category}
-                </span>
-                <h3 className={`${t.typography.cardTitle} ${t.colors.text.primary} group-hover:text-blue-600 transition-colors`}>
-                  {p.title}
-                </h3>
-              </div>
+                {/* --- YAZI BÖLÜMÜ --- */}
+                <div className={t.card.padding.sm}>
+                  <span className={`${t.badge.base} ${t.badge.primary} mb-2 inline-block`}>
+                    {p.category}
+                  </span>
+                  <h3 className={`${t.typography.cardTitle} ${t.colors.text.primary} group-hover:text-blue-600 transition-colors`}>
+                    {p.title}
+                  </h3>
+                </div>
+
+              </Link>
             </motion.div>
           ))}
         </div>
