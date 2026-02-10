@@ -16,7 +16,7 @@ export const siteConfig = {
   socials: [
     { type: "linkedin", href: "https://linkedin.com" },
     { type: "twitter", href: "https://twitter.com" },
-    { type: "instagram", href: "https://instagram.com" },
+    { type: "instagram", href: "https://www.instagram.com/yabu.dijital/" },
   ] as {
     type: SocialType;
     href: string;

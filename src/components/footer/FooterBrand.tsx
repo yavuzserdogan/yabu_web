@@ -38,6 +38,8 @@ export function FooterBrand() {
             <a
               key={i}
               href={social.href}
+              target="_blank"           // Yeni sekmede açar
+              rel="noopener noreferrer" // Güvenlik için şart
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-600 hover:border-blue-500 hover:text-white transition-all duration-300 text-slate-400"
             >
               <Icon size={18} />

@@ -1,23 +1,22 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { siteConfig } from "@/config/site";
 
 export function FooterLinks() {
-  const router = useRouter();
-
   return (
     <div>
-      <h4 className="font-semibold mb-4">Hızlı Erişim</h4>
+      <h4 className="font-semibold mb-4 text-white">Hızlı Erişim</h4>
       <ul className="space-y-3">
         {siteConfig.navigation.map((link) => (
           <li key={link.path}>
-            <button
-              onClick={() => router.push(link.path)}
-              className="text-slate-400 hover:text-white text-sm cursor-pointer"
+            <Link
+              href={link.path}
+              scroll={true}
+              className="text-slate-400 hover:text-white text-sm transition-colors duration-200 block"
             >
               {link.label}
-            </button>
+            </Link>
           </li>
         ))}
       </ul>

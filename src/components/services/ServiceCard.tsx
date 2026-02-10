@@ -9,9 +9,10 @@ import { contentTheme } from "@/config/content-theme";
 interface ServiceCardProps {
   service: ServiceDetail;
   reverse?: boolean;
+  index: number;
 }
 
-export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
+export function ServiceCard({ service, reverse = false , index }: ServiceCardProps) {
   const t = contentTheme;
   const Icon = service.icon;
 
@@ -72,10 +73,9 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
         </div>
       </div>
 
-      {/* 2. Görsel Alanı (ReactBits Style Effects) */}
+      {/* 2. Görsel Alanı */}
       <motion.div
         className="flex-1 w-full relative"
-        // Floating Effect: Hafif yukarı aşağı hareket
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       >
@@ -91,8 +91,8 @@ export function ServiceCard({ service, reverse = false }: ServiceCardProps) {
             alt={service.title}
             fill
             className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
-            priority
-          />
+            priority={index === 0}
+             />
 
           {/* Görsel içi soft gölge (Inner Vignette) */}
           <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 via-transparent to-transparent opacity-60" />

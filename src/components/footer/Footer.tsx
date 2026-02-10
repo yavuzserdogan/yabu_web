@@ -7,36 +7,32 @@ export function Footer() {
   return (
     <footer className="relative w-full overflow-hidden bg-[#050a1f] border-t border-white/10" id="footer">
       
-      {/* 1. KATMAN: Arka Plan Gradient (InnerHeroLayout ile Birebir) */}
+      {/* 1. KATMAN: Arka Plan Gradient */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-indigo-700 to-cyan-600 opacity-90" />
         <div className="absolute inset-0 bg-linear-to-tl from-cyan-500/30 via-blue-700/40 to-indigo-900/60" />
       </div>
 
-      {/* 2. KATMAN: Diagonal Şekiller (InnerHeroLayout ile Birebir) */}
+      {/* 2. KATMAN: Diagonal Şekiller */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Sağ Üst Diagonal */}
         <div 
           className="absolute -right-1/4 top-[-20%] w-[120%] h-[120%] bg-linear-to-br from-blue-500/20 via-indigo-600/20 to-cyan-500/20" 
           style={{ clipPath: "polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%)" }} 
         />
-        {/* Sol Alt Diagonal */}
         <div 
           className="absolute -left-1/4 bottom-[-30%] w-[120%] h-[120%] bg-linear-to-tr from-cyan-500/10 via-blue-600/10 to-indigo-700/10" 
           style={{ clipPath: "polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%)" }} 
         />
       </div>
 
-      {/* 3. KATMAN: İçerik (Hero İçeriği Gibi Center Değil, Grid Yapısında) */}
+      {/* 3. KATMAN: İçerik */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 text-white">
           
-          {/* Marka Alanı */}
           <div className="md:col-span-5 lg:col-span-4">
             <FooterBrand />
           </div>
           
-          {/* Linkler ve İletişim */}
           <div className="md:col-span-7 lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-8">
             <FooterLinks />
             <FooterContact />
