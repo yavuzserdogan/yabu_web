@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "motion/react";
-import ShinyText from "../ui/ShinyText";
 import { contentTheme } from "@/config/content-theme";
 
 export function AboutStory() {

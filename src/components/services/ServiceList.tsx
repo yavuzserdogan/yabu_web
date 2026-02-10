@@ -1,5 +1,3 @@
-"use client";
-
 import { ServiceCard } from "./ServiceCard";
 import { contentTheme } from "@/config/content-theme";
 import { services } from "./services.data";
@@ -14,6 +12,7 @@ export function ServicesList() {
             key={service.slug}
             service={service}
             reverse={i % 2 === 1}
+            index={i}
           />
         ))}
       </div>

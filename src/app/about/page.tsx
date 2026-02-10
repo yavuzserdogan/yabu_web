@@ -4,16 +4,23 @@ import { AboutStats } from "@/components/about/AboutStats";
 import { AboutStory } from "@/components/about/AboutStory";
 import { AboutValues } from "@/components/about/AboutValues";
 import { AboutWhyUs } from "@/components/about/AboutWhyUs";
+import { Metadata } from "next";
+
+// SEO için metadata ekliyoruz
+export const metadata: Metadata = {
+  title: "Hakkımızda | YaBu Digital",
+  description: "Bilgisayar mühendisliği disipliniyle butik ve ölçeklenebilir dijital çözümler üretiyoruz. Hikayemiz ve değerlerimiz hakkında bilgi edinin.",
+};
 
 export default function AboutPage() {
   return (
-    <div>
+    <main>
       <AboutHero />
       <AboutStory />
       <AboutValues />
       <AboutStats />
       <AboutProcess />
       <AboutWhyUs />
-    </div>
+    </main>
   );
 }

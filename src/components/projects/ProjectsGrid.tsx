@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Project } from '@/types/project';
 import Image from 'next/image';
 import { contentTheme } from '@/config/content-theme';
@@ -14,7 +14,7 @@ export function ProjectsGrid({ projects }: Props) {
     return (
         <section className="py-12 md:py-20 px-4 scroll-mt-28" id="projects-section">
             <div className={t.section.container}>
-                <AnimatePresence mode="wait">
+                <AnimatePresence mode="popLayout">
                     <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {projects.map((project, i) => (
                             <motion.div
