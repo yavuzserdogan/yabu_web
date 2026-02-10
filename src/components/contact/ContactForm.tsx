@@ -24,24 +24,44 @@ import { contactInfo } from "./contact.data";
 const formSchema = z.object({
   name: z
     .string()
-    .min(2, "İsim en az 2 karakter olmalıdır")
-    .max(40, "İsim ve soyisim toplam 40 karakteri geçemez"), // Ad + Soyad toplamı için
+    .min(2, "En az 2 karakter giriniz")
+    .max(50, "Çok uzun")
+    .regex(/^[a-zA-ZğüşıöçĞÜŞİÖÇ\s]+$/, "Sadece harf girebilirsiniz"),
   email: z
     .string()
-    .email("Geçerli bir e-posta adresi giriniz")
-    .max(40, "E-posta adresi 40 karakteri geçemez"),
+    .trim()
+    .min(1, "E-posta gerekli")
+    .max(50, "Çok uzun")
+    .refine(
+      (val) =>
+        /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/.test(val),
+      "Geçerli bir e-posta adresi giriniz"
+    ),
+
   phone: z
     .string()
-    .regex(/^[0-9+\s()]*$/, "Geçerli bir telefon numarası giriniz")
-    .min(10, "Telefon numarası en az 10 haneli olmalıdır")
-    .max(14, "Telefon numarası çok uzun")
+    .refine((val) => val === "" || /^5[0-9]{9}$/.test(val), "Telefon numarası 5 ile başlamalı ve 10 haneli olmalı")
     .optional()
     .or(z.literal("")),
   message: z
     .string()
-    .min(10, "Lütfen projenizden biraz daha detaylı bahsedin")
-    .max(1000, "Mesajınız çok uzun (Maksimum 1000 karakter)"),
+    .min(10, "En az 10 karakter giriniz")
+    .max(500, "En fazla 500 karakter"),
 });
+
+const formatPhone = (value: string) => {
+  const numbers = value.replace(/\D/g, "").slice(0, 10);
+
+  const parts = [];
+
+  if (numbers.length > 0) parts.push(numbers.slice(0, 3));
+  if (numbers.length > 3) parts.push(numbers.slice(3, 6));
+  if (numbers.length > 6) parts.push(numbers.slice(6, 8));
+  if (numbers.length > 8) parts.push(numbers.slice(8, 10));
+
+  return parts.join(" ");
+};
+
 
 type FormValues = z.infer<typeof formSchema>;
 
@@ -67,7 +87,7 @@ export function ContactForm() {
         throw new Error(result.error?.message || "Bir hata oluştu");
       }
 
-      toast.success("Mesajınız başarıyla iletildi! En kısa sürede döneceğiz.");
+      toast.success("Mesajınız iletildi! En kısa sürede size dönüş yapacağız.");
       form.reset();
     } catch (err) {
       toast.error("Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin.");
@@ -133,7 +153,7 @@ export function ContactForm() {
               </div>
             </motion.div>
           </div>
-        </div> 
+        </div>
 
         {/* SAĞ SÜTUN: FORM İÇERİĞİ */}
         <motion.div
@@ -175,44 +195,79 @@ export function ContactForm() {
                       render={({ field }) => (
                         <FormItem>
                           <FormLabel className={t.form.label}>E-posta</FormLabel>
+
                           <FormControl>
                             <div className="relative">
-                              <Mail size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                              <Mail
+                                size={18}
+                                className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
+                              />
                               <Input
-                                placeholder="ahmet@mail.com"
                                 type="email"
+                                autoComplete="email"
+                                spellCheck={false}
+                                placeholder="ahmet@mail.com"
                                 {...field}
-                                maxLength={40}
+                                maxLength={50}
                                 onKeyDown={(e) => e.key === " " && e.preventDefault()}
                                 className={t.form.input}
                               />
                             </div>
                           </FormControl>
+
                           <FormMessage />
                         </FormItem>
                       )}
                     />
-                  </div>
 
+                  </div>
                   {/* Telefon */}
                   <FormField
                     control={form.control}
                     name="phone"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel className={t.form.label}>
-                          Telefon <span className="text-slate-500 font-normal text-xs">(Opsiyonel)</span>
-                        </FormLabel>
-                        <FormControl>
-                          <div className="relative">
-                            <Phone size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-                            <Input placeholder="5XX XXX XX XX" {...field} className={t.form.input} />
-                          </div>
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
+                    render={({ field }) => {
+                      const formattedValue = formatPhone(field.value || "");
+
+                      return (
+                        <FormItem>
+                          <FormLabel className={t.form.label}>
+                            Telefon{" "}
+                            <span className="text-slate-500 font-normal text-xs">
+                              (Opsiyonel)
+                            </span>
+                          </FormLabel>
+
+                          <FormControl>
+                            <div className="relative">
+                              <Phone
+                                size={18}
+                                className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
+                              />
+
+                              <Input
+                                placeholder="555 555 55 55"
+                                value={formattedValue}
+                                maxLength={13}
+                                inputMode="numeric"
+                                onChange={(e) => {
+                                  const raw = e.target.value.replace(/\D/g, "");
+
+                                  // sadece 5 ile başlasın
+                                  if (raw.length === 1 && raw !== "5") return;
+
+                                  field.onChange(raw);
+                                }}
+                                className={t.form.input}
+                              />
+                            </div>
+                          </FormControl>
+
+                          <FormMessage className="text-xs" />
+                        </FormItem>
+                      );
+                    }}
                   />
+
 
                   {/* Mesaj */}
                   <FormField
