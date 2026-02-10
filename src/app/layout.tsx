@@ -12,8 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "YabuDigital | Modern Dijital Ajans",
-    template: "%s | YabuDigital",
+    default: "YaBu Digital",
+    template: "%s | YaBu Digital",
   },
   description: "Markanızı geleceğe taşıyoruz.",
   icons: {
