@@ -2,7 +2,15 @@
 
 import { ServiceDetail } from "@/types/service";
 import { motion } from "framer-motion";
-import { Check, Target } from "lucide-react";
+import {
+  Check,
+  Target,
+  Code2,
+  Smartphone,
+  Palette,
+  TrendingUp,
+} from "lucide-react";
+
 import Image from "next/image";
 import { contentTheme } from "@/config/content-theme";
 
@@ -12,9 +20,18 @@ interface ServiceCardProps {
   index: number;
 }
 
-export function ServiceCard({ service, reverse = false , index }: ServiceCardProps) {
+const ICONS = {
+  code: Code2,
+  mobile: Smartphone,
+  design: Palette,
+  growth: TrendingUp,
+};
+
+
+export function ServiceCard({ service, reverse = false, index }: ServiceCardProps) {
   const t = contentTheme;
-  const Icon = service.icon;
+const Icon = ICONS[service.icon];
+
 
   return (
     <motion.div
@@ -92,7 +109,7 @@ export function ServiceCard({ service, reverse = false , index }: ServiceCardPro
             fill
             className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
             priority={index === 0}
-             />
+          />
 
           {/* Görsel içi soft gölge (Inner Vignette) */}
           <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 via-transparent to-transparent opacity-60" />
