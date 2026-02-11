@@ -1,8 +1,12 @@
-import type { LucideIcon } from "lucide-react";
+export type ServiceIconKey =
+  | "code"
+  | "mobile"
+  | "design"
+  | "growth";
 
 /** Home page / listelerde kullanılan */
 export interface ServiceSummary {
-  icon: LucideIcon;
+  icon: ServiceIconKey;
   title: string;
   description: string;
 }

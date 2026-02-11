@@ -1,10 +1,9 @@
-import { Code2, Smartphone, Palette, TrendingUp } from "lucide-react";
 import type { ServiceDetail } from "@/types/service";
 
 export const services: ServiceDetail[] = [
   {
     slug: "web",
-    icon: Code2,
+    icon: "code",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072",
     title: "Web Geliştirme",
     description:
@@ -27,7 +26,7 @@ export const services: ServiceDetail[] = [
   },
   {
     slug: "mobile",
-    icon: Smartphone,
+    icon: "mobile",
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070",
     title: "Mobil Uygulama",
     description:
@@ -48,7 +47,7 @@ export const services: ServiceDetail[] = [
   },
   {
     slug: "uiux",
-    icon: Palette,
+    icon: "design",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426",
     title: "UI/UX & Portfolyo",
     description:
@@ -68,7 +67,7 @@ export const services: ServiceDetail[] = [
   },
   {
     slug: "marketing",
-    icon: TrendingUp,
+    icon: "growth",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426",
     title: "Sosyal Medya & Reklam",
     description:
