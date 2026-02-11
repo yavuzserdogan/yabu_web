@@ -1,3 +1,5 @@
+"use client";
+
 import { InnerHeroLayout } from "../ui/InnerHeroLayout";
 
 export function ServicesHero() {
