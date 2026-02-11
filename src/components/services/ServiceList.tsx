@@ -1,3 +1,5 @@
+"use client";
+
 import { ServiceCard } from "./ServiceCard";
 import { contentTheme } from "@/config/content-theme";
 import { services } from "./services.data";
