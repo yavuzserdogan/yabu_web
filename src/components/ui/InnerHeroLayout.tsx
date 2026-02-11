@@ -40,7 +40,7 @@ export function InnerHeroLayout({
           {showScrollIndicator && (
             <div className="mt-20 flex items-end justify-center gap-16">
               <div className="flex flex-col items-center gap-2">
-                <span className="text-[8px] text-white/20 uppercase">V1</span>
+                <span className="text-[8px] text-white/20 uppercase"></span>
                 <MouseVariant />
               </div>
             </div>

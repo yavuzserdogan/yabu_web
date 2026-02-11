@@ -1,35 +1,28 @@
-import {
-  Code2,
-  Smartphone,
-  Palette,
-  TrendingUp,
-} from "lucide-react";
-
 import type { ServiceSummary } from "@/types/service";
 import type { Step } from "@/types/step";
 import type { Project } from "@/types/project";
 
 export const services: ServiceSummary[] = [
   {
-    icon: Code2,
+    icon: "code",
     title: "Web Geliştirme",
     description:
       "Modern teknolojilerle performanslı, ölçeklenebilir web uygulamaları.",
   },
   {
-    icon: Smartphone,
+    icon: "mobile",
     title: "Mobil Uygulama",
     description:
       "iOS ve Android için native ve cross-platform mobil çözümler.",
   },
   {
-    icon: Palette,
+    icon: "design",
     title: "UI/UX & Portfolyo",
     description:
       "Kullanıcı odaklı arayüzler ve etkileyici portfolyo siteleri.",
   },
   {
-    icon: TrendingUp,
+    icon: "growth",
     title: "Sosyal Medya & Reklam",
     description:
       "Dijital pazarlama stratejileri ve sosyal medya yönetimi.",
@@ -64,7 +57,7 @@ export const steps: Step[] = [
 ];
 
 export const projects: Project[] = [
-    {
+  {
     title: "Online DKT Terapi",
     category: "Web Geliştirme",
     image: "/images/onlinedktterapi.png",
@@ -72,12 +65,13 @@ export const projects: Project[] = [
   {
     title: "E-Ticaret Platformu",
     category: "Web Geliştirme",
-    image: "https://images.unsplash.com/photo-1759884247173-3db27f7fafef",
+    image:
+      "https://images.unsplash.com/photo-1759884247173-3db27f7fafef",
   },
   {
     title: "Fitness Mobil App",
     category: "Mobil Uygulama",
-    image: "https://images.unsplash.com/photo-1707836916010-3c4ad261936c",
+    image:
+      "https://images.unsplash.com/photo-1707836916010-3c4ad261936c",
   },
-
 ];
