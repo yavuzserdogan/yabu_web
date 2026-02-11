@@ -5,7 +5,7 @@ import { HomeServices } from "@/components/home/HomeServices";
 import { HomeSteps } from "@/components/home/HomeSteps";
 
 export const metadata: Metadata = {
-  title: "YaBu Digital | Yeni Nesil Yazılım Çözümleri",
+  title: "YaBu Digital",
   description: "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
 };
 
