@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -30,14 +34,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* --- GOOGLE ANALYTICS BAŞLANGIÇ --- */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-5C4L844P37"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-5C4L844P37');
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
           `}
         </Script>
         {/* --- GOOGLE ANALYTICS BİTİŞ --- */}
