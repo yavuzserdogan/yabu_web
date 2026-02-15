@@ -4,16 +4,16 @@ import { ContactFaq } from "./ContactFaq";
 
 export function ContactPage() {
   return (
-    <main className="relative w-full bg-white">
+    <main className="relative w-full bg-white overflow-x-hidden">
       <ContactHero />
 
-      <section className="relative py-24 bg-white z-10" id="contact-section">
+      <section className="relative py-12 md:py-24 bg-white z-10" id="contact-section">
         <div className="max-w-7xl mx-auto px-4">
           <ContactForm />
         </div>
       </section>
 
-      <section className="relative py-24 bg-slate-50 border-t border-slate-100">
+      <section className="relative py-12 md:py-24 bg-slate-50 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4">
           <ContactFaq />
         </div>

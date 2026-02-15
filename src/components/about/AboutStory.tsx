@@ -6,20 +6,21 @@ import { contentTheme } from "@/config/content-theme";
 export function AboutStory() {
   const t = contentTheme;
   return (
-    <section className={`${t.section.paddingLarge} overflow-hidden`}>
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    <section className={`${t.section.paddingLarge} overflow-hidden px-4 md:px-8`}>
+      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
+          className="text-center lg:text-left" // Mobilde metni ortaladık
         >
           <h2 className={`${t.typography.sectionTitle} mb-8 text-slate-900`}>
             Hikayemiz
           </h2>
 
           <div className={`space-y-6 ${t.typography.bodyLarge} font-light`}>
-            <p className={`border-l-4 border-blue-500 pl-6 italic ${t.colors.text.primary}`}>
+            <p className={`border-l-4 border-blue-500 pl-6 italic ${t.colors.text.primary} text-left`}>
               &quot;Büyük ajansların karmaşık süreçlerine alternatif, şeffaf bir teknoloji partneri olmak için yola çıktık.&quot;
             </p>
             <p>
@@ -37,15 +38,15 @@ export function AboutStory() {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="relative group max-w-sm md:max-w-md lg:max-w-lg mx-auto"
+          className="relative group w-full max-w-sm md:max-w-md lg:max-w-lg mx-auto mt-10 lg:mt-0"
         >
           <div className="absolute -inset-4 bg-linear-to-tr from-blue-100 to-purple-100 rounded-3xl blur-2xl opacity-50 group-hover:opacity-80 transition-opacity" />
           <div className="relative aspect-square rounded-3xl bg-linear-to-br from-blue-600 to-purple-700 p-0.5 shadow-2xl">
-            <div className="w-full h-full bg-white rounded-[22px] flex flex-col items-center justify-center p-12 text-center">
+            <div className="w-full h-full bg-white rounded-[22px] flex flex-col items-center justify-center p-8 md:p-12 text-center">
               <motion.div
                 initial={{ y: 20 }}
                 whileInView={{ y: 0 }}
-                className="text-8xl font-black bg-linear-to-b from-blue-600 to-purple-700 bg-clip-text text-transparent mb-4"
+                className="text-6xl md:text-8xl font-black bg-linear-to-b from-blue-600 to-purple-700 bg-clip-text text-transparent mb-4"
               >
                 5+
               </motion.div>
