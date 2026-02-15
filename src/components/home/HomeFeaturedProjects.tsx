@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react"; 
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +9,18 @@ import { projects } from "./home.data";
 
 export function HomeFeaturedProjects() {
   const t = contentTheme;
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile); 
+    return () => window.removeEventListener("resize", checkMobile); 
+  }, []);
   
   return (
     <section className={`${t.section.padding} bg-white px-4 md:px-0`}>
@@ -21,13 +34,21 @@ export function HomeFeaturedProjects() {
           {projects.map((p, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+           
+              initial={isMobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              
+              animate={isMobile ? { opacity: 1, y: 0 } : undefined}
+              
+              whileInView={isMobile ? undefined : { opacity: 1, y: 0 }}
+              
               viewport={{ once: true }}
+              
+              transition={{ duration: isMobile ? 0 : 0.5 }}
+
               className="group rounded-2xl overflow-hidden border border-slate-100 bg-white shadow-sm hover:shadow-xl transition-all duration-500"
             >
               <Link href="/projects#projects-section" className="block h-full">
-                <div className="relative h-56 md:h-64 w-full overflow-hidden">
+                <div className="relative h-56 md:h-56 w-full overflow-hidden">
                   <Image
                     src={p.image}
                     alt={p.title}
