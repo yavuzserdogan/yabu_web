@@ -37,7 +37,6 @@ export function ServiceCard({ service, reverse = false, index }: ServiceCardProp
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      // Mobilde hep görsel üstte, masaüstünde reverse mantığı çalışır
       className={`flex flex-col ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"
         } gap-10 lg:gap-24 items-center relative`}
     >
@@ -111,7 +110,6 @@ export function ServiceCard({ service, reverse = false, index }: ServiceCardProp
           <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 via-transparent to-transparent opacity-60" />
         </div>
         
-        {/* Arka plan parlaması mobilde hafifletildi */}
         <div className="absolute -inset-5 md:-inset-10 bg-linear-to-tr from-blue-400/10 to-purple-400/10 blur-[60px] md:blur-[80px] -z-20 rounded-full opacity-50 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
       </motion.div>
     </motion.div>

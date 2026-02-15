@@ -4,7 +4,7 @@ import "./globals.css";
 import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
 import { Toaster } from "sonner";
-import Script from "next/script"; 
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,11 +12,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sybordigital.com"),
   title: {
-    default: "Sybor Digital",
+    default: "Sybor Digital | Butik Dijital Çözümler",
     template: "%s | Sybor Digital",
   },
-  description: "Markanızı geleceğe taşıyoruz.",
+  description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web çözümleri.",
+  alternates: {
+    canonical: "https://sybordigital.com",
+  },
   icons: {
     icon: "/favicon.ico",
   },
@@ -25,13 +29,29 @@ export const metadata: Metadata = {
   verification: {
     google: `${process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION}`
   },
+  openGraph: {
+    type: "website",
+    locale: "tr_TR",
+    url: "https://sybordigital.com",
+    siteName: "Sybor Digital",
+    title: "Sybor Digital | Yeni Nesil Yazılım Çözümleri",
+    description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği ve butik tasarım.",
+    images: [
+      {
+        url: "/images/og-image.pngs",
+        width: 1200,
+        height: 630,
+        alt: "Sybor Digital Kurumsal",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr" className="scroll-smooth">
       <body className={`${inter.variable} font-sans bg-white antialiased`}>
-        
+
         {/* --- GOOGLE ANALYTICS BAŞLANGIÇ --- */}
         <Script
           strategy="afterInteractive"
