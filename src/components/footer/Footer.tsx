@@ -44,7 +44,7 @@ export function Footer() {
           <div className="flex items-center gap-2 text-white/60 hover:text-white transition-colors cursor-default">
             <Sparkles size={16} className="text-cyan-300" />
             <p className="text-sm font-light tracking-wide">
-              © {new Date().getFullYear()} YaBu Digital. Türkiye&apos;den dünyaya.
+              © {new Date().getFullYear()} Sybor Digital. Türkiye&apos;den dünyaya.
             </p>
           </div>
           

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { ContactPage } from "@/components/contact/ContactPage";
 
 export const metadata: Metadata = {
-  title: "İletişim | YaBu Digital",
+  title: "İletişim | Sybor Digital",
   description: "Projenizi hayata geçirmek için bizimle iletişime geçin. Ankara merkezli butik dijital çözüm ortağınız.",
 };
 

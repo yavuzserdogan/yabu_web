@@ -2,7 +2,6 @@ import { Project } from '@/types/project';
 
 export const categories = ['Tümü', 'Web', 'Mobil', 'UI/UX', 'Sosyal Medya'] as const;
 
-// Teknoloji logoları - Local olarak veya izin verilen CDN'lerden
 export const techLogos: Record<string, string> = {
   'Next.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
   'React': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',

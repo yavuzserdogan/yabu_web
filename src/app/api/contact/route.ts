@@ -10,7 +10,7 @@ export async function POST(request: Request) {
 
     const { data, error } = await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'yabu.dijital@gmail.com',
+      to: 'sybordigital@gmail.com',
       subject: `Yeni Proje Talebi: ${name}`,
       replyTo: email,
       text: `Ad Soyad: ${name}\nE-posta: ${email}\nTelefon: ${phone || 'Belirtilmedi'}\nMesaj: ${message}`,

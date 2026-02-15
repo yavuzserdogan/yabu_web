@@ -13,8 +13,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "YaBu Digital",
-    template: "%s | YaBu Digital",
+    default: "Sybor Digital",
+    template: "%s | Sybor Digital",
   },
   description: "Markanızı geleceğe taşıyoruz.",
   icons: {

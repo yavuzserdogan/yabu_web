@@ -23,7 +23,7 @@ export function FooterBrand() {
           <Sparkles className="h-6 w-6 text-white" />
         </div>
         <span className="text-2xl font-black tracking-tighter text-white uppercase italic">
-          YaBu<span className="text-blue-500">.</span>
+          Sybor<span className="text-blue-500">.</span>
         </span>
       </button>
 
@@ -38,7 +38,7 @@ export function FooterBrand() {
             <a
               key={i}
               href={social.href}
-              target="_blank"           // Yeni sekmede açar
+              target="_blank"          
               rel="noopener noreferrer" // Güvenlik için şart
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-600 hover:border-blue-500 hover:text-white transition-all duration-300 text-slate-400"
             >

@@ -1,8 +1,8 @@
 export type SocialType = "linkedin" | "twitter" | "instagram";
 
 export const siteConfig = {
-  name: "YaBu Digital",
-  email: "hello@digitalstudio.com",
+  name: "Sybor Digital",
+  email: "sybordigital@gmail.com",
   phone: "+90 555 123 45 67",
 
   navigation: [
@@ -16,7 +16,7 @@ export const siteConfig = {
   socials: [
     { type: "linkedin", href: "https://linkedin.com" },
     { type: "twitter", href: "https://twitter.com" },
-    { type: "instagram", href: "https://www.instagram.com/yabu.dijital/" },
+    { type: "instagram", href: "https://www.instagram.com/sybordigital/" },
   ] as {
     type: SocialType;
     href: string;
