@@ -26,14 +26,16 @@ export function Footer() {
       </div>
 
       {/* 3. KATMAN: İçerik */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-16 md:pt-20 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 text-white">
 
+          {/* Marka Alanı */}
           <div className="md:col-span-5 lg:col-span-4">
             <FooterBrand />
           </div>
 
-          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-8">
+          {/* Linkler ve İletişim Alanı - Mobilde tek sütun, tablette ve üstünde yan yana */}
+          <div className="md:col-span-7 lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-8">
             <FooterLinks />
             <FooterContact />
           </div>
@@ -50,7 +52,7 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Hero'daki Alt Gölgelendirme (Yumuşak Geçiş İçin) */}
+      {/* Hero'daki Alt Gölgelendirme */}
       <div className="absolute top-0 left-0 right-0 h-32 bg-linear-to-b from-black/20 to-transparent z-20 pointer-events-none" />
     </footer>
   );

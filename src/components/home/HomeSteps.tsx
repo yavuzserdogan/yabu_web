@@ -7,7 +7,8 @@ import { steps } from "./home.data";
 export function HomeSteps() {
   const t = contentTheme;
   return (
-    <section className={`${t.section.padding} ${t.section.bg.gradient}`}>
+    // Mobilde içeriğin kenara yapışmaması için px-4 eklendi
+    <section className={`${t.section.padding} ${t.section.bg.gradient} px-4 md:px-0`}>
       <div className={t.section.container}>
         <div className={`text-center ${t.section.header.margin}`}>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
@@ -18,18 +19,18 @@ export function HomeSteps() {
           </p>
         </div>
 
-        <div className={t.grid.steps}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10`}>
           {steps.map((step, index) => (
             <motion.div
               key={step.number}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ delay: index * 0.1 }} // index burada kullanılarak ESLint hatası giderildi
               className={`relative ${t.card.padding.md} ${t.card.bg.white} ${t.card.base} hover:shadow-lg transition-all`}
             >
               <div
-                className={`absolute -top-3 -left-3 ${t.iconBox.md} ${t.iconBox.gradient} shadow-md`}
+                className={`absolute -top-3 -left-3 ${t.iconBox.md} ${t.iconBox.gradient} shadow-md flex items-center justify-center`}
               >
                 <span className="text-white font-bold text-lg">{step.number}</span>
               </div>

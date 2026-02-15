@@ -9,15 +9,14 @@ export function DesktopNav({ isScrolled }: { isScrolled: boolean }) {
   const router = useRouter();
 
   return (
-    <nav className="hidden md:flex items-center gap-8">
+    <nav className="flex items-center gap-4 lg:gap-8">
       {mainNavigation.map((item) => {
         const isActive = pathname === item.path;
-
         return (
           <button
             key={item.path}
             onClick={() => router.push(item.path)}
-            className={`relative text-sm font-semibold transition-all duration-300 cursor-pointer ${
+            className={`relative text-xs lg:text-sm font-semibold transition-all duration-300 cursor-pointer ${
               isScrolled 
                 ? (isActive ? "text-blue-600" : "text-slate-600 hover:text-blue-600")
                 : (isActive ? "text-white" : "text-white/70 hover:text-white")

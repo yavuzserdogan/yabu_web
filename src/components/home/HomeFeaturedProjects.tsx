@@ -10,55 +10,40 @@ export function HomeFeaturedProjects() {
   const t = contentTheme;
   
   return (
-    <section className={`${t.section.padding} ${t.section.bg.white}`}>
+    <section className={`${t.section.padding} bg-white px-4 md:px-0`}>
       <div className={t.section.container}>
-        {/* --- BAŞLIK BÖLÜMÜ --- */}
         <div className={`text-center ${t.section.header.margin}`}>
-          <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
-            Öne Çıkan Projeler
-          </h2>
-          <p className={t.typography.sectionSubtitle}>
-            Müşterilerimiz için gerçekleştirdiğimiz başarılı projelere göz atın
-          </p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">Öne Çıkan Projeler</h2>
+          <p className="text-slate-600 max-w-2xl mx-auto"> Başarılı projelere göz atın</p>
         </div>
 
-        {/* --- PROJELER GRID --- */}
-        <div className={t.grid.projects}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {projects.map((p, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className={`group rounded-xl overflow-hidden ${t.card.base} ${t.card.hover} ${t.card.bg.white}`}
+              className="group rounded-2xl overflow-hidden border border-slate-100 bg-white shadow-sm hover:shadow-xl transition-all duration-500"
             >
-              {/* LINK: Tüm kartı kapsıyor */}
-              <Link href="/projects#projects-section" className="block h-full cursor-pointer">
-                
-                {/* --- RESİM BÖLÜMÜ --- */}
-                <div className="relative h-56 w-full overflow-hidden">
+              <Link href="/projects#projects-section" className="block h-full">
+                <div className="relative h-56 md:h-64 w-full overflow-hidden">
                   <Image
                     src={p.image}
                     alt={p.title}
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
-                  {/* Resim üzerine gelen hafif karartma efekti */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
-
-                {/* --- YAZI BÖLÜMÜ --- */}
-                <div className={t.card.padding.sm}>
-                  <span className={`${t.badge.base} ${t.badge.primary} mb-2 inline-block`}>
+                <div className="p-6">
+                  <span className="px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold mb-3 inline-block">
                     {p.category}
                   </span>
-                  <h3 className={`${t.typography.cardTitle} ${t.colors.text.primary} group-hover:text-blue-600 transition-colors`}>
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
                     {p.title}
                   </h3>
                 </div>
-
               </Link>
             </motion.div>
           ))}
