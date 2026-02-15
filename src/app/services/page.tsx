@@ -3,7 +3,7 @@ import { ServicesList } from "@/components/services/ServiceList";
 import { ServicesHero } from "@/components/services/ServicesHero";
 
 export const metadata: Metadata = {
-  title: "Hizmetlerimiz | YaBu Digital",
+  title: "Hizmetlerimiz | Sybor Digital",
   description: "Web yazılım, mobil uygulama ve dijital dönüşüm çözümlerimizle tanışın. Modern teknolojileri işinize entegre ediyoruz.",
 };
 

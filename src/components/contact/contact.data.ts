@@ -5,8 +5,8 @@ export const contactInfo: ContactInfoItem[] = [
   {
     icon: Mail,
     title: "Email",
-    value: "yabu@digitalstudio.com",
-    link: "mailto:yabu@digitalstudio.com",
+    value: "sybordigital@gmail.com",
+    link: "mailto:sybordigital@gmail.com",
   },
   {
     icon: Phone,

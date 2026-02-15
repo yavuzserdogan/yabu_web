@@ -14,8 +14,6 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = useCallback(() => {
-    // window.scrollY en güvenilir yöntemdir
-    // 80px'den fazla kaydırıldıysa veya Hero yoksa direkt beyaz mod
     const heroElement = document.getElementById("hero-section");
     
     if (!heroElement) {
@@ -23,11 +21,8 @@ export function Header() {
       return;
     }
 
-    // Hero'nun yüksekliğini al (Genelde 100vh yani ekran boyutu kadar)
     const heroHeight = heroElement.offsetHeight;
     
-    // Eğer scroll miktarı, hero yüksekliğinden (header payı düşülmüş hali) 
-    // fazlaysa beyaz moda geç
     if (window.scrollY > (heroHeight - 100)) {
       setIsScrolled(true);
     } else {
@@ -36,7 +31,6 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    // Sayfa yüklendiğinde bir mikro saniye sonra kontrol et (DOM'un hazır olması için)
     const timer = setTimeout(() => {
       handleScroll();
     }, 10);

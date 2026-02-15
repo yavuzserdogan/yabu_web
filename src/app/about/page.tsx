@@ -6,9 +6,8 @@ import { AboutValues } from "@/components/about/AboutValues";
 import { AboutWhyUs } from "@/components/about/AboutWhyUs";
 import { Metadata } from "next";
 
-// SEO için metadata ekliyoruz
 export const metadata: Metadata = {
-  title: "Hakkımızda | YaBu Digital",
+  title: "Hakkımızda | Sybor Digital",
   description: "Bilgisayar mühendisliği disipliniyle butik ve ölçeklenebilir dijital çözümler üretiyoruz. Hikayemiz ve değerlerimiz hakkında bilgi edinin.",
 };
 

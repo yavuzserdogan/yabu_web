@@ -103,7 +103,7 @@ export function ContactForm() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="grid lg:grid-cols-3 gap-12" // Gap değerini biraz artırdım daha ferah durması için
+        className="grid lg:grid-cols-3 gap-12"
       >
         {/* SOL SÜTUN: İLETİŞİM BİLGİLERİ */}
         <div className="lg:col-span-1 space-y-8">
