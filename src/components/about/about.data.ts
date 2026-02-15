@@ -53,3 +53,30 @@ export const process: AboutProcess[] = [
     description: "Kapsamlı testler ve yayın sonrası destek.",
   },
 ];
+
+export const reasons = [
+  {
+    title: "Birebir İletişim",
+    desc: "Doğrudan mühendislerle çalışırsınız. Aracı katmanlar olmadan hızlı ve net kararlar alınır."
+  },
+  {
+    title: "Çevik ve Hızlı Teslimat",
+    desc: "Sprint bazlı ilerler, iş hedeflerinize en kısa sürede çalışan çözümler üretiriz."
+  },
+  {
+    title: "Maliyet Odaklı Yaklaşım",
+    desc: "Butik modelimiz sayesinde gereksiz ajans maliyetleri yerine gerçek üretime yatırım yaparsınız."
+  },
+  {
+    title: "Özel Mimari ve Çözümler",
+    desc: "Hazır kalıplar yerine ölçeklenebilir, güvenli ve size özel sistemler tasarlarız."
+  },
+  {
+    title: "Sürekli Destek",
+    desc: "Yayına aldıktan sonra da yanınızdayız; bakım, izleme ve geliştirme süreçlerini birlikte yürütürüz."
+  },
+  {
+    title: "Ölçeklenebilirlik Odaklı",
+    desc: "Bugünün ihtiyaçlarını karşılarken yarının büyümesine hazır altyapılar kurarız."
+  }
+];

@@ -7,7 +7,6 @@ import { steps } from "./home.data";
 export function HomeSteps() {
   const t = contentTheme;
   return (
-    // Mobilde içeriğin kenara yapışmaması için px-4 eklendi
     <section className={`${t.section.padding} ${t.section.bg.gradient} px-4 md:px-0`}>
       <div className={t.section.container}>
         <div className={`text-center ${t.section.header.margin}`}>

@@ -3,33 +3,7 @@
 import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
 import { contentTheme } from "@/config/content-theme";
-
-const reasons = [
-  {
-    title: "Birebir İletişim",
-    desc: "Doğrudan mühendislerle çalışırsınız. Aracı katmanlar olmadan hızlı ve net kararlar alınır."
-  },
-  {
-    title: "Çevik ve Hızlı Teslimat",
-    desc: "Sprint bazlı ilerler, iş hedeflerinize en kısa sürede çalışan çözümler üretiriz."
-  },
-  {
-    title: "Maliyet Odaklı Yaklaşım",
-    desc: "Butik modelimiz sayesinde gereksiz ajans maliyetleri yerine gerçek üretime yatırım yaparsınız."
-  },
-  {
-    title: "Özel Mimari ve Çözümler",
-    desc: "Hazır kalıplar yerine ölçeklenebilir, güvenli ve size özel sistemler tasarlarız."
-  },
-  {
-    title: "Sürekli Destek",
-    desc: "Yayına aldıktan sonra da yanınızdayız; bakım, izleme ve geliştirme süreçlerini birlikte yürütürüz."
-  },
-  {
-    title: "Ölçeklenebilirlik Odaklı",
-    desc: "Bugünün ihtiyaçlarını karşılarken yarının büyümesine hazır altyapılar kurarız."
-  }
-];
+import { reasons } from "./about.data";
 
 export function AboutWhyUs() {
   const t = contentTheme;

@@ -17,11 +17,7 @@ export function AboutValues() {
             Çalışma kültürümüzü ve projelere yaklaşım biçimimizi bu ilkeler belirler.
           </p>
         </div>
-
-        {/* - grid-cols-1: Mobilde tekli 
-          - sm:grid-cols-2: Tablette/Küçük ekranlarda 2'li
-          - xl:grid-cols-4: Masaüstünde senin istediğin o orijinal 4'lü yapı
-        */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
           {values.map((v, i) => (
             <motion.div

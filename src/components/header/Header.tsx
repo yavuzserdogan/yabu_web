@@ -47,7 +47,6 @@ export function Header() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-      // pt-6 mobilde çok fazla, pt-4/pt-6 geçişi yapıldı
       className="fixed top-0 left-0 right-0 z-100 mx-auto max-w-7xl px-4 md:px-6 lg:px-8 pt-4 md:pt-6 pointer-events-none"
     >
       <div
@@ -64,7 +63,6 @@ export function Header() {
           <HeaderLogo isScrolled={isScrolled} />
         </div>
 
-        {/* Masaüstü Nav - Tablet ve üstü için gap ayarlandı */}
         <div className="hidden md:flex items-center gap-4 lg:gap-8">
           <DesktopNav isScrolled={isScrolled} />
         </div>
