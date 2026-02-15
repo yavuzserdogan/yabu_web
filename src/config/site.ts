@@ -3,7 +3,8 @@ export type SocialType = "linkedin" | "twitter" | "instagram";
 export const siteConfig = {
   name: "Sybor Digital",
   email: "sybordigital@gmail.com",
-  phone: "+90 555 123 45 67",
+  phone: "+90 507 180 88 10",
+  phone2: "+90 537 621 28 17",
 
   navigation: [
     { label: "Ana Sayfa", path: "/" },
@@ -14,8 +15,6 @@ export const siteConfig = {
   ],
 
   socials: [
-    { type: "linkedin", href: "https://linkedin.com" },
-    { type: "twitter", href: "https://twitter.com" },
     { type: "instagram", href: "https://www.instagram.com/sybordigital/" },
   ] as {
     type: SocialType;

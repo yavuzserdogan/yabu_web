@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { ContactPage } from "@/components/contact/ContactPage";
 
 export const metadata: Metadata = {
-  title: "İletişim | Sybor Digital",
-  description: "Projenizi hayata geçirmek için bizimle iletişime geçin. Ankara merkezli butik dijital çözüm ortağınız.",
+  title: "İletişim",
+  description: "Projenizi hayata geçirmek için bizimle iletişime geçin. Modern teknolojilerle dijital çözüm ortağınız.",
 };
 
 export default function Page() {

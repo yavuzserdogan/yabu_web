@@ -7,7 +7,7 @@ import { AboutWhyUs } from "@/components/about/AboutWhyUs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda | Sybor Digital",
+  title: "Hakkımızda",
   description: "Bilgisayar mühendisliği disipliniyle butik ve ölçeklenebilir dijital çözümler üretiyoruz. Hikayemiz ve değerlerimiz hakkında bilgi edinin.",
 };
 

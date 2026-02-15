@@ -23,7 +23,7 @@ export function FooterBrand() {
           <Sparkles className="h-6 w-6 text-white" />
         </div>
         <span className="text-2xl font-black tracking-tighter text-white uppercase italic">
-          Sybor<span className="text-blue-500">.</span>
+          Sybor <span className="text-blue-600">DIGITAL</span>
         </span>
       </button>
 

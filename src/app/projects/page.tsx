@@ -1,30 +1,11 @@
-'use client';
+import ProjectsContent from '@/components/projects/ProjectsContent';
+import { Metadata } from 'next';
 
-import { useState } from 'react';
-import { ProjectsHero } from '@/components/projects/ProjectsHero';
-import { ProjectsFilter } from '@/components/projects/ProjectsFilter';
-import { ProjectsGrid } from '@/components/projects/ProjectsGrid';
-import { ProjectsCTA } from '@/components/projects/ProjectsCTA';
-import { projects, categories } from '@/components/projects/projects.data';
+export const metadata: Metadata = {
+  title: "Projelerimiz",
+  description: "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
+};
 
-export default function ProjectsPage() {
-  const [active, setActive] = useState('Tümü');
-
-  const filtered =
-    active === 'Tümü'
-      ? projects
-      : projects.filter((p) => p.category === active);
-
-  return (
-    <>
-      <ProjectsHero />
-      <ProjectsFilter
-        categories={categories}
-        active={active}
-        onChange={setActive}
-      />
-      <ProjectsGrid projects={filtered} />
-      <ProjectsCTA />
-    </>
-  );
+export default function Page() {
+  return <ProjectsContent />;
 }
