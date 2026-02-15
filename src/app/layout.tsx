@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği ve butik tasarım.",
     images: [
       {
-        url: "/images/og-image.pngs",
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Sybor Digital Kurumsal",
