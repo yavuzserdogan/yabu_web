@@ -18,6 +18,12 @@ export function FooterContact() {
             {siteConfig.phone}
           </a>
         </li>
+        <li className="flex items-center gap-3">
+          <Phone size={16} />
+          <a href={`tel:${siteConfig.phone2}`} className="hover:text-white">
+            {siteConfig.phone2}
+          </a>
+        </li>
       </ul>
     </div>
   );
