@@ -1,11 +1,21 @@
 import { Metadata } from "next";
 import { ServicesList } from "@/components/services/ServiceList";
 import { ServicesHero } from "@/components/services/ServicesHero";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Hizmetlerimiz",
-  description: "Web yazılım, mobil uygulama ve dijital dönüşüm çözümlerimizle tanışın. Modern teknolojileri işinize entegre ediyoruz.",
-};
+interface Props {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'ServicesPage' });
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default function ServicesPage() {
   return (

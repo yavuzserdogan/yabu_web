@@ -1,10 +1,20 @@
 import { Metadata } from "next"; 
 import { ContactPage } from "@/components/contact/ContactPage";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "İletişim",
-  description: "Projenizi hayata geçirmek için bizimle iletişime geçin. Modern teknolojilerle dijital çözüm ortağınız.",
-};
+interface Props {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'ContactPage' });
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default function Page() {
   return (

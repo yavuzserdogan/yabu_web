@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/i18n/routing";
 
 export function HeaderLogo({ isScrolled }: { isScrolled: boolean }) {
   const router = useRouter();

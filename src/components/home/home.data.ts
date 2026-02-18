@@ -3,75 +3,36 @@ import type { Step } from "@/types/step";
 import type { Project } from "@/types/project";
 
 export const services: ServiceSummary[] = [
-  {
-    icon: "code",
-    title: "Web Geliştirme",
-    description:
-      "Modern teknolojilerle performanslı, ölçeklenebilir web uygulamaları.",
-  },
-  {
-    icon: "mobile",
-    title: "Mobil Uygulama",
-    description:
-      "iOS ve Android için native ve cross-platform mobil çözümler.",
-  },
-  {
-    icon: "design",
-    title: "UI/UX & Portfolyo",
-    description:
-      "Kullanıcı odaklı arayüzler ve etkileyici portfolyo siteleri.",
-  },
-  {
-    icon: "growth",
-    title: "Sosyal Medya & Reklam",
-    description:
-      "Dijital pazarlama stratejileri ve sosyal medya yönetimi.",
-  },
+  { icon: "code", title: "", description: "" },
+  { icon: "mobile", title: "", description: "" },
+  { icon: "design", title: "", description: "" },
+  { icon: "growth", title: "", description: "" },
 ];
 
 export const steps: Step[] = [
-  {
-    number: "01",
-    title: "Keşif & Planlama",
-    description:
-      "İhtiyaçlarınızı analiz ediyor, net bir yol haritası çıkarıyoruz.",
-  },
-  {
-    number: "02",
-    title: "Tasarım & Geliştirme",
-    description:
-      "Modern tasarım ve temiz kod ile projeyi geliştiriyoruz.",
-  },
-  {
-    number: "03",
-    title: "Test & Optimizasyon",
-    description:
-      "Performans, güvenlik ve kullanıcı testlerini yapıyoruz.",
-  },
-  {
-    number: "04",
-    title: "Yayın & Destek",
-    description:
-      "Projeyi yayına alıyor ve sürekli destek sağlıyoruz.",
-  },
+  { number: "01", title: "", description: "" },
+  { number: "02", title: "", description: "" },
+  { number: "03", title: "", description: "" },
+  { number: "04", title: "", description: "" },
 ];
 
 export const projects: Project[] = [
   {
-    title: "Online DKT Terapi",
-    category: "Web Geliştirme",
+    id: 1, // Hata düzeltildi: string yerine number kullanıldı
+    title: "", 
+    category: "",
     image: "/images/onlinedktterapi.png",
   },
   {
-    title: "E-Ticaret Platformu",
-    category: "Web Geliştirme",
-    image:
-      "https://images.unsplash.com/photo-1759884247173-3db27f7fafef",
+    id: 2,
+    title: "",
+    category: "",
+    image: "https://images.unsplash.com/photo-1759884247173-3db27f7fafef",
   },
   {
-    title: "Fitness Mobil App",
-    category: "Mobil Uygulama",
-    image:
-      "https://images.unsplash.com/photo-1707836916010-3c4ad261936c",
+    id: 3,
+    title: "",
+    category: "",
+    image: "https://images.unsplash.com/photo-1707836916010-3c4ad261936c",
   },
 ];

@@ -3,22 +3,25 @@
 import { motion } from "motion/react";
 import { contentTheme } from "@/config/content-theme";
 import { process } from "./about.data";
+import { useTranslations } from "next-intl";
 
 export function AboutProcess() {
   const t = contentTheme;
+  const trans = useTranslations('AboutPage.process');
+
   return (
     <section className={`${t.section.paddingLarge} px-4`}>
       <div className={t.section.container}>
         <div className={`text-center ${t.section.header.marginLarge}`}>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
-            Sürecimiz Nasıl İşler?
+            {trans('title')}
           </h2>
           <p className={t.typography.sectionSubtitle}>
-            Fikirden yayına kadar her adımı planlı, ölçülebilir ve şeffaf bir yaklaşımla yönetiyoruz.
+            {trans('subtitle')}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"> {/* Responsive grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {process.map((step, index) => (
             <motion.div
               key={step.step}
@@ -34,9 +37,11 @@ export function AboutProcess() {
                 <span className="text-white font-bold text-lg">{step.step}</span>
               </div>
               <h4 className={`${t.typography.cardTitle} ${t.colors.text.primary} mt-4 mb-2`}>
-                {step.title}
+                {trans(`items.${step.title}.title`)}
               </h4>
-              <p className={t.typography.body}>{step.description}</p>
+              <p className={t.typography.body}>
+                {trans(`items.${step.title}.description`)}
+              </p>
             </motion.div>
           ))}
         </div>

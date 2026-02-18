@@ -10,8 +10,7 @@ import { projects, categories } from '@/components/projects/projects.data';
 export default function ProjectsContent() {
   const [active, setActive] = useState('Tümü');
 
-  const filtered =
-    active === 'Tümü'
+  const filtered = active === 'Tümü'
       ? projects
       : projects.filter((p) => p.category === active);
 

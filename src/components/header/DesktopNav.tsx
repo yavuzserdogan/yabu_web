@@ -1,12 +1,14 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "@/i18n/routing";
 import { motion } from "framer-motion";
 import { mainNavigation } from "@/config/navigation";
+import { useTranslations } from "next-intl"; // Ekledik
 
 export function DesktopNav({ isScrolled }: { isScrolled: boolean }) {
   const pathname = usePathname();
   const router = useRouter();
+  const t = useTranslations('Navigation'); // Ekledik
 
   return (
     <nav className="flex items-center gap-4 lg:gap-8">
@@ -22,7 +24,8 @@ export function DesktopNav({ isScrolled }: { isScrolled: boolean }) {
                 : (isActive ? "text-white" : "text-white/70 hover:text-white")
             }`}
           >
-            {item.name}
+            {t(item.id)}
+            
             {isActive && (
               <motion.div
                 layoutId="activeTab"

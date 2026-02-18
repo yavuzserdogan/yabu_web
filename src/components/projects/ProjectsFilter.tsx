@@ -1,4 +1,7 @@
+"use client";
+
 import { contentTheme } from "@/config/content-theme";
+import { useTranslations } from "next-intl";
 
 interface Props {
   categories: readonly string[];
@@ -7,19 +10,21 @@ interface Props {
 }
 
 export function ProjectsFilter({ categories, active, onChange }: Props) {
-  const t = contentTheme;
+  const theme = contentTheme;
+  const t = useTranslations('ProjectsPage.filter');
+
   return (
-    <section className={`${t.filter.section} px-4`}> {/* Mobilde kenardan boşluk eklendi */}
+    <section className={`${theme.filter.section} px-4`}>
       <div className="flex flex-wrap gap-2 md:gap-3 justify-center max-w-4xl mx-auto">
-        {categories.map((cat) => (
+        {categories.map((catKey) => (
           <button
-            key={cat}
-            onClick={() => onChange(cat)}
-            className={`${t.filter.button} cursor-pointer text-xs md:text-sm px-4 py-2 md:px-6 md:py-2.5 transition-all ${
-              active === cat ? t.filter.buttonActive : t.filter.buttonInactive
+            key={catKey}
+            onClick={() => onChange(catKey)}
+            className={`${theme.filter.button} cursor-pointer text-xs md:text-sm px-4 py-2 md:px-6 md:py-2.5 transition-all ${
+              active === catKey ? theme.filter.buttonActive : theme.filter.buttonInactive
             }`}
           >
-            {cat}
+            {t(catKey)}
           </button>
         ))}
       </div>
