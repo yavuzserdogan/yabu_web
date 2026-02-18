@@ -5,7 +5,7 @@ export const services: ServiceDetail[] = [
     slug: "web",
     icon: "code",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072",
-    title: "", // JSON'dan gelecek
+    title: "",
     description: "",
     features: [],
     suitable: [],
