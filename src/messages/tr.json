@@ -1,0 +1,76 @@
+{
+  "HomePage": {
+    "title": "Sybor Digital",
+    "description": "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
+    "hero": {
+      "badge": "Yeni nesil yazılım çözümleri",
+      "titleMain": "Geleceği Birlikte",
+      "titleAccent": "İnşa Edelim",
+      "description": "Kurumsal düzeyde yazılım mühendisliği ile ölçeklenebilir çözümler sunuyoruz.",
+      "ctaStart": "Hadi Başlayalım",
+      "ctaProjects": "Projelerimiz"
+    },
+    "services": {
+      "title": "Web & Mobil Çözümler",
+      "subtitle": "Modern teknolojiler ve yaratıcı tasarımlarla dijital varlığınızı güçlendiriyoruz",
+      "items": {
+        "web": {
+          "title": "Web Geliştirme",
+          "description": "Modern teknolojilerle performanslı, ölçeklenebilir web uygulamaları."
+        },
+        "mobile": {
+          "title": "Mobil Uygulama",
+          "description": "iOS ve Android için native ve cross-platform mobil çözümler."
+        },
+        "design": {
+          "title": "UI/UX & Portfolyo",
+          "description": "Kullanıcı odaklı arayüzler ve etkileyici portfolyo siteleri."
+        },
+        "growth": {
+          "title": "Sosyal Medya & Reklam",
+          "description": "Dijital pazarlama stratejileri ve sosyal medya yönetimi."
+        }
+      }
+    },
+    "steps": {
+      "title": "Nasıl Çalışıyoruz?",
+      "subtitle": "Baştan sona şeffaf ve etkili bir süreçle projelerinizi hayata geçiriyoruz",
+      "items": {
+        "step1": {
+          "title": "Keşif & Planlama",
+          "description": "İhtiyaçlarınızı analiz ediyor, net bir yol haritası çıkarıyoruz."
+        },
+        "step2": {
+          "title": "Tasarım & Geliştirme",
+          "description": "Modern tasarım ve temiz kod ile projeyi geliştiriyoruz."
+        },
+        "step3": {
+          "title": "Test & Optimizasyon",
+          "description": "Performans, güvenlik ve kullanıcı testlerini yapıyoruz."
+        },
+        "step4": {
+          "title": "Yayın & Destek",
+          "description": "Projeyi yayına alıyor ve sürekli destek sağlıyoruz."
+        }
+      }
+    },
+    "projects": {
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Başarılı projelere göz atın",
+      "items": {
+        "project1": {
+          "title": "Online DKT Terapi",
+          "category": "Web Geliştirme"
+        },
+        "project2": {
+          "title": "E-Ticaret Platformu",
+          "category": "Web Geliştirme"
+        },
+        "project3": {
+          "title": "Fitness Mobil App",
+          "category": "Mobil Uygulama"
+        }
+      }
+    }
+  }
+}

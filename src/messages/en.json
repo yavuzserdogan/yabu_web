@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "title": "Sybor Digital",
+    "description": "We offer enterprise-level software engineering, boutique design, and scalable web/mobile solutions. Let's build the future together.",
+    "hero": {
+      "badge": "Next-generation software solutions",
+      "titleMain": "Building the Future",
+      "titleAccent": "Together",
+      "description": "We provide scalable solutions with enterprise-level software engineering.",
+      "ctaStart": "Let's Get Started",
+      "ctaProjects": "Our Projects"
+    }
+  }
+}
