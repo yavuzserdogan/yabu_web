@@ -24,7 +24,7 @@ export const services: ServiceDetail[] = [
   {
     slug: "uiux",
     icon: "design",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426",
+    image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=2080",
     title: "",
     description: "",
     features: [],
