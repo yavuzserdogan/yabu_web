@@ -370,5 +370,12 @@
     "quickLinks": "Hızlı Erişim",
     "contact": "İletişim",
     "copyright": "Sybor Digital. Türkiye'den dünyaya."
+  },
+
+  "Metadata": {
+    "title": "Sybor Digital | Dijital Çözümler",
+    "siteName": "Sybor Digital",
+    "description": "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği ve kullanıcı dostu tasarım.",
+    "ogTitle": "Sybor Digital | Yeni Nesil Yazılım Çözümleri"
   }
 }
