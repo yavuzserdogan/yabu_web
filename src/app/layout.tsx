@@ -14,17 +14,19 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sybordigital.com"),
   title: {
-    default: "Sybor Digital | Butik Dijital Çözümler",
+    default: "Sybor Digital | Dijital Çözümler",
     template: "%s | Sybor Digital",
   },
-  description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web çözümleri.",
+  description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği, kullanıcı dostu tasarım ve ölçeklenebilir web çözümleri.",
   alternates: {
     canonical: "https://sybordigital.com",
   },
-  icons: {
-    icon: "/favicon.ico",
+
+    appleWebApp: {
+    title: "Sybor", 
   },
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+
+
 
   verification: {
     google: `${process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION}`
@@ -45,6 +47,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
