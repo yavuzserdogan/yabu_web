@@ -1,0 +1,374 @@
+{
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "projects": "Projelerimiz",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cta": "İletişime Geç"
+  },
+  "HomePage": {
+    "title": "Sybor Digital",
+    "description": "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
+    "hero": {
+      "badge": "Yeni nesil yazılım çözümleri",
+      "titleMain": "Geleceği Birlikte",
+      "titleAccent": "İnşa Edelim",
+      "description": "Kurumsal düzeyde yazılım mühendisliği ile ölçeklenebilir çözuyoruz.",
+      "ctaStart": "Hadi Başlayalım",
+      "ctaProjects": "Projelerimiz"
+    },
+    "services": {
+      "title": "Web & Mobil Çözümler",
+      "subtitle": "Modern teknolojiler ve yaratıcı tasarımlarla dijital varlığınızı güçlendiriyoruz",
+      "items": {
+        "code": {
+          "title": "Web Geliştirme",
+          "description": "Modern teknolojilerle performanslı, ölçeklenebilir web uygulamaları."
+        },
+        "mobile": {
+          "title": "Mobil Uygulama",
+          "description": "iOS ve Android için native ve cross-platform mobil çözümler."
+        },
+        "design": {
+          "title": "UI/UX & Portfolyo",
+          "description": "Kullanıcı odaklı arayüzler ve etkileyici portfolyo siteleri."
+        },
+        "growth": {
+          "title": "Sosyal Medya & Reklam",
+          "description": "Dijital pazarlama stratejileri ve sosyal medya yönetimi."
+        }
+      }
+    },
+    "steps": {
+      "title": "Nasıl Çalışıyoruz?",
+      "subtitle": "Baştan sona şeffaf ve etkili bir süreçle projelerinizi hayata geçiriyoruz",
+      "items": {
+        "step1": {
+          "title": "Keşif & Planlama",
+          "description": "İhtiyaçlarınızı analiz ediyor, net bir yol haritası çıkarıyoruz."
+        },
+        "step2": {
+          "title": "Tasarım & Geliştirme",
+          "description": "Modern tasarım ve temiz kod ile projeyi geliştiriyoruz."
+        },
+        "step3": {
+          "title": "Test & Optimizasyon",
+          "description": "Performans, güvenlik ve kullanıcı testlerini yapıyoruz."
+        },
+        "step4": {
+          "title": "Yayın & Destek",
+          "description": "Projeyi yayına alıyor ve sürekli destek sağlıyoruz."
+        }
+      }
+    },
+    "projects": {
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Başarılı projelere göz atın",
+      "items": {
+        "project1": {
+          "title": "Online DKT Terapi",
+          "category": "Web Geliştirme"
+        },
+        "project2": {
+          "title": "E-Ticaret Platformu",
+          "category": "Web Geliştirme"
+        },
+        "project3": {
+          "title": "Fitness Mobil App",
+          "category": "Mobil Uygulama"
+        }
+      }
+    }
+  },
+  "AboutPage": {
+    "title": "Hakkımızda | Sybor Digital",
+    "description": "Bilgisayar mühendisliği disipliniyle butik ve ölçeklenebilir dijital çözümler üretiyoruz.",
+    "hero": {
+      "titleMain": "Dijital",
+      "titleAccent": "Stüdyo",
+      "description": "Büyük ajansların kalitesini, küçük bir ekibin esnekliği ve samimiyetiyle birleştiriyoruz."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "quote": "Büyük ajansların karmaşık süreçlerine alternatif, şeffaf bir teknoloji partneri olmak için yola çıktık.",
+      "p1": "Bilgisayar mühendisliği disipliniyle, işletmelerin karmaşık dijital sorunlarına stratejik ve ölçeklenebilir çözümler üretiyoruz.",
+      "p2": "Her projeyi kendi girişimimiz gibi sahipleniyor, sadece bir tedarikçi değil, teknoloji ortağınız olarak konumlanıyoruz.",
+      "statsTitle": "5+",
+      "statsLabel": "Yıllık Sektörel Deneyim",
+      "statsSub": "Mühendislik Mükemmelliği"
+    },
+    "stats": {
+      "title": "Sayılara Yansıyan Deneyim",
+      "subtitle": "Projelerden elde edilen sonuçlarla markalara nasıl değer kattığımızı gösteriyoruz.",
+      "items": {
+        "stat1": "Tamamlanan Proje",
+        "stat2": "Mutlu Müşteri",
+        "stat3": "Yıllık Deneyim",
+        "stat4": "Müşteri Memnuniyeti"
+      }
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "subtitle": "Çalışma kültürümüzü ve projelere yaklaşım biçimimizi bu ilkeler belirler.",
+      "items": {
+        "focus": {
+          "title": "Odaklanma",
+          "description": "Her projede kaliteyi ve müşteri memnuniyetini ön planda tutuyoruz."
+        },
+        "passion": {
+          "title": "Tutku",
+          "description": "Yaptığımız işi seviyoruz ve bu tutkuyu her projede hissettiriyoruz."
+        },
+        "collab": {
+          "title": "İşbirliği",
+          "description": "Müşterilerimizle birebir çalışarak en iyi sonuçları birlikte üretiyoruz."
+        },
+        "quality": {
+          "title": "Kalite",
+          "description": "Kod kalitesinden tasarıma, her detayda mükemmelliği hedefliyoruz."
+        }
+      }
+    },
+    "process": {
+      "title": "Sürecimiz Nasıl İşler?",
+      "subtitle": "Fikirden yayına kadar her adımı planlı, ölçülebilir ve şeffaf bir yaklaşımla yönetiyoruz.",
+      "items": {
+        "step1": {
+          "title": "İlk Görüşme",
+          "description": "Projenizi ve hedeflerinizi dinliyoruz. Ücretsiz danışmanlık."
+        },
+        "step2": {
+          "title": "Planlama & Teklif",
+          "description": "Detaylı plan ve şeffaf fiyatlandırma."
+        },
+        "step3": {
+          "title": "Tasarım & Geliştirme",
+          "description": "Süreç boyunca sizinle iteratif ilerliyoruz."
+        },
+        "step4": {
+          "title": "Test & Yayın",
+          "description": "Kapsamlı testler ve yayın sonrası destek."
+        }
+      }
+    },
+    "whyUs": {
+      "title": "Neden Teknoloji Ortağınız Olmalıyız?",
+      "subtitle": "Sadece yazılım geliştirmiyoruz; işinizi büyütecek dijital altyapıyı birlikte kuruyoruz.",
+      "items": {
+        "reason1": {
+          "title": "Birebir İletişim",
+          "desc": "Doğrudan mühendislerle çalışırsınız. Aracı katmanlar olmadan hızlı ve net kararlar alınır."
+        },
+        "reason2": {
+          "title": "Çevik ve Hızlı Teslimat",
+          "desc": "Sprint bazlı ilerler, iş hedeflerinize en kısa sürede çalışan çözümler üretiriz."
+        },
+        "reason3": {
+          "title": "Maliyet Odaklı Yaklaşım",
+          "desc": "Butik modelimiz sayesinde gereksiz ajans maliyetleri yerine gerçek üretime yatırım yaparsınız."
+        },
+        "reason4": {
+          "title": "Özel Mimari ve Çözümler",
+          "desc": "Hazır kalıplar yerine ölçeklenebilir, güvenli ve size özel sistemler tasarlarız."
+        },
+        "reason5": {
+          "title": "Sürekli Destek",
+          "desc": "Yayına aldıktan sonra da yanınızdayız; bakım, izleme ve geliştirme süreçlerini birlikte yürütürüz."
+        },
+        "reason6": {
+          "title": "Ölçeklenebilirlik Odaklı",
+          "desc": "Bugünün ihtiyaçlarını karşılarken yarının büyümesine hazır altyapılar kurarız."
+        }
+      }
+    }
+  },
+
+  "ContactPage": {
+    "title": "İletişim | Sybor Digital",
+    "description": "Projenizi hayata geçirmek için bizimle iletişime geçin. Modern teknolojilerle dijital çözüm ortağınız.",
+    "hero": {
+      "titleMain": "Hadi",
+      "titleAccent": "Konuşalım",
+      "description": "Bir fikriniz mi var? Projenizi dijital dünyada büyütmek için profesyonel bir desteğe mi ihtiyacınız var? Sizi dinlemeye hazırız."
+    },
+    "form": {
+      "title": "Projenizi Hayata Geçirelim",
+      "subtitle": "Teknik detaylarla boğulmayın. Fikrinizi anlatın, biz en uygun teknolojiyle hayata geçirelim.",
+      "labelName": "İsim Soyisim",
+      "placeholderName": "Ahmet Yılmaz",
+      "labelEmail": "E-posta",
+      "placeholderEmail": "ahmet@mail.com",
+      "labelPhone": "Telefon (Opsiyonel)",
+      "placeholderPhone": "555 555 55 55",
+      "labelMessage": "Projeniz Hakkında",
+      "placeholderMessage": "Detayları anlatın...",
+      "button": "Gönder",
+      "success": "Mesajınız iletildi!",
+      "error": "Bir hata oluştu.",
+      "location": "Konum",
+      "locationValue": "Ankara, Türkiye"
+    },
+    "faq": {
+      "title": "Aklınızda Soru İşareti Kalmasın",
+      "questions": {
+        "q1": {
+          "q": "Proje süreci nasıl işliyor, nereden başlıyoruz?",
+          "a": "Her şey bir keşif toplantısıyla başlar. İhtiyaçlarınızı ve hedeflerinizi dinleriz. Ardından size özel bir yol haritası, tasarım taslakları ve teknoloji önerisi sunarız. Onayınızla birlikte tasarım ve kodlama aşamasına geçeriz."
+        },
+        "q2": {
+          "q": "Bir web sitesi veya mobil uygulamanın tamamlanması ne kadar sürer?",
+          "a": "Bu tamamen projenin kapsamına bağlıdır. Kurumsal bir web sitesi ortalama 2-4 hafta sürerken, kapsamlı bir e-ticaret sitesi veya mobil uygulama projesi 6-12 hafta arasında değişebilir."
+        },
+        "q3": {
+          "q": "Hangi teknolojileri kullanıyorsunuz?",
+          "a": "Güncel ve performanslı teknolojileri tercih ediyoruz. Web tarafında Next.js ve Tailwind CSS; mobil tarafında Flutter; backend için ise .NET veya Node.js çözümleri sunuyoruz."
+        },
+        "q4": {
+          "q": "Proje bittikten sonra teknik destek sağlıyor musunuz?",
+          "a": "Kesinlikle. Proje tesliminden sonra 30 gün boyunca ücretsiz teknik destek sağlıyoruz. Daha sonrası için ise aylık bakım ve destek paketlerimiz mevcuttur."
+        },
+        "q5": {
+          "q": "Ödeme koşullarınız nasıl?",
+          "a": "Standart prosedürümüz %50 proje başlangıcında, %50 proje tesliminde şeklindedir. Büyük projelerde belirli kilometre taşlarına göre esnek planlar oluşturabiliyoruz."
+        },
+        "q6": {
+          "q": "Web sitemin SEO uyumu olacak mı?",
+          "a": "Evet, geliştirdiğimiz tüm web sitelerinde temel SEO altyapısını (hız, meta etiketler, mobil uyumluluk) eksiksiz kuruyoruz."
+        },
+        "q7": {
+          "q": "Tasarım üzerinde revizyon hakkımız var mı?",
+          "a": "Evet, tasarım aşamasında size sunulan demolar üzerinden 2 tur ücretsiz revizyon hakkınız bulunur."
+        },
+        "q8": {
+          "q": "Domain ve Hosting süreçleriyle siz mi ilgileniyorsunuz?",
+          "a": "Alan adınız ve sunucunuz yoksa, sizin adınıza en uygun sağlayıcıdan kurulum işlemlerini gerçekleştiriyoruz."
+        }
+      }
+    }
+  },
+
+  "ProjectsPage": {
+    "title": "Projelerimiz | Sybor Digital",
+    "description": "Kurumsal düzeyde yazılım mühendisliği ve butik tasarım çözümlerimiz. Geleceği birlikte inşa edelim.",
+    "hero": {
+      "titleMain": "Seçkin",
+      "titleAccent": "İşlerimiz",
+      "description": "Fikirleri koda, tasarımları yaşayan deneyimlere dönüştürüyoruz. Her proje, bizim için yeni bir başarı hikayesi."
+    },
+    "filter": {
+      "all": "Tümü",
+      "web": "Web",
+      "mobile": "Mobil",
+      "uiux": "UI/UX",
+      "social": "Sosyal Medya"
+    },
+    "items": {
+      "project1": {
+        "title": "Online DKT Terapi",
+        "category": "Web",
+        "description": "Dil ve konuşma terapistleri için özelleştirilmiş bir platform.",
+        "cta": "Projeyi İncele"
+      },
+      "project2": {
+        "title": "E-Ticaret Platformu",
+        "category": "Web",
+        "description": "Modern ve kullanıcı dostu alışveriş deneyimi sunan kapsamlı e-ticaret çözümü.",
+        "cta": "Projeyi İncele"
+      },
+      "project3": {
+        "title": "Fitness Mobil Uygulaması",
+        "category": "Mobil",
+        "description": "Kişiselleştirilmiş antrenman programları ve beslenme takibi uygulaması.",
+        "cta": "Projeyi İncele"
+      }
+    },
+    "cta": {
+      "title": "Bir Sonraki Proje Sizin mi?",
+      "button": "Projenizi Başlatalım"
+    }
+  },
+
+  "ServicesPage": {
+    "title": "Hizmetlerimiz | Sybor Digital",
+    "description": "Web yazılım, mobil uygulama ve dijital dönüşüm çözümlerimizle tanışın. Modern teknolojileri işinize entegre ediyoruz.",
+    "hero": {
+      "titleMain": "Dijital",
+      "titleAccent": "Çözümler",
+      "description": "İşinizi büyütmek, markanızı dijital dünyada zirveye taşımak için modern teknolojileri yaratıcı tasarımlarla harmanlıyoruz."
+    },
+    "labels": {
+      "suitableFor": "Kimler İçin Uygun?"
+    },
+    "items": {
+      "web": {
+        "title": "Web Geliştirme",
+        "description": "Modern web teknolojileriyle hızlı, güvenli ve ölçeklenebilir web uygulamaları.",
+        "features": [
+          "Tüm Cihazlarda Mükemmel Görünüm",
+          "Google'da Üst Sıralarda Yer Alın",
+          "Saniyeler İçinde Yüklenen Sayfalar",
+          "Kolay İçerik Yönetimi & Güncelleme"
+        ],
+        "suitable": [
+          "Kurumsal Web Siteleri",
+          "E-Ticaret Platformları",
+          "Özel Web Uygulamaları",
+          "Yönetim Panelleri & Dashboardlar"
+        ]
+      },
+      "mobile": {
+        "title": "Mobil Uygulama",
+        "description": "iOS ve Android için kullanıcı dostu, performanslı mobil uygulamalar.",
+        "features": [
+          "iOS ve Android için Tek Çözüm",
+          "Çevrimdışı Çalışma Özelliği",
+          "Anlık Bildirimler & Kullanıcı Etkileşimi",
+          "App Store & Play Store Yayınlama Desteği"
+        ],
+        "suitable": [
+          "Startup & MVP Projeleri",
+          "Mobil E-Ticaret Uygulamaları",
+          "Rezervasyon & Servis Platformları"
+        ]
+      },
+      "uiux": {
+        "title": "UI/UX & Portfolyo",
+        "description": "Markanızı yansıtan modern, etkileyici ve dönüşüm odaklı arayüzler.",
+        "features": [
+          "Göz Alıcı Modern Tasarımlar",
+          "Kullanıcı Deneyimi Odaklı Arayüz",
+          "Akıcı Animasyonlar & Geçişler",
+          "Kolay Güncellenebilir İçerik Yönetimi"
+        ],
+        "suitable": [
+          "Kişisel Portfolyolar",
+          "Ajans & Stüdyo Siteleri",
+          "Mimar, Tasarımcı & Sanatçılar"
+        ]
+      },
+      "marketing": {
+        "title": "Sosyal Medya & Reklam",
+        "description": "Stratejik dijital pazarlama ile markanızı büyütüyoruz.",
+        "features": [
+          "Meta & Google Reklam Kampanyaları",
+          "Hedef Kitle Analizi & Strateji",
+          "Profesyonel İçerik Stratejisi",
+          "Detaylı Analiz & Performans Raporları"
+        ],
+        "suitable": [
+          "KOBİ & Yerel İşletmeler",
+          "E-Ticaret Markaları",
+          "İçerik Üreticileri & Influencerlar"
+        ]
+      }
+    }
+  },
+
+  "Footer": {
+    "description": "Geleceğin teknolojilerini, bugünün estetiğiyle birleştiriyoruz. Butik, hızlı ve sonuç odaklı.",
+    "quickLinks": "Hızlı Erişim",
+    "contact": "İletişim",
+    "copyright": "Sybor Digital. Türkiye'den dünyaya."
+  }
+}

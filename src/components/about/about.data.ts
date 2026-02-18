@@ -2,81 +2,31 @@ import { AboutProcess, AboutStat, AboutValue } from "@/types/about";
 import { Users, Target, Award, Heart } from "lucide-react";
 
 export const values: AboutValue[] = [
-  {
-    icon: Target,
-    title: "Odaklanma",
-    description: "Her projede kaliteyi ve müşteri memnuniyetini ön planda tutuyoruz.",
-  },
-  {
-    icon: Heart,
-    title: "Tutku",
-    description: "Yaptığımız işi seviyoruz ve bu tutkuyu her projede hissettiriyoruz.",
-  },
-  {
-    icon: Users,
-    title: "İşbirliği",
-    description: "Müşterilerimizle birebir çalışarak en iyi sonuçları birlikte üretiyoruz.",
-  },
-  {
-    icon: Award,
-    title: "Kalite",
-    description: "Kod kalitesinden tasarıma, her detayda mükemmelliği hedefliyoruz.",
-  },
+  { icon: Target, title: "focus", description: "" }, // 'focus' anahtarını JSON'da kullanacağız
+  { icon: Heart, title: "passion", description: "" },
+  { icon: Users, title: "collab", description: "" },
+  { icon: Award, title: "quality", description: "" },
 ];
 
 export const stats: AboutStat[] = [
-  { number: "50+", label: "Tamamlanan Proje" },
-  { number: "30+", label: "Mutlu Müşteri" },
-  { number: "5+", label: "Yıllık Deneyim" },
-  { number: "%100", label: "Müşteri Memnuniyeti" },
+  { number: "50+", label: "stat1" },
+  { number: "30+", label: "stat2" },
+  { number: "5+", label: "stat3" },
+  { number: "%100", label: "stat4" },
 ];
 
 export const process: AboutProcess[] = [
-  {
-    step: "01",
-    title: "İlk Görüşme",
-    description: "Projenizi ve hedeflerinizi dinliyoruz. Ücretsiz danışmanlık.",
-  },
-  {
-    step: "02",
-    title: "Planlama & Teklif",
-    description: "Detaylı plan ve şeffaf fiyatlandırma.",
-  },
-  {
-    step: "03",
-    title: "Tasarım & Geliştirme",
-    description: "Süreç boyunca sizinle iteratif ilerliyoruz.",
-  },
-  {
-    step: "04",
-    title: "Test & Yayın",
-    description: "Kapsamlı testler ve yayın sonrası destek.",
-  },
+  { step: "01", title: "step1", description: "" },
+  { step: "02", title: "step2", description: "" },
+  { step: "03", title: "step3", description: "" },
+  { step: "04", title: "step4", description: "" },
 ];
 
 export const reasons = [
-  {
-    title: "Birebir İletişim",
-    desc: "Doğrudan mühendislerle çalışırsınız. Aracı katmanlar olmadan hızlı ve net kararlar alınır."
-  },
-  {
-    title: "Çevik ve Hızlı Teslimat",
-    desc: "Sprint bazlı ilerler, iş hedeflerinize en kısa sürede çalışan çözümler üretiriz."
-  },
-  {
-    title: "Maliyet Odaklı Yaklaşım",
-    desc: "Butik modelimiz sayesinde gereksiz ajans maliyetleri yerine gerçek üretime yatırım yaparsınız."
-  },
-  {
-    title: "Özel Mimari ve Çözümler",
-    desc: "Hazır kalıplar yerine ölçeklenebilir, güvenli ve size özel sistemler tasarlarız."
-  },
-  {
-    title: "Sürekli Destek",
-    desc: "Yayına aldıktan sonra da yanınızdayız; bakım, izleme ve geliştirme süreçlerini birlikte yürütürüz."
-  },
-  {
-    title: "Ölçeklenebilirlik Odaklı",
-    desc: "Bugünün ihtiyaçlarını karşılarken yarının büyümesine hazır altyapılar kurarız."
-  }
+  { id: "reason1" },
+  { id: "reason2" },
+  { id: "reason3" },
+  { id: "reason4" },
+  { id: "reason5" },
+  { id: "reason6" },
 ];

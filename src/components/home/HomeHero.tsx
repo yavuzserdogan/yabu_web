@@ -2,9 +2,11 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function HomeHero() {
+  const t = useTranslations('HomePage.hero');
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-black flex items-center" id="hero-section">
       {/* Background Katmanları Aynı Kalıyor */}
@@ -39,10 +41,10 @@ export default function HomeHero() {
             transition={{ delay: 0.2 }}
             className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-[1.1] md:leading-none tracking-tighter"
           >
-            Geleceği Birlikte
+            {t('titleMain')}
             <br />
             <span className="bg-linear-to-r from-cyan-300 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
-              İnşa Edelim
+              {t('titleAccent')}
             </span>
           </motion.h1>
 
@@ -52,7 +54,7 @@ export default function HomeHero() {
             transition={{ delay: 0.4 }}
             className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mb-10 md:mb-12 px-4"
           >
-            Kurumsal düzeyde yazılım mühendisliği ile ölçeklenebilir çözümler sunuyoruz.
+            {t('description')}
           </motion.p>
 
           <motion.div
@@ -63,14 +65,14 @@ export default function HomeHero() {
           >
             <Link href="/contact#contact-section" className="w-full sm:w-auto">
               <button className="w-full group px-8 py-4 rounded-xl bg-white text-gray-900 font-bold shadow-2xl hover:scale-105 transition cursor-pointer flex items-center justify-center gap-2">
-                Hadi Başlayalım
+                {t('ctaStart')}
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition" />
               </button>
             </Link>
 
             <Link href="/projects#projects-section" className="w-full sm:w-auto">
               <button className="w-full px-8 py-4 rounded-xl bg-white/10 border border-white/30 text-white font-bold hover:bg-white/20 transition cursor-pointer">
-                Projelerimiz
+                {t('ctaProjects')}
               </button>
             </Link>
           </motion.div>

@@ -4,9 +4,11 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { contentTheme } from "@/config/content-theme";
 import { steps } from "./home.data";
+import { useTranslations } from "next-intl";
 
 export function HomeSteps() {
   const t = contentTheme;
+  const trans = useTranslations('HomePage.steps');
   
   const [isMobile, setIsMobile] = useState(false);
 
@@ -25,10 +27,10 @@ export function HomeSteps() {
       <div className={t.section.container}>
         <div className={`text-center ${t.section.header.margin}`}>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
-            Nasıl Çalışıyoruz?
+            {trans('title')}
           </h2>
           <p className={t.typography.sectionSubtitle}>
-            Baştan sona şeffaf ve etkili bir süreçle projelerinizi hayata geçiriyoruz
+            {trans('subtitle')}
           </p>
         </div>
 
@@ -36,31 +38,23 @@ export function HomeSteps() {
           {steps.map((step, index) => (
             <motion.div
               key={step.number}
-
               initial={isMobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-
               animate={isMobile ? { opacity: 1, y: 0 } : undefined}
-              
               whileInView={isMobile ? undefined : { opacity: 1, y: 0 }}
-              
               viewport={{ once: true }}
-              
               transition={{ 
                 delay: isMobile ? 0 : index * 0.1,
                 duration: isMobile ? 0 : 0.5 
               }}
-              
               className={`relative ${t.card.padding.md} ${t.card.bg.white} ${t.card.base} hover:shadow-lg transition-all`}
             >
-              <div
-                className={`absolute -top-3 -left-3 ${t.iconBox.md} ${t.iconBox.gradient} shadow-md flex items-center justify-center`}
-              >
+              <div className={`absolute -top-3 -left-3 ${t.iconBox.md} ${t.iconBox.gradient} shadow-md flex items-center justify-center`}>
                 <span className="text-white font-bold text-lg">{step.number}</span>
               </div>
               <h4 className={`${t.typography.cardTitle} ${t.colors.text.primary} mt-4 mb-2`}>
-                {step.title}
+                {trans(`items.step${index + 1}.title`)}
               </h4>
-              <p className={t.typography.body}>{step.description}</p>
+              <p className={t.typography.body}>{trans(`items.step${index + 1}.description`)}</p>
             </motion.div>
           ))}
         </div>

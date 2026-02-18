@@ -1,8 +1,9 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/i18n/routing"; // Kendi routing'imiz
 import { siteConfig } from "@/config/site";
 import { Sparkles, Linkedin, Twitter, Instagram } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const iconMap = {
   linkedin: Linkedin,
@@ -12,6 +13,7 @@ const iconMap = {
 
 export function FooterBrand() {
   const router = useRouter();
+  const t = useTranslations('Footer');
 
   return (
     <div className="space-y-6">
@@ -28,7 +30,7 @@ export function FooterBrand() {
       </button>
 
       <p className="text-slate-200/80 text-base md:text-lg leading-relaxed font-light max-w-sm">
-        Geleceğin teknolojilerini, bugünün estetiğiyle birleştiriyoruz. Butik, hızlı ve sonuç odaklı.
+        {t('description')}
       </p>
 
       <div className="flex gap-4 pt-2">

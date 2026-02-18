@@ -8,6 +8,7 @@ import { HeaderLogo } from "./HeaderLogo";
 import { DesktopNav } from "./DesktopNav";
 import { HeaderCTA } from "./HeaderCTA";
 import { MobileNav } from "./MobileNav";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -68,6 +69,9 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-2 md:gap-3">
+          {/* Dil Değiştirici */}
+          <LanguageSwitcher isScrolled={isScrolled} />
+
           <div className="hidden sm:block">
             <HeaderCTA isScrolled={isScrolled} />
           </div>

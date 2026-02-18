@@ -1,0 +1,342 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get In Touch"
+  },
+  "HomePage": {
+    "title": "Sybor Digital",
+    "description": "We offer enterprise-level software engineering, boutique design, and scalable web/mobile solutions. Building the future together.",
+    "hero": {
+      "badge": "Next-generation software solutions",
+      "titleMain": "Building the Future",
+      "titleAccent": "Together",
+      "description": "We provide scalable solutions with enterprise-level software engineering.",
+      "ctaStart": "Let's Get Started",
+      "ctaProjects": "Our Projects"
+    },
+    "services": {
+      "title": "Web & Mobile Solutions",
+      "subtitle": "Strengthening your digital presence with modern technologies and creative designs",
+      "items": {
+        "code": {
+          "title": "Web Development",
+          "description": "Performant, scalable web applications with modern technologies."
+        },
+        "mobile": {
+          "title": "Mobile App Development",
+          "description": "Native and cross-platform mobile solutions for iOS and Android."
+        },
+        "design": {
+          "title": "UI/UX & Portfolio",
+          "description": "User-oriented interfaces and impressive portfolio sites."
+        },
+        "growth": {
+          "title": "Social Media & Ads",
+          "description": "Digital marketing strategies and social media management."
+        }
+      }
+    },
+    "steps": {
+      "title": "How We Work?",
+      "subtitle": "We bring your projects to life with a transparent and effective process from start to finish",
+      "items": {
+        "step1": {
+          "title": "Discovery & Planning",
+          "description": "We analyze your needs and create a clear roadmap."
+        },
+        "step2": {
+          "title": "Design & Development",
+          "description": "We develop the project with modern design and clean code."
+        },
+        "step3": {
+          "title": "Test & Optimization",
+          "description": "We conduct performance, security, and user tests."
+        },
+        "step4": {
+          "title": "Launch & Support",
+          "description": "We launch the project and provide continuous support."
+        }
+      }
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Take a look at our successful projects",
+      "items": {
+        "project1": {
+          "title": "Online DKT Therapy",
+          "category": "Web Development"
+        },
+        "project2": {
+          "title": "E-Commerce Platform",
+          "category": "Web Development"
+        },
+        "project3": {
+          "title": "Fitness Mobile App",
+          "category": "Mobile App"
+        }
+      }
+    }
+  },
+  "AboutPage": {
+    "title": "About Us | Sybor Digital",
+    "description": "We create boutique and scalable digital solutions with a computer engineering discipline.",
+    "hero": {
+      "titleMain": "Digital",
+      "titleAccent": "Studio",
+      "description": "We combine the quality of large agencies with the flexibility and sincerity of a small team."
+    },
+    "story": {
+      "title": "Our Story",
+      "quote": "We set out to be a transparent technology partner as an alternative to the complex processes of large agencies.",
+      "p1": "With computer engineering discipline, we produce strategic and scalable solutions for complex digital problems of businesses.",
+      "p2": "We embrace every project as our own startup and position ourselves as your technology partner, not just a supplier.",
+      "statsTitle": "5+",
+      "statsLabel": "Years of Experience",
+      "statsSub": "Engineering Excellence"
+    },
+    "stats": {
+      "title": "Experience in Numbers",
+      "subtitle": "We show how we add value to brands with the results obtained from projects.",
+      "items": {
+        "stat1": "Completed Projects",
+        "stat2": "Happy Clients",
+        "stat3": "Years of Experience",
+        "stat4": "Customer Satisfaction"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "These principles determine our working culture and approach to projects.",
+      "items": {
+        "focus": { "title": "Focus", "description": "We prioritize quality and customer satisfaction in every project." },
+        "passion": { "title": "Passion", "description": "We love what we do and make this passion felt in every project." },
+        "collab": { "title": "Collaboration", "description": "We produce the best results together by working one-on-one with our clients." },
+        "quality": { "title": "Quality", "description": "From code quality to design, we aim for excellence in every detail." }
+      }
+    },
+    "process": {
+      "title": "How Does Our Process Work?",
+      "subtitle": "We manage every step from idea to launch with a planned, measurable, and transparent approach.",
+      "items": {
+        "step1": { "title": "First Meeting", "description": "We listen to your project and goals. Free consultancy." },
+        "step2": { "title": "Planning & Proposal", "description": "Detailed plan and transparent pricing." },
+        "step3": { "title": "Design & Development", "description": "We move forward iteratively with you throughout the process." },
+        "step4": { "title": "Test & Launch", "description": "Comprehensive tests and post-launch support." }
+      }
+    },
+    "whyUs": {
+      "title": "Why Should We Be Your Tech Partner?",
+      "subtitle": "We don't just develop software; we build the digital infrastructure that will grow your business together.",
+      "items": {
+        "reason1": { "title": "Direct Communication", "desc": "You work directly with engineers. Decisions are made quickly without intermediate layers." },
+        "reason2": { "title": "Agile Delivery", "desc": "We proceed sprint-based, producing working solutions for your business goals ASAP." },
+        "reason3": { "title": "Cost-Oriented Approach", "desc": "Thanks to our boutique model, you invest in actual production instead of unnecessary agency costs." },
+        "reason4": { "title": "Custom Architecture", "desc": "We design scalable, secure, and tailor-made systems instead of ready-made templates." },
+        "reason5": { "title": "Continuous Support", "desc": "We are with you after launch; we conduct maintenance, monitoring, and development processes together." },
+        "reason6": { "title": "Scalability Focused", "desc": "We build infrastructures ready for tomorrow's growth while meeting today's needs." }
+      }
+    }
+  },
+
+
+  "ContactPage": {
+    "title": "Contact | Sybor Digital",
+    "description": "Contact us to bring your project to life. Your digital solution partner with modern technologies.",
+    "hero": {
+      "titleMain": "Let's",
+      "titleAccent": "Talk",
+      "description": "Have an idea? Do you need professional support to grow your project in the digital world? We are ready to listen to you."
+    },
+    "form": {
+      "title": "Let's Bring Your Project to Life",
+      "subtitle": "Don't get bogged down in technical details. Tell us your idea, and we'll bring it to life with the most suitable technology.",
+      "labelName": "Full Name",
+      "placeholderName": "John Doe",
+      "labelEmail": "Email",
+      "placeholderEmail": "john@mail.com",
+      "labelPhone": "Phone (Optional)",
+      "placeholderPhone": "555 555 55 55",
+      "labelMessage": "About Your Project",
+      "placeholderMessage": "Tell us the details...",
+      "button": "Send",
+      "success": "Your message has been sent!",
+      "error": "An error occurred.",
+      "location": "Location",
+      "locationValue": "Ankara, Turkey"
+    },
+    "faq": {
+      "title": "Get All Your Questions Answered",
+      "questions": {
+        "q1": {
+          "q": "How does the project process work, where do we start?",
+          "a": "Everything starts with a discovery meeting. We listen to your needs and goals. Then we offer a custom roadmap, design drafts, and technology recommendations. With your approval, we move to the design and coding phase."
+        },
+        "q2": {
+          "q": "How long does it take to complete a website or mobile app?",
+          "a": "It depends on the scope. A corporate website takes 2-4 weeks, while a comprehensive e-commerce or mobile app project can vary between 6-12 weeks."
+        },
+        "q3": {
+          "q": "Which technologies do you use?",
+          "a": "We prefer up-to-date and high-performance technologies. Next.js and Tailwind CSS for web; Flutter for mobile; .NET or Node.js for backend solutions."
+        },
+        "q4": {
+          "q": "Do you provide technical support after the project is finished?",
+          "a": "Absolutely. We provide 30 days of free technical support after delivery. Monthly maintenance and support packages are available for later."
+        },
+        "q5": {
+          "q": "What are your payment terms?",
+          "a": "Our standard procedure is 50% at the start and 50% upon delivery. For large projects, we can create flexible plans based on specific milestones."
+        },
+        "q6": {
+          "q": "Will my website be SEO compatible?",
+          "a": "Yes, we set up basic SEO infrastructure (speed, meta tags, mobile compatibility) in all websites we develop."
+        },
+        "q7": {
+          "q": "Do we have revision rights on the design?",
+          "a": "Yes, you have 2 rounds of free revisions on the demos presented during the design phase."
+        },
+        "q8": {
+          "q": "Do you handle Domain and Hosting processes?",
+          "a": "If you don't have a domain or server, we handle the purchase and installation from the most suitable provider for you."
+        }
+      }
+    }
+  },
+
+
+
+
+
+  
+  "ProjectsPage": {
+    "title": "Our Projects | Sybor Digital",
+    "description": "Enterprise-level software engineering and boutique design solutions. Let's build the future together.",
+    "hero": {
+      "titleMain": "Featured",
+      "titleAccent": "Works",
+      "description": "We turn ideas into code and designs into living experiences. Every project is a new success story for us."
+    },
+    "filter": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "uiux": "UI/UX",
+      "social": "Social Media"
+    },
+    "items": {
+      "project1": {
+        "title": "Online DKT Therapy",
+        "category": "Web",
+        "description": "A specialized platform for speech and language therapists.",
+        "cta": "View Project"
+      },
+      "project2": {
+        "title": "E-Commerce Platform",
+        "category": "Web",
+        "description": "Comprehensive e-commerce solution offering a modern and user-friendly shopping experience.",
+        "cta": "View Project"
+      },
+      "project3": {
+        "title": "Fitness Mobile App",
+        "category": "Mobile",
+        "description": "Personalized workout programs and nutrition tracking application.",
+        "cta": "View Project"
+      }
+    },
+    "cta": {
+      "title": "Is the Next Project Yours?",
+      "button": "Let's Start Your Project"
+    }
+  },
+
+
+
+  
+  "ServicesPage": {
+    "title": "Our Services | Sybor Digital",
+    "description": "Meet our web software, mobile application and digital transformation solutions. We integrate modern technologies into your business.",
+    "hero": {
+      "titleMain": "Digital",
+      "titleAccent": "Solutions",
+      "description": "We blend modern technologies with creative designs to grow your business and carry your brand to the top in the digital world."
+    },
+    "labels": {
+      "suitableFor": "Who Is It For?"
+    },
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "Fast, secure and scalable web applications with modern web technologies.",
+        "features": [
+          "Perfect Look on All Devices",
+          "Rank High on Google",
+          "Pages Loaded in Seconds",
+          "Easy Content Management & Update"
+        ],
+        "suitable": [
+          "Corporate Websites",
+          "E-Commerce Platforms",
+          "Custom Web Applications",
+          "Management Panels & Dashboards"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile Application",
+        "description": "User-friendly, high-performance mobile applications for iOS and Android.",
+        "features": [
+          "Single Solution for iOS and Android",
+          "Offline Working Feature",
+          "Push Notifications & Interaction",
+          "App Store & Play Store Support"
+        ],
+        "suitable": [
+          "Startup & MVP Projects",
+          "Mobile E-Commerce Apps",
+          "Booking & Service Platforms"
+        ]
+      },
+      "uiux": {
+        "title": "UI/UX & Portfolio",
+        "description": "Modern, impressive and conversion-oriented interfaces reflecting your brand.",
+        "features": [
+          "Eye-Catching Modern Designs",
+          "User Experience Oriented Interface",
+          "Fluid Animations & Transitions",
+          "Easy Updateable Content"
+        ],
+        "suitable": [
+          "Personal Portfolios",
+          "Agency & Studio Sites",
+          "Architects, Designers & Artists"
+        ]
+      },
+      "marketing": {
+        "title": "Social Media & Advertising",
+        "description": "We grow your brand with strategic digital marketing.",
+        "features": [
+          "Meta & Google Ad Campaigns",
+          "Target Audience Analysis & Strategy",
+          "Professional Content Strategy",
+          "Detailed Analysis & Performance Reports"
+        ],
+        "suitable": [
+          "SMEs & Local Businesses",
+          "E-Commerce Brands",
+          "Content Creators & Influencers"
+        ]
+      }
+    }
+  },
+
+
+  "Footer": {
+    "description": "We combine the technologies of the future with the aesthetics of today. Boutique, fast, and result-oriented.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "copyright": "Sybor Digital. From Turkey to the world."
+  }
+}

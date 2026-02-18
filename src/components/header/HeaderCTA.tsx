@@ -1,9 +1,11 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 export function HeaderCTA({ isScrolled }: { isScrolled: boolean }) {
   const router = useRouter();
+  const t = useTranslations('Navigation');
 
   return (
     <button
@@ -14,7 +16,7 @@ export function HeaderCTA({ isScrolled }: { isScrolled: boolean }) {
           : "bg-white/10 backdrop-blur-md border border-white/30 text-white hover:bg-white/20 shadow-black/10"
       }`}
     >
-      İletişime Geç
+      {t('cta')}
     </button>
   );
 }

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { usePathname, useRouter } from "next/navigation";
 import { mainNavigation } from "@/config/navigation";
+import { useTranslations } from "next-intl";
 
 export function MobileNav({
   onClose,
@@ -13,6 +14,7 @@ export function MobileNav({
 }) {
   const pathname = usePathname();
   const router = useRouter();
+  const t = useTranslations('Navigation');
 
   return (
     <motion.div
@@ -45,7 +47,7 @@ export function MobileNav({
                     : (isScrolled ? "text-slate-600 hover:bg-slate-50" : "text-white/80 hover:bg-white/10")
                 }`}
               >
-                {item.name}
+                {t(item.id)}
                 {isActive && (
                   <div className={`h-1.5 w-1.5 rounded-full ${isScrolled ? "bg-white" : "bg-blue-600"}`} />
                 )}
@@ -64,7 +66,7 @@ export function MobileNav({
                 : "bg-white/10 backdrop-blur-md border border-white/30 text-white shadow-black/10"
             }`}
            >
-            İletişime Geç
+            {t('cta')}
            </button>
         </div>
       </div>

@@ -3,18 +3,21 @@
 import { motion } from "motion/react";
 import { contentTheme } from "@/config/content-theme";
 import { values } from "./about.data";
+import { useTranslations } from "next-intl";
 
 export function AboutValues() {
   const t = contentTheme;
+  const trans = useTranslations('AboutPage.values');
+
   return (
     <section className={`${t.section.paddingLarge} ${t.section.bg.white} px-4`}>
       <div className={`${t.section.container}`}>
         <div className={`text-center ${t.section.header.marginLarge}`}>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mb-4`}>
-            Değerlerimiz
+            {trans('title')}
           </h2>
           <p className={t.typography.sectionSubtitle}>
-            Çalışma kültürümüzü ve projelere yaklaşım biçimimizi bu ilkeler belirler.
+            {trans('subtitle')}
           </p>
         </div>
         
@@ -31,9 +34,11 @@ export function AboutValues() {
                 <v.icon className="text-white" size={24} />
               </div>
               <h3 className={`${t.typography.cardTitleLarge} mb-4 ${t.colors.text.primary}`}>
-                {v.title}
+                {trans(`items.${v.title}.title`)}
               </h3>
-              <p className={t.typography.body}>{v.description}</p>
+              <p className={t.typography.body}>
+                {trans(`items.${v.title}.description`)}
+              </p>
             </motion.div>
           ))}
         </div>
