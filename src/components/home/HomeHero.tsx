@@ -52,7 +52,7 @@ export default function HomeHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mb-10 md:mb-12 px-4"
+            className="text-base sm:text-lg md:text-xl text-white/80 max-w-3xl mb-10 md:mb-12 px-4"
           >
             {t('description')}
           </motion.p>
