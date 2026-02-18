@@ -8,9 +8,9 @@ import { ProjectsCTA } from '@/components/projects/ProjectsCTA';
 import { projects, categories } from '@/components/projects/projects.data';
 
 export default function ProjectsContent() {
-  const [active, setActive] = useState('Tümü');
+  const [active, setActive] = useState('all');
 
-  const filtered = active === 'Tümü'
+  const filtered = active === 'all'
       ? projects
       : projects.filter((p) => p.category === active);
 
