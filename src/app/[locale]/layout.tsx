@@ -6,7 +6,7 @@ import { Header } from "@/components/header/Header";
 import { Toaster } from "sonner";
 import Script from "next/script";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
@@ -15,42 +15,48 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://sybordigital.com"),
-  title: {
-    default: "Sybor Digital | Dijital Çözümler",
-    template: "%s | Sybor Digital",
-  },
-  description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği, kullanıcı dostu tasarım ve ölçeklenebilir web çözümleri.",
-  alternates: {
-    canonical: "https://sybordigital.com",
-  },
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Metadata' });
 
-  appleWebApp: {
-    title: "Sybor",
-  },
-
-  verification: {
-    google: `${process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION}`
-  },
-
-  openGraph: {
-    type: "website",
-    locale: "tr_TR",
-    url: "https://sybordigital.com",
-    siteName: "Sybor Digital",
-    title: "Sybor Digital | Yeni Nesil Yazılım Çözümleri",
-    description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği ve kullanıcı dostu tasarım.",
-    images: [
-      {
-        url: "/images/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Sybor Digital Kurumsal",
-      },
-    ],
-  },
-};
+  return {
+    metadataBase: new URL("https://sybordigital.com"),
+    title: {
+      default: t('title'),
+      template: `%s | ${t('siteName')}`,
+    },
+    description: t('description'),
+    alternates: {
+      canonical: `https://sybordigital.com/${locale}`,
+    },
+    appleWebApp: {
+      title: "Sybor",
+    },
+    verification: {
+      google: `${process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION}`
+    },
+    openGraph: {
+      type: "website",
+      locale: locale === 'tr' ? 'tr_TR' : 'en_US',
+      url: `https://sybordigital.com/${locale}`,
+      siteName: t('siteName'),
+      title: t('ogTitle'),
+      description: t('description'),
+      images: [
+        {
+          url: "/images/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: t('siteName'),
+        },
+      ],
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
