@@ -18,23 +18,29 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sybordigital.com"),
   title: {
-    default: "Sybor Digital | Butik Dijital Çözümler",
+    default: "Sybor Digital | Dijital Çözümler",
     template: "%s | Sybor Digital",
   },
-  description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web çözümleri.",
+  description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği, kullanıcı dostu tasarım ve ölçeklenebilir web çözümleri.",
   alternates: {
     canonical: "https://sybordigital.com",
   },
-  icons: {
-    icon: "/favicon.ico",
+
+  appleWebApp: {
+    title: "Sybor",
   },
+
+  verification: {
+    google: `${process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION}`
+  },
+
   openGraph: {
     type: "website",
     locale: "tr_TR",
     url: "https://sybordigital.com",
     siteName: "Sybor Digital",
     title: "Sybor Digital | Yeni Nesil Yazılım Çözümleri",
-    description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği ve butik tasarım.",
+    description: "Markanızı geleceğe taşıyoruz. Kurumsal düzeyde yazılım mühendisliği ve kullanıcı dostu tasarım.",
     images: [
       {
         url: "/images/og-image.png",
@@ -46,16 +52,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({ 
+export default async function RootLayout({
   children,
   params
-}: { 
+}: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
 
-  // Hata düzeltildi: 'as any' yerine routing.locales içindeki tiplerden biri olduğu belirtildi
+
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }

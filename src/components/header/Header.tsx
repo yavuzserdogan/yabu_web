@@ -10,6 +10,10 @@ import { HeaderCTA } from "./HeaderCTA";
 import { MobileNav } from "./MobileNav";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
+import Image from "next/image";
+import icon from "@/app/icon0.svg";
+
+
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -52,15 +56,17 @@ export function Header() {
     >
       <div
         className={`flex items-center justify-between rounded-2xl transition-all duration-500 px-4 md:px-6 py-3 md:py-4 pointer-events-auto border ${isScrolled
-            ? "bg-white/95 backdrop-blur-md border-slate-200 shadow-xl shadow-slate-200/50"
-            : "bg-white/10 backdrop-blur-xl border-white/20 shadow-2xl shadow-black/20"
+          ? "bg-white/95 backdrop-blur-md border-slate-200 shadow-xl shadow-slate-200/50"
+          : "bg-white/10 backdrop-blur-xl border-white/20 shadow-2xl shadow-black/20"
           }`}
       >
         <div className="flex items-center gap-2">
-          <div className={`h-8 w-8 rounded-lg flex items-center justify-center transition-all duration-500 shadow-sm ${isScrolled ? "bg-blue-600 text-white" : "bg-linear-to-br from-cyan-400 to-blue-600 text-white"
-            }`}>
-            <Sparkles className="h-5 w-5" />
-          </div>
+          <Image
+            src={icon}
+            alt="Logo"
+            className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7"
+          />
+
           <HeaderLogo isScrolled={isScrolled} />
         </div>
 
