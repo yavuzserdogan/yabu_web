@@ -1,9 +1,9 @@
 export const mainNavigation = [
-  { name: "Ana Sayfa", path: "/" },
-  { name: "Hizmetler", path: "/services" },
-  { name: "Projelerimiz", path: "/projects" },
-  { name: "Hakkımızda", path: "/about" },
-  { name: "İletişim", path: "/contact" },
-] as const;
+  { id: 'home', name: 'Ana Sayfa', path: '/' },
+  { id: 'services', name: 'Hizmetler', path: '/services' },
+  { id: 'projects', name: 'Projelerimiz', path: '/projects' },
+  { id: 'about', name: 'Hakkımızda', path: '/about' },
+  { id: 'contact', name: 'İletişim', path: '/contact' },
+];
 
 export type NavItem = (typeof mainNavigation)[number];

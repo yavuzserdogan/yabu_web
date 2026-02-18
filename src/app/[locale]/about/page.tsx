@@ -5,11 +5,21 @@ import { AboutStory } from "@/components/about/AboutStory";
 import { AboutValues } from "@/components/about/AboutValues";
 import { AboutWhyUs } from "@/components/about/AboutWhyUs";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Hakkımızda",
-  description: "Bilgisayar mühendisliği disipliniyle butik ve ölçeklenebilir dijital çözümler üretiyoruz. Hikayemiz ve değerlerimiz hakkında bilgi edinin.",
-};
+interface Props {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'AboutPage' });
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default function AboutPage() {
   return (

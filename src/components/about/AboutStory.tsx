@@ -2,9 +2,12 @@
 
 import { motion } from "motion/react";
 import { contentTheme } from "@/config/content-theme";
+import { useTranslations } from "next-intl";
 
 export function AboutStory() {
   const t = contentTheme;
+  const trans = useTranslations('AboutPage.story');
+
   return (
     <section className={`${t.section.paddingLarge} overflow-hidden px-4 md:px-8`}>
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -13,24 +16,18 @@ export function AboutStory() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center lg:text-left" // Mobilde metni ortaladık
+          className="text-center lg:text-left"
         >
           <h2 className={`${t.typography.sectionTitle} mb-8 text-slate-900`}>
-            Hikayemiz
+            {trans('title')}
           </h2>
 
           <div className={`space-y-6 ${t.typography.bodyLarge} font-light`}>
             <p className={`border-l-4 border-blue-500 pl-6 italic ${t.colors.text.primary} text-left`}>
-              &quot;Büyük ajansların karmaşık süreçlerine alternatif, şeffaf bir teknoloji partneri olmak için yola çıktık.&quot;
+              &quot;{trans('quote')}&quot;
             </p>
-            <p>
-              Bilgisayar mühendisliği disipliniyle, işletmelerin karmaşık dijital sorunlarına
-              stratejik ve ölçeklenebilir çözümler üretiyoruz.
-            </p>
-            <p>
-              Her projeyi kendi girişimimiz gibi sahipleniyor, sadece bir tedarikçi değil,
-              teknoloji ortağınız olarak konumlanıyoruz.
-            </p>
+            <p>{trans('p1')}</p>
+            <p>{trans('p2')}</p>
           </div>
         </motion.div>
 
@@ -48,12 +45,12 @@ export function AboutStory() {
                 whileInView={{ y: 0 }}
                 className="text-6xl md:text-8xl font-black bg-linear-to-b from-blue-600 to-purple-700 bg-clip-text text-transparent mb-4"
               >
-                5+
+                {trans('statsTitle')}
               </motion.div>
               <div className={`${t.typography.cardTitleLarge} ${t.colors.text.primary} mb-2`}>
-                Yıllık Sektörel Deneyim
+                {trans('statsLabel')}
               </div>
-              <div className={t.typography.label}>Engineering Excellence</div>
+              <div className={t.typography.label}>{trans('statsSub')}</div>
             </div>
           </div>
         </motion.div>

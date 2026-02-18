@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter, usePathname } from "@/i18n/routing"; 
 import { mainNavigation } from "@/config/navigation";
+import { useTranslations } from "next-intl";
 
 export function MobileNav({
   onClose,
@@ -13,13 +14,14 @@ export function MobileNav({
 }) {
   const pathname = usePathname();
   const router = useRouter();
+  const t = useTranslations('Navigation');
 
   return (
     <motion.div
       initial={{ opacity: 0, y: -20, scale: 0.95 }}
       animate={{ opacity: 1, y: 10, scale: 1 }}
       exit={{ opacity: 0, y: -20, scale: 0.95 }}
-      className="absolute left-0 right-0 top-full mt-2 md:hidden pointer-events-auto px-1"
+      className="absolute left-0 right-0 top-full mt-2 md:hidden pointer-events-auto px-1 z-50"
     >
       <div 
         className={`rounded-2xl shadow-2xl overflow-hidden border transition-all duration-500 ${
@@ -36,7 +38,9 @@ export function MobileNav({
               <button
                 key={item.path}
                 onClick={() => {
-                  router.push(item.path);
+                  // as any yerine rotayı olduğu gibi gönderiyoruz
+                  // i18n routing dosyasında tipler tanımlı olduğu için router bunu anlar
+                  router.push(item.path); 
                   onClose();
                 }}
                 className={`flex w-full items-center justify-between px-4 py-4 rounded-xl text-sm font-bold transition-all ${
@@ -45,7 +49,7 @@ export function MobileNav({
                     : (isScrolled ? "text-slate-600 hover:bg-slate-50" : "text-white/80 hover:bg-white/10")
                 }`}
               >
-                {item.name}
+                {t(item.id)}
                 {isActive && (
                   <div className={`h-1.5 w-1.5 rounded-full ${isScrolled ? "bg-white" : "bg-blue-600"}`} />
                 )}
@@ -54,17 +58,19 @@ export function MobileNav({
           })}
         </nav>
         
-        {/* Mobilde İletişim Butonu */}
         <div className={`p-2 sm:hidden border-t ${isScrolled ? "border-slate-100" : "border-white/10"}`}>
            <button 
-            onClick={() => { router.push("/contact"); onClose(); }}
+            onClick={() => { 
+                router.push("/contact"); 
+                onClose(); 
+            }}
             className={`w-full py-4 rounded-xl font-bold text-sm transition-all shadow-md ${
               isScrolled 
                 ? "bg-blue-600 text-white shadow-blue-100" 
                 : "bg-white/10 backdrop-blur-md border border-white/30 text-white shadow-black/10"
             }`}
            >
-            İletişime Geç
+            {t('cta')}
            </button>
         </div>
       </div>

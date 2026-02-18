@@ -3,11 +3,22 @@ import { HomeFeaturedProjects } from "@/components/home/HomeFeaturedProjects";
 import HomeHero from "@/components/home/HomeHero";
 import { HomeServices } from "@/components/home/HomeServices";
 import { HomeSteps } from "@/components/home/HomeSteps";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Sybor Digital",
-  description: "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
-};
+interface Props {
+  params: Promise<{ locale: string }>;
+}
+
+// Dinamik Metadata
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'HomePage' });
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default function HomePage() {
   return (

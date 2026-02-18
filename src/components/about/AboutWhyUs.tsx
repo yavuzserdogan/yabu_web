@@ -4,22 +4,25 @@ import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
 import { contentTheme } from "@/config/content-theme";
 import { reasons } from "./about.data";
+import { useTranslations } from "next-intl";
 
 export function AboutWhyUs() {
   const t = contentTheme;
+  const trans = useTranslations('AboutPage.whyUs');
+
   return (
     <section className={`${t.section.paddingLarge} ${t.section.bg.white} overflow-hidden px-4`}>
       <div className="max-w-6xl mx-auto">
         <div className={`text-center ${t.section.header.marginLarge}`}>
           <h2 className={`${t.typography.sectionTitle} text-3xl md:text-5xl mb-4 ${t.colors.text.primary}`}>
-            Neden Teknoloji Ortağınız Olmalıyız?
+            {trans('title')}
           </h2>
           <p className={`${t.typography.sectionSubtitle} text-lg`}>
-            Sadece yazılım geliştirmiyoruz; işinizi büyütecek dijital altyapıyı birlikte kuruyoruz.
+            {trans('subtitle')}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6"> {/* 1-2-3 sütun düzeni */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
           {reasons.map((r, i) => (
             <motion.div
               key={i}
@@ -32,9 +35,11 @@ export function AboutWhyUs() {
               <CheckCircle2 className={`${t.colors.icon.primary} shrink-0 mt-1`} size={22} />
               <div>
                 <h3 className={`${t.typography.cardTitle} mb-1 ${t.colors.text.primary}`}>
-                  {r.title}
+                  {trans(`items.${r.id}.title`)}
                 </h3>
-                <p className={t.typography.body}>{r.desc}</p>
+                <p className={t.typography.body}>
+                  {trans(`items.${r.id}.desc`)}
+                </p>
               </div>
             </motion.div>
           ))}
@@ -43,8 +48,3 @@ export function AboutWhyUs() {
     </section>
   );
 }
-
-
-
-
-

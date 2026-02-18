@@ -2,8 +2,10 @@ import { FooterBrand } from "./FooterBrand";
 import { FooterLinks } from "./FooterLinks";
 import { FooterContact } from "./FooterContact";
 import { Sparkles } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+  const t = useTranslations('Footer');
   return (
     <footer className="relative w-full overflow-hidden bg-[#050a1f] border-t border-white/10" id="footer">
 
@@ -43,7 +45,7 @@ export function Footer() {
           <div className="flex items-center gap-2 text-white/60 hover:text-white transition-colors cursor-default">
             <Sparkles size={16} className="text-cyan-300" />
             <p className="text-sm font-light tracking-wide text-center">
-              © {new Date().getFullYear()} Sybor Digital. Türkiye&apos;den dünyaya.
+              © {new Date().getFullYear()} {t('copyright')}
             </p>
           </div>
         </div>

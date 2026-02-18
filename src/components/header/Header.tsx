@@ -8,6 +8,7 @@ import { HeaderLogo } from "./HeaderLogo";
 import { DesktopNav } from "./DesktopNav";
 import { HeaderCTA } from "./HeaderCTA";
 import { MobileNav } from "./MobileNav";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 import Image from "next/image";
 import icon from "@/app/icon0.svg";
@@ -74,6 +75,9 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-2 md:gap-3">
+          {/* Dil Değiştirici */}
+          <LanguageSwitcher isScrolled={isScrolled} />
+
           <div className="hidden sm:block">
             <HeaderCTA isScrolled={isScrolled} />
           </div>
