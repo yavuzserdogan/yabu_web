@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl"; // Ekledik
 export function DesktopNav({ isScrolled }: { isScrolled: boolean }) {
   const pathname = usePathname();
   const router = useRouter();
-  const t = useTranslations('Navigation'); // Ekledik
+  const t = useTranslations('Navigation');
 
   return (
     <nav className="flex items-center gap-4 lg:gap-8">

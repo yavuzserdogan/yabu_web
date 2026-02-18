@@ -1,9 +1,9 @@
 {
   "Navigation": {
     "home": "Ana Sayfa",
-    "about": "Hakkımızda",
     "services": "Hizmetler",
-    "projects": "Projeler",
+    "projects": "Projelerimiz",
+    "about": "Hakkımızda",
     "contact": "İletişim",
     "cta": "İletişime Geç"
   },
@@ -96,7 +96,7 @@
       "p2": "Her projeyi kendi girişimimiz gibi sahipleniyor, sadece bir tedarikçi değil, teknoloji ortağınız olarak konumlanıyoruz.",
       "statsTitle": "5+",
       "statsLabel": "Yıllık Sektörel Deneyim",
-      "statsSub": "Engineering Excellence"
+      "statsSub": "Mühendislik Mükemmelliği"
     },
     "stats": {
       "title": "Sayılara Yansıyan Deneyim",

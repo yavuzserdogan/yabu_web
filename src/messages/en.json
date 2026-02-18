@@ -1,9 +1,9 @@
 {
   "Navigation": {
     "home": "Home",
-    "about": "About",
     "services": "Services",
     "projects": "Projects",
+    "about": "About",
     "contact": "Contact",
     "cta": "Get In Touch"
   },
