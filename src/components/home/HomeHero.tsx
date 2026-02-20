@@ -3,13 +3,12 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 export default function HomeHero() {
   const t = useTranslations('HomePage.hero');
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-black flex items-center" id="hero-section">
-      {/* Background Katmanları Aynı Kalıyor */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-indigo-600 to-cyan-500 opacity-80 animate-gradient" />
         <div className="absolute inset-0 bg-linear-to-tl from-cyan-500 via-blue-700 to-indigo-800 opacity-70 animate-gradient-slow" />
