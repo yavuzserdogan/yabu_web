@@ -30,7 +30,6 @@ export function AboutStory() {
             <p>{trans('p2')}</p>
           </div>
         </motion.div>
-
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -43,14 +42,21 @@ export function AboutStory() {
               <motion.div
                 initial={{ y: 20 }}
                 whileInView={{ y: 0 }}
-                className="text-6xl md:text-8xl font-black bg-linear-to-b from-blue-600 to-purple-700 bg-clip-text text-transparent mb-4"
+                className="flex items-center justify-center gap-3 mb-4"
               >
-                {trans('statsTitle')}
+
+                <span className="text-6xl md:text-8xl font-black bg-linear-to-b from-blue-600 to-purple-700 bg-clip-text text-transparent">
+                  {trans('statsTitle')}
+                </span>
               </motion.div>
-              <div className={`${t.typography.cardTitleLarge} ${t.colors.text.primary} mb-2`}>
+
+              <div className={`${t.typography.cardTitleLarge} ${t.colors.text.primary} mb-4`}>
                 {trans('statsLabel')}
               </div>
-              <div className={t.typography.label}>{trans('statsSub')}</div>
+              <div className="text-slate-600 text-sm md:text-base leading-relaxed max-w-[280px]">
+                {trans('statsDesc')}
+              </div>
+
             </div>
           </div>
         </motion.div>
