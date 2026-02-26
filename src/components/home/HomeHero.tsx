@@ -62,17 +62,19 @@ export default function HomeHero() {
             transition={{ delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6 sm:px-0"
           >
-            <Link href="/contact#contact-section" className="w-full sm:w-auto">
-              <button className="w-full group px-8 py-4 rounded-xl bg-white text-gray-900 font-bold shadow-2xl hover:scale-105 transition cursor-pointer flex items-center justify-center gap-2">
-                {t('ctaStart')}
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition" />
-              </button>
+            <Link 
+              href="/contact#contact-section" 
+              className="w-full sm:w-auto group px-8 py-4 rounded-xl bg-white text-gray-900 font-bold shadow-2xl hover:scale-105 transition flex items-center justify-center gap-2"
+            >
+              {t('ctaStart')}
+              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition" />
             </Link>
 
-            <Link href="/projects#projects-section" className="w-full sm:w-auto">
-              <button className="w-full px-8 py-4 rounded-xl bg-white/10 border border-white/30 text-white font-bold hover:bg-white/20 transition cursor-pointer">
-                {t('ctaProjects')}
-              </button>
+            <Link 
+              href="/projects#projects-section" 
+              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/10 border border-white/30 text-white font-bold hover:bg-white/20 transition flex items-center justify-center"
+            >
+              {t('ctaProjects')}
             </Link>
           </motion.div>
         </div>
