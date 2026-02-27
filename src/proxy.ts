@@ -4,6 +4,5 @@ import { routing } from './i18n/routing';
 export default createMiddleware(routing);
 
 export const config = {
-  // Matcher aynı kalıyor
-  matcher: ['/', '/(tr|en)/:path*']
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
 };

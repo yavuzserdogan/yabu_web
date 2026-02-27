@@ -19,24 +19,113 @@
       "ctaProjects": "Our Projects"
     },
     "services": {
-      "title": "Web & Mobile Solutions",
-      "subtitle": "Strengthening your digital presence with modern technologies and creative designs",
-      "items": {
-        "code": {
-          "title": "Web Development",
-          "description": "Performant, scalable web applications with modern technologies."
+      "title": "What We Do?",
+      "subtitle": "We strengthen your digital presence with strategic and scalable solutions.",
+      "categories": {
+        "web": {
+          "title": "Web & E-Commerce Solutions",
+          "items": {
+            "corporate": {
+              "title": "Corporate Websites",
+              "description": "Modern and high-performance corporate websites tailored to your brand."
+            },
+            "ecommerce": {
+              "title": "E-Commerce Platforms",
+              "description": "Secure and scalable online stores that boost your sales."
+            },
+            "landing": {
+              "title": "Landing Pages",
+              "description": "Conversion-focused landing pages designed for campaigns."
+            },
+            "blog": {
+              "title": "Blog & Content Platforms",
+              "description": "SEO-friendly blog infrastructures that strengthen your content strategy."
+            }
+          }
         },
         "mobile": {
-          "title": "Mobile App Development",
-          "description": "Native and cross-platform mobile solutions for iOS and Android."
+          "title": "Mobile & Custom Software",
+          "items": {
+            "app": {
+              "title": "Mobile Applications",
+              "description": "iOS and Android applications with seamless user experience."
+            },
+            "saas": {
+              "title": "SaaS Platforms",
+              "description": "Cloud-based scalable software solutions."
+            },
+            "mvp": {
+              "title": "MVP Development",
+              "description": "Fast and lean product development to validate your idea."
+            },
+            "api": {
+              "title": "API & Integrations",
+              "description": "Secure and efficient third-party system integrations."
+            }
+          }
         },
-        "design": {
-          "title": "UI/UX & Portfolio",
-          "description": "User-oriented interfaces and impressive portfolio sites."
+        "management": {
+          "title": "Corporate Management & Productivity",
+          "items": {
+            "crm": {
+              "title": "CRM Systems",
+              "description": "Customer relationship management systems tailored to your workflows."
+            },
+            "erp": {
+              "title": "ERP Solutions",
+              "description": "Comprehensive enterprise resource planning systems."
+            },
+            "hr": {
+              "title": "HR Management",
+              "description": "Digital HR tools to manage recruitment and employee processes."
+            },
+            "booking": {
+              "title": "Booking & Reservation Systems",
+              "description": "Online appointment and reservation management systems."
+            }
+          }
         },
         "growth": {
-          "title": "Social Media & Ads",
-          "description": "Digital marketing strategies and social media management."
+          "title": "Digital Growth & Technology",
+          "items": {
+            "uiux": {
+              "title": "UI/UX Design",
+              "description": "User-centered interface and experience design."
+            },
+            "ai": {
+              "title": "AI Integrations",
+              "description": "Artificial intelligence solutions to optimize your business processes."
+            },
+            "seo": {
+              "title": "SEO Optimization",
+              "description": "Search engine optimization strategies to increase visibility."
+            },
+            "ads": {
+              "title": "Digital Advertising",
+              "description": "Performance-driven advertising campaigns."
+            }
+          }
+        },
+        "support": {
+          "title": "Support & Security",
+          "items": {
+            "maintenance": {
+              "title": "Maintenance & Support",
+              "description": "Continuous monitoring and technical support services."
+            },
+            "ticket": {
+              "title": "Ticket Systems",
+              "description": "Customer support and issue tracking systems."
+            },
+            "lms": {
+              "title": "LMS Platforms",
+              "description": "Online education and learning management systems."
+            },
+            "qr": {
+              "title": "QR & Automation Systems",
+              "description": "Smart QR solutions and workflow automation systems."
+            }
+          }
         }
       }
     },
@@ -94,18 +183,18 @@
       "quote": "We set out to be a transparent technology partner as an alternative to the complex processes of large agencies.",
       "p1": "With computer engineering discipline, we produce strategic and scalable solutions for complex digital problems of businesses.",
       "p2": "We embrace every project as our own startup and position ourselves as your technology partner, not just a supplier.",
-      "statsTitle": "5+",
-      "statsLabel": "Years of Experience",
-      "statsSub": "Engineering Excellence"
+      "statsTitle": "100%",
+      "statsLabel": "Next-Generation Technology",
+      "statsDesc": "Instead of bulky legacy systems, we build your project with the most up-to-date, fast, and scalable modern architectures."
     },
     "stats": {
-      "title": "Experience in Numbers",
-      "subtitle": "We show how we add value to brands with the results obtained from projects.",
+      "title": "Principles Reflected in Quality",
+      "subtitle": "Instead of cliché agency metrics, we focus on transparent standards that bring real value to your project.",
       "items": {
-        "stat1": "Completed Projects",
-        "stat2": "Happy Clients",
-        "stat3": "Years of Experience",
-        "stat4": "Customer Satisfaction"
+        "stat1": "Transparent Process",
+        "stat2": "Hidden Costs",
+        "stat3": "Continuous Communication",
+        "stat4": "End-to-End Solution"
       }
     },
     "values": {
@@ -183,7 +272,6 @@
       }
     }
   },
-
   "ContactPage": {
     "title": "Contact | Sybor Digital",
     "description": "Contact us to bring your project to life. Your digital solution partner with modern technologies.",
@@ -247,7 +335,6 @@
       }
     }
   },
-
   "ProjectsPage": {
     "title": "Our Projects | Sybor Digital",
     "description": "Enterprise-level software engineering and boutique design solutions. Let's build the future together.",
@@ -288,7 +375,6 @@
       "button": "Let's Start Your Project"
     }
   },
-
   "ServicesPage": {
     "title": "Our Services | Sybor Digital",
     "description": "Meet our web software, mobile application and digital transformation solutions. We integrate modern technologies into your business.",
@@ -364,18 +450,21 @@
       }
     }
   },
-
   "Footer": {
     "description": "We combine the technologies of the future with the aesthetics of today. Boutique, fast, and result-oriented.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "copyright": "Sybor Digital. From Turkey to the world."
   },
-
   "Metadata": {
     "title": "Sybor Digital | Digital Solutions",
     "siteName": "Sybor Digital",
     "description": "Carrying your brand to the future. Enterprise software engineering and user-friendly design.",
     "ogTitle": "Sybor Digital | Next Generation Software Solutions"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "backHome": "Back to home"
   }
 }

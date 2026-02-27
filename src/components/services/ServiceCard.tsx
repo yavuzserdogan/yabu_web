@@ -25,7 +25,6 @@ export function ServiceCard({ service, reverse = false, index }: ServiceCardProp
   const t = useTranslations('ServicesPage');
   const Icon = ICONS[service.icon as keyof typeof ICONS] || Code2;
 
-  // Listeleri (array) JSON'dan güvenli şekilde çekmek için t.raw kullanıyoruz
   const features = t.raw(`items.${service.slug}.features`) as string[];
   const suitable = t.raw(`items.${service.slug}.suitable`) as string[];
 
@@ -37,11 +36,8 @@ export function ServiceCard({ service, reverse = false, index }: ServiceCardProp
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className={`flex flex-col ${
-        reverse ? "lg:flex-row-reverse" : "lg:flex-row"
-      } gap-10 lg:gap-24 items-center relative`}
+      className={`flex flex-col ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"} gap-10 lg:gap-24 items-center relative w-full`}
     >
-      {/* 1. Metin İçerik Alanı */}
       <div className="flex-1 w-full z-10 text-left">
         <div className="flex items-center gap-4 md:gap-5 mb-6 md:mb-8">
           <motion.div
@@ -54,7 +50,7 @@ export function ServiceCard({ service, reverse = false, index }: ServiceCardProp
           </h3>
         </div>
 
-        <p className={`${theme.typography.bodyLarge} text-base md:text-lg max-w-xl mb-8 text-slate-600`}>
+        <p className={`${theme.typography.bodyLarge} text-base md:text-lg max-w-full mb-8 text-slate-600`}>
           {t(`items.${service.slug}.description`)}
         </p>
 
@@ -89,27 +85,24 @@ export function ServiceCard({ service, reverse = false, index }: ServiceCardProp
         </div>
       </div>
 
-      {/* 2. Görsel Alanı */}
       <motion.div
         className="flex-1 w-full relative mt-8 lg:mt-0"
         animate={{ y: [0, -8, 0] }}
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       >
-        <div className="absolute -top-5 -right-5 md:-top-10 md:-right-10 w-24 h-24 md:w-32 md:h-32 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] bg-size-[16px_16px] -z-10 opacity-60" />
+        <div className="absolute inset-0 md:-inset-10 w-full h-full rounded-[2rem] overflow-hidden pointer-events-none bg-linear-to-tr from-blue-400/10 to-purple-400/10 blur-[60px] md:blur-[80px] -z-20 opacity-50 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
 
-        <div className="relative aspect-4/3 sm:aspect-video w-full rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl border border-white/50 group">
+        <div className="relative aspect-4/3 sm:aspect-video w-full max-w-full rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl border border-white/50 group">
           <Image
-            src={imageSrc} // Güncellenmiş, güvenli URL
+            src={imageSrc}
             alt={t(`items.${service.slug}.title`)}
             fill
-            className="object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+            className="object-cover w-full max-w-full transition-transform duration-1000 ease-out group-hover:scale-110"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority={index === 0}
           />
           <div className="absolute inset-0 bg-linear-to-t from-slate-900/20 via-transparent to-transparent opacity-60" />
         </div>
-        
-        <div className="absolute -inset-5 md:-inset-10 bg-linear-to-tr from-blue-400/10 to-purple-400/10 blur-[60px] md:blur-[80px] -z-20 rounded-full opacity-50 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
       </motion.div>
     </motion.div>
   );
