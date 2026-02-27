@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { Menu, X, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 import { HeaderLogo } from "./HeaderLogo";
 import { DesktopNav } from "./DesktopNav";
@@ -17,6 +18,7 @@ import icon from "@/app/icon0.svg";
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
 
   const handleScroll = useCallback(() => {
     const heroElement = document.getElementById("hero-section");
@@ -42,6 +44,14 @@ export function Header() {
       window.removeEventListener("popstate", handleScroll);
     };
   }, [handleScroll]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      handleScroll();
+      setIsMenuOpen(false);
+    }, 0);
+    return () => clearTimeout(timer);
+  }, [pathname, handleScroll]);
 
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
