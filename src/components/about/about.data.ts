@@ -9,10 +9,10 @@ export const values: AboutValue[] = [
 ];
 
 export const stats: AboutStat[] = [
-  { number: "50+", label: "stat1" },
-  { number: "30+", label: "stat2" },
-  { number: "5+", label: "stat3" },
-  { number: "%100", label: "stat4" },
+  { number: "%100", label: "stat1" },
+  { number: "0", label: "stat2" },
+  { number: "7/24", label: "stat3" },
+  { number: "360°", label: "stat4" },
 ];
 
 export const process: AboutProcess[] = [

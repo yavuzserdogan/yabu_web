@@ -183,18 +183,18 @@
       "quote": "Büyük ajansların karmaşık süreçlerine alternatif, şeffaf bir teknoloji partneri olmak için yola çıktık.",
       "p1": "Bilgisayar mühendisliği disipliniyle, işletmelerin karmaşık dijital sorunlarına stratejik ve ölçeklenebilir çözümler üretiyoruz.",
       "p2": "Her projeyi kendi girişimimiz gibi sahipleniyor, sadece bir tedarikçi değil, teknoloji ortağınız olarak konumlanıyoruz.",
-      "statsTitle": "5+",
-      "statsLabel": "Yıllık Sektörel Deneyim",
-      "statsSub": "Mühendislik Mükemmelliği"
+      "statsTitle": "%100",
+      "statsLabel": "Yeni Nesil Teknoloji",
+      "statsDesc": "Hantal ve eski sistemler yerine, projenizi en güncel, hızlı ve ölçeklenebilir modern mimarilerle geliştiriyoruz."
     },
     "stats": {
-      "title": "Sayılara Yansıyan Deneyim",
-      "subtitle": "Projelerden elde edilen sonuçlarla markalara nasıl değer kattığımızı gösteriyoruz.",
+      "title": "Sayılara Değil, Kaliteye Yansıyan Prensipler",
+      "subtitle": "Klişe ajans metrikleri yerine, projenize gerçek değer katan şeffaf çalışma standartlarımız.",
       "items": {
-        "stat1": "Tamamlanan Proje",
-        "stat2": "Mutlu Müşteri",
-        "stat3": "Yıllık Deneyim",
-        "stat4": "Müşteri Memnuniyeti"
+        "stat1": "Şeffaf Süreç",
+        "stat2": "Gizli Maliyet",
+        "stat3": "Kesintisiz İletişim",
+        "stat4": "Uçtan Uca Çözüm"
       }
     },
     "values": {
