@@ -19,24 +19,113 @@
       "ctaProjects": "Projelerimiz"
     },
     "services": {
-      "title": "Web & Mobil Çözümler",
+      "title": "Neler Yapıyoruz?",
       "subtitle": "Modern teknolojiler ve yaratıcı tasarımlarla dijital varlığınızı güçlendiriyoruz",
-      "items": {
-        "code": {
-          "title": "Web Geliştirme",
-          "description": "Modern teknolojilerle performanslı, ölçeklenebilir web uygulamaları."
+      "categories": {
+        "web": {
+          "title": "Web & E-Ticaret Çözümleri",
+          "items": {
+            "corporate": {
+              "title": "Kurumsal Web Sitesi",
+              "description": "Markanızın dijital dünyadaki prestijli yüzü. SEO uyumlu, mobil dostu ve kurumsal kimliğinizi yansıtan modern web tasarımları."
+            },
+            "ecommerce": {
+              "title": "E-Ticaret Sistemleri",
+              "description": "7/24 açık mağazanız. Güvenli ödeme altyapısı, kolay ürün yönetimi ve satış odaklı arayüzlerle cironuzu artırın."
+            },
+            "landing": {
+              "title": "Tanıtım & Kampanya Siteleri",
+              "description": "Reklam kampanyalarınız için özel tasarlanmış, ziyaretçiyi müşteriye dönüştürmeye (konversiyon) odaklı tek sayfalık siteler."
+            },
+            "blog": {
+              "title": "Haber & Blog Portalları",
+              "description": "İçeriklerinizi geniş kitlelere ulaştırın. Yüksek trafikli siteler için optimize edilmiş, hızlı ve kullanıcı dostu okuma deneyimi."
+            }
+          }
         },
         "mobile": {
-          "title": "Mobil Uygulama",
-          "description": "iOS ve Android için native ve cross-platform mobil çözümler."
+          "title": "Mobil & Özel Yazılım",
+          "items": {
+            "app": {
+              "title": "Mobil Uygulama",
+              "description": "İşletmeniz müşterilerinizin cebine girsin. Flutter altyapısı ile hem iOS hem Android'de çalışan yüksek performanslı native uygulamalar."
+            },
+            "saas": {
+              "title": "SaaS & Bulut Yazılımlar",
+              "description": "İş fikrinizi bir ürüne dönüştürün. Abonelik tabanlı çalışan, ölçeklenebilir ve internetin olduğu her yerden erişilebilen web tabanlı yazılımlar."
+            },
+            "mvp": {
+              "title": "Girişimci / MVP Paketi",
+              "description": "Startup fikrinizi hayata geçirin. Yatırımcı sunumuna hazır, temel fonksiyonları çalışan, hızlı ve maliyet odaklı prototip geliştirme."
+            },
+            "api": {
+              "title": "API & Entegrasyon",
+              "description": "Farklı yazılımlarınız birbiriyle konuşsun. Muhasebe, kargo, ödeme sistemleri ve pazaryeri entegrasyonlarıyla operasyonel yükü azaltın."
+            }
+          }
         },
-        "design": {
-          "title": "UI/UX & Portfolyo",
-          "description": "Kullanıcı odaklı arayüzler ve etkileyici portfolyo siteleri."
+        "management": {
+          "title": "Kurumsal Yönetim & Verimlilik",
+          "items": {
+            "crm": {
+              "title": "CRM (Müşteri İlişkileri)",
+              "description": "Satış fırsatlarını asla kaçırmayın. Müşteri görüşmelerini, teklifleri ve satış süreçlerini tek ekrandan yöneterek ekibinizin verimini artırın."
+            },
+            "erp": {
+              "title": "ERP (Kaynak Planlama)",
+              "description": "Şirketinizin tüm kaynaklarını yönetin. Stok takibi, finans, üretim ve satın alma süreçlerini dijitalleştirerek hata payını sıfıra indirin."
+            },
+            "hr": {
+              "title": "İK & Personel Yönetimi",
+              "description": "Ekibinizi daha iyi yönetin. İzin takibi, performans değerlendirme, maaş bordro süreçleri ve personel özlük dosyaları tek platformda."
+            },
+            "booking": {
+              "title": "Randevu & Rezervasyon",
+              "description": "Telefon trafiğinden kurtulun. Klinikler, oteller veya danışmanlar için otomatik hatırlatmalı, online ödeme alabilen akıllı takvim sistemleri."
+            }
+          }
         },
         "growth": {
-          "title": "Sosyal Medya & Reklam",
-          "description": "Dijital pazarlama stratejileri ve sosyal medya yönetimi."
+          "title": "Dijital Büyüme & Teknoloji",
+          "items": {
+            "uiux": {
+              "title": "UI/UX Tasarımı",
+              "description": "Sadece güzel değil, kullanışlı arayüzler. Kullanıcı deneyimini (UX) merkeze alan, ziyaretçiyi yormayan ve amaca yönlendiren profesyonel tasarımlar."
+            },
+            "ai": {
+              "title": "Yapay Zeka (AI) Çözümleri",
+              "description": "İş süreçlerinize zekayı entegre edin. Chatbotlar, veri analizi ve otomatik içerik üretimi gibi yapay zeka destekli modüller."
+            },
+            "seo": {
+              "title": "SEO & Optimizasyon",
+              "description": "Google aramalarında üst sıralara çıkın. Yavaş sitenizi hızlandırıyor, teknik altyapısını arama motorlarının seveceği hale getiriyoruz."
+            },
+            "ads": {
+              "title": "Sosyal Medya & Reklam",
+              "description": "Marka bilinirliğinizi artırın. Hedef kitlenize uygun içerik stratejisi ve veri odaklı reklam yönetimiyle potansiyel müşteriye ulaşın."
+            }
+          }
+        },
+        "support": {
+          "title": "Destek & Güvenlik",
+          "items": {
+            "maintenance": {
+              "title": "Bakım & Destek Anlaşması",
+              "description": "Siteniz ve uygulamalarınız asla durmasın. Düzenli yedekleme, güncelleme ve teknik sorunlara anında müdahale hizmeti."
+            },
+            "ticket": {
+              "title": "Bilet Destek Sistemi",
+              "description": "Müşteri taleplerini kaybetmeyin. Destek taleplerini sıraya koyan, departmanlara atayan ve çözüm süresini ölçen profesyonel panel."
+            },
+            "lms": {
+              "title": "Okul / Kurs Yönetimi (LMS)",
+              "description": "Eğitimi dijitale taşıyın. Öğrenci takibi, online dersler, sınav modülleri ve veli bilgilendirme sistemleri."
+            },
+            "qr": {
+              "title": "Dijital Restoran Menü",
+              "description": "Temassız ve hızlı sipariş. Masalardaki QR kod ile çalışan, garson çağırma ve ödeme özellikli dijital menü sistemleri."
+            }
+          }
         }
       }
     },
@@ -183,7 +272,6 @@
       }
     }
   },
-
   "ContactPage": {
     "title": "İletişim | Sybor Digital",
     "description": "Projenizi hayata geçirmek için bizimle iletişime geçin. Modern teknolojilerle dijital çözüm ortağınız.",
@@ -247,7 +335,6 @@
       }
     }
   },
-
   "ProjectsPage": {
     "title": "Projelerimiz | Sybor Digital",
     "description": "Kurumsal düzeyde yazılım mühendisliği ve butik tasarım çözümlerimiz. Geleceği birlikte inşa edelim.",
@@ -288,7 +375,6 @@
       "button": "Projenizi Başlatalım"
     }
   },
-
   "ServicesPage": {
     "title": "Hizmetlerimiz | Sybor Digital",
     "description": "Web yazılım, mobil uygulama ve dijital dönüşüm çözümlerimizle tanışın. Modern teknolojileri işinize entegre ediyoruz.",
@@ -364,14 +450,12 @@
       }
     }
   },
-
   "Footer": {
     "description": "Geleceğin teknolojilerini, bugünün estetiğiyle birleştiriyoruz. Butik, hızlı ve sonuç odaklı.",
     "quickLinks": "Hızlı Erişim",
     "contact": "İletişim",
     "copyright": "Sybor Digital. Türkiye'den dünyaya."
   },
-
   "Metadata": {
     "title": "Sybor Digital | Dijital Çözümler",
     "siteName": "Sybor Digital",
