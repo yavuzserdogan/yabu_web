@@ -23,23 +23,75 @@
       "subtitle": "Modern teknolojiler ve yaratıcı tasarımlarla dijital varlığınızı güçlendiriyoruz",
       "categories": {
         "web": {
-          "title": "Web & E-Ticaret Çözümleri",
+          "title": "Web & E-Ticaret",
           "items": {
             "corporate": {
               "title": "Kurumsal Web Sitesi",
-              "description": "Markanızın dijital dünyadaki prestijli yüzü. SEO uyumlu, mobil dostu ve kurumsal kimliğinizi yansıtan modern web tasarımları."
+              "highlight": "Güven veren, hızlı açılan ve satışa katkı sağlayan profesyonel web siteleri tasarlıyoruz.",
+              "description": "Markanızın dijital dünyadaki en güçlü vitrini. Ziyaretçilerinizi müşteriye dönüştüren, SEO uyumlu ve mobil öncelikli kurumsal web siteleri geliştiriyoruz.",
+              "process": [
+                "Marka analizi ve hedef kitle belirleme",
+                "UI/UX tasarım ve onay süreci",
+                "SEO uyumlu yazılım geliştirme ve yayına alma"
+              ],
+              "benefits": [
+                "Google'da daha görünür olursunuz",
+                "Marka güvenilirliğiniz artar",
+                "Teklif ve iletişim dönüşleri yükselir",
+                "Mobil ve masaüstünde kusursuz deneyim"
+              ],
+              "cta": "Projenizi Başlatalım"
             },
             "ecommerce": {
               "title": "E-Ticaret Sistemleri",
-              "description": "7/24 açık mağazanız. Güvenli ödeme altyapısı, kolay ürün yönetimi ve satış odaklı arayüzlerle cironuzu artırın."
+              "highlight": "Güvenli ödeme altyapısı ve satış odaklı tasarım ile cironuzu büyütün.",
+              "description": "7/24 satış yapan dijital mağazanız. Kolay yönetilebilir paneli, hızlı ödeme akışı ve ölçeklenebilir altyapısıyla e-ticarette bir adım öne geçin.",
+              "process": [
+                "Ürün ve kategori yapısının planlanması",
+                "Ödeme ve kargo entegrasyonları",
+                "Performans ve güvenlik optimizasyonu"
+              ],
+              "benefits": [
+                "Online satış kapasiteniz artar",
+                "Kolay ürün ve stok yönetimi",
+                "Güvenli ödeme sistemleri",
+                "Ölçeklenebilir altyapı"
+              ],
+              "cta": "E-Ticaret Teklifi Al"
             },
             "landing": {
               "title": "Tanıtım & Kampanya Siteleri",
-              "description": "Reklam kampanyalarınız için özel tasarlanmış, ziyaretçiyi müşteriye dönüştürmeye (konversiyon) odaklı tek sayfalık siteler."
+              "highlight": "Reklam trafiğini müşteriye dönüştüren yüksek performanslı landing page tasarımları.",
+              "description": "Dönüşüm odaklı özel kampanya sayfaları. Her reklam tıklamasının değerini artıran, net mesajlı ve hızlı yüklenen tanıtım sayfaları hazırlıyoruz.",
+              "process": [
+                "Hedef kitle ve kampanya analizi",
+                "Dönüşüm odaklı tasarım",
+                "A/B test ve optimizasyon"
+              ],
+              "benefits": [
+                "Daha yüksek reklam dönüşümü",
+                "Net mesaj ve güçlü çağrı",
+                "Hızlı yüklenen sayfalar",
+                "Ölçülebilir performans"
+              ],
+              "cta": "Kampanyayı Başlat"
             },
             "blog": {
               "title": "Haber & Blog Portalları",
-              "description": "İçeriklerinizi geniş kitlelere ulaştırın. Yüksek trafikli siteler için optimize edilmiş, hızlı ve kullanıcı dostu okuma deneyimi."
+              "highlight": "Hızlı, SEO uyumlu ve kullanıcı dostu içerik yönetim sistemleri geliştiriyoruz.",
+              "description": "Yüksek trafikli içerik platformları. Organik büyümeyi hedefleyen, reklam entegrasyonlu ve kolayca yönetilebilen haber ve blog siteleri kuruyoruz.",
+              "process": [
+                "Kategori ve içerik yapısının planlanması",
+                "SEO uyumlu yazılım geliştirme",
+                "Reklam ve analiz entegrasyonu"
+              ],
+              "benefits": [
+                "Organik trafik artışı",
+                "Kolay içerik yönetimi",
+                "Reklam gelir modeli entegrasyonu",
+                "Yüksek performans altyapı"
+              ],
+              "cta": "İçerik Platformu Kur"
             }
           }
         },
@@ -48,61 +100,217 @@
           "items": {
             "app": {
               "title": "Mobil Uygulama",
-              "description": "İşletmeniz müşterilerinizin cebine girsin. Flutter altyapısı ile hem iOS hem Android'de çalışan yüksek performanslı native uygulamalar."
+              "highlight": "iOS ve Android'de çalışan yüksek performanslı mobil uygulamalar geliştiriyoruz.",
+              "description": "Markanızı müşterinizin cebine taşıyın. Flutter ile geliştirilen, App Store ve Google Play'de yayınlanan uygulamalarla kullanıcı bağlılığını artırın.",
+              "process": [
+                "Kullanıcı deneyimi planlama",
+                "UI tasarım ve prototipleme",
+                "Flutter ile geliştirme ve mağaza yayını"
+              ],
+              "benefits": [
+                "Müşteri bağlılığı artar",
+                "Push bildirim ile doğrudan iletişim",
+                "Marka prestiji yükselir",
+                "Native performans"
+              ],
+              "cta": "Mobil Proje Başlat"
             },
             "saas": {
               "title": "SaaS & Bulut Yazılımlar",
-              "description": "İş fikrinizi bir ürüne dönüştürün. Abonelik tabanlı çalışan, ölçeklenebilir ve internetin olduğu her yerden erişilebilen web tabanlı yazılımlar."
+              "highlight": "Ölçeklenebilir ve her yerden erişilebilen web tabanlı yazılımlar geliştiriyoruz.",
+              "description": "Abonelik tabanlı dijital ürünler. Bulut altyapısı, otomatik faturalama ve çok kullanıcılı yapıyla kendi SaaS ürününüzü hayata geçirin.",
+              "process": [
+                "İş modeli ve mimari planlama",
+                "Bulut altyapı kurulumu",
+                "Abonelik ve ödeme sistemi entegrasyonu"
+              ],
+              "benefits": [
+                "Tekrarlayan gelir modeli",
+                "Global erişim",
+                "Yüksek güvenlik",
+                "Kolay ölçeklenebilirlik"
+              ],
+              "cta": "SaaS Projesi Başlat"
             },
             "mvp": {
               "title": "Girişimci / MVP Paketi",
-              "description": "Startup fikrinizi hayata geçirin. Yatırımcı sunumuna hazır, temel fonksiyonları çalışan, hızlı ve maliyet odaklı prototip geliştirme."
+              "highlight": "Yatırımcı sunumuna hazır çalışan prototipler geliştiriyoruz.",
+              "description": "Fikrinizi hızlıca ürüne dönüştürün. En kısa sürede, en az maliyetle çalışır bir ürün çıkararak gerçek kullanıcı geri bildirimleri toplayın.",
+              "process": [
+                "Temel özelliklerin belirlenmesi",
+                "Hızlı tasarım ve geliştirme",
+                "Demo ve yatırımcı sunum hazırlığı"
+              ],
+              "benefits": [
+                "Hızlı pazara çıkış",
+                "Düşük başlangıç maliyeti",
+                "Yatırımcı güveni",
+                "Gerçek kullanıcı testi"
+              ],
+              "cta": "MVP Geliştir"
             },
             "api": {
               "title": "API & Entegrasyon",
-              "description": "Farklı yazılımlarınız birbiriyle konuşsun. Muhasebe, kargo, ödeme sistemleri ve pazaryeri entegrasyonlarıyla operasyonel yükü azaltın."
+              "highlight": "Muhasebe, kargo, ödeme ve pazaryeri entegrasyonlarıyla operasyonel yükü azaltın.",
+              "description": "Sistemlerinizi birbiriyle konuşturun. Farklı platformlar ve servisler arasında veri akışını otomatikleştirerek zaman ve hata kaybını sıfıra indirin.",
+              "process": [
+                "Sistem analizi",
+                "API geliştirme",
+                "Test ve canlıya alma"
+              ],
+              "benefits": [
+                "Zaman tasarrufu",
+                "Hata oranında azalma",
+                "Otomatik veri akışı",
+                "Merkezi kontrol"
+              ],
+              "cta": "Entegrasyon Planla"
             }
           }
         },
         "management": {
-          "title": "Kurumsal Yönetim & Verimlilik",
+          "title": "Kurumsal Yönetim",
           "items": {
             "crm": {
               "title": "CRM (Müşteri İlişkileri)",
-              "description": "Satış fırsatlarını asla kaçırmayın. Müşteri görüşmelerini, teklifleri ve satış süreçlerini tek ekrandan yöneterek ekibinizin verimini artırın."
+              "highlight": "Tüm müşteri verilerini tek panelde toplayarak satış performansınızı artırın.",
+              "description": "Satış süreçlerinizi dijitalleştirin. Potansiyel müşteriden kapanmış satışa kadar tüm süreci takip edin, hiçbir fırsatı kaçırmayın.",
+              "process": [
+                "Satış süreci analizi",
+                "Özel panel tasarımı",
+                "Ekip eğitimi"
+              ],
+              "benefits": [
+                "Hiçbir müşteri kaybolmaz",
+                "Satış takibi kolaylaşır",
+                "Detaylı raporlama",
+                "Verimlilik artışı"
+              ],
+              "cta": "CRM Kurulumu Başlat"
             },
             "erp": {
-              "title": "ERP (Kaynak Planlama)",
-              "description": "Şirketinizin tüm kaynaklarını yönetin. Stok takibi, finans, üretim ve satın alma süreçlerini dijitalleştirerek hata payını sıfıra indirin."
+              "title": "ERP (Kurumsal Kaynak Planlama)",
+              "highlight": "Muhasebe, stok, insan kaynakları ve operasyon süreçlerini entegre edin.",
+              "description": "Tüm operasyonlarınızı tek merkezden yönetin. İş süreçlerinizi otomatikleştiren, raporlayan ve kontrol altına alan kurumsal yazılımlar geliştiriyoruz.",
+              "process": [
+                "İş akışı analizi",
+                "Modül planlama",
+                "Kurulum ve eğitim"
+              ],
+              "benefits": [
+                "Merkezi kontrol",
+                "Operasyonel verimlilik",
+                "Hata oranında azalma",
+                "Raporlama kolaylığı"
+              ],
+              "cta": "ERP Sistemi Kur"
             },
             "hr": {
               "title": "İK & Personel Yönetimi",
-              "description": "Ekibinizi daha iyi yönetin. İzin takibi, performans değerlendirme, maaş bordro süreçleri ve personel özlük dosyaları tek platformda."
+              "highlight": "Tüm personel süreçlerinizi tek panelden yönetin, insan kaynakları operasyonunuzu dijitalleştirin.",
+              "description": "İşe alımdan performans değerlendirmeye, bordrodan izin takibine kadar tüm insan kaynakları süreçlerinizi merkezi bir sistemde toplayın. Şirket içi iletişimi güçlendiren, şeffaf ve raporlanabilir bir İK altyapısı kuruyoruz.",
+              "process": [
+                "Mevcut İK süreçlerinin analizi",
+                "Yetki ve rol yapısının planlanması",
+                "Canlıya alma ve ekip eğitimleri"
+              ],
+              "benefits": [
+                "İzin ve mesai takibinde şeffaflık",
+                "Performans değerlendirme süreçlerinde standartlaşma",
+                "Personel verilerinin güvenli saklanması",
+                "İşe alım ve onboarding süreçlerinde hızlanma"
+              ],
+              "cta": "İK Sistemi Kur"
             },
             "booking": {
-              "title": "Randevu & Rezervasyon",
-              "description": "Telefon trafiğinden kurtulun. Klinikler, oteller veya danışmanlar için otomatik hatırlatmalı, online ödeme alabilen akıllı takvim sistemleri."
+              "title": "Randevu & Rezervasyon Sistemleri",
+              "highlight": "Hizmetlerinizi online randevu ve rezervasyon altyapısıyla kolayca yönetin.",
+              "description": "Doktor, danışmanlık, güzellik merkezi, spor salonu veya eğitim kurumları için uçtan uca randevu ve rezervasyon çözümleri geliştiriyoruz. Müşterileriniz uygun saatlere kendileri kayıt olur, siz operasyonunuzu panelden yönetirsiniz.",
+              "process": [
+                "İş modeline uygun rezervasyon akışının tasarlanması",
+                "Takvim ve kaynak (oda, personel vb.) planlama",
+                "Bildirim, ödeme ve entegrasyonların kurulumu"
+              ],
+              "benefits": [
+                "Telefon trafiğinde azalma",
+                "Boş/dolu saatlerin net takibi",
+                "Online ödeme ve ön ödeme imkanı",
+                "Müşteri memnuniyetinde artış"
+              ],
+              "cta": "Rezervasyon Sistemi Planla"
             }
           }
         },
         "growth": {
-          "title": "Dijital Büyüme & Teknoloji",
+          "title": "Dijital Büyüme",
           "items": {
             "uiux": {
               "title": "UI/UX Tasarımı",
-              "description": "Sadece güzel değil, kullanışlı arayüzler. Kullanıcı deneyimini (UX) merkeze alan, ziyaretçiyi yormayan ve amaca yönlendiren profesyonel tasarımlar."
+              "highlight": "Kullanıcı davranışlarını analiz ederek dönüşüm odaklı arayüzler tasarlıyoruz.",
+              "description": "Sadece güzel değil, stratejik tasarım. Kullanıcının her tıklamasını, her kaydırmasını düşünerek tasarlanan arayüzler daha fazla satış demektir.",
+              "process": [
+                "Kullanıcı araştırması",
+                "Wireframe ve prototip",
+                "Arayüz tasarımı"
+              ],
+              "benefits": [
+                "Daha yüksek dönüşüm oranı",
+                "Daha iyi kullanıcı deneyimi",
+                "Marka algısında yükseliş",
+                "Azalan terk oranı"
+              ],
+              "cta": "Tasarım Sürecini Başlat"
             },
             "ai": {
-              "title": "Yapay Zeka (AI) Çözümleri",
-              "description": "İş süreçlerinize zekayı entegre edin. Chatbotlar, veri analizi ve otomatik içerik üretimi gibi yapay zeka destekli modüller."
+              "title": "Yapay Zekâ & Otomasyon",
+              "highlight": "Süreçlerinizi yapay zekâ destekli otomasyonlarla hızlandırın, insan hatasını minimuma indirin.",
+              "description": "Müşteri hizmetleri, raporlama, öneri sistemleri ve iş akışlarınızı yapay zekâ ile güçlendiriyoruz. Chatbot, akıllı formlar, veri analizi ve karar destek sistemleriyle ekibinizin odağını stratejik işlere kaydırın.",
+              "process": [
+                "Veri ve süreç analizi",
+                "Model ve otomasyon kurgusunun tasarlanması",
+                "Canlı ortamda test ve optimizasyon"
+              ],
+              "benefits": [
+                "Tekrarlayan işlerde ciddi zaman tasarrufu",
+                "Daha isabetli kararlar için veri odaklı yapı",
+                "7/24 çalışan otomasyon süreçleri",
+                "Operasyon maliyetlerinde azalma"
+              ],
+              "cta": "Yapay Zekâ Projesi Başlat"
             },
             "seo": {
-              "title": "SEO & Optimizasyon",
-              "description": "Google aramalarında üst sıralara çıkın. Yavaş sitenizi hızlandırıyor, teknik altyapısını arama motorlarının seveceği hale getiriyoruz."
+              "title": "SEO & Performans Optimizasyonu",
+              "highlight": "Teknik SEO ve içerik stratejisi ile organik trafik artışı sağlayın.",
+              "description": "Google'da daha görünür olun. Rakiplerinizin önüne geçmenizi sağlayan teknik SEO düzenlemeleri, içerik stratejisi ve sayfa hızı optimizasyonları uyguluyoruz.",
+              "process": [
+                "Anahtar kelime analizi",
+                "Teknik SEO iyileştirme",
+                "İçerik optimizasyonu"
+              ],
+              "benefits": [
+                "Organik trafik artışı",
+                "Daha yüksek sıralama",
+                "Uzun vadeli müşteri kazanımı",
+                "Reklam maliyetinde azalma"
+              ],
+              "cta": "SEO Analizi Al"
             },
             "ads": {
-              "title": "Sosyal Medya & Reklam",
-              "description": "Marka bilinirliğinizi artırın. Hedef kitlenize uygun içerik stratejisi ve veri odaklı reklam yönetimiyle potansiyel müşteriye ulaşın."
+              "title": "Dijital Reklam & Büyüme",
+              "highlight": "Meta, Google ve diğer kanallarda performans odaklı reklam kampanyaları kurguluyoruz.",
+              "description": "Doğru hedef kitleye, doğru mesajla ve doğru bütçeyle ulaşın. Satış, lead veya marka bilinirliği hedeflerinize uygun reklam stratejileri hazırlayıp sürekli optimize ediyoruz.",
+              "process": [
+                "Mevcut durum ve rakip analizi",
+                "Kampanya ve kreatif kurgusu",
+                "Sürekli optimizasyon ve raporlama"
+              ],
+              "benefits": [
+                "Reklam bütçesinin daha verimli kullanımı",
+                "Daha yüksek dönüşüm oranları",
+                "Ölçülebilir ve şeffaf raporlama",
+                "Marka bilinirliğinde artış"
+              ],
+              "cta": "Reklam Stratejisi Oluştur"
             }
           }
         },
@@ -111,19 +319,88 @@
           "items": {
             "maintenance": {
               "title": "Bakım & Destek Anlaşması",
-              "description": "Siteniz ve uygulamalarınız asla durmasın. Düzenli yedekleme, güncelleme ve teknik sorunlara anında müdahale hizmeti."
+              "highlight": "Düzenli güncelleme, yedekleme ve teknik destek ile sistemleriniz kesintisiz çalışır.",
+              "description": "Projeleriniz her zaman güvende. Aylık bakım planları ile yazılımlarınızı güncel, hızlı ve güvenli tutuyoruz; acil durumlarda hızla müdahale ediyoruz.",
+              "process": [
+                "Sistem kontrolü",
+                "Güncelleme ve güvenlik taraması",
+                "Acil müdahale desteği"
+              ],
+              "benefits": [
+                "Kesintisiz hizmet",
+                "Veri güvenliği",
+                "Hızlı teknik destek",
+                "Düşük risk"
+              ],
+              "cta": "Destek Anlaşması Yap"
+            },
+            "security": {
+              "title": "Siber Güvenlik & Yedekleme",
+              "highlight": "Güvenlik taraması, firewall yapılandırması ve otomatik yedekleme çözümleri sunuyoruz.",
+              "description": "Verileriniz güvende kalsın. Siber saldırılara, veri kayıplarına ve sistem açıklarına karşı kapsamlı koruma katmanları oluşturuyoruz.",
+              "process": [
+                "Güvenlik analizi",
+                "Risk tespiti",
+                "Koruma sistemlerinin kurulumu"
+              ],
+              "benefits": [
+                "Veri kaybı önleme",
+                "Saldırı koruması",
+                "Sistem güvenliği",
+                "7/24 izleme"
+              ],
+              "cta": "Güvenlik Analizi Yap"
             },
             "ticket": {
-              "title": "Bilet Destek Sistemi",
-              "description": "Müşteri taleplerini kaybetmeyin. Destek taleplerini sıraya koyan, departmanlara atayan ve çözüm süresini ölçen profesyonel panel."
+              "title": "Bilet & Destek Talep Sistemleri",
+              "highlight": "Müşteri taleplerinizi tek bir merkezden takip edin, ekipler arası iletişimi düzenleyin.",
+              "description": "Müşteri ve ekip içi destek süreçlerinizi ticket (bilet) tabanlı çalışan profesyonel yardım masası sistemlerine taşıyoruz. Önceliklendirme, durum takibi ve SLA yönetimi ile hiçbir talep kaybolmaz.",
+              "process": [
+                "Destek süreçlerinin analizi",
+                "Kategori ve yetki yapısının kurgulanması",
+                "Bildirim ve entegrasyonların yapılandırılması"
+              ],
+              "benefits": [
+                "Daha düzenli ve takip edilebilir destek süreçleri",
+                "Takım içi iş yükü dengesinin netleşmesi",
+                "Müşteri memnuniyetinde artış",
+                "Raporlanabilir performans metrikleri"
+              ],
+              "cta": "Destek Sistemi Kur"
             },
             "lms": {
-              "title": "Okul / Kurs Yönetimi (LMS)",
-              "description": "Eğitimi dijitale taşıyın. Öğrenci takibi, online dersler, sınav modülleri ve veli bilgilendirme sistemleri."
+              "title": "Eğitim & LMS Platformları",
+              "highlight": "Online eğitim, sınav ve sertifika süreçlerinizi ölçeklenebilir bir sisteme taşıyın.",
+              "description": "Kurum içi eğitimler, danışmanlık programları veya online kurslar için modern Learning Management System (LMS) çözümleri geliştiriyoruz. Katılımcı takibi, ders planları ve sınav modülleri tek panelde toplanır.",
+              "process": [
+                "Eğitim ihtiyaçlarının ve içerik yapısının analizi",
+                "Kurs, modül ve sınav akışlarının tasarlanması",
+                "Canlı ders ve video altyapısının entegrasyonu"
+              ],
+              "benefits": [
+                "Eğitim süreçlerinde standartlaşma",
+                "Katılımcı ilerlemesinin detaylı takibi",
+                "Sertifika ve başarı puanı otomasyonu",
+                "Zaman ve mekandan bağımsız eğitim imkanı"
+              ],
+              "cta": "Eğitim Platformu Kur"
             },
             "qr": {
-              "title": "Dijital Restoran Menü",
-              "description": "Temassız ve hızlı sipariş. Masalardaki QR kod ile çalışan, garson çağırma ve ödeme özellikli dijital menü sistemleri."
+              "title": "QR Menü & Dijital Form Çözümleri",
+              "highlight": "Basılı materyalleri dijitale taşıyan akıllı QR tabanlı çözümler geliştiriyoruz.",
+              "description": "Restoran menülerinden etkinlik kayıt formlarına, saha personeli raporlamasından ürün kataloglarına kadar birçok alanda QR kod ile erişilebilen mikro web uygulamaları tasarlıyoruz.",
+              "process": [
+                "Kullanım senaryosu ve alan analizi",
+                "QR akışlarının ve ekranlarının tasarımı",
+                "Raporlama ve entegrasyonların kurulumu"
+              ],
+              "benefits": [
+                "Basılı materyal maliyetlerinde azalma",
+                "İçeriklerin gerçek zamanlı güncellenebilmesi",
+                "Kullanıcı davranışlarının ölçümlenebilmesi",
+                "Temassız ve pratik kullanıcı deneyimi"
+              ],
+              "cta": "QR Çözümü Geliştir"
             }
           }
         }
