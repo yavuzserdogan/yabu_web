@@ -8,8 +8,11 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { name, email, phone, message } = body;
 
+
     const { data, error } = await resend.emails.send({
-      from: 'onboarding@resend.dev',
+
+      from: 'Sybordigital İletişim <iletisim@sybordigital.com>',
+
       to: 'sybordigital@gmail.com',
       subject: `Yeni Proje Talebi: ${name}`,
       replyTo: email,
@@ -17,8 +20,10 @@ export async function POST(request: Request) {
     });
 
     if (error) {
-      console.error("Resend Hatası Detayı:", error);
-      return NextResponse.json({ error }, { status: 400 });
+      console.error("Resend Detaylı Hata:", error);
+      return NextResponse.json({
+        error: error.message || JSON.stringify(error)
+      }, { status: 400 });
     }
 
     return NextResponse.json({ success: true, data });
