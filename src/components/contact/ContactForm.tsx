@@ -50,16 +50,34 @@ export function ContactForm() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      console.log("Form gönderiliyor:", values);
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
 
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      const result = await response.json();
+
+
+      if (!response.ok) {
+        const errorMessage = typeof result.error === 'object'
+          ? (result.error.message || JSON.stringify(result.error))
+          : result.error;
+
+        throw new Error(errorMessage || 'Mail gönderilemedi');
+      }
+
       toast.success(t_ui('success'));
       form.reset();
     } catch (error) {
-      toast.error(t_ui('error'));
-      console.error(error);
+      console.error("Hata:", error);
+      toast.error("Bir sorun oluştu, lütfen tekrar deneyin.");
     }
   }
+
+
 
   return (
     <section className={`w-full max-w-6xl mx-auto px-0 md:px-4 ${theme.section.padding}`}>
