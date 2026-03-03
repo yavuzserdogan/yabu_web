@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Project } from '@/types/project';
 import Image from 'next/image';
 import { contentTheme } from '@/config/content-theme';
-import { techLogos } from '@/components/projects/projects.data';
 import { useTranslations } from 'next-intl';
 
 interface Props {
@@ -63,19 +62,14 @@ export function ProjectsGrid({ projects }: Props) {
                                             </svg>
                                         </a>
 
-                                        <div className="flex flex-wrap items-center gap-2 md:gap-3 mt-auto pt-4 border-t border-gray-100">
-                                            {project.tags?.map((tag) => (
-                                                <div key={tag} className="group/tech relative" title={tag}>
-                                                    <div className="relative w-8 h-8 md:w-10 md:h-10 rounded-lg bg-gray-50 p-1.5 border border-gray-100 shadow-sm transition-all duration-300">
-                                                        <Image
-                                                            src={techLogos[tag] || 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg'}
-                                                            alt={tag}
-                                                            fill
-                                                            className="object-contain p-0.5"
-                                                            unoptimized
-                                                        />
-                                                    </div>
-                                                </div>
+                                        <div className="flex flex-wrap gap-2 md:gap-3 mt-auto pt-4 border-t border-gray-100">
+                                            {project.tags?.map((tag, i) => (
+                                                <span
+                                                    key={`${project.id}-${i}-${tag}`}
+                                                    className={`${theme.badge.tag} text-[10px] md:text-xs px-3 py-1`}
+                                                >
+                                                    {tag}
+                                                </span>
                                             ))}
                                         </div>
                                     </div>

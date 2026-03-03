@@ -15,46 +15,38 @@ export const serviceCategories = [
     items: [
       { id: "corporate", icon: "monitor" },
       { id: "ecommerce", icon: "shoppingCart" },
-      { id: "landing", icon: "layout" },
-      { id: "blog", icon: "newspaper" }
+      { id: "boutique", icon: "store" },
+      { id: "portfolio", icon: "folder" },
+      { id: "landing", icon: "page" },
     ]
   },
   {
     id: "mobile",
     items: [
       { id: "app", icon: "smartphone" },
-      { id: "saas", icon: "cloud" },
-      { id: "mvp", icon: "rocket" },
-      { id: "api", icon: "webhook" }
-    ]
-  },
-  {
-    id: "management",
-    items: [
-      { id: "crm", icon: "users" },
-      { id: "erp", icon: "database" },
-      { id: "hr", icon: "briefcase" },
-      { id: "booking", icon: "calendar" }
+      { id: "qr", icon: "qrCode" },
+      { id: "booking", icon: "calendar" },
     ]
   },
   {
     id: "growth",
     items: [
+      { id: "social_media", icon: "socialMedia" },
       { id: "uiux", icon: "palette" },
-      { id: "ai", icon: "brain" },
-      { id: "seo", icon: "search" },
+      { id: "branding", icon: "brand" },
       { id: "ads", icon: "megaphone" }
     ]
   },
   {
-    id: "support",
+    id: "management",
     items: [
+      { id: "seo", icon: "search" },
       { id: "maintenance", icon: "wrench" },
-      { id: "ticket", icon: "ticket" },
-      { id: "lms", icon: "graduationCap" },
-      { id: "qr", icon: "qrCode" }
+      { id: "security", icon: "shield" },
+      { id: "corporate_mail", icon: "mail" }
     ]
-  }
+  },
+
 ];
 
 export const steps: Step[] = [
@@ -66,8 +58,8 @@ export const steps: Step[] = [
 
 export const projects: Project[] = [
   {
-    id: 1, // Hata düzeltildi: string yerine number kullanıldı
-    title: "", 
+    id: 1, 
+    title: "",
     category: "",
     image: "/images/onlinedktterapi.png",
   },
@@ -75,7 +67,7 @@ export const projects: Project[] = [
     id: 2,
     title: "",
     category: "",
-    image: "https://images.unsplash.com/photo-1759884247173-3db27f7fafef",
+    image: "/images/otrhoorigin.png",
   },
   {
     id: 3,

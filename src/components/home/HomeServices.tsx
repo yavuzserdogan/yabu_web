@@ -4,6 +4,7 @@ import { useState, type ElementType } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { serviceCategories } from "./home.data";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import {
   Monitor, ShoppingCart, LayoutTemplate, Newspaper,
   Smartphone, Cloud, Rocket, Webhook,
@@ -22,7 +23,6 @@ const ICONS: Record<string, ElementType> = {
   wrench: Wrench, ticket: Ticket, graduationCap: GraduationCap, qrCode: QrCode,
 };
 
-
 const ACCENTS: Record<string, { grad: string; light: string; text: string; pill: string; ring: string }> = {
   web: { grad: "from-blue-600 to-indigo-700", light: "bg-blue-50", text: "text-blue-600", pill: "bg-blue-600", ring: "ring-blue-200" },
   mobile: { grad: "from-violet-600 to-purple-700", light: "bg-violet-50", text: "text-violet-600", pill: "bg-violet-600", ring: "ring-violet-200" },
@@ -33,27 +33,32 @@ const ACCENTS: Record<string, { grad: string; light: string; text: string; pill:
 const DA = ACCENTS.web;
 
 const ITEM_IMAGES: Record<string, string> = {
-  // web
-  corporate: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85",
-  ecommerce: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=85",
-  landing: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&q=85",
-  blog: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=85",
-  // mobile
-  app: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=85",
-  saas: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=85",
-  mvp: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=85",
-  api: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=85",
-  // management
-  crm: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=85",
-  erp: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=85",
-  // growth
-  uiux: "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=1200&q=85",
-  seo: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=1200&q=85",
-  // support
-  maintenance: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=85",
-  security: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=85",
+  // --- Web & E-Ticaret ---
+  corporate: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85", 
+  ecommerce: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=85",   
+  boutique: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1200&q=85",  
+  portfolio: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=85", // YENİ: Temiz çalışma masası / Tasarımcı
+  landing: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=85",   
+  blog: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=85",      
+
+  // --- Mobil Uygulamalar ---
+  app: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=1200&q=85",       
+  qr: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",        
+  booking: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1200&q=85",   
+
+  // --- Sosyal Medya & Tasarım (growth) ---
+  social_media: "https://images.unsplash.com/photo-1616469829581-73993eb86b02?w=1200&q=85", // YENİ: Etkileşim ve Sosyal Medya Konsepti
+  uiux: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=85",         
+  branding: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=85",  
+  ads: "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=1200&q=85",       
+
+  // --- Altyapı & Destek (management) ---
+  seo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=85",         // YENİ: Veri Analizi ve SEO Dashboard
+  maintenance: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&q=85", 
+  security: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=85",      
+  corporate_mail: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?w=1200&q=85",
 };
-const FALLBACK_IMG = ITEM_IMAGES.corporate;
+const FALLBACK_IMG = "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1200&q=85"; // Genel yedek görsel
 
 /* ================================================================== */
 
@@ -130,9 +135,8 @@ export function HomeServices() {
             <div className="lg:w-72 shrink-0 flex flex-col bg-slate-50 border-b lg:border-b-0 lg:border-r border-slate-200">
               {/* Kategori bandı */}
               <div className={`px-6 py-5 bg-gradient-to-r ${accent.grad} border-b border-white/10`}>
-
                 <h3 className="text-lg font-bold text-white leading-snug">
-                  Hizmetlerimiz
+                  {t("sidebarTitle")}
                 </h3>
               </div>
 
@@ -174,9 +178,7 @@ export function HomeServices() {
             <div className="flex-1 flex flex-col md:flex-row overflow-hidden">
 
               {/* İçerik alanı — koyu zemin, yazı net okunur */}
-              <div className="md:w-[55%] shrink-0 bg-slate-900 flex flex-col justify-between p-8 md:p-10 relative overflow-hidden">
-                {/* Dekoratif gradient leke */}
-                <div className={`absolute -top-16 -left-16 w-56 h-56 rounded-full bg-gradient-to-br ${accent.grad} opacity-20 blur-3xl pointer-events-none`} />
+              <div className="md:w-[55%] shrink-0 bg-slate-700 flex flex-col justify-between p-8 md:p-10 relative overflow-hidden">
 
                 <AnimatePresence mode="wait">
                   <motion.div
@@ -188,15 +190,13 @@ export function HomeServices() {
                     className="relative z-10 flex flex-col gap-6 h-full justify-between"
                   >
                     <div>
-
-
                       {/* Highlight */}
-                      <p className={`text-sm font-semibold ${accent.text} mb-3 leading-snug`}>
+                      <p className="text-xl font-bold text-white mb-3 leading-snug">
                         {t(`categories.${activeCategory}.items.${activeItem}.highlight`)}
                       </p>
 
                       {/* Açıklama */}
-                      <p className="text-slate-400 text-[15px] leading-relaxed">
+                      <p className="text-base leading-relaxed text-white">
                         {t(`categories.${activeCategory}.items.${activeItem}.description`)}
                       </p>
 
@@ -204,8 +204,8 @@ export function HomeServices() {
                       {benefits.length > 0 && (
                         <ul className="mt-6 space-y-2.5">
                           {benefits.map((b: string, i: number) => (
-                            <li key={i} className="flex items-start gap-2.5 text-slate-300 text-[14px]">
-                              <CheckCircle2 size={15} className={`${accent.text} shrink-0 mt-0.5`} />
+                            <li key={i} className="flex items-start gap-2.5 text-base leading-relaxed text-white">
+                              <CheckCircle2 size={20} className={`${accent.text} shrink-0 mt-0.5`} />
                               {b}
                             </li>
                           ))}
@@ -215,12 +215,14 @@ export function HomeServices() {
 
                     {/* CTA */}
                     <div className="flex items-center gap-4 pt-2">
-                      <button className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-white font-semibold text-sm bg-gradient-to-r ${accent.grad} hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-lg`}>
-                        {t(`categories.${activeCategory}.items.${activeItem}.cta`)}
-                        <ArrowUpRight size={15} />
-                      </button>
-                      <button className="text-sm font-medium text-slate-500 hover:text-slate-200 transition-colors">
-                        Detayları İncele →
+                      <Link href="/contact#contact-section" >
+                        <button className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-white font-semibold text-sm bg-gradient-to-r ${accent.grad} hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-lg`}>
+                          {t(`categories.${activeCategory}.items.${activeItem}.cta`)}
+                          <ArrowUpRight size={15} />
+                        </button>
+                      </Link>
+                      <button className="text-sm font-medium text-white hover:text-slate-200 transition-colors">
+                        {t("secondaryCta")} →
                       </button>
                     </div>
                   </motion.div>
