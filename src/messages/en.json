@@ -21,6 +21,8 @@
     "services": {
       "title": "What We Do?",
       "subtitle": "We empower your digital presence with modern technologies and strategic, scalable solutions.",
+      "sidebarTitle": "Our Services",
+      "secondaryCta": "View Details",
       "categories": {
         "web": {
           "title": "Web & E‑Commerce",
@@ -92,6 +94,40 @@
                 "High‑performance infrastructure"
               ],
               "cta": "Launch Content Platform"
+            },
+            "boutique": {
+              "title": "Boutique Store Websites",
+              "highlight": "Custom‑designed, fast‑to‑sell storefronts for small businesses and boutiques.",
+              "description": "Move your Instagram sales to a professional website. We build compact store sites that present a small catalog beautifully and support easy payments.",
+              "process": [
+                "Concept and storefront design",
+                "Designing a fast checkout flow",
+                "Social media shop integration"
+              ],
+              "benefits": [
+                "Less ordering burden via DMs",
+                "Improved brand perception",
+                "Low‑cost e‑commerce start",
+                "Fast setup and launch"
+              ],
+              "cta": "Set Up Your Store"
+            },
+            "portfolio": {
+              "title": "Portfolio & Personal Sites",
+              "highlight": "Memorable digital presence for artists, freelancers and consultants.",
+              "description": "Showcase yourself and your work in the best way. We create modern, memorable portfolio sites that strengthen your personal brand.",
+              "process": [
+                "Personal brand and style analysis",
+                "Project/gallery structure planning",
+                "Minimal and creative design"
+              ],
+              "benefits": [
+                "More organic reach",
+                "Easy content updates",
+                "Stronger credibility",
+                "High‑performance infrastructure"
+              ],
+              "cta": "Build Your Portfolio"
             }
           }
         },
@@ -165,6 +201,40 @@
                 "Centralized control"
               ],
               "cta": "Plan Integrations"
+            },
+            "qr": {
+              "title": "QR Menus & Restaurant Solutions",
+              "highlight": "Contactless, fast and digital menu systems for restaurants and cafés.",
+              "description": "Eliminate printed menu costs. We build smart systems where customers scan a table QR code to browse items instantly and place orders.",
+              "process": [
+                "Digitizing the menu and category structure",
+                "QR code generation and table integration",
+                "Admin panel setup"
+              ],
+              "benefits": [
+                "Zero printing costs",
+                "Instant price and item updates",
+                "More hygienic and faster ordering",
+                "Ability to analyze customer behavior"
+              ],
+              "cta": "Switch to QR Menu"
+            },
+            "booking": {
+              "title": "Booking & Reservation Apps",
+              "highlight": "Smart, calendar‑integrated booking systems for service businesses.",
+              "description": "Ideal for salons, clinics, gyms or consultants. Mobile solutions where customers can see availability and book by themselves.",
+              "process": [
+                "Planning calendar and service flows",
+                "Mobile app UI design",
+                "SMS/email reminders integration"
+              ],
+              "benefits": [
+                "Reduced phone traffic",
+                "Fewer missed appointments",
+                "Pre‑payment support",
+                "24/7 automated booking"
+              ],
+              "cta": "Set Up Your System"
             }
           }
         },
@@ -238,12 +308,97 @@
                 "Higher customer satisfaction"
               ],
               "cta": "Plan Booking System"
+            },
+            "seo": {
+              "title": "SEO & Search Optimization",
+              "highlight": "Increase organic customer traffic by moving your site up in Google rankings.",
+              "description": "Don't depend only on ad spend. We improve your discoverability with technical fixes, speed optimizations and the right keyword strategy.",
+              "process": [
+                "Comprehensive site audit",
+                "Technical SEO and speed improvements",
+                "Content and metadata optimization"
+              ],
+              "benefits": [
+                "Free, organic traffic growth",
+                "Higher rankings in Google",
+                "Stronger industry authority",
+                "Long‑term sustainable results"
+              ],
+              "cta": "Request SEO Analysis"
+            },
+            "maintenance": {
+              "title": "Website Maintenance & Technical Support",
+              "highlight": "We keep your website and applications up‑to‑date, fast and running smoothly.",
+              "description": "Your digital assets stay safe with us. We provide monthly health checks, updates and fast intervention for issues.",
+              "process": [
+                "Monthly periodic checks",
+                "Plugin and system updates",
+                "Performance monitoring"
+              ],
+              "benefits": [
+                "Reliable, uninterrupted operation",
+                "Stable page performance",
+                "Fast support in emergencies",
+                "Freedom from technical hassle"
+              ],
+              "cta": "Choose a Support Plan"
+            },
+            "security": {
+              "title": "Security & Backups",
+              "highlight": "Protection against cyber‑attacks and automated backups to prevent data loss.",
+              "description": "Don't lose your work overnight. We protect your website from malware and back up your data to secure servers on a schedule.",
+              "process": [
+                "Firewall setup",
+                "Daily/weekly automated backups",
+                "Malware scanning"
+              ],
+              "benefits": [
+                "Minimized data‑loss risk",
+                "Shield against hacks and attacks",
+                "Safer customer and payment data",
+                "Peace of mind for your infrastructure"
+              ],
+              "cta": "Secure Your Website"
+            },
+            "corporate_mail": {
+              "title": "Corporate Email & Infrastructure",
+              "highlight": "Setup company email addresses and secure cloud infrastructure.",
+              "description": "Reach customers with professional emails like '@yourcompany.com' instead of '@gmail.com'. We handle setup, migration and the underlying infrastructure.",
+              "process": [
+                "Domain and server analysis",
+                "Google Workspace / corporate email setup",
+                "Device integrations and handover"
+              ],
+              "benefits": [
+                "More corporate brand image",
+                "More deliverable, trusted emails",
+                "Higher storage capacity",
+                "Easier team communication"
+              ],
+              "cta": "Switch to Corporate Email"
             }
           }
         },
         "growth": {
           "title": "Digital Growth",
           "items": {
+            "social_media": {
+              "title": "Social Media Management",
+              "highlight": "We represent your brand professionally on Instagram, LinkedIn and other platforms.",
+              "description": "We become your digital voice. With a tailored content strategy, a consistent posting calendar and engagement‑focused management, we help turn followers into customers.",
+              "process": [
+                "Defining brand voice and concept",
+                "Monthly content and posting plan",
+                "Moderation and monthly reporting"
+              ],
+              "benefits": [
+                "Professional and consistent brand image",
+                "Growth in organic followers and engagement",
+                "Always‑on digital presence",
+                "Time savings"
+              ],
+              "cta": "Let’s Grow Your Accounts"
+            },
             "uiux": {
               "title": "UI/UX Design",
               "highlight": "We analyze user behavior and design conversion‑oriented interfaces.",
@@ -260,6 +415,23 @@
                 "Reduced churn and abandonment"
               ],
               "cta": "Start Design Process"
+            },
+            "branding": {
+              "title": "Brand Identity & Post Design",
+              "highlight": "Creative designs that strengthen your brand’s position in the digital world.",
+              "description": "Logo, color palette, typography and social media templates. We ensure your brand speaks the same strong, high‑quality language across all platforms.",
+              "process": [
+                "Brand story analysis",
+                "Logo and visual concept design",
+                "Delivery of social media and digital templates"
+              ],
+              "benefits": [
+                "A more memorable brand",
+                "More corporate and trustworthy look",
+                "Consistent design standards",
+                "Clear visual differentiation"
+              ],
+              "cta": "Build Your Brand"
             },
             "ai": {
               "title": "AI & Automation",
@@ -430,19 +602,25 @@
     },
     "projects": {
       "title": "Featured Projects",
-      "subtitle": "Take a look at our successful projects",
+      "subtitle": "Explore some of our successful digital solutions",
       "items": {
         "project1": {
-          "title": "Online DKT Therapy",
-          "category": "Web Development"
+          "title": "Speech & Language Therapist – Feyza Şahan",
+          "category": "Web Development",
+          "description": "A customized digital platform developed specifically for speech and language therapists.",
+          "cta": "View Project"
         },
         "project2": {
-          "title": "E-Commerce Platform",
-          "category": "Web Development"
+          "title": "Ortho Origin",
+          "category": "Web Development",
+          "description": "A modern e-commerce platform designed for orthopedic product sales.",
+          "cta": "View Project"
         },
         "project3": {
-          "title": "Fitness Mobile App",
-          "category": "Mobile App"
+          "title": "Fitness Mobile Application",
+          "category": "Mobile App Development",
+          "description": "A personalized fitness application featuring custom workout programs and nutrition tracking.",
+          "cta": "View Project"
         }
       }
     }
