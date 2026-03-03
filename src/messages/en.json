@@ -20,26 +20,78 @@
     },
     "services": {
       "title": "What We Do?",
-      "subtitle": "We strengthen your digital presence with strategic and scalable solutions.",
+      "subtitle": "We empower your digital presence with modern technologies and strategic, scalable solutions.",
       "categories": {
         "web": {
-          "title": "Web & E-Commerce Solutions",
+          "title": "Web & E‑Commerce",
           "items": {
             "corporate": {
-              "title": "Corporate Websites",
-              "description": "Modern and high-performance corporate websites tailored to your brand."
+              "title": "Corporate Website",
+              "highlight": "Professional websites that build trust, load fast and contribute directly to your sales.",
+              "description": "Your strongest showcase in the digital world. We develop SEO‑friendly, mobile‑first corporate websites that turn visitors into customers and reflect your brand identity clearly.",
+              "process": [
+                "Brand analysis and target audience definition",
+                "UI/UX design and approval",
+                "SEO‑friendly development and go‑live"
+              ],
+              "benefits": [
+                "Higher visibility on Google",
+                "Increased brand credibility",
+                "More quote and contact requests",
+                "Flawless experience on mobile and desktop"
+              ],
+              "cta": "Start Your Corporate Site"
             },
             "ecommerce": {
-              "title": "E-Commerce Platforms",
-              "description": "Secure and scalable online stores that boost your sales."
+              "title": "E‑Commerce Systems",
+              "highlight": "Secure payment infrastructure and sales‑oriented design to grow your revenue.",
+              "description": "Your digital store that sells 24/7. With an easy‑to‑manage admin panel, fast checkout flow and scalable infrastructure, you stand out in e‑commerce.",
+              "process": [
+                "Planning product and category structure",
+                "Payment and shipping integrations",
+                "Performance and security optimization"
+              ],
+              "benefits": [
+                "Increased online sales capacity",
+                "Easy product and stock management",
+                "Secure payment systems",
+                "Scalable infrastructure"
+              ],
+              "cta": "Get an E‑Commerce Quote"
             },
             "landing": {
-              "title": "Landing Pages",
-              "description": "Conversion-focused landing pages designed for campaigns."
+              "title": "Campaign & Landing Pages",
+              "highlight": "High‑performance landing pages that turn ad traffic into customers.",
+              "description": "Conversion‑focused campaign pages. We create clear‑messaged, fast‑loading landing pages that maximize the value of every ad click.",
+              "process": [
+                "Campaign and audience analysis",
+                "Conversion‑oriented design",
+                "A/B testing and optimization"
+              ],
+              "benefits": [
+                "Higher ad conversion rates",
+                "Clear messaging and strong call‑to‑action",
+                "Fast‑loading pages",
+                "Measurable performance"
+              ],
+              "cta": "Launch Your Campaign"
             },
             "blog": {
-              "title": "Blog & Content Platforms",
-              "description": "SEO-friendly blog infrastructures that strengthen your content strategy."
+              "title": "News & Blog Portals",
+              "highlight": "Fast, SEO‑ready and user‑friendly content management systems.",
+              "description": "High‑traffic content platforms. We build news and blog sites that focus on organic growth, include ad integrations and are easy to manage.",
+              "process": [
+                "Planning categories and content structure",
+                "SEO‑friendly development",
+                "Ad and analytics integrations"
+              ],
+              "benefits": [
+                "Increase in organic traffic",
+                "Easy content management",
+                "Ad revenue model integration",
+                "High‑performance infrastructure"
+              ],
+              "cta": "Launch Content Platform"
             }
           }
         },
@@ -47,62 +99,218 @@
           "title": "Mobile & Custom Software",
           "items": {
             "app": {
-              "title": "Mobile Applications",
-              "description": "iOS and Android applications with seamless user experience."
+              "title": "Mobile Application",
+              "highlight": "High‑performance mobile applications running on both iOS and Android.",
+              "description": "Bring your brand into your customer’s pocket. With Flutter‑based apps published on the App Store and Google Play, you increase user engagement and retention.",
+              "process": [
+                "Planning user experience",
+                "UI design and prototyping",
+                "Flutter development and store release"
+              ],
+              "benefits": [
+                "Higher customer loyalty",
+                "Direct communication via push notifications",
+                "Stronger brand perception",
+                "Near‑native performance"
+              ],
+              "cta": "Start a Mobile Project"
             },
             "saas": {
-              "title": "SaaS Platforms",
-              "description": "Cloud-based scalable software solutions."
+              "title": "SaaS & Cloud Software",
+              "highlight": "Scalable, accessible‑from‑anywhere web‑based software solutions.",
+              "description": "Subscription‑based digital products. With cloud infrastructure, automatic billing and multi‑tenant architecture, we help you launch your own SaaS product.",
+              "process": [
+                "Business model and architecture planning",
+                "Cloud infrastructure setup",
+                "Subscription and payment integration"
+              ],
+              "benefits": [
+                "Recurring revenue model",
+                "Global reach",
+                "High security",
+                "Easy scalability"
+              ],
+              "cta": "Start a SaaS Project"
             },
             "mvp": {
-              "title": "MVP Development",
-              "description": "Fast and lean product development to validate your idea."
+              "title": "Startup / MVP Package",
+              "highlight": "Investor‑ready working prototypes delivered fast.",
+              "description": "Turn your idea into a product quickly. We build a working MVP with minimum cost and time so you can collect real user feedback.",
+              "process": [
+                "Defining core features",
+                "Rapid design and development",
+                "Demo and investor pitch preparation"
+              ],
+              "benefits": [
+                "Faster time‑to‑market",
+                "Lower initial cost",
+                "Increased investor confidence",
+                "Validation with real users"
+              ],
+              "cta": "Build Your MVP"
             },
             "api": {
               "title": "API & Integrations",
-              "description": "Secure and efficient third-party system integrations."
+              "highlight": "Accounting, shipping, payment and marketplace integrations that reduce operational workload.",
+              "description": "Let your systems talk to each other. We automate data flow between different platforms and services, minimizing time loss and human error.",
+              "process": [
+                "System analysis",
+                "API development",
+                "Testing and go‑live"
+              ],
+              "benefits": [
+                "Significant time savings",
+                "Reduced error rates",
+                "Automatic data synchronization",
+                "Centralized control"
+              ],
+              "cta": "Plan Integrations"
             }
           }
         },
         "management": {
-          "title": "Corporate Management & Productivity",
+          "title": "Corporate Management",
           "items": {
             "crm": {
-              "title": "CRM Systems",
-              "description": "Customer relationship management systems tailored to your workflows."
+              "title": "CRM (Customer Relationships)",
+              "highlight": "Increase your sales performance by collecting all customer data in a single panel.",
+              "description": "Digitalize your sales processes. Track the entire pipeline from lead to closed deal and never miss an opportunity again.",
+              "process": [
+                "Sales process analysis",
+                "Custom dashboard design",
+                "Team training"
+              ],
+              "benefits": [
+                "No customer is lost",
+                "Easier sales tracking",
+                "Detailed reporting",
+                "Higher team productivity"
+              ],
+              "cta": "Start CRM Setup"
             },
             "erp": {
-              "title": "ERP Solutions",
-              "description": "Comprehensive enterprise resource planning systems."
+              "title": "ERP (Enterprise Resource Planning)",
+              "highlight": "Integrate accounting, inventory, HR and operations into one system.",
+              "description": "Manage all operations from a single center. We build corporate software that automates, reports and controls your business processes.",
+              "process": [
+                "Workflow analysis",
+                "Module planning",
+                "Implementation and training"
+              ],
+              "benefits": [
+                "Centralized control",
+                "Operational efficiency",
+                "Lower error rates",
+                "Easier reporting"
+              ],
+              "cta": "Implement ERP System"
             },
             "hr": {
-              "title": "HR Management",
-              "description": "Digital HR tools to manage recruitment and employee processes."
+              "title": "HR & Personnel Management",
+              "highlight": "Manage all personnel processes from one panel and digitalize HR operations.",
+              "description": "From hiring to performance reviews, from payroll to leave tracking, we centralize all HR processes in a single system that strengthens internal communication and provides transparent, reportable data.",
+              "process": [
+                "Analysis of existing HR processes",
+                "Planning roles and permission structure",
+                "Go‑live and team onboarding"
+              ],
+              "benefits": [
+                "Transparent leave and overtime tracking",
+                "Standardized performance evaluations",
+                "Secure storage of employee data",
+                "Faster hiring and onboarding processes"
+              ],
+              "cta": "Set Up HR System"
             },
             "booking": {
               "title": "Booking & Reservation Systems",
-              "description": "Online appointment and reservation management systems."
+              "highlight": "Manage your services easily with an online booking and reservation infrastructure.",
+              "description": "For doctors, consultants, beauty salons, gyms or training centers, we build end‑to‑end booking and reservation solutions. Clients choose suitable time slots themselves while you manage operations from an admin panel.",
+              "process": [
+                "Designing booking flows for your business model",
+                "Planning calendars and resources (rooms, staff, etc.)",
+                "Setting up notifications, payments and integrations"
+              ],
+              "benefits": [
+                "Reduced phone traffic",
+                "Clear visibility of free and busy slots",
+                "Online payment and pre‑payment options",
+                "Higher customer satisfaction"
+              ],
+              "cta": "Plan Booking System"
             }
           }
         },
         "growth": {
-          "title": "Digital Growth & Technology",
+          "title": "Digital Growth",
           "items": {
             "uiux": {
               "title": "UI/UX Design",
-              "description": "User-centered interface and experience design."
+              "highlight": "We analyze user behavior and design conversion‑oriented interfaces.",
+              "description": "Design that is not only beautiful but also strategic. Interfaces crafted by considering every click and scroll turn into more sales and stronger engagement.",
+              "process": [
+                "User research",
+                "Wireframes and prototypes",
+                "Interface design"
+              ],
+              "benefits": [
+                "Higher conversion rates",
+                "Better user experience",
+                "Stronger brand perception",
+                "Reduced churn and abandonment"
+              ],
+              "cta": "Start Design Process"
             },
             "ai": {
-              "title": "AI Integrations",
-              "description": "Artificial intelligence solutions to optimize your business processes."
+              "title": "AI & Automation",
+              "highlight": "Accelerate your processes with AI‑powered automations and minimize human error.",
+              "description": "We enhance customer support, reporting, recommendation engines and workflows with artificial intelligence. Chatbots, smart forms, data analysis and decision‑support systems free your team to focus on strategic work.",
+              "process": [
+                "Data and process analysis",
+                "Designing models and automation flows",
+                "Testing and optimization in production"
+              ],
+              "benefits": [
+                "Significant time savings on repetitive tasks",
+                "More accurate, data‑driven decisions",
+                "Automations that run 24/7",
+                "Reduced operational costs"
+              ],
+              "cta": "Start an AI Project"
             },
             "seo": {
-              "title": "SEO Optimization",
-              "description": "Search engine optimization strategies to increase visibility."
+              "title": "SEO & Performance Optimization",
+              "highlight": "Drive organic growth with technical SEO and content strategy.",
+              "description": "Become more visible on Google. We implement technical SEO fixes, content strategy and page‑speed optimizations that move you ahead of competitors.",
+              "process": [
+                "Keyword and competitor analysis",
+                "Technical SEO improvements",
+                "Content optimization"
+              ],
+              "benefits": [
+                "Increase in organic traffic",
+                "Higher rankings",
+                "Long‑term customer acquisition",
+                "Lower ad spend over time"
+              ],
+              "cta": "Request an SEO Audit"
             },
             "ads": {
-              "title": "Digital Advertising",
-              "description": "Performance-driven advertising campaigns."
+              "title": "Digital Advertising & Growth",
+              "highlight": "We plan performance‑driven ad campaigns on Meta, Google and other channels.",
+              "description": "Reach the right audience with the right message and budget. We craft and continuously optimize ad strategies aligned with your sales, lead or brand‑awareness goals.",
+              "process": [
+                "Current status and competitor analysis",
+                "Campaign and creative strategy",
+                "Ongoing optimization and reporting"
+              ],
+              "benefits": [
+                "More efficient use of ad budget",
+                "Higher conversion rates",
+                "Measurable, transparent reporting",
+                "Stronger brand awareness"
+              ],
+              "cta": "Create Ad Strategy"
             }
           }
         },
@@ -110,20 +318,89 @@
           "title": "Support & Security",
           "items": {
             "maintenance": {
-              "title": "Maintenance & Support",
-              "description": "Continuous monitoring and technical support services."
+              "title": "Maintenance & Support Plans",
+              "highlight": "Keep your systems running continuously with regular updates, backups and technical support.",
+              "description": "Your projects stay safe at all times. With monthly maintenance plans, we keep your software up‑to‑date, fast and secure, and respond quickly in emergencies.",
+              "process": [
+                "System health checks",
+                "Updates and security scans",
+                "Emergency response support"
+              ],
+              "benefits": [
+                "Uninterrupted service",
+                "Data security",
+                "Fast technical support",
+                "Lower operational risk"
+              ],
+              "cta": "Set Up Support Plan"
+            },
+            "security": {
+              "title": "Cybersecurity & Backup",
+              "highlight": "We provide security scanning, firewall configuration and automated backup solutions.",
+              "description": "Keep your data safe. We build multilayered protection against cyber‑attacks, data loss and system vulnerabilities.",
+              "process": [
+                "Security assessment",
+                "Risk identification",
+                "Deployment of protection systems"
+              ],
+              "benefits": [
+                "Prevention of data loss",
+                "Protection against attacks",
+                "Hardened system security",
+                "24/7 monitoring options"
+              ],
+              "cta": "Run Security Audit"
             },
             "ticket": {
-              "title": "Ticket Systems",
-              "description": "Customer support and issue tracking systems."
+              "title": "Ticket & Helpdesk Systems",
+              "highlight": "Track customer requests from a single hub and organize communication between teams.",
+              "description": "We move your customer and internal support processes into a professional, ticket‑based helpdesk system. With prioritization, status tracking and SLA management, no request is lost.",
+              "process": [
+                "Analysis of support processes",
+                "Designing categories and permission structures",
+                "Configuring notifications and integrations"
+              ],
+              "benefits": [
+                "More organized, trackable support operations",
+                "Clear view of workload across the team",
+                "Higher customer satisfaction",
+                "Reportable performance metrics"
+              ],
+              "cta": "Deploy Support System"
             },
             "lms": {
-              "title": "LMS Platforms",
-              "description": "Online education and learning management systems."
+              "title": "Training & LMS Platforms",
+              "highlight": "Move your training, exam and certification processes into a scalable online platform.",
+              "description": "For internal training, consultancy programs or online courses, we build modern Learning Management Systems. Participant tracking, course plans and exam modules all live in a single dashboard.",
+              "process": [
+                "Analysis of training needs and content structure",
+                "Designing course, module and exam flows",
+                "Integrating live sessions and video infrastructure"
+              ],
+              "benefits": [
+                "Standardized training processes",
+                "Detailed tracking of learner progress",
+                "Automated certification and scoring",
+                "Location‑independent learning experience"
+              ],
+              "cta": "Launch Training Platform"
             },
             "qr": {
-              "title": "QR & Automation Systems",
-              "description": "Smart QR solutions and workflow automation systems."
+              "title": "QR Menus & Digital Forms",
+              "highlight": "Bring printed materials into digital with smart QR‑based solutions.",
+              "description": "From restaurant menus to event registration forms, from field reporting to product catalogs, we design micro web apps accessible via QR codes.",
+              "process": [
+                "Analysis of use cases and physical locations",
+                "Designing QR flows and screens",
+                "Setting up reporting and integrations"
+              ],
+              "benefits": [
+                "Reduced printing costs",
+                "Real‑time content updates",
+                "Ability to measure user behavior",
+                "Contactless and convenient experience"
+              ],
+              "cta": "Build a QR Solution"
             }
           }
         }
