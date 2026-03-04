@@ -31,7 +31,7 @@ export default function HomeHero() {
             className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-1.5 md:px-4 md:py-2 mb-6 md:mb-8"
           >
             <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
-            <span className="text-xs md:text-sm text-white/90 font-medium">Yeni nesil yazılım çözümleri</span>
+            <span className="text-xs md:text-sm text-white/90 font-medium">{t('subtitle')}</span>
           </motion.div>
 
           <motion.h1

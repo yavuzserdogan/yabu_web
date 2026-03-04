@@ -11,6 +11,7 @@
     "title": "Sybor Digital",
     "description": "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
     "hero": {
+      "subtitle": "Yeni nesil yazılım çözümleri",
       "badge": "Yeni nesil yazılım çözümleri",
       "titleMain": "İşletmenizi Büyütecek ",
       "titleAccent": "Özel Yazılım Çözümleri",
@@ -79,7 +80,7 @@
               "cta": "Mağazanı Kur"
             },
             "portfolio": {
-              "title": "Dil ve Konuşma Terapisti - Feyza Şahanler",
+              "title": "Portfolyo & Kişisel Siteler",
               "highlight": "Sanatçılar, freelancer'lar ve danışmanlar için etkileyici dijital kartvizitler.",
               "description": "Kendinizi ve işlerinizi en iyi şekilde yansıtın. Kişisel markanızı ön plana çıkaran, modern tasarımlı ve akılda kalıcı portfolyo siteleri oluşturuyoruz.",
               "process": [
