@@ -2,7 +2,7 @@
 
 import { useState, type ElementType } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { serviceCategories } from "./home.data";
+import { FALLBACK_IMG, ITEM_IMAGES, serviceCategories } from "./home.data";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import {
@@ -30,37 +30,8 @@ const ACCENTS: Record<string, { grad: string; light: string; text: string; pill:
   growth: { grad: "from-orange-500 to-amber-500", light: "bg-orange-50", text: "text-orange-600", pill: "bg-orange-500", ring: "ring-orange-200" },
   support: { grad: "from-emerald-500 to-teal-600", light: "bg-emerald-50", text: "text-emerald-600", pill: "bg-emerald-600", ring: "ring-emerald-200" },
 };
+
 const DA = ACCENTS.web;
-
-const ITEM_IMAGES: Record<string, string> = {
-  // --- Web & E-Ticaret ---
-  corporate: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85", 
-  ecommerce: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=85",   
-  boutique: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1200&q=85",  
-  portfolio: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=85", // YENİ: Temiz çalışma masası / Tasarımcı
-  landing: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=85",   
-  blog: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=85",      
-
-  // --- Mobil Uygulamalar ---
-  app: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=1200&q=85",       
-  qr: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",        
-  booking: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1200&q=85",   
-
-  // --- Sosyal Medya & Tasarım (growth) ---
-  social_media: "https://images.unsplash.com/photo-1616469829581-73993eb86b02?w=1200&q=85", // YENİ: Etkileşim ve Sosyal Medya Konsepti
-  uiux: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=85",         
-  branding: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=85",  
-  ads: "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=1200&q=85",       
-
-  // --- Altyapı & Destek (management) ---
-  seo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=85",         // YENİ: Veri Analizi ve SEO Dashboard
-  maintenance: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&q=85", 
-  security: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=85",      
-  corporate_mail: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?w=1200&q=85",
-};
-const FALLBACK_IMG = "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1200&q=85"; // Genel yedek görsel
-
-/* ================================================================== */
 
 export function HomeServices() {
   const t = useTranslations("HomePage.services");
@@ -69,9 +40,7 @@ export function HomeServices() {
   const [activeItem, setActiveItem] = useState(serviceCategories[0].items[0].id);
 
   const catData = serviceCategories.find(c => c.id === activeCategory)!;
-  const itemData = catData.items.find(i => i.id === activeItem) ?? catData.items[0];
   const accent = ACCENTS[activeCategory] ?? DA;
-  const Icon = ICONS[itemData.icon] ?? Monitor;
   const bgImage = ITEM_IMAGES[activeItem] ?? FALLBACK_IMG;
 
   const handleCategoryChange = (catId: string) => {
@@ -107,7 +76,7 @@ export function HomeServices() {
               <button
                 key={cat.id}
                 onClick={() => handleCategoryChange(cat.id)}
-                className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 whitespace-nowrap
+                className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 whitespace-nowrap cursor-pointer
                   ${isActive
                     ? `${a.pill} text-white shadow-md scale-105`
                     : "bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700"
@@ -134,7 +103,7 @@ export function HomeServices() {
             {/* ──────────── SOL: Alt başlık menüsü ──────────── */}
             <div className="lg:w-72 shrink-0 flex flex-col bg-slate-50 border-b lg:border-b-0 lg:border-r border-slate-200">
               {/* Kategori bandı */}
-              <div className={`px-6 py-5 bg-gradient-to-r ${accent.grad} border-b border-white/10`}>
+              <div className={`px-6 py-5 bg-linear-to-r ${accent.grad} border-b border-white/10`}>
                 <h3 className="text-lg font-bold text-white leading-snug">
                   {t("sidebarTitle")}
                 </h3>
@@ -149,7 +118,7 @@ export function HomeServices() {
                     <button
                       key={item.id}
                       onClick={() => setActiveItem(item.id)}
-                      className={`group relative flex items-center gap-3 px-5 py-3.5 text-left transition-all duration-150
+                      className={`group relative flex items-center gap-3 px-5 py-3.5 text-left transition-all duration-150 cursor-pointer
                         ${isActive
                           ? `${accent.light} ${accent.text} font-semibold`
                           : "text-slate-500 hover:bg-white hover:text-slate-800"
@@ -158,7 +127,7 @@ export function HomeServices() {
                       {isActive && (
                         <motion.span
                           layoutId="sidebar-bar"
-                          className={`absolute left-0 top-2 bottom-2 w-[3px] rounded-r-full bg-gradient-to-b ${accent.grad}`}
+                          className={`absolute left-0 top-2 bottom-2 w-0.75 rounded-r-full bg-linear-to-b ${accent.grad}`}
                         />
                       )}
                       <span className={`w-7 h-7 rounded-lg flex items-center justify-center shrink-0 transition-all duration-150
@@ -216,12 +185,12 @@ export function HomeServices() {
                     {/* CTA */}
                     <div className="flex items-center gap-4 pt-2">
                       <Link href="/contact#contact-section" >
-                        <button className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-white font-semibold text-sm bg-gradient-to-r ${accent.grad} hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-lg`}>
+                        <button className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-white font-semibold text-sm bg-linear-to-r cursor-pointer ${accent.grad} hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-lg`}>
                           {t(`categories.${activeCategory}.items.${activeItem}.cta`)}
                           <ArrowUpRight size={15} />
                         </button>
                       </Link>
-                      <button className="text-sm font-medium text-white hover:text-slate-200 transition-colors">
+                      <button className="text-sm font-medium text-white hover:text-slate-200 transition-colors cursor-pointer">
                         {t("secondaryCta")} →
                       </button>
                     </div>
@@ -245,12 +214,10 @@ export function HomeServices() {
                   />
                 </AnimatePresence>
                 {/* Soldan içerik tarafına degrade geçiş */}
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-linear-to-r from-slate-900/60 via-transparent to-transparent pointer-events-none" />
               </div>
 
             </div>
-            {/* ───────────────────────────────────────────────── */}
-
           </motion.div>
         </AnimatePresence>
 
