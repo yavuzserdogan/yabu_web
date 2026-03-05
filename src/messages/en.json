@@ -832,6 +832,58 @@
     }
   },
   "ServicesPage": {
+    "e-commerce": {
+      "hero": {
+        "titleMain": "High-Converting",
+        "titleAccent": "E-Commerce Systems",
+        "description": "We build fast, scalable and conversion-focused online stores tailored to your brand."
+      },
+      "overview": {
+        "label": "What We Do",
+        "title": "E-Commerce Solutions That Convert",
+        "paragraph1": "We develop custom e-commerce platforms tailored to your brand. From Shopify and WooCommerce integrations to fully headless commerce architectures, we cover the full spectrum of online retail solutions.",
+        "paragraph2": "We take a conversion-first approach on every project. Fast load times, intuitive management panels, and secure payment systems work together to maximize your sales. Every UX decision — from adding to cart to checkout — is made to minimize friction.",
+        "paragraph3": "Using modern technologies and industry-leading UX practices, we deliver seamless shopping experiences. From inventory management and automated invoicing to multi-language support and advanced filtering — we think of every detail.",
+        "cardTitle": "Why Choose Us?",
+        "highlights": {
+          "support": "24/7 Support",
+          "mobile": "Mobile First",
+          "seo": "SEO Optimized",
+          "payment": "Fast Payment Integration"
+        }
+      },
+      "features": {
+        "title": "What We Offer",
+        "subtitle": "Everything you need for a complete e-commerce solution",
+        "items": {
+          "custom": {
+            "title": "Custom E-Commerce Software",
+            "description": "Fully custom-built e-commerce platforms tailored to your needs. Complete control and flexibility."
+          },
+          "payment": {
+            "title": "Payment System Integration",
+            "description": "iyzico, PayTR, Stripe and more. Fast and secure payment infrastructure setup."
+          },
+          "mobile": {
+            "title": "Mobile-Responsive Design",
+            "description": "Flawless appearance on all devices. Mobile-first, fully responsive design approach."
+          },
+          "stock": {
+            "title": "Stock & Order Management",
+            "description": "Advanced admin panel for inventory tracking, order management and logistics integrations."
+          },
+          "seo": {
+            "title": "SEO & Speed Optimization",
+            "description": "Google Core Web Vitals compliant, ultra-fast loading and search engine optimization."
+          },
+          "admin": {
+            "title": "Admin Panel & Reporting",
+            "description": "Detailed analytics reports, sales charts and customer behavior analysis."
+          }
+        }
+      }
+    },
+
     "title": "Our Services | Sybor Digital",
     "description": "Meet our web software, mobile application and digital transformation solutions. We integrate modern technologies into your business.",
     "hero": {

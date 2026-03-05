@@ -583,6 +583,58 @@
     }
   },
   "ServicesPage": {
+    "e-commerce": {
+      "hero": {
+        "titleMain": "Satışa Dönüştüren",
+        "titleAccent": "E-Ticaret Sistemleri",
+        "description": "Markanıza özel, hızlı, ölçeklenebilir ve yüksek dönüşümlü e-ticaret siteleri geliştiriyoruz."
+      },
+      "overview": {
+        "label": "Ne Yapıyoruz?",
+        "title": "Satışa Dönüştüren E-Ticaret Çözümleri",
+        "paragraph1": "Özel e-ticaret platformları geliştiriyoruz. Shopify ve WooCommerce entegrasyonlarından headless commerce çözümlerine kadar geniş yelpazede hizmet sunuyoruz. Her proje, markanızın ihtiyaçlarına göre sıfırdan tasarlanır.",
+        "paragraph2": "Her proje için dönüşüm odaklı yaklaşımlar benimsiyoruz. Hızlı yükleme, kolay yönetim ve güvenli ödeme sistemleriyle satışlarınızı maksimize ediyoruz. Kullanıcıların sepete eklemekten ödeme yapmaya kadar her adımı sorunsuz geçirmesi için akıllı UX kararları alıyoruz.",
+        "paragraph3": "Modern teknolojiler ve en iyi UX pratikleriyle müşterilerinize kusursuz alışveriş deneyimi sunuyoruz. Stok yönetiminden otomatik fatura sistemine, çoklu dil desteğinden gelişmiş filtreleme araçlarına kadar her detayı düşünüyoruz.",
+        "cardTitle": "Neden Bizi Seçmelisiniz?",
+        "highlights": {
+          "support": "7/24 Destek",
+          "mobile": "Mobil Öncelikli",
+          "seo": "SEO Uyumlu",
+          "payment": "Hızlı Ödeme Entegrasyonu"
+        }
+      },
+      "features": {
+        "title": "Ne Sunuyoruz?",
+        "subtitle": "Eksiksiz e-ticaret çözümleri için ihtiyacınız olan her şey",
+        "items": {
+          "custom": {
+            "title": "Özel E-Ticaret Yazılımı",
+            "description": "İhtiyaçlarınıza özel, sıfırdan geliştirilmiş e-ticaret platformları. Tam kontrol ve esneklik."
+          },
+          "payment": {
+            "title": "Ödeme Sistemi Entegrasyonu",
+            "description": "iyzico, PayTR, Stripe ve daha fazlası. Güvenli ve hızlı ödeme altyapısı kurulumu."
+          },
+          "mobile": {
+            "title": "Mobil Uyumlu Tasarım",
+            "description": "Tüm cihazlarda kusursuz görünüm. Mobil öncelikli, responsive tasarım yaklaşımı."
+          },
+          "stock": {
+            "title": "Stok & Sipariş Yönetimi",
+            "description": "Gelişmiş admin paneli ile stok takibi, sipariş yönetimi ve lojistik entegrasyonları."
+          },
+          "seo": {
+            "title": "SEO & Hız Optimizasyonu",
+            "description": "Google Core Web Vitals uyumlu, ultra hızlı yüklenme ve arama motoru optimizasyonu."
+          },
+          "admin": {
+            "title": "Admin Panel & Raporlama",
+            "description": "Detaylı analitik raporlar, satış grafikleri ve müşteri davranış analizleri."
+          }
+        }
+      }
+    },
+
     "title": "Hizmetlerimiz | Sybor Digital",
     "description": "Web yazılım, mobil uygulama ve dijital dönüşüm çözümlerimizle tanışın. Modern teknolojileri işinize entegre ediyoruz.",
     "hero": {
