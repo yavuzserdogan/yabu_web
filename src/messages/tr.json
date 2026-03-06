@@ -584,26 +584,90 @@
   },
   "ServicesPage": {
     "e-commerce": {
+      "meta": {
+        "title": "E-Ticaret Sistemleri"
+      },
       "hero": {
         "titleMain": "Satışa Dönüştüren",
         "titleAccent": "E-Ticaret Sistemleri",
         "description": "Markanıza özel, hızlı, ölçeklenebilir ve yüksek dönüşümlü e-ticaret siteleri geliştiriyoruz."
       },
       "overview": {
-        "label": "Ne Yapıyoruz?",
-        "title": "Satışa Dönüştüren E-Ticaret Çözümleri",
-        "paragraph1": "Özel e-ticaret platformları geliştiriyoruz. Shopify ve WooCommerce entegrasyonlarından headless commerce çözümlerine kadar geniş yelpazede hizmet sunuyoruz. Her proje, markanızın ihtiyaçlarına göre sıfırdan tasarlanır.",
-        "paragraph2": "Her proje için dönüşüm odaklı yaklaşımlar benimsiyoruz. Hızlı yükleme, kolay yönetim ve güvenli ödeme sistemleriyle satışlarınızı maksimize ediyoruz. Kullanıcıların sepete eklemekten ödeme yapmaya kadar her adımı sorunsuz geçirmesi için akıllı UX kararları alıyoruz.",
-        "paragraph3": "Modern teknolojiler ve en iyi UX pratikleriyle müşterilerinize kusursuz alışveriş deneyimi sunuyoruz. Stok yönetiminden otomatik fatura sistemine, çoklu dil desteğinden gelişmiş filtreleme araçlarına kadar her detayı düşünüyoruz.",
-        "cardTitle": "Neden Bizi Seçmelisiniz?",
-        "highlights": {
-          "support": "7/24 Destek",
-          "mobile": "Mobil Öncelikli",
-          "seo": "SEO Uyumlu",
-          "payment": "Hızlı Ödeme Entegrasyonu"
+        "whatIs": {
+          "label": "Bu Sayfa Sizin İçin Mi?",
+          "title": "Ürününüz Var, Müşteri Bekliyorsunuz",
+          "paragraph1": "Fiziksel mağazanız, el yapımı ürününüz veya aklınızdaki bir fikir olsun — doğru altyapıyla internette satmak artık çok daha kolay ve karlı.",
+          "paragraph2": "Müşterileriniz sizi Google'da arıyor, sosyal medyada görüyor ve online sipariş vermek istiyor. Peki onları karşılayacak profesyonel bir dijital mağazanız var mı?",
+          "paragraph3": "Sybor Digital olarak sizi sadece internete taşımıyoruz — satışa dönüştüren, marka güveni yaratan ve büyümeye hazır bir e-ticaret deneyimi kuruyoruz.",
+          "audiences": {
+            "physical": {
+              "title": "Fiziksel mağazam var",
+              "description": "Online satışa geçmek ve mağazamı dijitale taşımak istiyorum."
+            },
+            "startup": {
+              "title": "Yeni bir marka kuruyorum",
+              "description": "Sıfırdan bir e-ticaret sitesiyle işe başlamak istiyorum."
+            },
+            "growing": {
+              "title": "Mevcut sitem yetersiz",
+              "description": "Satışlarım düşük, sitemin daha iyi çalışmasını istiyorum."
+            },
+            "global": {
+              "title": "Yurt dışına satmak istiyorum",
+              "description": "Farklı ülkelere ulaşan, çok dilli bir mağaza kurmak istiyorum."
+            }
+          }
+        },
+        "whatWeDo": {
+          "label": "Neler Yapıyoruz?",
+          "title": "E-Ticarette Uçtan Uca Çözümler",
+          "paragraph1": "Fikir aşamasından canlıya alıma kadar her adımda yanınızdayız. Tasarımdan geliştirmeye, ödeme entegrasyonundan SEO optimizasyonuna kadar tüm süreci yönetiyoruz.",
+          "paragraph2": "Shopify, WooCommerce gibi hazır platformları özelleştiriyor ya da ihtiyacınıza göre tamamen özel bir e-ticaret altyapısı kuruyoruz. Her iki durumda da önceliğimiz hız, güvenlik ve dönüşüm.",
+          "paragraph3": "Projeniz yayına girdikten sonra da bırakmıyoruz. Analitik takibi, performans optimizasyonu ve teknik destek ile büyümenize ortak oluyoruz.",
+          "badge": "Hizmet Kapsamı",
+          "cardTitle": "Tek Çatı Altında Tam Çözüm",
+          "cardDescription": "E-ticaret projenizin ihtiyaç duyduğu her şeyi tek bir ekipten alırsınız.",
+          "checklist": {
+            "item1": "Özel tasarım ve marka kimliği",
+            "item2": "Güvenli ödeme altyapısı kurulumu",
+            "item3": "Stok, sipariş ve kargo yönetimi",
+            "item4": "SEO, hız ve dönüşüm optimizasyonu"
+          }
+        }
+      },
+      "whyUs": {
+        "label": "Neden Sybor Digital?",
+        "title": "Neden Bizi Seçmelisiniz?",
+        "subtitle": "Butik yaklaşım, kurumsal disiplin. Projenize gerçekten değer katan bir ekip.",
+        "reasons": {
+          "reason1": {
+            "title": "Sonuç Odaklı Yaklaşım",
+            "description": "Güzel görünen değil, satan siteler yapıyoruz. Her tasarım ve geliştirme kararı dönüşüm hedefiyle alınır."
+          },
+          "reason2": {
+            "title": "Şeffaf Süreç",
+            "description": "Projenizin her aşamasından haberdarsınız. Sürpriz maliyet, gecikme veya belirsizlik olmaz."
+          },
+          "reason3": {
+            "title": "Hızlı Teslimat",
+            "description": "Kurumsal ajansların bürokratik yavaşlığı olmadan, kaliteden ödün vermeden hızlı teslim ediyoruz."
+          },
+          "reason4": {
+            "title": "Teknik Üstünlük",
+            "description": "Next.js, Node.js ve modern altyapılarla hızlı, güvenli ve ölçeklenebilir sistemler kuruyoruz."
+          },
+          "reason5": {
+            "title": "Yayın Sonrası Destek",
+            "description": "Proje tesliminde ilişkimiz bitmiyor. Teknik destek, güncelleme ve büyüme konularında yanınızdayız."
+          },
+          "reason6": {
+            "title": "Gerçek İş Ortaklığı",
+            "description": "Sadece kod yazmıyoruz; işinizi anlıyor, dijital stratejinize katkı sağlıyor ve uzun vadeli düşünüyoruz."
+          }
         }
       },
       "features": {
+        "label": "Hizmet Detayları",
         "title": "Ne Sunuyoruz?",
         "subtitle": "Eksiksiz e-ticaret çözümleri için ihtiyacınız olan her şey",
         "items": {
@@ -632,6 +696,121 @@
             "description": "Detaylı analitik raporlar, satış grafikleri ve müşteri davranış analizleri."
           }
         }
+      },
+      "process": {
+        "label": "Sürecimiz",
+        "title": "Nasıl Çalışıyoruz?",
+        "subtitle": "Baştan sona şeffaf ve etkili bir süreçle projenizi hayata geçiriyoruz.",
+        "stepLabel": "Adım",
+        "steps": {
+          "discovery": {
+            "title": "Keşif & Planlama",
+            "description": "İhtiyaçlarınızı, hedef kitlenizi ve rakiplerinizi analiz ediyoruz. Net bir yol haritası ve teknik mimari çıkarıyoruz.",
+            "tag": "1-3 Gün"
+          },
+          "design": {
+            "title": "Tasarım & Prototip",
+            "description": "Kullanıcı deneyimini merkeze alarak wireframe ve yüksek kaliteli UI tasarımları hazırlıyoruz. Onayınız olmadan bir adım ileri gitmiyoruz.",
+            "tag": "3-7 Gün"
+          },
+          "development": {
+            "title": "Geliştirme & Test",
+            "description": "Modern teknolojilerle temiz, ölçeklenebilir kod yazıyoruz. Her aşamada performans, güvenlik ve uyumluluk testleri yapıyoruz.",
+            "tag": "2-5 Hafta"
+          },
+          "launch": {
+            "title": "Yayın & Destek",
+            "description": "Projeyi canlıya alıyor, performansını izliyor ve sürekli destek sağlıyoruz. Yayın sonrası da yanınızdayız.",
+            "tag": "Süregelen"
+          }
+        }
+      },
+      "faq": {
+        "label": "SSS",
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "Aklınızdaki soruların cevapları burada.",
+        "items": {
+          "delivery": {
+            "question": "Proje kaç günde teslim edilir?",
+            "answer": "E-ticaret projeleri kapsama göre genellikle 4-10 hafta arasında tamamlanır. Keşif görüşmesinden sonra size özel bir zaman çizelgesi sunuyoruz."
+          },
+          "pricing": {
+            "question": "Fiyatlar nasıl belirlenir?",
+            "answer": "Fiyatlandırma projenin kapsamına, özellik listesine ve entegrasyon gereksinimlerine göre belirlenir. Ücretsiz keşif görüşmesi sonrası net bir teklif sunuyoruz."
+          },
+          "revisions": {
+            "question": "Kaç revizyon hakkım var?",
+            "answer": "Tasarım aşamasında sınırsız revizyon hakkı tanıyoruz. Geliştirme aşamasına geçildikten sonra ise belirlenen kapsam dahilinde değişiklikler yapılır."
+          },
+          "maintenance": {
+            "question": "Yayın sonrası destek sağlıyor musunuz?",
+            "answer": "Evet. Yayın sonrası 3 aylık ücretsiz teknik destek sunuyoruz. Sonrasında aylık bakım paketlerimizden birini tercih edebilirsiniz."
+          },
+          "migration": {
+            "question": "Mevcut sitemizi taşıyabilir misiniz?",
+            "answer": "Evet, mevcut sitenizi, ürün verilerinizi, müşteri bilgilerinizi ve sipariş geçmişinizi yeni platforma eksiksiz taşıyoruz."
+          },
+          "mobile": {
+            "question": "Mobil uygulama da yapıyor musunuz?",
+            "answer": "Evet. E-ticaret sitenizle entegre çalışan iOS ve Android uygulamaları da geliştiriyoruz. Ayrı bir hizmet olarak sunulmaktadır."
+          }
+        }
+      },
+      "projects": {
+        "label": "Projelerimiz",
+        "title": "İlgili Çalışmalarımız",
+        "viewAll": "Tüm Projeleri Gör",
+        "metric1Label": "Dönüşüm Artışı",
+        "metric2Label": "Yüklenme Süresi",
+        "items": {
+          "project1": {
+            "title": "ModaMağaza E-Ticaret",
+            "description": "Sıfırdan geliştirilen, Next.js tabanlı yüksek performanslı moda e-ticaret platformu.",
+            "metric1": "+340%",
+            "metric2": "1.8sn"
+          },
+          "project2": {
+            "title": "TeknoShop Mobil",
+            "description": "Shopify entegrasyonlu, iOS ve Android için geliştirilen elektronik mağaza uygulaması.",
+            "metric1": "+210%",
+            "metric2": "2.1sn"
+          },
+          "project3": {
+            "title": "OrganikSepet",
+            "description": "WooCommerce altyapılı, SEO odaklı organik ürünler e-ticaret sitesi.",
+            "metric1": "+180%",
+            "metric2": "1.5sn"
+          }
+        }
+      },
+      "testimonials": {
+        "label": "Müşteri Yorumları",
+        "title": "Onlar Ne Dedi?",
+        "subtitle": "Birlikte çalıştığımız müşterilerimizin deneyimleri.",
+        "items": {
+          "testimonial1": {
+            "comment": "Sybor Digital ekibi projemizi zamanında ve beklentilerimizin çok ötesinde teslim etti. E-ticaret sitemizin dönüşüm oranı ilk ayda üç katına çıktı.",
+            "name": "Ahmet Kaya",
+            "role": "CEO, ModaMağaza"
+          },
+          "testimonial2": {
+            "comment": "Teknik bilgi ve iletişim konusunda gerçekten fark yaratıyorlar. Mobil uygulamamız yayına girdikten sonra müşteri memnuniyetimiz gözle görülür şekilde arttı.",
+            "name": "Merve Yılmaz",
+            "role": "Kurucu, TeknoShop"
+          },
+          "testimonial3": {
+            "comment": "Sadece bir yazılım firması değil, iş ortağı gibi yaklaşıyorlar. Önerilen çözümler gerçekten işimize değer katıyor.",
+            "name": "Selim Bozkurt",
+            "role": "Genel Müdür, OrganikSepet"
+          }
+        }
+      },
+      "cta": {
+        "label": "Hadi Başlayalım",
+        "title": "Projenizi Birlikte Hayata Geçirelim",
+        "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Size özel çözümler sunmak için buradayız.",
+        "primaryButton": "Teklif Al",
+        "secondaryButton": "WhatsApp'tan Yaz"
       }
     },
 

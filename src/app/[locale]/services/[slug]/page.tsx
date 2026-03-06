@@ -3,6 +3,12 @@ import { ServicesHero } from "@/components/services/ServicesHero";
 import { notFound } from "next/navigation";
 import { ServiceOverview } from "@/components/services/ServiceOverview";
 import { ServiceFeatures } from "@/components/services/ServiceFeatures";
+import { ServiceProcess } from "@/components/services/ServiceProcess";
+import { ServiceFAQ } from "@/components/services/ServiceFAQ";
+import { ServiceProjects } from "@/components/services/ServiceProjects";
+import { ServiceTestimonials } from "@/components/services/ServiceTestimonials";
+import { ServiceCTA } from "@/components/services/ServiceCTA";
+import { ServiceWhyUs } from "@/components/services/ServiceWhyUs";
 
 const validSlugs = ["web", "mobile", "e-commerce", "social-media", "infrastructure"];
 
@@ -26,6 +32,13 @@ export default async function ServiceDetailPage({ params }: Props) {
       <ServicesHero slug={slug} />
       <ServiceOverview slug={slug} />
       <ServiceFeatures slug={slug} />
+      <ServiceWhyUs slug={slug} />
+      <ServiceProcess slug={slug} />
+      <ServiceFAQ slug={slug} />
+      <ServiceProjects slug={slug} />
+      <ServiceTestimonials slug={slug} />
+      <ServiceCTA slug={slug} />
+
     </main>
   );
 }
