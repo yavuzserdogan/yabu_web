@@ -1,0 +1,42 @@
+{
+  "ProjectsPage": {
+    "title": "Projelerimiz | Sybor Digital",
+    "description": "Kurumsal düzeyde yazılım mühendisliği ve butik tasarım çözümlerimiz. Geleceği birlikte inşa edelim.",
+    "hero": {
+      "titleMain": "Seçkin",
+      "titleAccent": "İşlerimiz",
+      "description": "Fikirleri koda, tasarımları yaşayan deneyimlere dönüştürüyoruz. Her proje, bizim için yeni bir başarı hikayesi."
+    },
+    "filter": {
+      "all": "Tümü",
+      "web": "Web",
+      "mobile": "Mobil",
+      "uiux": "UI/UX",
+      "social": "Sosyal Medya"
+    },
+    "items": {
+      "project1": {
+        "title": "Dil ve Konuşma Terapisti - Feyza Şahan",
+        "category": "Web",
+        "description": "Dil ve konuşma terapistleri için özelleştirilmiş bir platform.",
+        "cta": "Projeyi İncele"
+      },
+      "project2": {
+        "title": "Ortho Origin",
+        "category": "Web",
+        "description": "Ortopedik ürünler satan bir e-ticaret platformu.",
+        "cta": "Projeyi İncele"
+      },
+      "project3": {
+        "title": "Fitness Mobil Uygulaması",
+        "category": "Mobil",
+        "description": "Kişiselleştirilmiş antrenman programları ve beslenme takibi uygulaması.",
+        "cta": "Projeyi İncele"
+      }
+    },
+    "cta": {
+      "title": "Bir Sonraki Proje Sizin mi?",
+      "button": "Projenizi Başlatalım"
+    }
+  }
+}

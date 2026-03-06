@@ -1,0 +1,42 @@
+{
+  "ProjectsPage": {
+    "title": "Our Projects | Sybor Digital",
+    "description": "Enterprise-level software engineering and boutique design solutions. Let's build the future together.",
+    "hero": {
+      "titleMain": "Featured",
+      "titleAccent": "Works",
+      "description": "We turn ideas into code and designs into living experiences. Every project is a new success story for us."
+    },
+    "filter": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "uiux": "UI/UX",
+      "social": "Social Media"
+    },
+    "items": {
+      "project1": {
+        "title": "Online DKT Therapy",
+        "category": "Web",
+        "description": "A specialized platform for speech and language therapists.",
+        "cta": "View Project"
+      },
+      "project2": {
+        "title": "E-Commerce Platform",
+        "category": "Web",
+        "description": "Comprehensive e-commerce solution offering a modern and user-friendly shopping experience.",
+        "cta": "View Project"
+      },
+      "project3": {
+        "title": "Fitness Mobile App",
+        "category": "Mobile",
+        "description": "Personalized workout programs and nutrition tracking application.",
+        "cta": "View Project"
+      }
+    },
+    "cta": {
+      "title": "Is the Next Project Yours?",
+      "button": "Let's Start Your Project"
+    }
+  }
+}

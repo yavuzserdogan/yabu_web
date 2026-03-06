@@ -1,0 +1,372 @@
+{
+  "HomePage": {
+    "title": "Sybor Digital",
+    "description": "Kurumsal düzeyde yazılım mühendisliği, butik tasarım ve ölçeklenebilir web/mobil çözümler sunuyoruz. Geleceği birlikte inşa edelim.",
+    "hero": {
+      "subtitle": "Yeni nesil yazılım çözümleri",
+      "badge": "Yeni nesil yazılım çözümleri",
+      "titleMain": "İşletmenizi Büyütecek ",
+      "titleAccent": "Özel Yazılım Çözümleri",
+      "description": "Yeni nesil yazılım teknolojileri ve kurumsal düzeyde mühendislik disipliniyle, markanız için sürdürülebilir, ölçeklenebilir ve yüksek performanslı projeler inşa ediyoruz.",
+      "ctaStart": "Teklif Alın",
+      "ctaProjects": "Projelerimiz"
+    },
+    "services": {
+      "title": "Neler Yapıyoruz?",
+      "subtitle": "Modern teknolojiler ve yaratıcı tasarımlarla dijital varlığınızı güçlendiriyoruz",
+      "sidebarTitle": "Hizmetlerimiz",
+      "secondaryCta": "Detayları İncele",
+      "categories": {
+        "web": {
+          "title": "Web & E-Ticaret",
+          "items": {
+            "corporate": {
+              "title": "Kurumsal Web Sitesi",
+              "highlight": "Güven veren, hızlı açılan ve satışa katkı sağlayan profesyonel web siteleri tasarlıyoruz.",
+              "description": "Markanızın dijital dünyadaki en güçlü vitrini. Ziyaretçilerinizi müşteriye dönüştüren, SEO uyumlu ve mobil öncelikli kurumsal web siteleri geliştiriyoruz.",
+              "process": [
+                "Marka analizi ve hedef kitle belirleme",
+                "UI/UX tasarım ve onay süreci",
+                "SEO uyumlu yazılım geliştirme ve yayına alma"
+              ],
+              "benefits": [
+                "Google'da daha görünür olursunuz",
+                "Marka güvenilirliğiniz artar",
+                "Teklif ve iletişim dönüşleri yükselir",
+                "Mobil ve masaüstünde kusursuz deneyim"
+              ],
+              "cta": "Projenizi Başlatalım"
+            },
+            "ecommerce": {
+              "title": "E-Ticaret Sistemleri",
+              "highlight": "Güvenli ödeme altyapısı ve satış odaklı tasarım ile cironuzu büyütün.",
+              "description": "7/24 satış yapan dijital mağazanız. Kolay yönetilebilir paneli, hızlı ödeme akışı ve ölçeklenebilir altyapısıyla e-ticarette bir adım öne geçin.",
+              "process": [
+                "Ürün ve kategori yapısının planlanması",
+                "Ödeme ve kargo entegrasyonları",
+                "Performans ve güvenlik optimizasyonu"
+              ],
+              "benefits": [
+                "Online satış kapasiteniz artar",
+                "Kolay ürün ve stok yönetimi",
+                "Güvenli ödeme sistemleri",
+                "Ölçeklenebilir altyapı"
+              ],
+              "cta": "E-Ticaret Teklifi Al"
+            },
+            "boutique": {
+              "title": "Butik Mağaza Siteleri",
+              "highlight": "Rüçük işletmeler ve butikler için özel tasarımlı, hızlı satış siteleri.",
+              "description": "Instagram'daki satışlarınızı profesyonel bir siteye taşıyın. Az sayıda ürünü en şık şekilde sunan, havale veya kredi kartı ile kolayca ödeme alınabilen kompakt siteler kuruyoruz.",
+              "process": [
+                "Konsept ve vitrin tasarımı",
+                "Hızlı ödeme adımlarının kurgulanması",
+                "Sosyal medya mağaza entegrasyonu"
+              ],
+              "benefits": [
+                "DM üzerinden sipariş yükü azalır",
+                "Marka prestijiniz artar",
+                "Düşük maliyetli e-ticaret başlangıcı",
+                "Hızlı kurulum ve yayına alma"
+              ],
+              "cta": "Mağazanı Kur"
+            },
+            "portfolio": {
+              "title": "Portfolyo & Kişisel Siteler",
+              "highlight": "Sanatçılar, freelancer'lar ve danışmanlar için etkileyici dijital kartvizitler.",
+              "description": "Kendinizi ve işlerinizi en iyi şekilde yansıtın. Kişisel markanızı ön plana çıkaran, modern tasarımlı ve akılda kalıcı portfolyo siteleri oluşturuyoruz.",
+              "process": [
+                "Kişisel marka ve stil analizi",
+                "Eser/Proje galerisi kurgusu",
+                "Minimal ve yaratıcı tasarım"
+              ],
+              "benefits": [
+                "Organik trafik artışı",
+                "Kolay içerik yönetimi",
+                "Reklam gelir modeli entegrasyonu",
+                "Yüksek performans altyapı"
+              ],
+              "cta": "İçerik Platformu Kur"
+            },
+            "landing": {
+              "title": "Tanıtım & Kampanya Siteleri",
+              "highlight": "Reklam trafiğini müşteriye dönüştüren yüksek performanslı landing page tasarımları.",
+              "description": "Dönüşüm odaklı özel kampanya sayfaları. Her reklam tıklamasının değerini artıran, net mesajlı ve hızlı yüklenen tanıtım sayfaları hazırlıyoruz.",
+              "process": [
+                "Hedef kitle ve kampanya analizi",
+                "Dönüşüm odaklı tasarım",
+                "A/B test ve optimizasyon"
+              ],
+              "benefits": [
+                "Daha yüksek reklam dönüşümü",
+                "Net mesaj ve güçlü çağrı",
+                "Hızlı yüklenen sayfalar",
+                "Ölçülebilir performans"
+              ],
+              "cta": "Kampanyayı Başlat"
+            },
+            "blog": {
+              "title": "Haber & Blog Portalları",
+              "highlight": "Hızlı, SEO uyumlu ve kullanıcı dostu içerik yönetim sistemleri geliştiriyoruz.",
+              "description": "Yüksek trafikli içerik platformları. Organik büyümeyi hedefleyen, reklam entegrasyonlu ve kolayca yönetilebilen haber ve blog siteleri kuruyoruz.",
+              "process": [
+                "Kategori ve içerik yapısının planlanması",
+                "SEO uyumlu yazılım geliştirme",
+                "Reklam ve analiz entegrasyonu"
+              ],
+              "benefits": [
+                "Organik trafik artışı",
+                "Kolay içerik yönetimi",
+                "Reklam gelir modeli entegrasyonu",
+                "Yüksek performans altyapı"
+              ],
+              "cta": "İçerik Platformu Kur"
+            }
+          }
+        },
+        "mobile": {
+          "title": "Mobil Uygulamalar",
+          "items": {
+            "app": {
+              "title": "iOS & Android Uygulamalar",
+              "highlight": "Markanızı müşterinizin cebine taşıyan akıcı ve modern uygulamalar.",
+              "description": "İşletmenize özel mobil deneyimler. Hem App Store hem de Google Play'de kusursuz çalışan, kullanıcı dostu uygulamalar geliştiriyoruz.",
+              "process": [
+                "Kullanıcı deneyimi (UX) planlama",
+                "Arayüz (UI) tasarımı",
+                "Geliştirme ve mağaza onayı"
+              ],
+              "benefits": [
+                "Anlık bildirimlerle doğrudan iletişim",
+                "Müşteri sadakatinde artış",
+                "Marka prestijine katkı",
+                "Yüksek performanslı kullanım"
+              ],
+              "cta": "Mobil Proje Başlat"
+            },
+            "qr": {
+              "title": "QR Menü & Restoran Çözümleri",
+              "highlight": "Restoran ve kafeler için temassız, hızlı ve dijital menü sistemleri.",
+              "description": "Basılı menü maliyetlerinden kurtulun. Müşterilerinizin masadaki QR kodu okutarak anında ürünlere ulaşıp sipariş verebildiği akıllı sistemler kuruyoruz.",
+              "process": [
+                "Menü dijitalleştirme ve kategori kurgusu",
+                "QR kod üretimi ve masa entegrasyonu",
+                "Yönetim paneli kurulumu"
+              ],
+              "benefits": [
+                "Baskı maliyetlerinin sıfırlanması",
+                "Anında fiyat ve ürün güncelleme",
+                "Daha hijyenik ve hızlı sipariş",
+                "Müşteri davranışlarını analiz etme"
+              ],
+              "cta": "QR Menüye Geç"
+            },
+            "booking": {
+              "title": "Randevu & Rezervasyon Uygulamaları",
+              "highlight": "Hizmet sektörüne özel, takvim entegreli akıllı randevu sistemleri.",
+              "description": "Kuaförler, klinikler, spor salonları veya danışmanlar için ideal. Müşterilerinizin boş saatleri görüp kendi kendine randevu alabildiği mobil çözümler.",
+              "process": [
+                "Takvim ve hizmet akışı planlaması",
+                "Mobil uygulama arayüzü tasarımı",
+                "SMS/E-posta hatırlatıcı entegrasyonu"
+              ],
+              "benefits": [
+                "Telefon trafiğinde büyük azalma",
+                "Unutulan randevuların önüne geçme",
+                "Ön ödeme alma imkanı",
+                "7/24 otomatik randevu kaydı"
+              ],
+              "cta": "Sistemini Kur"
+            }
+          }
+        },
+        "growth": {
+          "title": "Sosyal Medya & Tasarım",
+          "items": {
+            "social_media": {
+              "title": "Sosyal Medya Yönetimi",
+              "highlight": "Instagram, LinkedIn ve diğer platformlarda markanızı profesyonelce temsil ediyoruz.",
+              "description": "Dijitaldeki sesiniz oluyoruz. Hedef kitlenize uygun içerik stratejisi, düzenli paylaşım takvimi ve etkileşim odaklı yönetim ile takipçilerinizi müşteriye dönüştürüyoruz.",
+              "process": [
+                "Marka dili ve konsept belirlenmesi",
+                "Aylık içerik ve paylaşım planlaması",
+                "Moderasyon ve aylık raporlama"
+              ],
+              "benefits": [
+                "Profesyonel ve tutarlı marka imajı",
+                "Organik takipçi ve etkileşim artışı",
+                "Sürekli ve düzenli dijital varlık",
+                "Zaman tasarrufu"
+              ],
+              "cta": "Hesaplarınızı Büyütelim"
+            },
+            "uiux": {
+              "title": "UI/UX & Arayüz Tasarımı",
+              "highlight": "Sadece güzel değil, kullanıcının kaybolmadan hedefe ulaştığı tasarımlar.",
+              "description": "Web siteniz veya uygulamanız için kullanıcı alışkanlıklarını baz alan, modern ve dönüşüm odaklı arayüzler kurguluyoruz.",
+              "process": [
+                "Rakip ve kullanıcı araştırması",
+                "Wireframe (taslak) ve prototipleme",
+                "Modern arayüz tasarımı"
+              ],
+              "benefits": [
+                "Sitede kalma süresinde artış",
+                "Daha yüksek satış/dönüşüm oranı",
+                "Kusursuz kullanıcı deneyimi",
+                "Güçlü marka algısı"
+              ],
+              "cta": "Tasarım Başlat"
+            },
+            "branding": {
+              "title": "Kurumsal Kimlik & Post Tasarımı",
+              "highlight": "Markanızın dijital dünyadaki duruşunu güçlendiren yaratıcı tasarımlar.",
+              "description": "Logo, renk paleti, tipografi ve sosyal medya şablonları. Markanızın tüm platformlarda aynı güçlü ve kaliteli dili konuşmasını sağlıyoruz.",
+              "process": [
+                "Marka hikayesi analizi",
+                "Logo ve görsel konsept tasarımı",
+                "Sosyal medya ve dijital şablonların teslimi"
+              ],
+              "benefits": [
+                "Akılda kalıcı bir marka",
+                "Kurumsal ve güvenilir duruş",
+                "Tasarım standartlarının oturması",
+                "Rakiplerden görsel olarak ayrışma"
+              ],
+              "cta": "Markanı Yarat"
+            },
+            "ads": {
+              "title": "Sosyal Medya Reklam Tasarımları",
+              "highlight": "Tıklama rekorları kıran, dikkat çekici reklam görselleri ve videoları.",
+              "description": "Meta (Instagram/Facebook) ve Google reklamlarınız için kullanıcıyı durduran, mesaja odaklı ve satışa yönlendiren kreatif tasarımlar hazırlıyoruz.",
+              "process": [
+                "Reklam hedefine uygun kurgu",
+                "Statik ve hareketli (video) tasarım",
+                "A/B testleri için farklı varyasyonlar"
+              ],
+              "benefits": [
+                "Düşen tıklama başı maliyet (CPC)",
+                "Daha yüksek reklam dönüşüm oranı",
+                "Mesajın doğru iletilmesi",
+                "Bütçenin verimli kullanılması"
+              ],
+              "cta": "Reklam Kreatifi İste"
+            }
+          }
+        },
+        "management": {
+          "title": "Altyapı & Destek",
+          "items": {
+            "seo": {
+              "title": "SEO & Arama Motoru Optimizasyonu",
+              "highlight": "Sitenizi Google'da üst sıralara çıkararak organik müşteri trafiğinizi artırın.",
+              "description": "Reklam bütçesine bağımlı kalmayın. Teknik altyapı iyileştirmeleri, hız optimizasyonu ve doğru anahtar kelime stratejileriyle bulunabilirliğinizi artırıyoruz.",
+              "process": [
+                "Kapsamlı site analizi (Audit)",
+                "Teknik SEO ve hız optimizasyonları",
+                "İçerik ve etiket yapılandırması"
+              ],
+              "benefits": [
+                "Ücretsiz ve organik trafik",
+                "Google aramalarında üst sıralar",
+                "Sektörel otorite",
+                "Uzun vadeli kalıcı başarı"
+              ],
+              "cta": "SEO Analizi Al"
+            },
+            "maintenance": {
+              "title": "Web Bakım & Teknik Destek",
+              "highlight": "Sitenizin ve uygulamalarınızın her zaman güncel, hızlı ve sorunsuz çalışmasını sağlıyoruz.",
+              "description": "Dijital varlıklarınız bizimle güvende. Aylık düzenli kontroller, yazılım güncellemeleri ve olası hatalara karşı anında müdahale desteği sunuyoruz.",
+              "process": [
+                "Aylık periyodik kontroller",
+                "Eklenti ve sistem güncellemeleri",
+                "Performans takibi"
+              ],
+              "benefits": [
+                "Kesintisiz çalışma garantisi",
+                "Sayfa hızının korunması",
+                "Acil durumlarda anında destek",
+                "Teknik dertlerden kurtulma"
+              ],
+              "cta": "Destek Planı Seç"
+            },
+            "security": {
+              "title": "Güvenlik & Yedekleme",
+              "highlight": "Siber saldırılara karşı koruma ve veri kaybını önleyen otomatik yedekleme sistemleri.",
+              "description": "Emekleriniz bir gecede yok olmasın. Web sitenizi zararlı yazılımlara karşı koruyor ve verilerinizi periyodik olarak güvenli sunucularda yedekliyoruz.",
+              "process": [
+                "Güvenlik duvarı (Firewall) kurulumu",
+                "Günlük/Haftalık otomatik yedekleme",
+                "Kötü amaçlı yazılım (Malware) taraması"
+              ],
+              "benefits": [
+                "Veri kaybı riskinin sıfırlanması",
+                "Hack ve saldırılara karşı kalkan",
+                "Güvenli ödeme ve müşteri verisi",
+                "Huzurlu bir dijital altyapı"
+              ],
+              "cta": "Siteni Güvenceye Al"
+            },
+            "corporate_mail": {
+              "title": "Kurumsal E-Posta & Altyapı",
+              "highlight": "Şirketinize özel e-posta adresleri ve güvenli bulut altyapısı kurulumu.",
+              "description": "Müşterilerinize '@gmail.com' yerine '@şirketiniz.com' uzantılı profesyonel maillerle ulaşın. Kurulum, taşıma ve teknik altyapı süreçlerinizi yönetiyoruz.",
+              "process": [
+                "Domain ve sunucu analizi",
+                "Google Workspace / Kurumsal Mail kurulumu",
+                "Cihaz entegrasyonları ve teslim"
+              ],
+              "benefits": [
+                "Kurumsal marka imajı",
+                "Spam'e düşmeyen güvenilir mailler",
+                "Yüksek depolama alanı",
+                "Ekipler arası kolay iletişim"
+              ],
+              "cta": "Kurumsal Maile Geç"
+            }
+          }
+        }
+      }
+    },
+    "steps": {
+      "title": "Nasıl Çalışıyoruz?",
+      "subtitle": "Baştan sona şeffaf ve etkili bir süreçle projelerinizi hayata geçiriyoruz",
+      "items": {
+        "step1": {
+          "title": "Keşif & Planlama",
+          "description": "İhtiyaçlarınızı analiz ediyor, net bir yol haritası çıkarıyoruz."
+        },
+        "step2": {
+          "title": "Tasarım & Geliştirme",
+          "description": "Modern tasarım ve temiz kod ile projeyi geliştiriyoruz."
+        },
+        "step3": {
+          "title": "Test & Optimizasyon",
+          "description": "Performans, güvenlik ve kullanıcı testlerini yapıyoruz."
+        },
+        "step4": {
+          "title": "Yayın & Destek",
+          "description": "Projeyi yayına alıyor ve sürekli destek sağlıyoruz."
+        }
+      }
+    },
+    "projects": {
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Başarılı projelere göz atın",
+      "items": {
+        "project1": {
+          "title": "Dil ve Konuşma Terapisti - Feyza Şahan",
+          "category": "Web Geliştirme"
+        },
+        "project2": {
+          "title": "Ortho Origin",
+          "category": "Web Geliştirme"
+        },
+        "project3": {
+          "title": "Fitness Mobil App",
+          "category": "Mobil Uygulama"
+        }
+      }
+    }
+  }
+}

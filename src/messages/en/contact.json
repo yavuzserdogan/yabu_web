@@ -1,0 +1,65 @@
+{
+  "ContactPage": {
+    "title": "Contact | Sybor Digital",
+    "description": "Contact us to bring your project to life. Your digital solution partner with modern technologies.",
+    "hero": {
+      "titleMain": "Let's",
+      "titleAccent": "Talk",
+      "description": "Have an idea? Do you need professional support to grow your project in the digital world? We are ready to listen to you."
+    },
+    "form": {
+      "title": "Let's Bring Your Project to Life",
+      "subtitle": "Don't get bogged down in technical details. Tell us your idea, and we'll bring it to life with the most suitable technology.",
+      "labelName": "Full Name",
+      "placeholderName": "John Doe",
+      "labelEmail": "Email",
+      "placeholderEmail": "john@mail.com",
+      "labelPhone": "Phone (Optional)",
+      "placeholderPhone": "555 555 55 55",
+      "labelMessage": "About Your Project",
+      "placeholderMessage": "Tell us the details...",
+      "button": "Send",
+      "success": "Your message has been sent!",
+      "error": "An error occurred.",
+      "location": "Location",
+      "locationValue": "Ankara, Turkey"
+    },
+    "faq": {
+      "title": "Get All Your Questions Answered",
+      "questions": {
+        "q1": {
+          "q": "How does the project process work, where do we start?",
+          "a": "Everything starts with a discovery meeting. We listen to your needs and goals. Then we offer a custom roadmap, design drafts, and technology recommendations. With your approval, we move to the design and coding phase."
+        },
+        "q2": {
+          "q": "How long does it take to complete a website or mobile app?",
+          "a": "It depends on the scope. A corporate website takes 2-4 weeks, while a comprehensive e-commerce or mobile app project can vary between 6-12 weeks."
+        },
+        "q3": {
+          "q": "Which technologies do you use?",
+          "a": "We prefer up-to-date and high-performance technologies. Next.js and Tailwind CSS for web; Flutter for mobile; .NET or Node.js for backend solutions."
+        },
+        "q4": {
+          "q": "Do you provide technical support after the project is finished?",
+          "a": "Absolutely. We provide 30 days of free technical support after delivery. Monthly maintenance and support packages are available for later."
+        },
+        "q5": {
+          "q": "What are your payment terms?",
+          "a": "Our standard procedure is 50% at the start and 50% upon delivery. For large projects, we can create flexible plans based on specific milestones."
+        },
+        "q6": {
+          "q": "Will my website be SEO compatible?",
+          "a": "Yes, we set up basic SEO infrastructure (speed, meta tags, mobile compatibility) in all websites we develop."
+        },
+        "q7": {
+          "q": "Do we have revision rights on the design?",
+          "a": "Yes, you have 2 rounds of free revisions on the demos presented during the design phase."
+        },
+        "q8": {
+          "q": "Do you handle Domain and Hosting processes?",
+          "a": "If you don't have a domain or server, we handle the purchase and installation from the most suitable provider for you."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "AboutPage": {
+    "title": "About Us | Sybor Digital",
+    "description": "We create boutique and scalable digital solutions with a computer engineering discipline.",
+    "hero": {
+      "titleMain": "Digital",
+      "titleAccent": "Studio",
+      "description": "We combine the quality of large agencies with the flexibility and sincerity of a small team."
+    },
+    "story": {
+      "title": "Our Story",
+      "quote": "We set out to be a transparent technology partner as an alternative to the complex processes of large agencies.",
+      "p1": "With computer engineering discipline, we produce strategic and scalable solutions for complex digital problems of businesses.",
+      "p2": "We embrace every project as our own startup and position ourselves as your technology partner, not just a supplier.",
+      "statsTitle": "100%",
+      "statsLabel": "Next-Generation Technology",
+      "statsDesc": "Instead of bulky legacy systems, we build your project with the most up-to-date, fast, and scalable modern architectures."
+    },
+    "stats": {
+      "title": "Principles Reflected in Quality",
+      "subtitle": "Instead of cliché agency metrics, we focus on transparent standards that bring real value to your project.",
+      "items": {
+        "stat1": "Transparent Process",
+        "stat2": "Hidden Costs",
+        "stat3": "Continuous Communication",
+        "stat4": "End-to-End Solution"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "These principles determine our working culture and approach to projects.",
+      "items": {
+        "focus": {
+          "title": "Focus",
+          "description": "We prioritize quality and customer satisfaction in every project."
+        },
+        "passion": {
+          "title": "Passion",
+          "description": "We love what we do and make this passion felt in every project."
+        },
+        "collab": {
+          "title": "Collaboration",
+          "description": "We produce the best results together by working one-on-one with our clients."
+        },
+        "quality": {
+          "title": "Quality",
+          "description": "From code quality to design, we aim for excellence in every detail."
+        }
+      }
+    },
+    "process": {
+      "title": "How Does Our Process Work?",
+      "subtitle": "We manage every step from idea to launch with a planned, measurable, and transparent approach.",
+      "items": {
+        "step1": {
+          "title": "First Meeting",
+          "description": "We listen to your project and goals. Free consultancy."
+        },
+        "step2": {
+          "title": "Planning & Proposal",
+          "description": "Detailed plan and transparent pricing."
+        },
+        "step3": {
+          "title": "Design & Development",
+          "description": "We move forward iteratively with you throughout the process."
+        },
+        "step4": {
+          "title": "Test & Launch",
+          "description": "Comprehensive tests and post-launch support."
+        }
+      }
+    },
+    "whyUs": {
+      "title": "Why Should We Be Your Tech Partner?",
+      "subtitle": "We don't just develop software; we build the digital infrastructure that will grow your business together.",
+      "items": {
+        "reason1": {
+          "title": "Direct Communication",
+          "desc": "You work directly with engineers. Decisions are made quickly without intermediate layers."
+        },
+        "reason2": {
+          "title": "Agile Delivery",
+          "desc": "We proceed sprint-based, producing working solutions for your business goals ASAP."
+        },
+        "reason3": {
+          "title": "Cost-Oriented Approach",
+          "desc": "Thanks to our boutique model, you invest in actual production instead of unnecessary agency costs."
+        },
+        "reason4": {
+          "title": "Custom Architecture",
+          "desc": "We design scalable, secure, and tailor-made systems instead of ready-made templates."
+        },
+        "reason5": {
+          "title": "Continuous Support",
+          "desc": "We are with you after launch; we conduct maintenance, monitoring, and development processes together."
+        },
+        "reason6": {
+          "title": "Scalability Focused",
+          "desc": "We build infrastructures ready for tomorrow's growth while meeting today's needs."
+        }
+      }
+    }
+  }
+}

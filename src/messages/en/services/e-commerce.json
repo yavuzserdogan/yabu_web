@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "title": "E-Commerce Systems"
+  },
+  "hero": {
+    "titleMain": "High-Converting",
+    "titleAccent": "E-Commerce Systems",
+    "description": "We build fast, scalable and conversion-focused online stores tailored to your brand."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "You Have a Product. Customers Are Waiting.",
+      "paragraph1": "Whether you have a physical store, a handmade product, or just an idea — with the right infrastructure, selling online is easier and more profitable than ever.",
+      "paragraph2": "Your customers are searching for you on Google, discovering you on social media and wanting to place orders online. Do you have a professional digital store ready to receive them?",
+      "paragraph3": "At Sybor Digital, we don't just put you online — we build an e-commerce experience that converts visitors, builds brand trust and is ready to scale.",
+      "audiences": {
+        "physical": {
+          "title": "I have a physical store",
+          "description": "I want to go online and bring my store to the digital world."
+        },
+        "startup": {
+          "title": "I'm starting a new brand",
+          "description": "I want to launch an e-commerce site from scratch."
+        },
+        "growing": {
+          "title": "My current site isn't working",
+          "description": "My sales are low and I need a better performing store."
+        },
+        "global": {
+          "title": "I want to sell internationally",
+          "description": "I want a multi-language store that reaches customers worldwide."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "End-to-End E-Commerce Solutions",
+      "paragraph1": "We're with you from concept to launch. We manage the entire process — from design and development to payment integration and SEO optimization.",
+      "paragraph2": "We customize platforms like Shopify and WooCommerce, or build a fully custom e-commerce infrastructure tailored to your needs. In both cases, our priority is speed, security and conversion.",
+      "paragraph3": "We don't stop after launch. We stay by your side with analytics tracking, performance optimization and technical support as your business grows.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Solution Under One Roof",
+      "cardDescription": "Everything your e-commerce project needs — from a single team.",
+      "checklist": {
+        "item1": "Custom design and brand identity",
+        "item2": "Secure payment infrastructure setup",
+        "item3": "Inventory, order and shipping management",
+        "item4": "SEO, speed and conversion optimization"
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "Why Choose Us?",
+    "subtitle": "Boutique approach, corporate discipline. A team that genuinely adds value to your project.",
+    "reasons": {
+      "reason1": {
+        "title": "Results-Driven Approach",
+        "description": "We build sites that sell, not just look good. Every design and development decision is made with conversion in mind."
+      },
+      "reason2": {
+        "title": "Transparent Process",
+        "description": "You're informed at every stage of your project. No surprise costs, no delays, no ambiguity."
+      },
+      "reason3": {
+        "title": "Fast Delivery",
+        "description": "Without the bureaucratic slowness of large agencies, we deliver fast without compromising on quality."
+      },
+      "reason4": {
+        "title": "Technical Excellence",
+        "description": "We build fast, secure and scalable systems using Next.js, Node.js and modern infrastructure."
+      },
+      "reason5": {
+        "title": "Post-Launch Support",
+        "description": "Our relationship doesn't end at delivery. We stay with you for technical support, updates and growth."
+      },
+      "reason6": {
+        "title": "Real Partnership",
+        "description": "We don't just write code — we understand your business, contribute to your digital strategy and think long-term."
+      }
+    }
+  },
+  "features": {
+    "label": "Service Details",
+    "title": "What We Offer",
+    "subtitle": "Everything you need for a complete e-commerce solution",
+    "items": {
+      "custom": {
+        "title": "Custom E-Commerce Software",
+        "description": "Fully custom-built e-commerce platforms tailored to your needs. Complete control and flexibility."
+      },
+      "payment": {
+        "title": "Payment System Integration",
+        "description": "iyzico, PayTR, Stripe and more. Fast and secure payment infrastructure setup."
+      },
+      "mobile": {
+        "title": "Mobile-Responsive Design",
+        "description": "Flawless appearance on all devices. Mobile-first, fully responsive design approach."
+      },
+      "stock": {
+        "title": "Stock & Order Management",
+        "description": "Advanced admin panel for inventory tracking, order management and logistics integrations."
+      },
+      "seo": {
+        "title": "SEO & Speed Optimization",
+        "description": "Google Core Web Vitals compliant, ultra-fast loading and search engine optimization."
+      },
+      "admin": {
+        "title": "Admin Panel & Reporting",
+        "description": "Detailed analytics reports, sales charts and customer behavior analysis."
+      }
+    }
+  },
+  "process": {
+    "label": "Our Process",
+    "title": "How We Work",
+    "subtitle": "We bring your project to life with a transparent and effective process from start to finish.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Planning",
+        "description": "We analyze your needs, target audience and competitors. We create a clear roadmap and technical architecture before writing a single line of code.",
+        "tag": "1-3 Days"
+      },
+      "design": {
+        "title": "Design & Prototype",
+        "description": "We craft wireframes and high-fidelity UI designs with user experience at the core. We never move forward without your approval.",
+        "tag": "3-7 Days"
+      },
+      "development": {
+        "title": "Development & Testing",
+        "description": "We write clean, scalable code using modern technologies. Performance, security and compatibility tests are run at every stage.",
+        "tag": "2-5 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Support",
+        "description": "We go live, monitor performance and provide ongoing support. We stay by your side well after launch.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does delivery take?",
+        "answer": "E-commerce projects typically take 4-10 weeks depending on scope. After the discovery call, we provide a custom timeline specific to your project."
+      },
+      "pricing": {
+        "question": "How is pricing determined?",
+        "answer": "Pricing is based on project scope, feature list and integration requirements. We provide a clear proposal after a free discovery call."
+      },
+      "revisions": {
+        "question": "How many revisions do I get?",
+        "answer": "We offer unlimited revisions during the design phase. Once development begins, changes are handled within the agreed scope."
+      },
+      "maintenance": {
+        "question": "Do you provide post-launch support?",
+        "answer": "Yes. We offer 3 months of free technical support after launch. Afterwards, you can choose one of our monthly maintenance packages."
+      },
+      "migration": {
+        "question": "Can you migrate our existing site?",
+        "answer": "Yes, we migrate your existing site, product data, customer information and order history to the new platform without any data loss."
+      },
+      "mobile": {
+        "question": "Do you also build mobile apps?",
+        "answer": "Yes. We also develop iOS and Android applications that integrate with your e-commerce store. This is offered as a separate service."
+      }
+    }
+  },
+  "projects": {
+    "label": "Our Work",
+    "title": "Related Projects",
+    "viewAll": "View All Projects",
+    "metric1Label": "Conversion Increase",
+    "metric2Label": "Load Time",
+    "items": {
+      "project1": {
+        "title": "FashionStore E-Commerce",
+        "description": "A high-performance fashion e-commerce platform built from scratch with Next.js.",
+        "metric1": "+340%",
+        "metric2": "1.8s"
+      },
+      "project2": {
+        "title": "TechShop Mobile",
+        "description": "Shopify-integrated electronics store app developed for iOS and Android.",
+        "metric1": "+210%",
+        "metric2": "2.1s"
+      },
+      "project3": {
+        "title": "OrganicBasket",
+        "description": "WooCommerce-based, SEO-focused e-commerce site for organic products.",
+        "metric1": "+180%",
+        "metric2": "1.5s"
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What Our Clients Say",
+    "subtitle": "Real experiences from the clients we've worked with.",
+    "items": {
+      "testimonial1": {
+        "comment": "The Sybor Digital team delivered our project on time and far beyond our expectations. Our e-commerce conversion rate tripled in the first month.",
+        "name": "Ahmet Kaya",
+        "role": "CEO, FashionStore"
+      },
+      "testimonial2": {
+        "comment": "They truly stand out in technical knowledge and communication. After our mobile app launched, customer satisfaction visibly improved.",
+        "name": "Merve Yılmaz",
+        "role": "Founder, TechShop"
+      },
+      "testimonial3": {
+        "comment": "They don't just act as a software firm — they approach you like a business partner. The solutions they propose genuinely add value.",
+        "name": "Selim Bozkurt",
+        "role": "General Manager, OrganicBasket"
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Bring Your Project to Life",
+    "description": "Get in touch for a free discovery call. We're here to offer solutions tailored specifically to you.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}
