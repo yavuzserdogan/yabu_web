@@ -5,6 +5,37 @@
     "projects": "Projects",
     "about": "About",
     "contact": "Contact",
-    "cta": "Get In Touch"
+    "cta": "Get in Touch",
+    "servicesMenu": {
+      "categories": {
+        "web": "Web & E-Commerce",
+        "mobile": "Mobile Apps",
+        "growth": "Social Media & Design",
+        "management": "Infrastructure & Support"
+      },
+      "items": {
+        "corporate": "Corporate Website",
+        "ecommerce": "E-Commerce Systems",
+        "boutique": "Boutique Store Sites",
+        "portfolio": "Portfolio & Personal Sites",
+        "landing": "Landing & Campaign Pages",
+        "blog": "News & Blog Portals",
+        "app": "iOS & Android Apps",
+        "qr": "QR Menu & Restaurant Solutions",
+        "booking": "Appointment & Reservation",
+        "social_media": "Social Media Management",
+        "uiux": "UI/UX & Interface Design",
+        "branding": "Corporate Identity & Post Design",
+        "ads": "Social Media Ad Designs",
+        "seo": "SEO & Search Engine Optimization",
+        "maintenance": "Web Maintenance & Support",
+        "security": "Security & Backup",
+        "corporate_mail": "Corporate Email & Infrastructure"
+      },
+      "banner": {
+        "text": "Free discovery call for your project",
+        "cta": "Get in Touch Now"
+      }
+    }
   }
 }

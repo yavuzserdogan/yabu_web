@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "iOS & Android Mobil Uygulamalar"
+  },
+  "hero": {
+    "titleMain": "Kullanıcıları Bağlayan",
+    "titleAccent": "iOS & Android Mobil Uygulamalar",
+    "description": "Fikirden App Store'a — kullanıcı dostu, yüksek performanslı ve ölçeklenebilir mobil uygulamalar geliştiriyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "İşiniz Kullanıcıların Cebinde Yaşamalı",
+      "paragraph1": "Web siteniz masaüstünde harika ama mobilde iş akışlarını yönetmek, müşterilerle iletişim kurmak veya satış yapmak karmaşık mı hale geliyor?",
+      "paragraph2": "Mobil uygulamalar artık büyük şirketlere özgü bir lüks değil. Push bildirimler, offline çalışma ve cihaz özelliklerine erişim, web'in sunamayacağı deneyimler sunuyor.",
+      "paragraph3": "Sybor Digital olarak React Native ve native teknolojilerle hem iOS hem Android'de kusursuz çalışan uygulamalar geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Uygulama fikrim var",
+          "description": "MVP ile başlayıp büyütmek istiyorum."
+        },
+        "startup": {
+          "title": "İşimi mobilleştirmek istiyorum",
+          "description": "Müşterilerim veya ekibim için özel bir uygulama lazım."
+        },
+        "growing": {
+          "title": "E-ticaret uygulaması istiyorum",
+          "description": "Web mağazamın yanına bir mobil uygulama eklemek istiyorum."
+        },
+        "global": {
+          "title": "Hizmet sektöründeyim",
+          "description": "Randevu, rezervasyon veya sipariş yönetimi için uygulama lazım."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Fikirden Yayına Tam Süreç Yönetimi",
+      "paragraph1": "UX araştırması ve wireframe'den tasarım ve geliştirmeye, testlerden App Store yayınına kadar tüm süreci yönetiyoruz.",
+      "paragraph2": "React Native ile tek kod tabanından hem iOS hem Android'e çıkıyoruz. Performans kritik uygulamalar için native geliştirme de yapıyoruz.",
+      "paragraph3": "Yayın sonrasında kullanıcı analitikleri, hata raporlama ve düzenli güncellemelerle uygulamanızı sağlıklı tutuyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Uçtan Uca Mobil Geliştirme",
+      "cardDescription": "Mobil uygulama projeniz için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "iOS ve Android için tek uygulama",
+        "item2": "Backend API ve veritabanı entegrasyonu",
+        "item3": "Push bildirim ve analitik kurulumu",
+        "item4": "App Store & Google Play yayın desteği"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Modern ve ölçeklenebilir mobil uygulama geliştirme çözümleri",
+    "items": {
+      "custom": {
+        "title": "Cross-Platform Geliştirme",
+        "description": "React Native ile tek kod tabanından iOS ve Android'e çıkın. Zaman ve maliyet tasarrufu sağlayın."
+      },
+      "payment": {
+        "title": "Kullanıcı Deneyimi Tasarımı",
+        "description": "Kullanıcı araştırması, wireframe ve prototiplemeyle sezgisel ve akıcı arayüzler tasarlıyoruz."
+      },
+      "mobile": {
+        "title": "Backend & API Geliştirme",
+        "description": "Uygulamanızın arkasındaki güçlü altyapı. Ölçeklenebilir API'lar, veritabanları ve bulut entegrasyonları."
+      },
+      "stock": {
+        "title": "Push Bildirim Sistemi",
+        "description": "Kullanıcıları geri getiren kişiselleştirilmiş push bildirim altyapısı."
+      },
+      "seo": {
+        "title": "Analitik & Hata Raporlama",
+        "description": "Kullanıcı davranışı, uygulama performansı ve hata takibi için tam analitik kurulumu."
+      },
+      "admin": {
+        "title": "App Store & Google Play Yayını",
+        "description": "Tüm süreci yönetiyoruz — App Store Optimizasyonu (ASO), ekran görüntüleri ve başvuru."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Butik yaklaşım, kurumsal disiplin. Uygulamanıza gerçekten değer katan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Ürün Zihniyeti",
+        "description": "Sadece kod yazmıyoruz. Kullanıcı ihtiyaçlarını anlıyor ve doğru ürün kararlarını birlikte alıyoruz."
+      },
+      "reason2": {
+        "title": "Şeffaf Süreç",
+        "description": "Her sprint sonunda demo sunuyoruz. Projenizin nerede durduğunu her zaman biliyorsunuz."
+      },
+      "reason3": {
+        "title": "Hızlı MVP",
+        "description": "Fikrinizi hızlıca pazara taşıyoruz. 6-10 haftada MVP teslim edebiliyoruz."
+      },
+      "reason4": {
+        "title": "Modern Teknoloji Yığını",
+        "description": "React Native, Node.js ve bulut altyapısıyla performanslı ve ölçeklenebilir uygulamalar."
+      },
+      "reason5": {
+        "title": "Yayın Sonrası Bakım",
+        "description": "iOS ve Android güncellemelerine uyumluluğu koruyoruz. Hata düzeltme ve yeni özellik geliştirme desteği."
+      },
+      "reason6": {
+        "title": "Ölçeğe Hazır Mimari",
+        "description": "100 kullanıcıdan 100.000 kullanıcıya ölçeklenebilecek bir mimariyle başlıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Fikrinizi adım adım hayata geçiriyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif & Ürün Planlaması",
+        "description": "Kullanıcı hikayelerini, uygulama özelliklerini ve teknik gereksinimleri belirliyoruz. Öncelikli özellik listesini çıkarıyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "design": {
+        "title": "UX/UI Tasarım",
+        "description": "Wireframe ve yüksek kaliteli mobil arayüz tasarımları hazırlıyoruz. Kullanıcı akışlarını test ediyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "development": {
+        "title": "Geliştirme & Test",
+        "description": "Sprint sprint geliştiriyoruz. Her iki haftada bir demo sunuyor ve geri bildirimlerinizi alıyoruz.",
+        "tag": "4-10 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Büyüme",
+        "description": "App Store ve Google Play'e yayınlıyor, kullanıcı geri bildirimlerine göre geliştirmeye devam ediyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Uygulama kaç günde hazır olur?",
+        "answer": "Basit bir MVP genellikle 6-10 haftada teslim edilir. Karmaşık uygulamalar 3-6 ay sürebilir. Keşif görüşmesinden sonra özel zaman çizelgesi sunuyoruz."
+      },
+      "pricing": {
+        "question": "Mobil uygulama ne kadar tutar?",
+        "answer": "Özellikler, platform (iOS/Android/ikisi) ve backend gereksinimlerine göre değişir. Ücretsiz görüşme sonrası şeffaf teklif sunuyoruz."
+      },
+      "revisions": {
+        "question": "Geliştirme sürecinde fikir değiştirebilir miyim?",
+        "answer": "Sprint bazlı çalıştığımız için küçük değişiklikler her sprint'e dahil edilebilir. Büyük kapsam değişiklikleri ayrıca değerlendirilir."
+      },
+      "maintenance": {
+        "question": "Yayın sonrası bakım sağlıyor musunuz?",
+        "answer": "Evet. iOS ve Android güncellemelerine uyumluluğu koruyoruz. Aylık bakım paketleri üzerinden süregelen destek sunuyoruz."
+      },
+      "migration": {
+        "question": "Mevcut uygulamayı yeniden yazabilir misiniz?",
+        "answer": "Evet. Eski teknolojilerle yapılmış uygulamaları modern React Native veya native teknolojilerle yeniden yazıyoruz."
+      },
+      "mobile": {
+        "question": "Web sitem varken neden uygulamaya ihtiyacım var?",
+        "answer": "Push bildirimler, offline çalışma, kamera ve GPS gibi cihaz özelliklerine erişim ve daha yüksek kullanıcı bağlılığı native uygulama gerektirir."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Uygulamanızı Birlikte Hayata Geçirelim",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Fikrinizi ürüne dönüştürmek için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

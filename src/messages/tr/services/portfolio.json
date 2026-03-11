@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Portfolyo & Kişisel Web Siteleri"
+  },
+  "hero": {
+    "titleMain": "Yeteneğinizi Öne Çıkaran",
+    "titleAccent": "Portfolyo & Kişisel Web Siteleri",
+    "description": "Freelancer'lardan fotoğrafçılara, tasarımcılardan danışmanlara — kariyerinizi ve yeteneklerinizi en iyi şekilde temsil eden kişisel web siteleri."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Dijital Varlığınızda Tek Adres Siz misiniz?",
+      "paragraph1": "LinkedIn profiliniz yeterli değil. Instagram portfolyonuzu tam anlamıyla yansıtamıyor. Kendi domain'iniz ve siteniz olmadan dijital dünyada eksiksiniz.",
+      "paragraph2": "Müşteriler, işverenler ve iş ortakları sizi Google'da arıyor. Ne buluyor? Dağınık sosyal medya profilleri mi — yoksa sizi en iyi şekilde temsil eden özel bir site mi?",
+      "paragraph3": "Sybor Digital olarak freelancer'lardan yaratıcı profesyonellere, danışmanlardan sanatçılara kadar kişisel sesinizi dijital dünyaya taşıyan web siteleri kuruyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Freelancer'ım",
+          "description": "Müşterilere profesyonel görünmek ve daha fazla iş almak istiyorum."
+        },
+        "startup": {
+          "title": "Yaratıcı bir profesyonelim",
+          "description": "Tasarım, fotoğraf veya video işlerimi sergilemek istiyorum."
+        },
+        "growing": {
+          "title": "Danışman veya koçum",
+          "description": "Uzmanlığımı öne çıkaran ve müşteri çeken bir site istiyorum."
+        },
+        "global": {
+          "title": "Kariyer gelişimi hedefliyorum",
+          "description": "İş başvurularımı destekleyecek etkileyici bir portfolyo istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Kişisel Markanız İçin Dijital Bir Kimlik",
+      "paragraph1": "Hikayenizi, değerlerinizi ve çalışmalarınızı en etkili şekilde anlatan bir yapı tasarlıyoruz.",
+      "paragraph2": "Portfolyo sayfaları, hizmet açıklamaları, blog, iletişim formları ve referanslar dahil tüm önemli bölümleri kişisel markanıza uygun şekilde kuruyoruz.",
+      "paragraph3": "Siteniz hazır olduğunda içerik güncellemeleri, SEO ve kişisel marka gelişimi konularında da destek sağlıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Sizi En İyi Temsil Eden Site",
+      "cardDescription": "Kişisel siteniz için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "Kişisel marka kimliğine uygun tasarım",
+        "item2": "Portfolyo ve proje vitrini",
+        "item3": "Blog ve içerik yönetimi",
+        "item4": "İletişim ve potansiyel müşteri formları"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Kişisel markanızı ön plana çıkaracak çözümler",
+    "items": {
+      "custom": {
+        "title": "Kişiye Özel Tasarım",
+        "description": "Sizi yansıtan özgün bir görsel kimlik. Şablon kullanılmaz — her şey size özel tasarlanır."
+      },
+      "payment": {
+        "title": "Proje & Portfolyo Galerisi",
+        "description": "Çalışmalarınızı filtrelenebilir, kategorili ve görsel açıdan etkileyici şekilde sergileyin."
+      },
+      "mobile": {
+        "title": "Blog & İçerik Yönetimi",
+        "description": "Uzmanlığınızı paylaşacağınız blog sayfası ve SEO değeri kazandıracak kolay yönetim paneli."
+      },
+      "stock": {
+        "title": "Akıllı İletişim Formları",
+        "description": "Potansiyel müşterileri yakalamak için özelleştirilmiş iletişim ve teklif talep formları."
+      },
+      "seo": {
+        "title": "Kişisel SEO Optimizasyonu",
+        "description": "Adınızı Google'da aratanların üst sıralarda sizi bulması için şema işaretlemesi ve teknik SEO."
+      },
+      "admin": {
+        "title": "Ziyaretçi & Performans Analitikleri",
+        "description": "Kim ziyaret ediyor, ne bakıyor, nereden geliyor — tüm verileri takip edin ve stratejinizi geliştirin."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Kişisel markalaşma dünyasını anlayan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Sizi Anlıyoruz",
+        "description": "Kişisel markalaşma sadece teknik değil, stratejiktir. Hedeflerinize uygun doğru yapıyı kuruyoruz."
+      },
+      "reason2": {
+        "title": "Hızlı Teslimat",
+        "description": "Portfolyo sitelerini genellikle 2-3 haftada teslim ediyoruz. Fırsatları kaçırmanıza izin vermiyoruz."
+      },
+      "reason3": {
+        "title": "Freelancer Dostu Fiyatlandırma",
+        "description": "Kurumsal bütçe gerektirmeyen fiyatlandırma paketleri sunuyoruz."
+      },
+      "reason4": {
+        "title": "Kolay Güncelleme",
+        "description": "Teknik bilgi gerektirmeden yeni projeler ekleyebileceğiniz yönetim paneli teslim ediyoruz."
+      },
+      "reason5": {
+        "title": "SEO'ya Hazır",
+        "description": "Siteniz yayına girdiği andan itibaren Google'da fark edilmeye başlar."
+      },
+      "reason6": {
+        "title": "Uzun Vadeli Destek",
+        "description": "Kariyeriniz büyüdükçe siteniz de büyür. Her yeni adımda yanınızdayız."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Kişisel markanızı dijital dünyaya birlikte taşıyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif & Marka Analizi",
+        "description": "Hedeflerinizi, hedef kitlenizi ve rakiplerinizi analiz ediyoruz. Site yapısı ve içerik planını birlikte oluşturuyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Tasarım & Konsept",
+        "description": "Kişisel markanızı yansıtan görsel kimlik ve sayfa tasarımlarını hazırlıyoruz. Onayınıza sunuyoruz.",
+        "tag": "2-4 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & İçerik",
+        "description": "Siteyi geliştiriyor, portfolyo içeriklerinizi yüklüyor ve tüm sistemi test ediyoruz.",
+        "tag": "1-3 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Büyüme",
+        "description": "Canlıya alıyor, SEO kurulumunu yapıyor ve kişisel marka stratejinizi destekliyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Portfolyo sitesi kaç günde hazır olur?",
+        "answer": "Genellikle 2-3 haftada teslim ediyoruz. İçerik kapsamına göre değişir. Acil durumlarda öncelikli işlem mevcut."
+      },
+      "pricing": {
+        "question": "Maliyeti ne kadar?",
+        "answer": "Sayfa sayısı ve özellik gereksinimlerine göre değişir. Freelancer dostu paketlerimiz mevcut. Ücretsiz görüşme sonrası net teklif."
+      },
+      "revisions": {
+        "question": "İçerikleri kendim güncelleyebilir miyim?",
+        "answer": "Evet. Kolay içerik yönetim paneli teslim ediyoruz. Bize danışmadan yeni proje ekleyebilir, blog yazabilirsiniz."
+      },
+      "maintenance": {
+        "question": "Yayın sonrası destek sağlıyor musunuz?",
+        "answer": "Evet. Yayın sonrası 3 aylık ücretsiz teknik destek. Sonrasında aylık bakım paketleri mevcut."
+      },
+      "migration": {
+        "question": "Başka platformdaki portfolyomu taşıyabilir misiniz?",
+        "answer": "Evet. Behance, Dribbble veya başka platformlardaki çalışmalarınızı yeni sitenize aktarıyoruz."
+      },
+      "mobile": {
+        "question": "Domain ve hosting nasıl çalışır?",
+        "answer": "Domain alımı ve hosting kurulumu için tam destek sağlıyoruz. İstersen biz halleder ya da adım adım rehberlik ederiz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Dijital Kimliğinizi Birlikte İnşa Edelim",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Size özel bir portfolyo deneyimi tasarlamak için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

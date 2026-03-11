@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "QR Menü & Restoran Çözümleri"
+  },
+  "hero": {
+    "titleMain": "Restoran Deneyimini Dönüştüren",
+    "titleAccent": "QR Menü & Restoran Çözümleri",
+    "description": "Kağıt menüden dijitale — masaüstü siparişten mutfak ekranına kadar restoranınızı modernleştiren akıllı çözümler geliştiriyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Restoranınız Dijital Çağa Hazır Mı?",
+      "paragraph1": "Kağıt menüler yıpranıyor, güncellemek zaman alıyor ve hijyen kaygısı yaratıyor. Sipariş hataları, uzun bekleme süreleri ve personel yükü işinizi zorlaştırıyor.",
+      "paragraph2": "QR menü artık sadece bir trend değil — hız, hijyen ve müşteri deneyimi açısından restoranlar için standart bir gereklilik haline geldi.",
+      "paragraph3": "Sybor Digital olarak QR menüden masaüstü sipariş sistemine, mutfak ekranından sadakat programına kadar restoranınıza özel dijital çözümler geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Restoran veya kafem var",
+          "description": "QR menü ve sipariş sistemiyle operasyonumu kolaylaştırmak istiyorum."
+        },
+        "startup": {
+          "title": "Zincir işletme yönetiyorum",
+          "description": "Tüm şubelerimde merkezi menü yönetimi istiyorum."
+        },
+        "growing": {
+          "title": "Otel veya tesisim var",
+          "description": "Oda servisi ve restoran siparişlerini dijitalleştirmek istiyorum."
+        },
+        "global": {
+          "title": "Food court veya AVM'deyim",
+          "description": "Çoklu işletme yönetimine uygun dijital menü sistemi istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Restoranınızı Baştan Sona Dijitalleştiriyoruz",
+      "paragraph1": "QR kod taramayla açılan dijital menüden masaüstü sipariş terminaline, mutfak ekranından ödeme sistemine kadar tüm akışı kuruyoruz.",
+      "paragraph2": "Menü güncellemelerini siz yapın — fiyat değişikliği, günlük özel veya mevsimlik menü eklemek için teknik destek gerekmez.",
+      "paragraph3": "Sipariş analitikleri, en çok satan ürün raporları ve müşteri geri bildirimleriyle restoranınızı veriyle yönetmenize yardımcı oluyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Restoran Dijital Dönüşüm Paketi",
+      "cardDescription": "Restoranınız için ihtiyaç duyduğunuz her dijital çözüm tek çatı altında.",
+      "checklist": {
+        "item1": "QR kod ile açılan dijital menü",
+        "item2": "Masaüstü sipariş ve ödeme sistemi",
+        "item3": "Mutfak ekranı (KDS) entegrasyonu",
+        "item4": "Merkezi menü yönetim paneli"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Restoranınızı modernleştirecek dijital çözümler",
+    "items": {
+      "custom": {
+        "title": "Dinamik QR Menü",
+        "description": "Fotoğraflı, kategorili ve filtrelenebilir dijital menü. Fiyat ve içerik güncellemeleri anında yansır."
+      },
+      "payment": {
+        "title": "Masaüstü Sipariş Sistemi",
+        "description": "Müşteriler masalarından sipariş verebilir. Garson çağırma özelliğiyle personel verimliliği artar."
+      },
+      "mobile": {
+        "title": "Mutfak Ekranı (KDS)",
+        "description": "Siparişler doğrudan mutfak ekranına düşer. Kağıt fiş ve iletişim hatası ortadan kalkar."
+      },
+      "stock": {
+        "title": "Entegre Ödeme Sistemi",
+        "description": "Masa başında ödeme, bölünmüş hesap ve dijital fiş. Kredi kartı, nakit ve dijital cüzdan desteği."
+      },
+      "seo": {
+        "title": "Sadakat Programı",
+        "description": "Müşterileri tekrar getiren puan sistemi, doğum günü indirimi ve özel kampanya araçları."
+      },
+      "admin": {
+        "title": "Satış Analitikleri",
+        "description": "En çok satan ürünler, yoğun saatler ve masa doluluk oranları ile veriye dayalı kararlar alın."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Restoran sektörünün operasyonel ihtiyaçlarını anlayan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Sektörü Anlıyoruz",
+        "description": "Restoran operasyonlarını biliriz. Çözümlerimiz gerçek iş akışlarına göre tasarlanmıştır."
+      },
+      "reason2": {
+        "title": "Kolay Kurulum",
+        "description": "Sistemi kuruyor, eğitimi veriyor ve her şeyi ayarlıyoruz. Teknik bilgi gerekmez."
+      },
+      "reason3": {
+        "title": "Hızlı Teslimat",
+        "description": "Temel QR menü sistemini genellikle 1-2 haftada devreye alıyoruz."
+      },
+      "reason4": {
+        "title": "Merkezi Yönetim",
+        "description": "Çok şubeli işletmeler için tüm menüleri tek panelden yönetme imkanı."
+      },
+      "reason5": {
+        "title": "7/24 Teknik Destek",
+        "description": "Servis saatlerinde sistem sorunu yaşamanız kabul edilemez. Hızlı müdahale garantisi veriyoruz."
+      },
+      "reason6": {
+        "title": "Büyümeye Hazır",
+        "description": "Tek restorandan zincire büyüdükçe sistem de büyür. Ölçeklenebilir altyapı standart."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Restoranınızı hızlıca dijitalleştiriyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "İhtiyaç Analizi",
+        "description": "Restoranınızın operasyonel ihtiyaçlarını, menü yapısını ve servis akışını analiz ediyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Menü Tasarımı & Kurulum",
+        "description": "Markanıza uygun dijital menü tasarımı yapıyor ve tüm ürünlerinizi sisteme yüklüyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "development": {
+        "title": "Sistem Entegrasyonu",
+        "description": "Sipariş sistemi, mutfak ekranı ve ödeme entegrasyonlarını kuruyoruz. Sahada test ediyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "launch": {
+        "title": "Devreye Alma & Eğitim",
+        "description": "Sistemi canlıya alıyor, personeli eğitiyor ve ilk hafta yakın takip yapıyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Sistem ne kadar sürede devreye girer?",
+        "answer": "Temel QR menü sistemi genellikle 1-2 haftada, sipariş ve ödeme entegrasyonlu tam sistem 3-4 haftada hazır olur."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma nasıl çalışıyor?",
+        "answer": "Tek seferlik kurulum bedeli ve aylık abonelik modeliyle çalışıyoruz. Şube sayısına göre özel fiyatlandırma sunuyoruz."
+      },
+      "revisions": {
+        "question": "Menüyü kendim güncelleyebilir miyim?",
+        "answer": "Evet. Fiyat değişikliği, ürün ekleme veya kaldırma işlemlerini kolayca kendi başınıza yapabilirsiniz."
+      },
+      "maintenance": {
+        "question": "İnternet olmadan sistem çalışır mı?",
+        "answer": "Offline mod desteğimiz bulunuyor. Bağlantı kesildiğinde temel menü görüntüleme çalışmaya devam eder."
+      },
+      "migration": {
+        "question": "Mevcut POS sistemimle entegre olur mu?",
+        "answer": "Popüler POS sistemleriyle entegrasyon yapabiliyoruz. Kullandığınız sistemi görüşme sırasında değerlendiriyoruz."
+      },
+      "mobile": {
+        "question": "Müşteriler uygulama indirmek zorunda mı?",
+        "answer": "Hayır. QR kodu tarayan müşteri doğrudan tarayıcıda menüyü görür. Uygulama indirme zorunluluğu yok."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Restoranınızı Dijital Çağa Taşıyalım",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Restoranınıza özel dijital çözümler sunmak için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

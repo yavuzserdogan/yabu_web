@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Kurumsal E-Posta & Altyapı"
+  },
+  "hero": {
+    "titleMain": "Profesyonel ve Güvenilir",
+    "titleAccent": "Kurumsal E-Posta & Altyapı",
+    "description": "Gmail veya kişisel hesaplardan kurumsal yapıya geçin. @sirketiniz.com uzantılı, güvenli ve profesyonel e-posta altyapısı kuruyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "info@gmail.com Artık Yetmiyor",
+      "paragraph1": "Bir müşteri info@gmail.com adresinizden e-posta aldığında ne düşünür? Kurumsal bir e-posta adresi, ilk mesajdan itibaren profesyonellik ve güven sinyali verir.",
+      "paragraph2": "Görünümün ötesinde kişisel e-posta servisleri iş ihtiyaçları için yetersiz kalır — ekip yönetimi, paylaşılan posta kutuları, e-posta arşivleme ve güvenlik konularında boşluklar oluşur.",
+      "paragraph3": "Sybor Digital olarak Google Workspace, Microsoft 365 veya özel mail sunucusu üzerinden kendi domaininizle kurumsal e-posta altyapısı kuruyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Şirketi yeni kurdum",
+          "description": "Şirket adıma kurumsal e-posta adresleri oluşturmak istiyorum."
+        },
+        "startup": {
+          "title": "Ekibim büyüyor",
+          "description": "Çalışanlarım için yönetimli kurumsal e-posta hesapları kurmak istiyorum."
+        },
+        "growing": {
+          "title": "Geçiş yapmak istiyorum",
+          "description": "Kişisel e-postadan kurumsal sisteme veri kaybetmeden geçmek istiyorum."
+        },
+        "global": {
+          "title": "Kurumsal uyumluluk gerekiyor",
+          "description": "E-posta arşivleme, güvenlik politikaları ve mevzuat uyumluluğu ihtiyacım var."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Kurumsal E-Posta Kurulumunun Tamamını Üstleniyoruz",
+      "paragraph1": "Domain doğrulamasından hesap oluşturmaya, DNS yapılandırmasından spam korumasına kadar tüm teknik kurulumu biz yapıyoruz.",
+      "paragraph2": "Google Workspace, Microsoft 365 veya özel mail sunucusu seçeneklerinden ihtiyacınıza en uygun çözümü belirliyoruz.",
+      "paragraph3": "Kurulumun ardından mevcut e-postalarınızın taşınması, ekip eğitimi ve süregelen teknik destek sağlıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Eksiksiz Kurumsal E-Posta Çözümü",
+      "cardDescription": "Kurumsal e-posta altyapısı için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "Domain tabanlı e-posta kurulumu",
+        "item2": "DNS, SPF, DKIM ve DMARC yapılandırması",
+        "item3": "Mevcut e-postaların taşınması",
+        "item4": "Ekip hesapları ve yetki yönetimi"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Profesyonel kurumsal e-posta altyapısı için tüm çözümler",
+    "items": {
+      "custom": {
+        "title": "Kurumsal E-Posta Kurulumu",
+        "description": "@sirketiniz.com uzantılı e-posta hesapları. Google Workspace, Microsoft 365 veya özel sunucu seçenekleri."
+      },
+      "payment": {
+        "title": "DNS & E-Posta Güvenliği",
+        "description": "SPF, DKIM ve DMARC yapılandırması. E-postalarınız spam'e düşmez, sahtecilik engellenir."
+      },
+      "mobile": {
+        "title": "E-Posta Taşıma",
+        "description": "Mevcut e-postalarınızı, kişilerinizi ve takviminizi yeni sisteme eksiksiz ve kesintisiz aktarıyoruz."
+      },
+      "stock": {
+        "title": "Ekip & Yetki Yönetimi",
+        "description": "Personel hesapları, grup e-posta adresleri, paylaşılan posta kutuları ve admin panel kurulumu."
+      },
+      "seo": {
+        "title": "E-Posta Güvenliği",
+        "description": "Spam filtreleme, anti-phishing, iki faktörlü doğrulama ve e-posta şifreleme kurulumu."
+      },
+      "admin": {
+        "title": "E-Posta Arşivleme",
+        "description": "Yasal ve kurumsal uyumluluk için e-posta arşivleme çözümleri. Arama, dışa aktarma ve saklama politikaları."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Teknik altyapıyı basit ve anlaşılır kılan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Sorunsuz Geçiş",
+        "description": "Geçiş sürecinde tek bir e-posta kaybetmemenizi ve iş akışınızın aksamamasını sağlıyoruz."
+      },
+      "reason2": {
+        "title": "Doğru Platform Seçimi",
+        "description": "Ekip büyüklüğünüze ve ihtiyaçlarınıza göre en uygun ve ekonomik platformu belirliyoruz."
+      },
+      "reason3": {
+        "title": "Tam Teknik Kurulum",
+        "description": "DNS kayıtları, güvenlik yapılandırmaları ve tüm teknik detaylar — siz hiçbir şeyle uğraşmadan hallolur."
+      },
+      "reason4": {
+        "title": "Ekip Eğitimi",
+        "description": "Personelinizi yeni sistemi hızlıca kullanmaları için eğitiyoruz. Sorunsuz geçiş garantisi."
+      },
+      "reason5": {
+        "title": "Süregelen Destek",
+        "description": "Yeni çalışan hesabı, şifre sıfırlama veya teknik sorunlar için hızlıca yanında oluyoruz."
+      },
+      "reason6": {
+        "title": "Güvenlik Önce",
+        "description": "Kurumsal e-posta siber saldırıların en çok hedef aldığı noktadır. Güvenliği en baştan doğru kuruyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Kurumsal e-posta altyapınızı hızlı ve sorunsuz kuruyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "İhtiyaç Analizi",
+        "description": "Ekip büyüklüğünüzü, mevcut yapıyı ve gereksinimleri değerlendiriyoruz. Doğru platformu seçiyoruz.",
+        "tag": "1 Gün"
+      },
+      "design": {
+        "title": "Hesap Yapısı Planlaması",
+        "description": "E-posta hesapları, grup adresleri ve yetki yapısını planlıyoruz.",
+        "tag": "1 Gün"
+      },
+      "development": {
+        "title": "Kurulum & Taşıma",
+        "description": "Hesapları oluşturuyor, DNS yapılandırmalarını yapıyor ve mevcut e-postaları taşıyoruz.",
+        "tag": "2-5 Gün"
+      },
+      "launch": {
+        "title": "Eğitim & Devreye Alma",
+        "description": "Ekibinizi eğitiyor, sistemi canlıya alıyor ve süregelen destek sağlıyoruz.",
+        "tag": "1-2 Gün"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Kurulum ne kadar sürer?",
+        "answer": "Temel kurulum 2-3 günde, taşıma dahil tam kurulum genellikle 5-7 günde tamamlanır."
+      },
+      "pricing": {
+        "question": "Google Workspace mı, Microsoft 365 mi?",
+        "answer": "Her ikisinin artıları ve eksileri var. Ekip büyüklüğünüze, kullandığınız araçlara ve bütçenize göre birlikte en uygununu belirliyoruz."
+      },
+      "revisions": {
+        "question": "Kaç e-posta hesabı açabiliriz?",
+        "answer": "Teknik olarak sınırsız. Pratik sınır seçtiğiniz platform planına göre şekillenir. Doğru planı seçmenize yardımcı oluyoruz."
+      },
+      "maintenance": {
+        "question": "Eski e-postalarım kaybolur mu?",
+        "answer": "Hayır. Taşıma sürecini titizlikle planlıyor ve tüm e-postalarınızı, kişilerinizi ve takviminizi eksiksiz aktarıyoruz."
+      },
+      "migration": {
+        "question": "Henüz özel domain'im yoksa ne yapacağım?",
+        "answer": "Domain alımında da yardımcı olabiliriz. Domain satın alma, DNS kurulumu ve e-posta yapılandırmasını paket olarak sunuyoruz."
+      },
+      "mobile": {
+        "question": "Mobilde kullanabilir miyiz?",
+        "answer": "Evet. iOS ve Android kurulumunu yapıyoruz. Tüm cihazlardan erişim sağlanır."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Kurumsal E-Posta Altyapınızı Kuralım",
+    "description": "Ücretsiz danışmanlık görüşmesi için hemen iletişime geçin. İhtiyacınıza en uygun çözümü birlikte belirleyelim.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

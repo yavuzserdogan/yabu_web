@@ -22,12 +22,11 @@ export function ServiceProcess({ slug }: Props) {
   const trans = useTranslations(`ServicesPage.${slug}.process`);
 
   return (
-    <section className={`${t.section.paddingLarge} ${t.section.bg.gradient}`}>
+    <section className={`${t.section.paddingSmall} ${t.section.bg.white}`}>
       <div className={t.section.container}>
 
         {/* Başlık */}
         <div className={`text-center ${t.section.header.margin}`}>
-          <span className={t.sectionLabel}>{trans("label")}</span>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mt-3 mb-4`}>
             {trans("title")}
           </h2>

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "UI/UX & Arayüz Tasarımı"
+  },
+  "hero": {
+    "titleMain": "Kullanıcıyı Merkeze Alan",
+    "titleAccent": "UI/UX & Arayüz Tasarımı",
+    "description": "Sadece güzel değil, kullanması da keyifli arayüzler tasarlıyoruz. Kullanıcı araştırmasından prototipe, testlerden teslimata kadar."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Ürününüz İyi Ama Kullanımı Zor Mu?",
+      "paragraph1": "Harika bir ürününüz var ama kullanıcılar anlayamıyor, işlemlerini tamamlayamıyor ya da yarı yolda bırakıyor mu?",
+      "paragraph2": "Kötü UX sadece estetik bir sorun değil — dönüşüm kaybı, yüksek churn ve müşteri memnuniyetsizliği anlamına gelir.",
+      "paragraph3": "Sybor Digital olarak kullanıcı araştırması, rakip analizi ve veriye dayalı tasarım süreciyle sezgisel, erişilebilir ve dönüşüm odaklı arayüzler tasarlıyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Yeni ürün geliştiriyorum",
+          "description": "MVP için UX sürecini en başından doğru yapmak istiyorum."
+        },
+        "startup": {
+          "title": "Ürünümü yeniden tasarlıyorum",
+          "description": "Düşük dönüşüm ve kullanıcı şikayetleri var, tasarımı iyileştirmek istiyorum."
+        },
+        "growing": {
+          "title": "Kurumsal yazılım",
+          "description": "Karmaşık iç süreçleri kullanımı kolay arayüzlere dönüştürmek istiyorum."
+        },
+        "global": {
+          "title": "Mobil uygulama",
+          "description": "iOS ve Android için tutarlı, kullanıcı dostu bir deneyim istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Araştırmadan Prototipe Tam UX Süreci",
+      "paragraph1": "Kullanıcı görüşmeleri, rakip analizi ve analitik verilerden başlıyoruz. Tasarım kararları veriye dayanır, sezgiye değil.",
+      "paragraph2": "Wireframe ve yüksek doğruluklu prototipler hazırlıyor, kullanıcı testleriyle doğruluyor ve iterasyon yapıyoruz.",
+      "paragraph3": "Figma'da oluşturduğumuz tasarım sistemini geliştirme ekibinize teslim ediyoruz — her element dokümante edilmiş, her bileşen yeniden kullanılabilir.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Veriye Dayalı Tasarım Süreci",
+      "cardDescription": "UI/UX projeniz için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "Kullanıcı araştırması ve rakip analizi",
+        "item2": "Wireframe ve interaktif prototipler",
+        "item3": "Kullanıcı testi ve iterasyon",
+        "item4": "Geliştirmeye hazır tasarım sistemi"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Kullanıcı deneyimini dönüştürecek tasarım hizmetleri",
+    "items": {
+      "custom": {
+        "title": "Kullanıcı Araştırması",
+        "description": "Kullanıcı görüşmeleri, anketler ve davranış analizleriyle hedef kitlenizi gerçekten anlıyoruz."
+      },
+      "payment": {
+        "title": "Wireframe & Bilgi Mimarisi",
+        "description": "İçerik hiyerarşisini ve kullanıcı akışlarını yapılandırıyoruz. Güzel görselden önce doğru yapı gelir."
+      },
+      "mobile": {
+        "title": "İnteraktif Prototip",
+        "description": "Figma'da tıklanabilir prototipler. Geliştirme başlamadan deneyimi test edin ve onaylayın."
+      },
+      "stock": {
+        "title": "Kullanıcı Testi",
+        "description": "Gerçek kullanıcılarla moderasyonlu testler. Sorunları geliştirme aşamasına gelmeden tespit edin."
+      },
+      "seo": {
+        "title": "Tasarım Sistemi",
+        "description": "Tutarlı, yeniden kullanılabilir bileşenlerden oluşan kapsamlı tasarım sistemi ve stil rehberi."
+      },
+      "admin": {
+        "title": "Geliştirici Teslimi",
+        "description": "Ölçüler, boşluklar ve tüm asset'ler eksiksiz — geliştirme ekibinize hazır tasarım dosyaları."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Tasarım ve geliştirmeyi birlikte düşünen bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Veriye Dayalı Kararlar",
+        "description": "Her tasarım kararının arkasında kullanıcı araştırması veya analitik verisi var. Tahmin yürütmüyoruz."
+      },
+      "reason2": {
+        "title": "Geliştirmeyi Anlıyoruz",
+        "description": "Yapılamayacak şeyler tasarlamıyoruz. Teknik kısıtları anlayan bir ekip olarak uygulanabilir çözümler üretiyoruz."
+      },
+      "reason3": {
+        "title": "Erişilebilirlik Standardı",
+        "description": "WCAG 2.1 uyumlu tasarımlar. Her kullanıcının deneyimine önem veriyoruz."
+      },
+      "reason4": {
+        "title": "Şeffaf Süreç",
+        "description": "Her aşamada onayınızı alıyoruz. Sürpriz yok — her karar açıklanır."
+      },
+      "reason5": {
+        "title": "Hızlı Teslimat",
+        "description": "Uzun bekleme süreleri olmadan verimli tasarım süreciyle hızlı iterasyon yapıyoruz."
+      },
+      "reason6": {
+        "title": "Uzun Vadeli Destek",
+        "description": "Ürününüz büyüdükçe tasarım sistemini güncelliyoruz. Tek seferlik teslim değil, ortaklık."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Araştırmadan teslimata disiplinli bir tasarım süreci.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Araştırma & Keşif",
+        "description": "Kullanıcı araştırması, rakip analizi ve mevcut ürünü değerlendiriyoruz. Tasarım fırsatlarını belirliyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "design": {
+        "title": "Wireframe & Tasarım",
+        "description": "Bilgi mimarisi, kullanıcı akışları ve yüksek kaliteli UI tasarımları hazırlıyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "development": {
+        "title": "Prototip & Test",
+        "description": "İnteraktif prototip geliştiriyor ve gerçek kullanıcılarla test ediyoruz. Iterasyon yapıyoruz.",
+        "tag": "1 Hafta"
+      },
+      "launch": {
+        "title": "Teslim & Destek",
+        "description": "Tasarım sistemini ve tüm dosyaları teslim ediyoruz. Geliştirme sürecinde destek sağlıyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "UI/UX projesi kaç günde biter?",
+        "answer": "Kapsama göre değişir. Tek uygulama akışı 1-2 hafta, tam ürün tasarımı 4-8 hafta sürebilir."
+      },
+      "pricing": {
+        "question": "Sadece tasarım mı yapıyorsunuz, geliştirme de var mı?",
+        "answer": "İkisini de yapıyoruz. Sadece tasarım veya tasarım + geliştirme paketleri sunuyoruz."
+      },
+      "revisions": {
+        "question": "Kaç revizyon hakkım var?",
+        "answer": "Her aşamada sınırsız revizyon. Onayınız olmadan bir sonraki aşamaya geçmiyoruz."
+      },
+      "maintenance": {
+        "question": "Tasarım dosyaları bana teslim ediliyor mu?",
+        "answer": "Evet. Figma dosyaları, asset'ler ve tasarım sistemi dokümantasyonu eksiksiz teslim edilir."
+      },
+      "migration": {
+        "question": "Mevcut ürünümü yeniden tasarlayabilir misiniz?",
+        "answer": "Evet. Mevcut ürününüzü analiz ediyor, kullanıcı testiyle sorunları tespit ediyor ve yeniden tasarlıyoruz."
+      },
+      "mobile": {
+        "question": "Hem web hem mobil için tasarım yapıyor musunuz?",
+        "answer": "Evet. Responsive web, iOS ve Android için tasarım sistemleri oluşturuyoruz. Tutarlı deneyim sağlıyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Kullanıcı Deneyiminizi Birlikte Dönüştürelim",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Ürününüzü kullanması keyifli hale getirmek için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

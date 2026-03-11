@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Appointment & Booking Systems"
+  },
+  "hero": {
+    "titleMain": "Automating Your",
+    "titleAccent": "Appointment & Booking Systems",
+    "description": "Leave phone tag, manual note-taking and double bookings in the past — we build smart booking systems that work 24/7."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Is Appointment Management Exhausting You?",
+      "paragraph1": "Can't find time to answer the phone? Do customers go away empty-handed when they try to book outside business hours? Do cancellations and changes create a headache?",
+      "paragraph2": "Manual appointment management takes time, creates errors and blocks growth. An automated system sets you free.",
+      "paragraph3": "At Sybor Digital, we build appointment and booking systems tailored to every sector — from clinics to beauty salons, consulting offices to sports facilities.",
+      "audiences": {
+        "physical": {
+          "title": "Clinic or medical practice",
+          "description": "I want to manage patient appointments automatically."
+        },
+        "startup": {
+          "title": "Beauty salon or spa",
+          "description": "I want a service-based, per-staff booking system."
+        },
+        "growing": {
+          "title": "Consultant or coach",
+          "description": "I want to manage online and in-person session bookings."
+        },
+        "global": {
+          "title": "Sports facility or gym",
+          "description": "I want to digitize class, court and equipment reservations."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "A 24/7 Booking Infrastructure That Works While You Sleep",
+      "paragraph1": "Let customers book even at midnight. Send automatic SMS and email reminders. Handle cancellations and rescheduling automatically.",
+      "paragraph2": "We integrate everything into the system — per-staff availability calendars, service durations and breaks.",
+      "paragraph3": "With online payment integration, you can collect a deposit or full payment at the time of booking. Your no-show rate drops and your income is secured.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Booking Solution",
+      "cardDescription": "Everything you need for your booking system — under one roof.",
+      "checklist": {
+        "item1": "Online appointment booking and management",
+        "item2": "Automated SMS and email reminders",
+        "item3": "Staff calendar and availability management",
+        "item4": "Online payment and deposit system"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Solutions to automate your appointment and booking processes",
+    "items": {
+      "custom": {
+        "title": "24/7 Online Booking",
+        "description": "Customers can book any time, from any device. The system works while you sleep."
+      },
+      "payment": {
+        "title": "Automated Reminders",
+        "description": "SMS and email reminders before appointments. Reduce your no-show rate by up to 60%."
+      },
+      "mobile": {
+        "title": "Staff Calendar Management",
+        "description": "Define each staff member's availability, days off and breaks in the system."
+      },
+      "stock": {
+        "title": "Online Payment & Deposit",
+        "description": "Collect payment or deposit at booking time. Automatically enforce your cancellation policies."
+      },
+      "seo": {
+        "title": "Google Calendar Sync",
+        "description": "All appointments sync seamlessly with Google Calendar and Outlook."
+      },
+      "admin": {
+        "title": "Occupancy & Revenue Analytics",
+        "description": "Which time slots are full, which staff members are most preferred — make data-driven decisions."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that understands sector-specific needs.",
+    "reasons": {
+      "reason1": {
+        "title": "Sector-Specific Solution",
+        "description": "Off-the-shelf booking tools don't fit every sector. We build systems tailored to your specific workflow."
+      },
+      "reason2": {
+        "title": "Easy to Use",
+        "description": "We design simple interfaces so both your customers and staff can use the system with ease."
+      },
+      "reason3": {
+        "title": "Integration Expertise",
+        "description": "We integrate seamlessly with your existing website, CRM and payment systems."
+      },
+      "reason4": {
+        "title": "Fast Deployment",
+        "description": "We typically deploy the core system in 2-3 weeks. You transition without losing business."
+      },
+      "reason5": {
+        "title": "Security & Compliance",
+        "description": "We store patient and customer data securely in compliance with data protection regulations."
+      },
+      "reason6": {
+        "title": "Ongoing Support",
+        "description": "We provide regular maintenance and rapid technical support to keep the system running without interruption."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We deploy your booking system quickly.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Workflow Analysis",
+        "description": "We analyze your services, staff structure and current booking process.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "System Design",
+        "description": "We design the booking flow, customer interface and management panel.",
+        "tag": "2-3 Days"
+      },
+      "development": {
+        "title": "Development & Integration",
+        "description": "We build the system, set up payment and reminder integrations, and test everything.",
+        "tag": "2-3 Weeks"
+      },
+      "launch": {
+        "title": "Go-Live & Training",
+        "description": "We go live, train your team and stay by your side throughout the transition.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does the system take to be ready?",
+        "answer": "The core booking system in 2-3 weeks, the full system with payment and CRM integration in 4-6 weeks."
+      },
+      "pricing": {
+        "question": "How does pricing work?",
+        "answer": "We work with a one-time setup fee plus monthly license model. Custom pricing based on business size."
+      },
+      "revisions": {
+        "question": "Can I update my services and staff myself?",
+        "answer": "Yes. You can easily add services, update prices and set staff time off on your own."
+      },
+      "maintenance": {
+        "question": "Does it integrate with my existing website?",
+        "answer": "Yes. We integrate the booking widget into your existing site. A full site redesign is not required."
+      },
+      "migration": {
+        "question": "Can I import my existing appointments?",
+        "answer": "Yes. We migrate your existing appointment data from Excel or other formats to the new system."
+      },
+      "mobile": {
+        "question": "Do customers need to use an app?",
+        "answer": "No. The web-based booking system works on all devices. We can also develop a mobile app as an optional add-on."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Automate Your Booking Process",
+    "description": "Get in touch for a free discovery call. Let's help you reclaim your time while growing your business.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

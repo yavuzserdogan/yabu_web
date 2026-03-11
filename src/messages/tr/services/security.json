@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Güvenlik & Yedekleme Çözümleri"
+  },
+  "hero": {
+    "titleMain": "Verilerinizi ve İtibarınızı",
+    "titleAccent": "Koruyan Güvenlik Çözümleri",
+    "description": "SSL sertifikasından güvenlik duvarına, sızma testinden felaket kurtarma planına — web altyapınızı tehditlere karşı koruyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Siteniz Siber Saldırıya Hazır Mı?",
+      "paragraph1": "Siber saldırılar artık sadece büyük şirketleri hedef almıyor. Küçük ve orta ölçekli web siteleri otomatik saldırıların en kolay hedefi haline geldi.",
+      "paragraph2": "Bir hack; müşteri verilerinin çalınması, sitenizin çevrimdışı kalması, Google'ın kara listesine girmesi ve ciddi itibar zararı anlamına gelebilir.",
+      "paragraph3": "Sybor Digital olarak proaktif güvenlik denetimleri, güvenlik duvarı kurulumu ve otomatik yedekleme sistemleriyle web varlığınızı koruyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "E-ticaret sitem var",
+          "description": "Müşteri ve ödeme verilerini korumak istiyorum."
+        },
+        "startup": {
+          "title": "Hassas veriler saklıyorum",
+          "description": "Müşteri, hasta veya kullanıcı verilerini güvende tutmak istiyorum."
+        },
+        "growing": {
+          "title": "Hacklenmiş durumum",
+          "description": "Siteyi temizleyip gelecekte tekrar saldırıya uğramamak istiyorum."
+        },
+        "global": {
+          "title": "KVKK uyumluluğu gerekiyor",
+          "description": "Mevzuata uygun güvenlik altyapısı kurmak istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Kapsamlı Koruma İçin Katmanlı Güvenlik",
+      "paragraph1": "Tek bir güvenlik önlemi yetmez. Çok katmanlı savunma sistemiyle tehditleri birden fazla seviyede engelliyoruz.",
+      "paragraph2": "Açık tespiti, yamalar ve düzenli güvenlik testleriyle saldırganların her zaman bir adım önünde oluyoruz.",
+      "paragraph3": "Felaket senaryolarına hazırlıklıyız: Otomatik yedeklemeler ve kurtarma planı kurarak saldırı, veri kaybı veya sistem arızasından sonra en kısa sürede normale dönmenizi sağlıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Eksiksiz Web Güvenlik Paketi",
+      "cardDescription": "Web güvenliği için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "SSL sertifikası ve HTTPS kurulumu",
+        "item2": "Web uygulama güvenlik duvarı (WAF)",
+        "item3": "Otomatik yedekleme ve kurtarma planı",
+        "item4": "Düzenli güvenlik taraması ve raporlama"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Web altyapınızı koruyacak kapsamlı güvenlik çözümleri",
+    "items": {
+      "custom": {
+        "title": "SSL & HTTPS Kurulumu",
+        "description": "Güvenli bağlantı sertifikaları, otomatik yenileme ve tüm HTTP trafiğinin HTTPS'e yönlendirilmesi."
+      },
+      "payment": {
+        "title": "Web Uygulama Güvenlik Duvarı",
+        "description": "SQL injection, XSS ve diğer yaygın saldırıları gerçek zamanlı engelleyen WAF kurulumu."
+      },
+      "mobile": {
+        "title": "Zararlı Yazılım Tarama & Temizleme",
+        "description": "Düzenli otomatik taramalar. Zararlı kod tespit edilirse anında temizleme ve bildirim."
+      },
+      "stock": {
+        "title": "Otomatik Yedekleme Sistemi",
+        "description": "Günlük tam site yedeklemeleri. Çok lokasyonlu depolama. Garantili hızlı geri yükleme."
+      },
+      "seo": {
+        "title": "Güvenlik Açığı Testi",
+        "description": "Düzenli sızma testleri ile sisteminizdeki zayıflıkları saldırganlardan önce tespit edin."
+      },
+      "admin": {
+        "title": "KVKK Uyumluluğu",
+        "description": "Kişisel verilerin işlenmesi ve saklanmasını yasal uyumluluk gerekliliklerine göre yapılandırıyoruz."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Güvenliği bir ürün değil, süreç olarak ele alan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Proaktif Savunma",
+        "description": "Saldırı gerçekleştikten sonra değil, gerçekleşmeden önce harekete geçiyoruz. Proaktif güvenlik her zaman daha ucuzdur."
+      },
+      "reason2": {
+        "title": "Katmanlı Koruma",
+        "description": "Tek nokta değil — çok katmanlı güvenlik. Bir katman aşılsa diğerleri aktif kalmaya devam eder."
+      },
+      "reason3": {
+        "title": "Hızlı Müdahale",
+        "description": "Güvenlik ihlali durumunda garantili müdahale süresi. Hasar minimumda tutulur."
+      },
+      "reason4": {
+        "title": "Şeffaf Raporlama",
+        "description": "Aylık güvenlik raporu ile sistemin durumunu, tespit edilen tehditleri ve alınan önlemleri paylaşıyoruz."
+      },
+      "reason5": {
+        "title": "Yasal Uyumluluk",
+        "description": "KVKK ve bölgesel veri koruma gerekliliklerini karşılayan güvenlik altyapısı kuruyoruz."
+      },
+      "reason6": {
+        "title": "Felaket Kurtarma Planı",
+        "description": "En kötü senaryo için hazırız. Veri kaybı veya sistem arızasından hızlıca toparlanıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Güvenlik altyapınızı sistematik olarak güçlendiriyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Güvenlik Denetimi",
+        "description": "Mevcut altyapınızı, açıklarınızı ve risk seviyenizi belirliyoruz. Öncelik sıralamasıyla aksiyon planı çıkarıyoruz.",
+        "tag": "2-3 Gün"
+      },
+      "design": {
+        "title": "Güvenlik Mimarisi",
+        "description": "Güvenlik katmanlarını tasarlıyor, araçları seçiyor ve uygulama planını hazırlıyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "development": {
+        "title": "Kurulum & Yapılandırma",
+        "description": "Güvenlik araçlarını kuruyor, yedekleme sistemini aktive ediyor ve testleri çalıştırıyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "launch": {
+        "title": "İzleme & Raporlama",
+        "description": "Sürekli güvenlik izleme, aylık taramalar ve raporlarla korumayı sürdürüyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Temel güvenlik kurulumu ne kadar sürer?",
+        "answer": "SSL, WAF ve yedekleme sistemi kurulumu genellikle 3-7 günde tamamlanır."
+      },
+      "pricing": {
+        "question": "Güvenlik hizmetinin maliyeti nedir?",
+        "answer": "Tek seferlik kurulum bedeli ve aylık izleme ücreti olarak çalışıyoruz. Site büyüklüğü ve risk seviyesine göre fiyatlandırılır."
+      },
+      "revisions": {
+        "question": "Sitem hacklenmiş durumda, yardımcı olabilir misiniz?",
+        "answer": "Evet. Önce siteyi temizliyor, kaynağı tespit edip kapatıyor, ardından süregelen güvenlik altyapısı kuruyoruz."
+      },
+      "maintenance": {
+        "question": "Yedekten geri yükleme ne kadar sürer?",
+        "answer": "Site büyüklüğüne göre genellikle 30-60 dakika içinde tam geri yükleme yapabiliyoruz."
+      },
+      "migration": {
+        "question": "WordPress dışında platform desteği var mı?",
+        "answer": "Evet. Next.js, Webflow ve özel geliştirmeler dahil geniş bir teknoloji yelpazesini destekliyoruz."
+      },
+      "mobile": {
+        "question": "KVKK uyumluluğu için ne yapmak gerekiyor?",
+        "answer": "Kişisel veri envanteri, aydınlatma metni, çerez politikası ve veri güvenliği önlemlerini birlikte değerlendirip uyguluyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Web Altyapınızı Güvence Altına Alalım",
+    "description": "Ücretsiz güvenlik denetimi için hemen iletişime geçin. Saldırı gerçekleşmeden nerede durduğunuzu birlikte görelim.",
+    "primaryButton": "Ücretsiz Denetim Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

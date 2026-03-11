@@ -50,39 +50,7 @@
       }
     }
   },
-  "whyUs": {
-    "label": "Neden Sybor Digital?",
-    "title": "Neden Bizi Seçmelisiniz?",
-    "subtitle": "Butik yaklaşım, kurumsal disiplin. Projenize gerçekten değer katan bir ekip.",
-    "reasons": {
-      "reason1": {
-        "title": "Sonuç Odaklı Yaklaşım",
-        "description": "Güzel görünen değil, satan siteler yapıyoruz. Her tasarım ve geliştirme kararı dönüşüm hedefiyle alınır."
-      },
-      "reason2": {
-        "title": "Şeffaf Süreç",
-        "description": "Projenizin her aşamasından haberdarsınız. Sürpriz maliyet, gecikme veya belirsizlik olmaz."
-      },
-      "reason3": {
-        "title": "Hızlı Teslimat",
-        "description": "Kurumsal ajansların bürokratik yavaşlığı olmadan, kaliteden ödün vermeden hızlı teslim ediyoruz."
-      },
-      "reason4": {
-        "title": "Teknik Üstünlük",
-        "description": "Next.js, Node.js ve modern altyapılarla hızlı, güvenli ve ölçeklenebilir sistemler kuruyoruz."
-      },
-      "reason5": {
-        "title": "Yayın Sonrası Destek",
-        "description": "Proje tesliminde ilişkimiz bitmiyor. Teknik destek, güncelleme ve büyüme konularında yanınızdayız."
-      },
-      "reason6": {
-        "title": "Gerçek İş Ortaklığı",
-        "description": "Sadece kod yazmıyoruz; işinizi anlıyor, dijital stratejinize katkı sağlıyor ve uzun vadeli düşünüyoruz."
-      }
-    }
-  },
   "features": {
-    "label": "Hizmet Detayları",
     "title": "Ne Sunuyoruz?",
     "subtitle": "Eksiksiz e-ticaret çözümleri için ihtiyacınız olan her şey",
     "items": {
@@ -112,8 +80,37 @@
       }
     }
   },
+  "whyUs": {
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Butik yaklaşım, kurumsal disiplin. Projenize gerçekten değer katan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Sonuç Odaklı Yaklaşım",
+        "description": "Güzel görünen değil, satan siteler yapıyoruz. Her tasarım ve geliştirme kararı dönüşüm hedefiyle alınır."
+      },
+      "reason2": {
+        "title": "Şeffaf Süreç",
+        "description": "Projenizin her aşamasından haberdarsınız. Sürpriz maliyet, gecikme veya belirsizlik olmaz."
+      },
+      "reason3": {
+        "title": "Hızlı Teslimat",
+        "description": "Kurumsal ajansların bürokratik yavaşlığı olmadan, kaliteden ödün vermeden hızlı teslim ediyoruz."
+      },
+      "reason4": {
+        "title": "Teknik Üstünlük",
+        "description": "Next.js, Node.js ve modern altyapılarla hızlı, güvenli ve ölçeklenebilir sistemler kuruyoruz."
+      },
+      "reason5": {
+        "title": "Yayın Sonrası Destek",
+        "description": "Proje tesliminde ilişkimiz bitmiyor. Teknik destek, güncelleme ve büyüme konularında yanınızdayız."
+      },
+      "reason6": {
+        "title": "Gerçek İş Ortaklığı",
+        "description": "Sadece kod yazmıyoruz; işinizi anlıyor, dijital stratejinize katkı sağlıyor ve uzun vadeli düşünüyoruz."
+      }
+    }
+  },
   "process": {
-    "label": "Sürecimiz",
     "title": "Nasıl Çalışıyoruz?",
     "subtitle": "Baştan sona şeffaf ve etkili bir süreçle projenizi hayata geçiriyoruz.",
     "stepLabel": "Adım",
@@ -141,7 +138,6 @@
     }
   },
   "faq": {
-    "label": "SSS",
     "title": "Sıkça Sorulan Sorular",
     "subtitle": "Aklınızdaki soruların cevapları burada.",
     "items": {
@@ -168,55 +164,6 @@
       "mobile": {
         "question": "Mobil uygulama da yapıyor musunuz?",
         "answer": "Evet. E-ticaret sitenizle entegre çalışan iOS ve Android uygulamaları da geliştiriyoruz. Ayrı bir hizmet olarak sunulmaktadır."
-      }
-    }
-  },
-  "projects": {
-    "label": "Projelerimiz",
-    "title": "İlgili Çalışmalarımız",
-    "viewAll": "Tüm Projeleri Gör",
-    "metric1Label": "Dönüşüm Artışı",
-    "metric2Label": "Yüklenme Süresi",
-    "items": {
-      "project1": {
-        "title": "ModaMağaza E-Ticaret",
-        "description": "Sıfırdan geliştirilen, Next.js tabanlı yüksek performanslı moda e-ticaret platformu.",
-        "metric1": "+340%",
-        "metric2": "1.8sn"
-      },
-      "project2": {
-        "title": "TeknoShop Mobil",
-        "description": "Shopify entegrasyonlu, iOS ve Android için geliştirilen elektronik mağaza uygulaması.",
-        "metric1": "+210%",
-        "metric2": "2.1sn"
-      },
-      "project3": {
-        "title": "OrganikSepet",
-        "description": "WooCommerce altyapılı, SEO odaklı organik ürünler e-ticaret sitesi.",
-        "metric1": "+180%",
-        "metric2": "1.5sn"
-      }
-    }
-  },
-  "testimonials": {
-    "label": "Müşteri Yorumları",
-    "title": "Onlar Ne Dedi?",
-    "subtitle": "Birlikte çalıştığımız müşterilerimizin deneyimleri.",
-    "items": {
-      "testimonial1": {
-        "comment": "Sybor Digital ekibi projemizi zamanında ve beklentilerimizin çok ötesinde teslim etti. E-ticaret sitemizin dönüşüm oranı ilk ayda üç katına çıktı.",
-        "name": "Ahmet Kaya",
-        "role": "CEO, ModaMağaza"
-      },
-      "testimonial2": {
-        "comment": "Teknik bilgi ve iletişim konusunda gerçekten fark yaratıyorlar. Mobil uygulamamız yayına girdikten sonra müşteri memnuniyetimiz gözle görülür şekilde arttı.",
-        "name": "Merve Yılmaz",
-        "role": "Kurucu, TeknoShop"
-      },
-      "testimonial3": {
-        "comment": "Sadece bir yazılım firması değil, iş ortağı gibi yaklaşıyorlar. Önerilen çözümler gerçekten işimize değer katıyor.",
-        "name": "Selim Bozkurt",
-        "role": "Genel Müdür, OrganikSepet"
       }
     }
   },

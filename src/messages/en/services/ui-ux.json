@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "UI/UX & Interface Design"
+  },
+  "hero": {
+    "titleMain": "Putting the User at the Center,",
+    "titleAccent": "UI/UX & Interface Design",
+    "description": "We design interfaces that aren't just beautiful — they're a pleasure to use. From user research to prototype, testing to delivery."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Is Your Product Good But Hard to Use?",
+      "paragraph1": "Do you have a great product but users can't figure it out, can't complete their tasks, or drop off halfway through?",
+      "paragraph2": "Poor UX is not just an aesthetic problem — it means lost conversions, high churn and customer dissatisfaction.",
+      "paragraph3": "At Sybor Digital, we design intuitive, accessible and conversion-focused interfaces through user research, competitor analysis and a data-driven design process.",
+      "audiences": {
+        "physical": {
+          "title": "I'm developing a new product",
+          "description": "I want to get the UX process right from the start for my MVP."
+        },
+        "startup": {
+          "title": "I'm redesigning my product",
+          "description": "I have low conversion and user complaints — I want to improve the design."
+        },
+        "growing": {
+          "title": "Enterprise software",
+          "description": "I want to turn complex internal processes into easy-to-use interfaces."
+        },
+        "global": {
+          "title": "Mobile application",
+          "description": "I want a consistent, user-friendly experience for iOS and Android."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Full UX Process from Research to Prototype",
+      "paragraph1": "We start with user interviews, competitor analysis and analytics data. Design decisions are backed by data, not intuition.",
+      "paragraph2": "We prepare wireframes and high-fidelity prototypes, validate them with user testing and iterate.",
+      "paragraph3": "We deliver the design system we create in Figma to your development team — every element documented, every component reusable.",
+      "badge": "Scope of Service",
+      "cardTitle": "Data-Driven Design Process",
+      "cardDescription": "Everything you need for your UI/UX project — under one roof.",
+      "checklist": {
+        "item1": "User research and competitor analysis",
+        "item2": "Wireframes and interactive prototypes",
+        "item3": "User testing and iteration",
+        "item4": "Development-ready design system"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Design services that transform the user experience",
+    "items": {
+      "custom": {
+        "title": "User Research",
+        "description": "We genuinely understand your target audience through user interviews, surveys and behavioral analysis."
+      },
+      "payment": {
+        "title": "Wireframe & Information Architecture",
+        "description": "We structure content hierarchy and user flows. The right structure comes before beautiful visuals."
+      },
+      "mobile": {
+        "title": "Interactive Prototype",
+        "description": "Clickable prototypes in Figma. Test and approve the experience before development begins."
+      },
+      "stock": {
+        "title": "User Testing",
+        "description": "Moderated tests with real users. Identify problems before they reach the development stage."
+      },
+      "seo": {
+        "title": "Design System",
+        "description": "A comprehensive design system and style guide built from consistent, reusable components."
+      },
+      "admin": {
+        "title": "Developer Handoff",
+        "description": "Measurements, spacing and all assets complete — design files ready for your development team."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that thinks about design and development together.",
+    "reasons": {
+      "reason1": {
+        "title": "Data-Driven Decisions",
+        "description": "Every design decision is backed by user research or analytics data. We don't guess."
+      },
+      "reason2": {
+        "title": "We Understand Development",
+        "description": "We don't design things that can't be built. As a team that understands technical constraints, we produce implementable solutions."
+      },
+      "reason3": {
+        "title": "Accessibility Standard",
+        "description": "WCAG 2.1 compliant designs. We care about the experience of every user."
+      },
+      "reason4": {
+        "title": "Transparent Process",
+        "description": "We get your approval at every stage. No surprises — every decision is explained."
+      },
+      "reason5": {
+        "title": "Fast Delivery",
+        "description": "We iterate quickly without long waiting times, through an efficient design process."
+      },
+      "reason6": {
+        "title": "Long-Term Support",
+        "description": "We update the design system as your product grows. Not a one-time handoff — a partnership."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "A disciplined design process from research to delivery.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Research & Discovery",
+        "description": "We conduct user research, competitor analysis and evaluate the existing product. We identify design opportunities.",
+        "tag": "3-5 Days"
+      },
+      "design": {
+        "title": "Wireframe & Design",
+        "description": "We prepare information architecture, user flows and high-quality UI designs.",
+        "tag": "1-2 Weeks"
+      },
+      "development": {
+        "title": "Prototype & Testing",
+        "description": "We build an interactive prototype and test it with real users. We iterate.",
+        "tag": "1 Week"
+      },
+      "launch": {
+        "title": "Delivery & Support",
+        "description": "We deliver the design system and all files. We provide support throughout the development process.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does a UI/UX project take?",
+        "answer": "Varies by scope. A single app flow takes 1-2 weeks, a full product design can take 4-8 weeks."
+      },
+      "pricing": {
+        "question": "Do you only do design, or development too?",
+        "answer": "Both. We offer design-only or design + development packages."
+      },
+      "revisions": {
+        "question": "How many revisions do I get?",
+        "answer": "Unlimited revisions at every stage. We don't move to the next phase without your approval."
+      },
+      "maintenance": {
+        "question": "Are the design files handed over to me?",
+        "answer": "Yes. Figma files, assets and design system documentation are all delivered in full."
+      },
+      "migration": {
+        "question": "Can you redesign my existing product?",
+        "answer": "Yes. We analyze your existing product, identify problems through user testing and redesign it."
+      },
+      "mobile": {
+        "question": "Do you design for both web and mobile?",
+        "answer": "Yes. We build design systems for responsive web, iOS and Android. We ensure a consistent experience."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Transform Your User Experience Together",
+    "description": "Get in touch for a free discovery call. We're here to make your product a joy to use.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

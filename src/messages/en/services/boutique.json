@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Boutique Store Websites"
+  },
+  "hero": {
+    "titleMain": "Capturing the Soul of Your Brand,",
+    "titleAccent": "Boutique Store Websites",
+    "description": "From handmade products to exclusive collections — we build boutique e-commerce experiences that carry your brand's essence and turn visitors into customers."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Your Product Is Unique. Your Store Should Be Too.",
+      "paragraph1": "Selling handmade jewelry? Designing your own clothing? Offering organic food? Just like your product, your store should be one of a kind.",
+      "paragraph2": "Generic templates can't carry your brand's soul. You don't want to blend in with thousands of others — you want to create an experience worth remembering.",
+      "paragraph3": "At Sybor Digital, we bring boutique brands to life in the digital world, building unique shopping experiences that reflect the true value of what you sell.",
+      "audiences": {
+        "physical": {
+          "title": "I sell handmade products",
+          "description": "I want a stylish store to showcase my original work."
+        },
+        "startup": {
+          "title": "I have a boutique fashion brand",
+          "description": "I'm looking for a site that shows off my collections beautifully."
+        },
+        "growing": {
+          "title": "I sell specialty food & drink",
+          "description": "I want an online store that tells the story behind my products."
+        },
+        "global": {
+          "title": "I offer lifestyle products",
+          "description": "I want a premium digital experience that reflects my brand identity."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Custom Digital Experiences for Boutique Brands",
+      "paragraph1": "We design every detail to match your brand — from product photography integration and page layout to shopping flow and payment systems.",
+      "paragraph2": "We customize Shopify and WooCommerce to speak your brand's language, or design a completely original boutique shopping experience from scratch.",
+      "paragraph3": "After launch, we also support you with social media integrations, campaign management and customer segmentation.",
+      "badge": "Scope of Service",
+      "cardTitle": "Everything Tailored to Your Brand",
+      "cardDescription": "All the solutions your boutique store needs — under one roof.",
+      "checklist": {
+        "item1": "Original design true to your brand's soul",
+        "item2": "Page structure that tells your product's story",
+        "item3": "Social media & influencer integrations",
+        "item4": "Campaign, discount and loyalty systems"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Features that set your boutique brand apart from the competition",
+    "items": {
+      "custom": {
+        "title": "Original Store Design",
+        "description": "Designed from scratch to match your brand's colors, aesthetic and identity. No templates used."
+      },
+      "payment": {
+        "title": "Story-Driven Product Pages",
+        "description": "Page designs that tell the story behind each product and create an emotional connection with customers."
+      },
+      "mobile": {
+        "title": "Instagram & Social Media Integration",
+        "description": "Bring your Instagram feed into your store and connect your products directly to social selling."
+      },
+      "stock": {
+        "title": "Flexible Payment Options",
+        "description": "All payment methods including credit card, cash on delivery, installments and digital wallets."
+      },
+      "seo": {
+        "title": "Mobile-First Design",
+        "description": "Most boutique shopping happens on mobile. Flawless mobile experience is guaranteed."
+      },
+      "admin": {
+        "title": "Loyalty & Campaign System",
+        "description": "Points system, discount coupons and customer segments designed to encourage repeat purchases."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that truly understands the world of boutique brands.",
+    "reasons": {
+      "reason1": {
+        "title": "We Understand Brand Emotion",
+        "description": "Boutique brands sell experiences, not just products. Our designs carry that feeling into the digital world."
+      },
+      "reason2": {
+        "title": "Transparent Process",
+        "description": "You're informed at every stage. No surprise costs or delays."
+      },
+      "reason3": {
+        "title": "Fast Delivery",
+        "description": "We work fast and with discipline to make sure your seasonal collections launch on time."
+      },
+      "reason4": {
+        "title": "Conversion-Focused",
+        "description": "Looking good isn't enough — we build structures that turn visitors into buyers."
+      },
+      "reason5": {
+        "title": "Post-Launch Support",
+        "description": "We're here to help with adding new collections, running campaigns and resolving technical issues."
+      },
+      "reason6": {
+        "title": "Built to Grow",
+        "description": "Boutique today, major brand tomorrow. We start with scalable infrastructure."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We build your brand's digital store together.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Brand & Audience Analysis",
+        "description": "We analyze your brand's soul, target audience and competitors. We define the store's visual language and structure together.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "Design & Visual Identity",
+        "description": "We prepare color palette, typography and product page designs. We don't move forward without your approval.",
+        "tag": "3-5 Days"
+      },
+      "development": {
+        "title": "Development & Content",
+        "description": "We build the store, upload your products and test the entire system.",
+        "tag": "2-4 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Growth",
+        "description": "We go live, support your first sales and develop growth strategies.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does a boutique store take?",
+        "answer": "Typically 3-6 weeks depending on scope and product count. Priority processing is available for seasonal urgencies."
+      },
+      "pricing": {
+        "question": "How is pricing determined?",
+        "answer": "Based on product count, customization level and integration requirements. Clear proposal after a free call."
+      },
+      "revisions": {
+        "question": "How many revisions do I get?",
+        "answer": "Unlimited revisions during the design phase. In-scope development changes are included at no extra cost."
+      },
+      "maintenance": {
+        "question": "Do I need technical help to add products?",
+        "answer": "No. We deliver an easy-to-use management panel. Training is included."
+      },
+      "migration": {
+        "question": "Can I migrate from another platform?",
+        "answer": "Yes. We can migrate all your product and customer data from Etsy, Instagram Shop or other platforms."
+      },
+      "mobile": {
+        "question": "Can Instagram Shop integration be set up?",
+        "answer": "Yes. We connect Instagram Shop and TikTok Shop to turn your social media into a direct sales channel."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Brand's Digital Store Together",
+    "description": "Get in touch for a free discovery call. We're here to design a unique experience tailored to your brand.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

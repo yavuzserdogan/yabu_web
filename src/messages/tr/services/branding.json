@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Marka Kimliği & Görsel Tasarım"
+  },
+  "hero": {
+    "titleMain": "Akılda Kalan Bir Marka",
+    "titleAccent": "Marka Kimliği & Görsel Tasarım",
+    "description": "Logodan renk paletine, tipografiden görsel dil rehberine — markanızın özünü gerçekten yansıtan tutarlı ve güçlü bir kimlik oluşturuyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Markanız Tanınıyor ve Hatırlanıyor Mu?",
+      "paragraph1": "Logonuz eski mi ya da amatör mü duruyor? Her platformda farklı renkler ve fontlar mı kullanıyorsunuz? Rakiplerinizden görsel olarak ayrışamıyor musunuz?",
+      "paragraph2": "Güçlü bir marka kimliği tesadüf değil, stratejidir. Doğru yapıldığında güven kurar, akılda kalır ve müşteri kararlarını etkiler.",
+      "paragraph3": "Sybor Digital olarak markanızın değerlerini, vizyonunu ve hedef kitlesini analiz ederek özgün, stratejik ve uygulanabilir bir marka kimliği tasarlıyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Yeni marka kuruyorum",
+          "description": "Sıfırdan güçlü bir marka kimliği oluşturmak istiyorum."
+        },
+        "startup": {
+          "title": "Markamı yeniliyorum",
+          "description": "Logom eski kaldı, kimliğimi modernleştirmek istiyorum."
+        },
+        "growing": {
+          "title": "Büyüyen bir şirketim",
+          "description": "Büyümemizle örtüşen profesyonel bir kimliğe ihtiyacım var."
+        },
+        "global": {
+          "title": "Dijitale geçiyorum",
+          "description": "Dijital platformlarda güçlü görünen bir kimlik istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Stratejiden Tasarıma Tam Marka Kimliği",
+      "paragraph1": "Önce marka DNA'nızı çıkarıyoruz: değerler, kişilik, hedef kitle ve konumlandırma. Tasarım bu temelin üzerine inşa edilir.",
+      "paragraph2": "Logo, renk paleti, tipografi, görsel dil ve kullanım rehberi — her şeyi kapsamlı bir marka paketi olarak teslim ediyoruz.",
+      "paragraph3": "Sosyal medya şablonları, kartvizit, antetli kağıt ve dijital materyaller dahil tüm uygulamaları da teslim ediyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Eksiksiz Marka Kimliği Paketi",
+      "cardDescription": "Marka kimliği projeniz için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "Marka stratejisi ve konumlandırma",
+        "item2": "Logo ve görsel kimlik tasarımı",
+        "item3": "Marka kullanım rehberi",
+        "item4": "Dijital ve basılı uygulamalar"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Markanızı rakiplerinden ayıracak kimlik çözümleri",
+    "items": {
+      "custom": {
+        "title": "Marka Stratejisi",
+        "description": "Değerler, kişilik, ton ve konumlandırma. Tasarımın temelini oluşturan stratejik marka çerçevesi."
+      },
+      "payment": {
+        "title": "Logo & Görsel Kimlik",
+        "description": "Her bağlamda güçlü görünen çok versiyonlu logo tasarımı. Renk paleti, tipografi ve ikonografik dil."
+      },
+      "mobile": {
+        "title": "Marka Kullanım Rehberi",
+        "description": "Kimliğinizin tutarlı kullanımını sağlayan kapsamlı rehber. Her ekip üyesi doğru kullanır."
+      },
+      "stock": {
+        "title": "Sosyal Medya Şablonları",
+        "description": "Instagram, LinkedIn ve diğer platformlar için markaya uygun, kullanıma hazır içerik şablonları."
+      },
+      "seo": {
+        "title": "Basılı Uygulamalar",
+        "description": "Kartvizit, antetli kağıt, zarf ve tanıtım materyalleri. Baskıya hazır dosyalar dahildir."
+      },
+      "admin": {
+        "title": "Dijital Materyaller",
+        "description": "Favicon, e-posta imzası, sunum şablonu ve tüm dijital platform formatları."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Tasarımın ötesinde stratejiyi de düşünen bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Stratejiden Başlıyoruz",
+        "description": "Sadece güzel logo değil, doğru logo yapıyoruz. Her tasarım kararının stratejik bir gerekçesi var."
+      },
+      "reason2": {
+        "title": "Özgün Tasarım",
+        "description": "Şablon yok, başka markalardan ilham yok. Her kimlik sıfırdan, size özel tasarlanıyor."
+      },
+      "reason3": {
+        "title": "Uygulanabilir Teslimat",
+        "description": "Sadece güzel dosyalar değil, gerçek hayatta kullanabileceğiniz eksiksiz materyaller teslim ediyoruz."
+      },
+      "reason4": {
+        "title": "Revizyondan Korkmayız",
+        "description": "Memnun kalana kadar çalışıyoruz. Tasarım aşamasında sınırsız revizyon hakkınız var."
+      },
+      "reason5": {
+        "title": "Hızlı Teslimat",
+        "description": "İlk konseptleri 5-7 günde sunuyoruz. Onay ve revizyonlarla birlikte 2-3 haftada tamamlıyoruz."
+      },
+      "reason6": {
+        "title": "Dijital Entegrasyon",
+        "description": "Kimliğinizi web sitenize, sosyal medyanıza ve dijital materyallerinize entegre etmenize yardımcı oluyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Markanızın kimliğini birlikte keşfediyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Marka Keşfi",
+        "description": "Değerlerinizi, hedef kitlenizi ve rakiplerinizi analiz ediyoruz. Marka kişiliğini ve konumlandırmayı belirliyoruz.",
+        "tag": "2-3 Gün"
+      },
+      "design": {
+        "title": "Konsept Tasarım",
+        "description": "3 farklı konsept yönü sunuyoruz. Seçilen yönü geri bildirimlerinizle geliştiriyoruz.",
+        "tag": "5-7 Gün"
+      },
+      "development": {
+        "title": "Revizyon & Sonlandırma",
+        "description": "Seçilen konsepti olgunlaştırıyor, tüm uygulamaları hazırlıyor ve rehberi oluşturuyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "launch": {
+        "title": "Teslim & Uygulama",
+        "description": "Tüm dosyaları teslim ediyor ve dijital uygulamalar için destek sağlıyoruz.",
+        "tag": "2-3 Gün"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Marka kimliği ne kadar sürede hazır olur?",
+        "answer": "İlk konseptleri 5-7 günde sunuyoruz. Revizyon dahil toplam süreç genellikle 2-3 hafta."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma nasıl yapılıyor?",
+        "answer": "Kapsama göre değişir. Sadece logo veya tam kimlik paketleri mevcut. Ücretsiz görüşme sonrası net teklif."
+      },
+      "revisions": {
+        "question": "Tasarımı beğenmezsem ne olur?",
+        "answer": "3 farklı konsept sunuyoruz. Tasarım aşamasında sınırsız revizyon hakkınız var. Memnun kalana kadar çalışıyoruz."
+      },
+      "maintenance": {
+        "question": "Dosyalar hangi formatlarda teslim edilir?",
+        "answer": "Vektörel (AI, EPS, SVG) ve piksel bazlı (PNG, JPEG) dahil tüm boyutlarda eksiksiz dosyalar teslim edilir."
+      },
+      "migration": {
+        "question": "Mevcut logoyu tamamen bırakmak zorunda mıyım?",
+        "answer": "Hayır. Mevcut kimliğinizin güçlü yönlerini koruyarak modernleştiren evrimsel yenilemeler de yapıyoruz."
+      },
+      "mobile": {
+        "question": "Web sitemizi de tasarlayabilir misiniz?",
+        "answer": "Evet. Marka kimliği + web sitesi en çok tercih ettiğimiz kombinasyonlardan biri. Birlikte çok daha tutarlı çıkıyor."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Markanızı Birlikte İnşa Edelim",
+    "description": "Ücretsiz marka keşif görüşmesi için hemen iletişime geçin. Akılda kalan bir kimlik yaratmak için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

@@ -24,11 +24,10 @@ export function ServiceWhyUs({ slug }: Props) {
   const trans = useTranslations(`ServicesPage.${slug}.whyUs`);
 
   return (
-    <section className={`pt-12 pb-20 px-4 ${t.section.bg.gradient}`}>
+    <section className={`${t.section.paddingSmall} ${t.section.bg.slate}`}>
       <div className={t.section.container}>
 
         <div className={`text-center ${t.section.header.margin}`}>
-          <span className={t.sectionLabel}>{trans("label")}</span>
           <h2 className={`${t.typography.sectionTitle} ${t.colors.text.primary} mt-3 mb-4`}>
             {trans("title")}
           </h2>

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "QR Menu & Restaurant Solutions"
+  },
+  "hero": {
+    "titleMain": "Transforming the Restaurant Experience,",
+    "titleAccent": "QR Menu & Restaurant Solutions",
+    "description": "From paper menus to digital — from tableside ordering to kitchen displays, we build smart solutions that modernize your restaurant."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Is Your Restaurant Ready for the Digital Age?",
+      "paragraph1": "Paper menus wear out, take time to update and raise hygiene concerns. Order mistakes, long wait times and staff workload make running your restaurant harder.",
+      "paragraph2": "QR menus are no longer just a trend — they've become a standard requirement for restaurants in terms of speed, hygiene and customer experience.",
+      "paragraph3": "At Sybor Digital, we build digital solutions tailored to your restaurant — from QR menus to tableside ordering, kitchen displays to loyalty programs.",
+      "audiences": {
+        "physical": {
+          "title": "I have a restaurant or café",
+          "description": "I want to streamline my operations with a QR menu and ordering system."
+        },
+        "startup": {
+          "title": "I manage a chain of venues",
+          "description": "I want centralized menu management across all my branches."
+        },
+        "growing": {
+          "title": "I have a hotel or resort",
+          "description": "I want to digitize room service and restaurant orders."
+        },
+        "global": {
+          "title": "I'm in a food court or mall",
+          "description": "I want a digital menu system suited to multi-venue management."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "We Digitize Your Restaurant End to End",
+      "paragraph1": "We set up the entire flow — from a digital menu that opens with a QR scan to tableside order terminals, kitchen displays to payment systems.",
+      "paragraph2": "Update the menu yourself — no technical support needed to change prices, add daily specials or introduce seasonal menus.",
+      "paragraph3": "We help you manage your restaurant with data through order analytics, best-selling product reports and customer feedback.",
+      "badge": "Scope of Service",
+      "cardTitle": "Restaurant Digital Transformation Package",
+      "cardDescription": "Every digital solution your restaurant needs — under one roof.",
+      "checklist": {
+        "item1": "QR code digital menu",
+        "item2": "Tableside ordering and payment system",
+        "item3": "Kitchen display system (KDS) integration",
+        "item4": "Centralized menu management panel"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Digital solutions to modernize your restaurant",
+    "items": {
+      "custom": {
+        "title": "Dynamic QR Menu",
+        "description": "A photo-rich, categorized and filterable digital menu. Price and content updates reflect instantly."
+      },
+      "payment": {
+        "title": "Tableside Ordering System",
+        "description": "Customers can order from their table. Staff efficiency increases with a call waiter feature."
+      },
+      "mobile": {
+        "title": "Kitchen Display System (KDS)",
+        "description": "Orders go directly to the kitchen display. Paper tickets and miscommunication are eliminated."
+      },
+      "stock": {
+        "title": "Integrated Payment System",
+        "description": "Pay at the table, split bills and digital receipts. Credit card, cash and digital wallet support."
+      },
+      "seo": {
+        "title": "Loyalty Program",
+        "description": "Points system, birthday discounts and special campaign tools that bring customers back."
+      },
+      "admin": {
+        "title": "Sales Analytics",
+        "description": "Make data-driven decisions with best-selling products, peak hours and table occupancy rates."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that understands the operational needs of the restaurant industry.",
+    "reasons": {
+      "reason1": {
+        "title": "We Know the Industry",
+        "description": "We understand restaurant operations. Our solutions are designed around real workflows."
+      },
+      "reason2": {
+        "title": "Easy Setup",
+        "description": "We install the system, provide training and configure everything. No technical knowledge required."
+      },
+      "reason3": {
+        "title": "Fast Deployment",
+        "description": "We typically deploy the core QR menu system within 1-2 weeks."
+      },
+      "reason4": {
+        "title": "Centralized Management",
+        "description": "Multi-branch venues can manage all menus from a single panel."
+      },
+      "reason5": {
+        "title": "24/7 Technical Support",
+        "description": "A system issue during service hours is unacceptable. We guarantee rapid response."
+      },
+      "reason6": {
+        "title": "Built to Scale",
+        "description": "As you grow from one restaurant to a chain, the system grows with you. Scalable infrastructure is standard."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We digitize your restaurant quickly.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Needs Analysis",
+        "description": "We analyze your restaurant's operational needs, menu structure and service flow.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "Menu Design & Setup",
+        "description": "We design your digital menu to match your brand and upload all your products into the system.",
+        "tag": "3-5 Days"
+      },
+      "development": {
+        "title": "System Integration",
+        "description": "We set up the ordering system, kitchen display and payment integrations. We test on-site.",
+        "tag": "1-2 Weeks"
+      },
+      "launch": {
+        "title": "Go-Live & Training",
+        "description": "We go live, train your staff and provide close monitoring during the first week.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does the system take to go live?",
+        "answer": "The core QR menu system is typically ready in 1-2 weeks, the full system with ordering and payment integration in 3-4 weeks."
+      },
+      "pricing": {
+        "question": "How does pricing work?",
+        "answer": "We work with a one-time setup fee and monthly subscription model. Custom pricing is available based on number of branches."
+      },
+      "revisions": {
+        "question": "Can I update the menu myself?",
+        "answer": "Yes. You can easily change prices, add or remove products on your own."
+      },
+      "maintenance": {
+        "question": "Does the system work without internet?",
+        "answer": "We have offline mode support. Basic menu display continues to work when the connection drops."
+      },
+      "migration": {
+        "question": "Does it integrate with our existing POS?",
+        "answer": "We can integrate with popular POS systems. We evaluate your current system during the discovery call."
+      },
+      "mobile": {
+        "question": "Do customers need to download an app?",
+        "answer": "No. Customers who scan the QR code see the menu directly in their browser. No app download required."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Bring Your Restaurant Into the Digital Age",
+    "description": "Get in touch for a free discovery call. We're here to provide digital solutions tailored to your restaurant.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

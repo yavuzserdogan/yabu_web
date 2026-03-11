@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Security & Backup Solutions"
+  },
+  "hero": {
+    "titleMain": "Protecting Your Data and Reputation,",
+    "titleAccent": "Security & Backup Solutions",
+    "description": "From SSL certificates to firewalls, penetration testing to disaster recovery — we protect your web infrastructure against threats."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Is Your Site Ready for a Cyber Attack?",
+      "paragraph1": "Cyber attacks no longer target only large companies. Small and medium-sized websites have become the easiest targets for automated attacks.",
+      "paragraph2": "A hack can mean stolen customer data, your site going offline, getting blacklisted by Google and serious reputational damage.",
+      "paragraph3": "At Sybor Digital, we protect your web presence with proactive security audits, firewall setup and automated backup systems.",
+      "audiences": {
+        "physical": {
+          "title": "I have an e-commerce site",
+          "description": "I want to protect customer and payment data."
+        },
+        "startup": {
+          "title": "I store sensitive data",
+          "description": "I want to keep customer, patient or user data secure."
+        },
+        "growing": {
+          "title": "I've been hacked",
+          "description": "I want to clean my site and prevent it from being attacked again."
+        },
+        "global": {
+          "title": "I need compliance",
+          "description": "I need to build a security infrastructure compliant with data protection regulations."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Layered Security for Comprehensive Protection",
+      "paragraph1": "A single security measure isn't enough. We block threats at multiple levels with a layered defense system.",
+      "paragraph2": "We stay one step ahead of attackers through vulnerability detection, patches and regular security testing.",
+      "paragraph3": "We're prepared for disaster scenarios: by setting up automated backups and a recovery plan, we ensure you return to normal as quickly as possible after an attack, data loss or system failure.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Web Security Package",
+      "cardDescription": "Everything you need for web security — under one roof.",
+      "checklist": {
+        "item1": "SSL certificate and HTTPS setup",
+        "item2": "Web application firewall (WAF)",
+        "item3": "Automated backup and recovery plan",
+        "item4": "Regular security scanning and reporting"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Comprehensive security solutions to protect your web infrastructure",
+    "items": {
+      "custom": {
+        "title": "SSL & HTTPS Setup",
+        "description": "Secure connection certificates, automatic renewal and redirecting all HTTP traffic to HTTPS."
+      },
+      "payment": {
+        "title": "Web Application Firewall",
+        "description": "WAF setup that blocks SQL injection, XSS and other common attacks in real time."
+      },
+      "mobile": {
+        "title": "Malware Scanning & Removal",
+        "description": "Regular automated scans. Instant cleanup and notification when malicious code is detected."
+      },
+      "stock": {
+        "title": "Automated Backup System",
+        "description": "Daily full site backups. Multi-location storage. Guaranteed fast restoration."
+      },
+      "seo": {
+        "title": "Vulnerability Testing",
+        "description": "Regular penetration tests to detect weaknesses in your system before attackers do."
+      },
+      "admin": {
+        "title": "Regulatory Compliance",
+        "description": "We configure the processing and storage of personal data in accordance with legal compliance requirements."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that treats security as a process, not a product.",
+    "reasons": {
+      "reason1": {
+        "title": "Proactive Defense",
+        "description": "We act before an attack happens, not after. Proactive security is always cheaper."
+      },
+      "reason2": {
+        "title": "Layered Protection",
+        "description": "Not a single point — multi-layered security. If one layer is breached, the others remain active."
+      },
+      "reason3": {
+        "title": "Fast Response",
+        "description": "Guaranteed response time in the event of a security breach. Damage is minimized."
+      },
+      "reason4": {
+        "title": "Transparent Reporting",
+        "description": "Monthly security report sharing the system's status, detected threats and measures taken."
+      },
+      "reason5": {
+        "title": "Legal Compliance",
+        "description": "We build security infrastructure meeting GDPR and regional data protection requirements."
+      },
+      "reason6": {
+        "title": "Disaster Recovery Plan",
+        "description": "We're prepared for the worst case scenario. We recover quickly from data loss or system failure."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We systematically strengthen your security infrastructure.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Security Audit",
+        "description": "We assess your current infrastructure, vulnerabilities and risk level. We create a prioritized action plan.",
+        "tag": "2-3 Days"
+      },
+      "design": {
+        "title": "Security Architecture",
+        "description": "We design the security layers, select tools and prepare the implementation plan.",
+        "tag": "1-2 Days"
+      },
+      "development": {
+        "title": "Setup & Configuration",
+        "description": "We install security tools, activate the backup system and run tests.",
+        "tag": "1-2 Weeks"
+      },
+      "launch": {
+        "title": "Monitoring & Reporting",
+        "description": "We sustain protection through continuous security monitoring, monthly scans and reports.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does basic security setup take?",
+        "answer": "SSL, WAF and backup system installation is typically completed in 3-7 days."
+      },
+      "pricing": {
+        "question": "How much does the security service cost?",
+        "answer": "We work with a one-time setup fee and monthly monitoring fee. Priced by site size and risk level."
+      },
+      "revisions": {
+        "question": "My site has been hacked — can you help?",
+        "answer": "Yes. We first clean the site, identify and close the source, then build ongoing security infrastructure."
+      },
+      "maintenance": {
+        "question": "How long does a restore from backup take?",
+        "answer": "Depending on site size, we can typically do a full restore within 30-60 minutes."
+      },
+      "migration": {
+        "question": "Do you support platforms other than WordPress?",
+        "answer": "Yes. We support a wide range of technologies including Next.js, Webflow and custom builds."
+      },
+      "mobile": {
+        "question": "What does compliance require?",
+        "answer": "We assess and implement together: personal data inventory, privacy policy, cookie policy and data security measures."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Secure Your Web Infrastructure",
+    "description": "Get in touch for a free security audit. Let's see together where you stand before an attack happens.",
+    "primaryButton": "Get a Free Audit",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

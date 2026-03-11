@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "SEO & Search Engine Optimization"
+  },
+  "hero": {
+    "titleMain": "Ranking at the Top of Google,",
+    "titleAccent": "SEO & Search Engine Optimization",
+    "description": "Earn organic traffic without an ad budget. Comprehensive optimization services from technical SEO to content strategy, link building to local SEO."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Are Your Customers Finding You on Google?",
+      "paragraph1": "You have a great product and website but you're falling far behind your competitors on Google? Are potential customers going to your competitors without ever finding you?",
+      "paragraph2": "SEO is no longer optional — it's a necessity. Organic traffic, unlike paid ads, is an asset that grows and provides long-term cost advantages.",
+      "paragraph3": "At Sybor Digital, we take your site to the top of Google rankings with a holistic SEO approach — from technical infrastructure to content strategy.",
+      "audiences": {
+        "physical": {
+          "title": "I just launched a new site",
+          "description": "I want to become visible on Google and quickly earn organic traffic."
+        },
+        "startup": {
+          "title": "My traffic is very low",
+          "description": "Very few people visit my site — I want to grow organically."
+        },
+        "growing": {
+          "title": "I have an e-commerce site",
+          "description": "I want to push my product pages to the top of Google."
+        },
+        "global": {
+          "title": "I'm a local business",
+          "description": "I want to rank at the top of Google in my city."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Organic Growth with a Holistic SEO Strategy",
+      "paragraph1": "We start with a technical SEO audit. We identify and fix all technical issues preventing Google from properly understanding your site.",
+      "paragraph2": "We build a content strategy through keyword research and competitor analysis. We get you ranking for the right keywords.",
+      "paragraph3": "We track ranking changes, traffic growth and ROI transparently with monthly reports.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete SEO Solution",
+      "cardDescription": "Everything you need for organic growth — under one roof.",
+      "checklist": {
+        "item1": "Technical SEO audit and fixes",
+        "item2": "Keyword research and strategy",
+        "item3": "Content optimization and production",
+        "item4": "Monthly reporting and ranking tracking"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Comprehensive SEO services to take you to the top of Google",
+    "items": {
+      "custom": {
+        "title": "Technical SEO",
+        "description": "Page speed, Core Web Vitals, crawlability, schema markup and site architecture optimization."
+      },
+      "payment": {
+        "title": "Keyword Strategy",
+        "description": "A conversion-focused keyword map built through competitor analysis and search volume research."
+      },
+      "mobile": {
+        "title": "On-Page Optimization",
+        "description": "Every page is ranking-ready — meta tags, heading structure, internal linking and content optimization."
+      },
+      "stock": {
+        "title": "SEO Content Production",
+        "description": "Content that your target audience is searching for. Content that both readers and Google love and rank."
+      },
+      "seo": {
+        "title": "Local SEO",
+        "description": "Google Business Profile optimization, local citations and ranking higher in map results."
+      },
+      "admin": {
+        "title": "Monthly Reporting",
+        "description": "Ranking changes, traffic growth and conversion tracking. Transparent and easy-to-understand reports."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that delivers both technical and strategic SEO.",
+    "reasons": {
+      "reason1": {
+        "title": "Technical + Content Together",
+        "description": "Most agencies do either technical or content. We run both simultaneously and in sync."
+      },
+      "reason2": {
+        "title": "Transparent Reporting",
+        "description": "We share what we did, why we did it and the results in a detailed monthly report."
+      },
+      "reason3": {
+        "title": "White Hat Approach",
+        "description": "We don't use techniques that boost rankings short-term then attract long-term penalties."
+      },
+      "reason4": {
+        "title": "Industry Expertise",
+        "description": "We develop sector-specific strategies for e-commerce, local business and enterprise SEO."
+      },
+      "reason5": {
+        "title": "Continuous Optimization",
+        "description": "SEO is not a one-time task — it's a continuous process. We quickly adapt to algorithm changes."
+      },
+      "reason6": {
+        "title": "ROI-Focused",
+        "description": "Not rankings — traffic and conversions. We optimize for real business results."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "A systematic, data-driven SEO process.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Audit & Strategy",
+        "description": "We conduct a technical SEO audit, competitor analysis and keyword research. We establish priorities.",
+        "tag": "1 Week"
+      },
+      "design": {
+        "title": "Technical Fixes",
+        "description": "We resolve technical SEO issues, apply on-page optimizations and improve site structure.",
+        "tag": "2-4 Weeks"
+      },
+      "development": {
+        "title": "Content & Link Building",
+        "description": "We produce SEO content, strengthen internal linking structure and build authority through link building.",
+        "tag": "Monthly"
+      },
+      "launch": {
+        "title": "Reporting & Optimization",
+        "description": "We present the monthly performance report and update strategy based on ranking changes.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "When will SEO results be visible?",
+        "answer": "Initial technical improvements start showing within 1-2 months. Meaningful traffic growth typically takes 3-6 months. SEO is a long-term investment."
+      },
+      "pricing": {
+        "question": "How much does SEO cost?",
+        "answer": "Varies by site size, industry competition and required scope. We work on a monthly retainer model."
+      },
+      "revisions": {
+        "question": "What is the minimum contract length?",
+        "answer": "By the nature of SEO, we work with a minimum 6-month agreement. Sufficient time is needed for guaranteed results."
+      },
+      "maintenance": {
+        "question": "Who makes the technical SEO changes?",
+        "answer": "We make small technical changes ourselves. For larger development changes, we work in coordination with your dev team."
+      },
+      "migration": {
+        "question": "Will SEO value be lost during a site migration?",
+        "answer": "Not with proper planning. We manage the technical transition in a way that preserves all your SEO value."
+      },
+      "mobile": {
+        "question": "Can I run paid ads alongside SEO?",
+        "answer": "Absolutely. SEO and paid ads complement each other. As organic traffic grows, your dependency on ads decreases."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Get You Ahead of Your Competitors on Google",
+    "description": "Get in touch for a free SEO audit. Let's see where your site stands and where we can take it.",
+    "primaryButton": "Get a Free Audit",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

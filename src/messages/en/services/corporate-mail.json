@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Corporate Email & Infrastructure"
+  },
+  "hero": {
+    "titleMain": "Professional and Reliable,",
+    "titleAccent": "Corporate Email & Infrastructure",
+    "description": "Upgrade from Gmail or personal accounts to corporate. We set up secure and professional email infrastructure with @yourcompany.com addresses."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "info@gmail.com Isn't Enough Anymore",
+      "paragraph1": "When a client receives an email from your info@gmail.com address, what do they think? A corporate email address signals professionalism and trust from the very first message.",
+      "paragraph2": "Beyond appearances, personal email services fall short for business needs — creating gaps in team management, shared mailboxes, email archiving and security.",
+      "paragraph3": "At Sybor Digital, we set up corporate email infrastructure under your own domain via Google Workspace, Microsoft 365 or a dedicated mail server.",
+      "audiences": {
+        "physical": {
+          "title": "I recently founded a company",
+          "description": "I want to create corporate email addresses under my company name."
+        },
+        "startup": {
+          "title": "My team is growing",
+          "description": "I want to set up managed corporate email accounts for my employees."
+        },
+        "growing": {
+          "title": "I want to migrate",
+          "description": "I want to move from personal email to a corporate system without losing data."
+        },
+        "global": {
+          "title": "I need corporate compliance",
+          "description": "I need email archiving, security policies and regulatory compliance."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "We Handle the Entire Corporate Email Setup",
+      "paragraph1": "We handle all technical setup — from domain verification and account creation to DNS configuration and spam protection.",
+      "paragraph2": "We identify the most suitable solution for your needs from Google Workspace, Microsoft 365 or dedicated mail server options.",
+      "paragraph3": "After setup, we provide email migration, team training and ongoing technical support.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Corporate Email Solution",
+      "cardDescription": "Everything you need for corporate email infrastructure — under one roof.",
+      "checklist": {
+        "item1": "Domain-based email setup",
+        "item2": "DNS, SPF, DKIM and DMARC configuration",
+        "item3": "Existing email migration",
+        "item4": "Team accounts and permission management"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "All the solutions for professional corporate email infrastructure",
+    "items": {
+      "custom": {
+        "title": "Corporate Email Setup",
+        "description": "@yourcompany.com email accounts. Google Workspace, Microsoft 365 or dedicated server options."
+      },
+      "payment": {
+        "title": "DNS & Email Security",
+        "description": "SPF, DKIM and DMARC configuration. Your emails won't land in spam and spoofing is prevented."
+      },
+      "mobile": {
+        "title": "Email Migration",
+        "description": "We migrate your existing emails, contacts and calendar to the new system completely and without interruption."
+      },
+      "stock": {
+        "title": "Team & Permission Management",
+        "description": "Staff accounts, group email addresses, shared mailboxes and admin panel setup."
+      },
+      "seo": {
+        "title": "Email Security",
+        "description": "Spam filtering, anti-phishing, two-factor authentication and email encryption setup."
+      },
+      "admin": {
+        "title": "Email Archiving",
+        "description": "Email archiving solutions for legal and corporate compliance. Search, export and retention policies."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that makes technical infrastructure simple and understandable.",
+    "reasons": {
+      "reason1": {
+        "title": "Smooth Transition",
+        "description": "We ensure you don't lose a single email during the transition and your workflow isn't disrupted."
+      },
+      "reason2": {
+        "title": "Right Platform Selection",
+        "description": "We identify the most suitable and cost-effective platform for your team size and needs."
+      },
+      "reason3": {
+        "title": "Complete Technical Setup",
+        "description": "DNS records, security configurations and all technical details — handled without you lifting a finger."
+      },
+      "reason4": {
+        "title": "Team Training",
+        "description": "We train your staff to quickly use the new system. Smooth transition guaranteed."
+      },
+      "reason5": {
+        "title": "Ongoing Support",
+        "description": "We're quickly by your side for new employee accounts, password resets or technical issues."
+      },
+      "reason6": {
+        "title": "Security First",
+        "description": "Corporate email is the most targeted point of cyber attacks. We build security correctly from the start."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We set up your corporate email infrastructure quickly and without issues.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Needs Analysis",
+        "description": "We assess your team size, existing setup and requirements. We select the right platform.",
+        "tag": "1 Day"
+      },
+      "design": {
+        "title": "Account Structure Planning",
+        "description": "We plan email accounts, group addresses and permission structure.",
+        "tag": "1 Day"
+      },
+      "development": {
+        "title": "Setup & Migration",
+        "description": "We create accounts, configure DNS and migrate existing emails.",
+        "tag": "2-5 Days"
+      },
+      "launch": {
+        "title": "Training & Go-Live",
+        "description": "We train your team, go live and provide ongoing support.",
+        "tag": "1-2 Days"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does setup take?",
+        "answer": "Basic setup in 2-3 days, full setup including migration typically in 5-7 days."
+      },
+      "pricing": {
+        "question": "Google Workspace or Microsoft 365?",
+        "answer": "Both have pros and cons. We determine the best fit together based on your team size, tools you use and budget."
+      },
+      "revisions": {
+        "question": "How many email accounts can we have?",
+        "answer": "Technically unlimited. The practical limit depends on the plan you choose. We help you select the right plan."
+      },
+      "maintenance": {
+        "question": "Will my old emails be lost?",
+        "answer": "No. We carefully plan the migration and transfer all your emails, contacts and calendar without any loss."
+      },
+      "migration": {
+        "question": "What if I don't have a custom domain yet?",
+        "answer": "We can assist with domain purchase too. We offer domain acquisition, DNS setup and email configuration as a package."
+      },
+      "mobile": {
+        "question": "Can we use it on mobile?",
+        "answer": "Yes. We set it up on iOS and Android. Access is available from all devices."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Set Up Your Corporate Email Infrastructure",
+    "description": "Get in touch for a free consultation. Let's find the right solution for your needs together.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

@@ -1,16 +1,33 @@
 import { getTranslations } from "next-intl/server";
-import { ServicesHero } from "@/components/services/ServicesHero";
 import { notFound } from "next/navigation";
+import { ServicesHero } from "@/components/services/ServicesHero";
 import { ServiceOverview } from "@/components/services/ServiceOverview";
 import { ServiceFeatures } from "@/components/services/ServiceFeatures";
 import { ServiceProcess } from "@/components/services/ServiceProcess";
 import { ServiceFAQ } from "@/components/services/ServiceFAQ";
-import { ServiceProjects } from "@/components/services/ServiceProjects";
-import { ServiceTestimonials } from "@/components/services/ServiceTestimonials";
 import { ServiceCTA } from "@/components/services/ServiceCTA";
 import { ServiceWhyUs } from "@/components/services/ServiceWhyUs";
+import { HomeFeaturedProjects } from "@/components/home/HomeFeaturedProjects";
 
-const validSlugs = ["web", "mobile", "e-commerce", "social-media", "infrastructure"];
+const audienceKeys: Record<string, string[]> = {
+  "e-commerce":     ["physical", "startup", "growing", "global"],
+  "corporate-web":  ["established", "startup", "rebranding", "b2b"],
+  "boutique":       ["handmade", "fashion", "food", "lifestyle"],
+  "portfolio":      ["freelancer", "creative", "consultant", "jobseeker"],
+  "landing":        ["ads", "launch", "event", "lead"],
+  "blog":           ["corporate", "media", "content", "magazine"],
+  "mobile-app":     ["startup", "business", "ecommerce", "service"],
+  "qr-menu":        ["restaurant", "chain", "hotel", "foodcourt"],
+  "booking":        ["health", "beauty", "consultant", "sports"],
+  "social-media":   ["newbrand", "inactive", "growing", "notime"],
+  "ui-ux":          ["startup", "redesign", "enterprise", "mobile"],
+  "branding":       ["new", "refresh", "scale", "digital"],
+  "ads":            ["ecommerce", "service", "brand", "campaign"],
+  "seo":            ["newsite", "lowtraffic", "ecommerce", "local"],
+  "maintenance":    ["business", "agency", "ecommerce", "notime"],
+  "security":       ["ecommerce", "data", "hacked", "compliance"],
+  "corporate-mail": ["newbusiness", "growing", "migration", "enterprise"],
+};
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -25,7 +42,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function ServiceDetailPage({ params }: Props) {
   const { slug } = await params;
 
-  if (!validSlugs.includes(slug)) notFound();
+  if (!audienceKeys[slug]) notFound();
 
   return (
     <main>
@@ -35,10 +52,9 @@ export default async function ServiceDetailPage({ params }: Props) {
       <ServiceWhyUs slug={slug} />
       <ServiceProcess slug={slug} />
       <ServiceFAQ slug={slug} />
-      <ServiceProjects slug={slug} />
-      <ServiceTestimonials slug={slug} />
+      {/* This coming from home */}
+      <HomeFeaturedProjects />
       <ServiceCTA slug={slug} />
-
     </main>
   );
 }

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Social Media Ad Design"
+  },
+  "hero": {
+    "titleMain": "Stopping the Scroll,",
+    "titleAccent": "Ad Creative Design",
+    "description": "For Meta, TikTok, Google and LinkedIn — we produce ad visuals, videos and materials that stop users in their tracks, align with your brand identity and drive high conversions."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Does Your Ad Budget Match Your Design Quality?",
+      "paragraph1": "You've spent months of ad budget but the results are disappointing? The problem is usually not the targeting — it's the creative.",
+      "paragraph2": "Users decide whether to stop or scroll past your ad within the first 1-3 seconds. That decision is made based on visual quality, message clarity and brand trust.",
+      "paragraph3": "At Sybor Digital, we produce ad creatives for Meta, TikTok, Google Display and LinkedIn that stop the scroll, persuade and stay consistent with your brand identity.",
+      "audiences": {
+        "physical": {
+          "title": "I have an e-commerce store",
+          "description": "I want my product ads to get more clicks and convert to sales."
+        },
+        "startup": {
+          "title": "I'm in the service industry",
+          "description": "I want effective ad visuals to collect leads."
+        },
+        "growing": {
+          "title": "I want brand awareness",
+          "description": "I need consistent ad materials that strengthen brand perception."
+        },
+        "global": {
+          "title": "I'm running a campaign",
+          "description": "I need fast ad designs for a seasonal or special campaign."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Ad Design Optimized for Every Platform",
+      "paragraph1": "Every platform has its own dynamics. Instagram feed, TikTok video, LinkedIn banner and Google Display are all different — we design with the right format and message for each.",
+      "paragraph2": "We produce multiple variants for A/B testing. We find the winner by testing different headline, visual and CTA combinations.",
+      "paragraph3": "With a monthly ad package option, get continuous design support. We adapt quickly to campaign changes.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Ad Design Solution",
+      "cardDescription": "Everything you need for ad design — under one roof.",
+      "checklist": {
+        "item1": "Design compatible with all platform formats",
+        "item2": "Video, static and carousel ads",
+        "item3": "Multiple variants for A/B testing",
+        "item4": "Full alignment with brand identity"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Design solutions to boost your ad performance",
+    "items": {
+      "custom": {
+        "title": "Static Ad Visuals",
+        "description": "Eye-catching static visuals for feed, story and banner formats. Optimized for every size and platform."
+      },
+      "payment": {
+        "title": "Video & Reels Ads",
+        "description": "Short video ads that stop viewers in the first 3 seconds and deliver a clear message. Motion graphics and animation included."
+      },
+      "mobile": {
+        "title": "Carousel & Multi-Image Ads",
+        "description": "Multi-image ad formats for product catalogs, feature lists or storytelling."
+      },
+      "stock": {
+        "title": "UGC-Style Creatives",
+        "description": "Ad designs that look organic and blend naturally into the feed. They don't feel like ads."
+      },
+      "seo": {
+        "title": "A/B Test Variants",
+        "description": "Different headline, visual and CTA combinations for the same ad. Data-driven optimization."
+      },
+      "admin": {
+        "title": "Seasonal Campaign Sets",
+        "description": "Consistent and quickly produced campaign visuals for holidays, sale seasons and special occasions."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A design team that understands the ad ecosystem.",
+    "reasons": {
+      "reason1": {
+        "title": "We Understand Performance",
+        "description": "We make things that get clicked and convert, not just look good. Every decision serves a performance goal."
+      },
+      "reason2": {
+        "title": "Platform Expertise",
+        "description": "We know the format requirements and algorithm dynamics of Meta, TikTok, Google and LinkedIn."
+      },
+      "reason3": {
+        "title": "Fast Delivery",
+        "description": "Ad campaigns can't wait. We deliver most design sets within 2-3 business days."
+      },
+      "reason4": {
+        "title": "Brand Consistency",
+        "description": "Your ad designs are always aligned with your brand identity. No inconsistent visual language."
+      },
+      "reason5": {
+        "title": "Revision Support",
+        "description": "Revision requests are handled quickly throughout the campaign. We have a flexible working model."
+      },
+      "reason6": {
+        "title": "Monthly Package Option",
+        "description": "Work with fixed, affordable monthly packages for ongoing ad design needs."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We produce your ad designs quickly and effectively.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Brief & Goal Analysis",
+        "description": "We receive the campaign objective, target audience and brand guide. We define which platforms and formats are needed.",
+        "tag": "1 Day"
+      },
+      "design": {
+        "title": "Concept & Design",
+        "description": "We prepare the initial variants. We focus on message hierarchy, visual language and CTA placement.",
+        "tag": "1-2 Days"
+      },
+      "development": {
+        "title": "Revision & Variants",
+        "description": "We revise based on your feedback. We prepare A/B test variants and all sizes.",
+        "tag": "1 Day"
+      },
+      "launch": {
+        "title": "Delivery & Support",
+        "description": "We deliver launch-ready files. We provide revision support throughout the campaign.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How quickly are designs delivered?",
+        "answer": "Standard ad sets in 2-3 business days, video ads in 3-5 business days."
+      },
+      "pricing": {
+        "question": "How does pricing work?",
+        "answer": "Project-based or monthly package options available. Priced by number of ads and platforms."
+      },
+      "revisions": {
+        "question": "How many revisions do I get?",
+        "answer": "2 revision rounds are included per design. Unlimited revisions are offered for monthly package clients."
+      },
+      "maintenance": {
+        "question": "Can you work with our existing brand guide?",
+        "answer": "Yes. We take your brand guide and produce all designs in full compliance with it."
+      },
+      "migration": {
+        "question": "Do you produce video ads too?",
+        "answer": "Yes. We produce motion graphics, animation and short-format video ads. Shoot-required videos are outside scope."
+      },
+      "mobile": {
+        "question": "Can you upload to my ad account?",
+        "answer": "On request, we can directly upload to your Meta Business or Google Ads account."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let Your Ads Stop the Scroll",
+    "description": "Get in touch for a free brief call. We're here to make your ad budget work as efficiently as possible.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

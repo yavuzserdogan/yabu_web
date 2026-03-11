@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Corporate Websites"
+  },
+  "hero": {
+    "titleMain": "Reflecting Your Brand,",
+    "titleAccent": "Corporate Websites",
+    "description": "We design and develop modern, professional corporate websites that strengthen your digital presence and build trust."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Does Your Online Presence Match Your Brand?",
+      "paragraph1": "When a potential customer searches for you on Google, what do they find? An outdated site — or a professional digital face that reflects your brand's strength?",
+      "paragraph2": "Your corporate website isn't just a storefront — it's the first and most critical touchpoint where prospects evaluate you. First impressions are everything.",
+      "paragraph3": "At Sybor Digital, we design and develop corporate websites that best reflect your company's values, vision and credibility.",
+      "audiences": {
+        "physical": {
+          "title": "I run an established company",
+          "description": "My current site is outdated and doesn't reflect our brand."
+        },
+        "startup": {
+          "title": "I just founded a company",
+          "description": "I want to start strong with a professional website."
+        },
+        "growing": {
+          "title": "I'm rebranding",
+          "description": "I need a modern site to carry our new identity into the digital world."
+        },
+        "global": {
+          "title": "I do B2B sales",
+          "description": "I need a trust-building, reference-focused site for corporate clients."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "End-to-End Corporate Web Solutions",
+      "paragraph1": "We manage the entire process professionally — from strategic planning and design to development and launch.",
+      "paragraph2": "We work with both aesthetics and performance in mind. We build fast-loading, SEO-friendly sites that work flawlessly on every device.",
+      "paragraph3": "We stay with you after launch. We provide support for content updates, technical maintenance and growth strategies.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Corporate Solution",
+      "cardDescription": "Everything your corporate web project needs — from a single team.",
+      "checklist": {
+        "item1": "Custom design aligned with brand identity",
+        "item2": "SEO and performance optimization",
+        "item3": "Content management system integration",
+        "item4": "Multi-language and multi-location support"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Solutions that put your corporate website ahead of the competition",
+    "items": {
+      "custom": {
+        "title": "Custom Corporate Design",
+        "description": "Unique interfaces designed from scratch to match your brand identity. No templates — everything is made for you."
+      },
+      "payment": {
+        "title": "Content Management System",
+        "description": "A user-friendly admin panel that lets you add and edit content without any technical knowledge."
+      },
+      "mobile": {
+        "title": "Multi-Language Structure",
+        "description": "TR, EN and more. Full localization support for expanding into international markets."
+      },
+      "stock": {
+        "title": "SEO & Technical Optimization",
+        "description": "Page speed, meta structure and technical SEO optimization to rank at the top of Google."
+      },
+      "seo": {
+        "title": "CRM & Tool Integrations",
+        "description": "Seamless integration with HubSpot, Salesforce, Google Analytics and more."
+      },
+      "admin": {
+        "title": "Security & SSL",
+        "description": "HTTPS, security certificates and regular backups keep your data protected at all times."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "Boutique approach, corporate discipline. A team that genuinely adds value to your project.",
+    "reasons": {
+      "reason1": {
+        "title": "Strategy First",
+        "description": "We don't just build pretty websites. We build strategic structures by understanding your audience, competitors and business goals."
+      },
+      "reason2": {
+        "title": "Transparent Communication",
+        "description": "You're informed at every stage. No surprise costs, delays or ambiguity."
+      },
+      "reason3": {
+        "title": "On-Time Delivery",
+        "description": "We stick to deadlines. We deliver fast and with quality, without unnecessary bureaucracy."
+      },
+      "reason4": {
+        "title": "Modern Technology",
+        "description": "We build future-ready, scalable sites using Next.js, headless CMS and modern infrastructure."
+      },
+      "reason5": {
+        "title": "Post-Launch Support",
+        "description": "We stay with you after the site goes live. We help with technical support and content updates."
+      },
+      "reason6": {
+        "title": "Long-Term Partnership",
+        "description": "We build long-term relationships, not project-based ones. We grow together with our clients."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We bring your project to life with a transparent and effective process from start to finish.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Strategy",
+        "description": "We analyze your company, goals and competitors. We plan the content architecture and site structure together.",
+        "tag": "1-3 Days"
+      },
+      "design": {
+        "title": "Design & Approval",
+        "description": "We prepare wireframes and UI designs that reflect your brand identity. We shape them with your feedback.",
+        "tag": "3-7 Days"
+      },
+      "development": {
+        "title": "Development & Testing",
+        "description": "We develop your site with clean code, fast performance and cross-browser compatibility. We test at every stage.",
+        "tag": "2-4 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Training",
+        "description": "We go live, train your team on the CMS and provide ongoing support.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does a corporate site take?",
+        "answer": "Typically 3-6 weeks depending on scope. We provide a custom timeline after the discovery call."
+      },
+      "pricing": {
+        "question": "How is pricing determined?",
+        "answer": "Based on scope, number of pages and integration requirements. We provide a clear proposal after a free call."
+      },
+      "revisions": {
+        "question": "How many revisions do I get?",
+        "answer": "Unlimited revisions during the design phase. Changes during development are handled within the agreed scope."
+      },
+      "maintenance": {
+        "question": "Is there post-launch support?",
+        "answer": "Yes. We offer 3 months of free technical support after launch, followed by optional monthly maintenance packages."
+      },
+      "migration": {
+        "question": "Can you migrate our existing site?",
+        "answer": "Yes. We migrate your existing content, images and SEO value to the new site without any loss."
+      },
+      "mobile": {
+        "question": "Will it be mobile-friendly?",
+        "answer": "Absolutely. All our sites are built with a mobile-first approach and work flawlessly on every device."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Corporate Digital Presence Together",
+    "description": "Get in touch for a free discovery call. We're here to offer solutions tailored specifically to your brand.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

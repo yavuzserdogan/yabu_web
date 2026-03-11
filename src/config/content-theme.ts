@@ -78,11 +78,12 @@ export const contentTheme = {
 
   // ─── Bölüm (Section) ────────────────────────────────────────────────
   section: {
+    paddingSmall: "py-16 px-4",
     padding: "py-20 px-4",
     paddingLarge: "py-24 px-4",
     bg: {
       white: "bg-white",
-      slate: "bg-slate-50/50",
+      slate: "bg-slate-100/60",
       gradient: "bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-50",
     },
     container: "max-w-7xl mx-auto",

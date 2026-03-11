@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Brand Identity & Visual Design"
+  },
+  "hero": {
+    "titleMain": "A Brand That Sticks,",
+    "titleAccent": "Brand Identity & Visual Design",
+    "description": "From logo to color palette, typography to visual language guide — we create a consistent and powerful identity that truly reflects your brand's essence."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Is Your Brand Recognized and Remembered?",
+      "paragraph1": "Does your logo look outdated or amateurish? Are you using different colors and fonts across every platform? Can't visually stand out from your competitors?",
+      "paragraph2": "A strong brand identity is not an accident — it's strategy. Done right, it builds trust, stays top of mind and influences customer decisions.",
+      "paragraph3": "At Sybor Digital, we analyze your brand's values, vision and target audience to design a unique, strategic and practical brand identity.",
+      "audiences": {
+        "physical": {
+          "title": "I'm launching a new brand",
+          "description": "I want to build a strong brand identity from scratch."
+        },
+        "startup": {
+          "title": "I'm refreshing my brand",
+          "description": "My logo is outdated — I want to modernize my identity."
+        },
+        "growing": {
+          "title": "I'm a growing company",
+          "description": "I need a professional identity that matches our growth."
+        },
+        "global": {
+          "title": "I'm going digital",
+          "description": "I want an identity that looks strong across digital platforms."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "A Complete Brand Identity from Strategy to Design",
+      "paragraph1": "We start by mapping your brand DNA: values, personality, target audience and positioning. Design is built on this foundation.",
+      "paragraph2": "Logo, color palette, typography, visual language and usage guide — we deliver everything as a comprehensive brand package.",
+      "paragraph3": "We also deliver all applications including social media templates, business cards, letterheads and digital materials.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Brand Identity Package",
+      "cardDescription": "Everything you need for your brand identity project — under one roof.",
+      "checklist": {
+        "item1": "Brand strategy and positioning",
+        "item2": "Logo and visual identity design",
+        "item3": "Brand usage guide",
+        "item4": "Digital and print applications"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Brand identity solutions that set you apart from competitors",
+    "items": {
+      "custom": {
+        "title": "Brand Strategy",
+        "description": "Values, personality, tone and positioning. The strategic brand framework that forms the foundation of design."
+      },
+      "payment": {
+        "title": "Logo & Visual Identity",
+        "description": "Multi-version logo design that looks strong in every context. Color palette, typography and iconographic language."
+      },
+      "mobile": {
+        "title": "Brand Usage Guide",
+        "description": "A comprehensive guide ensuring consistent use of your identity. Every team member uses it correctly."
+      },
+      "stock": {
+        "title": "Social Media Templates",
+        "description": "Ready-to-use content templates aligned with your brand for Instagram, LinkedIn and other platforms."
+      },
+      "seo": {
+        "title": "Print Applications",
+        "description": "Business cards, letterheads, envelopes and promotional materials. Print-ready files included."
+      },
+      "admin": {
+        "title": "Digital Materials",
+        "description": "Favicon, email signature, presentation template and all digital platform formats."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that thinks beyond design and considers strategy too.",
+    "reasons": {
+      "reason1": {
+        "title": "We Start with Strategy",
+        "description": "We don't just make pretty logos — we make the right logos. Every design decision has a strategic rationale."
+      },
+      "reason2": {
+        "title": "Original Design",
+        "description": "No templates, no inspiration from other brands. Every identity is designed from scratch, specifically for you."
+      },
+      "reason3": {
+        "title": "Practical Delivery",
+        "description": "Not just beautiful files — we deliver complete materials you can actually use in the real world."
+      },
+      "reason4": {
+        "title": "We're Not Afraid of Revisions",
+        "description": "We work until you're satisfied. You have unlimited revision rights during the design phase."
+      },
+      "reason5": {
+        "title": "Fast Delivery",
+        "description": "We present initial concepts in 5-7 days. Including approvals and revisions, we complete in 2-3 weeks."
+      },
+      "reason6": {
+        "title": "Digital Integration",
+        "description": "We help you integrate your identity into your website, social media and digital materials."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We discover your brand's identity together.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Brand Discovery",
+        "description": "We analyze your values, target audience and competitors. We define brand personality and positioning.",
+        "tag": "2-3 Days"
+      },
+      "design": {
+        "title": "Concept Design",
+        "description": "We present 3 different concept directions. We develop the chosen direction with your feedback.",
+        "tag": "5-7 Days"
+      },
+      "development": {
+        "title": "Revision & Finalization",
+        "description": "We refine the chosen concept, prepare all applications and create the guide.",
+        "tag": "3-5 Days"
+      },
+      "launch": {
+        "title": "Delivery & Application",
+        "description": "We deliver all files and provide support for digital applications.",
+        "tag": "2-3 Days"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does a brand identity take?",
+        "answer": "We present initial concepts in 5-7 days. The total process including revisions is typically 2-3 weeks."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Varies by scope. Logo-only or full identity packages are available. Clear proposal after a free call."
+      },
+      "revisions": {
+        "question": "What if I don't like the design?",
+        "answer": "We present 3 different concepts. You have unlimited revision rights during the design phase. We work until you're satisfied."
+      },
+      "maintenance": {
+        "question": "What formats are the files delivered in?",
+        "answer": "All files are delivered in full in both vector (AI, EPS, SVG) and pixel-based (PNG, JPEG) formats in all sizes."
+      },
+      "migration": {
+        "question": "Do I have to abandon my existing logo entirely?",
+        "answer": "No. We also do evolutionary refreshes that modernize your existing identity while preserving its strong elements."
+      },
+      "mobile": {
+        "question": "Can you also design our website?",
+        "answer": "Yes. Brand identity + website is one of our most requested combinations. Together they look much more cohesive."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Brand Together",
+    "description": "Get in touch for a free brand discovery call. We're here to create an identity worth remembering.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

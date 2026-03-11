@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Social Media Management"
+  },
+  "hero": {
+    "titleMain": "Growing Your Brand,",
+    "titleAccent": "Social Media Management",
+    "description": "From strategy and content creation to community management and ad optimization — we turn your social media into a growth engine."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Does Your Social Media Represent Your Brand?",
+      "paragraph1": "Inconsistent posts, mismatched visuals, low engagement... If your social media isn't adding value to your brand — or worse, damaging it — something needs to change.",
+      "paragraph2": "Social media today isn't just about posting. It requires strategy, content planning, analysis and continuous optimization.",
+      "paragraph3": "At Sybor Digital, we find your brand's voice, grow it with a consistent content language and build a loyal audience through community management.",
+      "audiences": {
+        "physical": {
+          "title": "I'm launching a new brand",
+          "description": "I want to build a social media presence from scratch."
+        },
+        "startup": {
+          "title": "My account is stagnant",
+          "description": "I post inconsistently and my engagement is very low."
+        },
+        "growing": {
+          "title": "I want to grow",
+          "description": "I want more followers, engagement and sales."
+        },
+        "global": {
+          "title": "I don't have time",
+          "description": "I can't keep up with social media while running my business."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Full Social Media Management from Strategy to Post",
+      "paragraph1": "We start with brand analysis and competitor research. We build a content strategy and visual identity aligned with your target audience.",
+      "paragraph2": "We produce monthly content calendars, original graphic designs, video reels and story content. Nothing goes live without your approval.",
+      "paragraph3": "We actively manage comment responses, DM tracking and community growth. We keep you informed with a monthly performance report.",
+      "badge": "Scope of Service",
+      "cardTitle": "A Complete Social Media Solution",
+      "cardDescription": "Everything you need for social media management — under one roof.",
+      "checklist": {
+        "item1": "Monthly content calendar and strategy",
+        "item2": "Original visual and video content production",
+        "item3": "Community management and DM tracking",
+        "item4": "Monthly performance report and optimization"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Solutions to take your brand to the front on social media",
+    "items": {
+      "custom": {
+        "title": "Content Strategy",
+        "description": "We analyze your audience and competitors. We define a content language, tone and publishing strategy tailored to your brand."
+      },
+      "payment": {
+        "title": "Original Content Production",
+        "description": "Feed visuals, Reels, Stories, carousels — we create platform-specific content. No stock photos used."
+      },
+      "mobile": {
+        "title": "Community Management",
+        "description": "We reply to comments, track DMs and build a genuine connection with your followers."
+      },
+      "stock": {
+        "title": "Ad Management",
+        "description": "We set up, test and optimize Meta Ads and TikTok Ads campaigns."
+      },
+      "seo": {
+        "title": "Analytics & Reporting",
+        "description": "Monthly detailed performance report. See what's working and what isn't, backed by data."
+      },
+      "admin": {
+        "title": "Influencer Collaborations",
+        "description": "We manage the collaboration process with micro and macro influencers suited to your brand."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that truly understands social media.",
+    "reasons": {
+      "reason1": {
+        "title": "Strategy Comes First",
+        "description": "We don't post randomly. Every piece of content serves a defined strategy and goal."
+      },
+      "reason2": {
+        "title": "Original Production",
+        "description": "No stock visuals, no copied templates. Every piece of content is produced originally for your brand."
+      },
+      "reason3": {
+        "title": "Transparent Reporting",
+        "description": "We share what we did and the results in a detailed monthly report."
+      },
+      "reason4": {
+        "title": "Platform Expertise",
+        "description": "We closely follow algorithm changes on Instagram, TikTok, LinkedIn and X."
+      },
+      "reason5": {
+        "title": "Quick Approval Process",
+        "description": "We submit content for your approval before publishing. We manage the calendar together."
+      },
+      "reason6": {
+        "title": "Long-Term Growth",
+        "description": "We don't chase viral content. We work for sustainable, organic growth."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We build your brand's social media presence together.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Brand & Competitor Analysis",
+        "description": "We analyze your brand, target audience and industry competitors. We define the content strategy and visual identity.",
+        "tag": "3-5 Days"
+      },
+      "design": {
+        "title": "Content Plan & Templates",
+        "description": "We prepare the monthly content calendar and visual templates. We present them for your approval.",
+        "tag": "3-5 Days"
+      },
+      "development": {
+        "title": "Production & Publishing",
+        "description": "We produce content, publish on schedule and engage with the community.",
+        "tag": "Monthly"
+      },
+      "launch": {
+        "title": "Analysis & Optimization",
+        "description": "We share the monthly performance report and update the strategy. We continuously improve.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "When can we start?",
+        "answer": "After the brand analysis and strategy phase, we typically present the first content calendar within 7-10 days."
+      },
+      "pricing": {
+        "question": "How do packages work?",
+        "answer": "Packages vary by number of platforms, monthly content volume and ad management needs. Custom proposal after a free call."
+      },
+      "revisions": {
+        "question": "Can I approve content before it goes live?",
+        "answer": "Yes. All content is submitted for your approval before publishing. We make any requested changes."
+      },
+      "maintenance": {
+        "question": "What is the minimum contract length?",
+        "answer": "Social media management is a long-term process. We work with a minimum 3-month agreement. Monthly continuation is possible afterwards."
+      },
+      "migration": {
+        "question": "Can you take over my existing accounts?",
+        "answer": "Yes. We're ready to analyze your existing Instagram, TikTok or LinkedIn accounts and strategically take over management."
+      },
+      "mobile": {
+        "question": "Does ad spend come from my own account?",
+        "answer": "Yes. Ad spend comes directly from your own account. We only handle campaign setup and management."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Turn Your Social Media Into a Growth Engine",
+    "description": "Get in touch for a free strategy call. We're here to build a social media plan tailored to your brand.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

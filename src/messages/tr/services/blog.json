@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Haber & Blog Portalları"
+  },
+  "hero": {
+    "titleMain": "Okuyucuyu Bağlayan",
+    "titleAccent": "Haber & Blog Portalları",
+    "description": "Kurumsal blogdan haber portalına, içerik pazarlama sitesinden sektör dergisine — okuyucuyu geri getiren platformlar geliştiriyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "İçerik Üretiyorsunuz Ama Platform Yetersiz Mi?",
+      "paragraph1": "Medium'da yayınladığınız içerikler size değil onlara trafik kazandırıyor. WordPress temanız yavaş, SEO değeri düşük ve markanızı yansıtmıyor.",
+      "paragraph2": "Güçlü bir blog veya haber portalı sadece içerik barındırmaz — marka otoritesi kurar, organik trafik getirir ve okuyucuyu müşteriye dönüştürür.",
+      "paragraph3": "Sybor Digital olarak SEO performansı yüksek, hızlı ve yönetimi kolay blog ve haber platformları geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Kurumsal blog açmak istiyorum",
+          "description": "Şirketimizin uzmanlığını paylaşacağı profesyonel bir blog platformu istiyorum."
+        },
+        "startup": {
+          "title": "Haber veya medya sitesi kuruyorum",
+          "description": "Çok yazarlı, kategorili bir haber portalı geliştirmek istiyorum."
+        },
+        "growing": {
+          "title": "İçerik pazarlaması yapıyorum",
+          "description": "SEO odaklı içeriklerle organik trafik elde etmek istiyorum."
+        },
+        "global": {
+          "title": "Sektörel dergi yayınlıyorum",
+          "description": "Abone sistemi ve premium içerikli bir dijital dergi platformu istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "İçerik Platformunuzu Büyüme Motoruna Dönüştürüyoruz",
+      "paragraph1": "Kategori yapısı, yazar yönetimi, etiket sistemi ve arama özelliği ile tam donanımlı bir içerik platformu kuruyoruz.",
+      "paragraph2": "Headless CMS entegrasyonu veya özel admin paneli ile içerik eklemek teknik bilgi gerektirmiyor.",
+      "paragraph3": "Bülten entegrasyonu, sosyal paylaşım ve yorum sistemi ile okuyucu topluluğunuzu büyütmenize destek oluyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Eksiksiz İçerik Platform Çözümü",
+      "cardDescription": "Blog ve haber portalınız için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "SEO odaklı sayfa yapısı ve şema işaretlemesi",
+        "item2": "Çok yazarlı ve kategori yönetimi",
+        "item3": "Bülten ve e-posta entegrasyonu",
+        "item4": "Hızlı yükleme ve Core Web Vitals uyumu"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "İçerik platformunuzu güçlendirecek her şey",
+    "items": {
+      "custom": {
+        "title": "Güçlü İçerik Yönetimi",
+        "description": "Yazı ekleme, düzenleme, zamanlama ve kategori yönetimi. Teknik bilgi gerektirmeyen sezgisel panel."
+      },
+      "payment": {
+        "title": "SEO Optimizasyonu",
+        "description": "Schema markup, canonical URL, sitemap ve meta yönetimiyle her yazı arama motorları için optimize edilir."
+      },
+      "mobile": {
+        "title": "Çok Yazarlı Yapı",
+        "description": "Farklı yetki seviyeleriyle yazar, editör ve admin rolleri. Büyük ekiplerle çalışmaya hazır."
+      },
+      "stock": {
+        "title": "Bülten Entegrasyonu",
+        "description": "Mailchimp, SendGrid veya özel bülten sistemiyle abone tabanınızı büyütün."
+      },
+      "seo": {
+        "title": "Gelişmiş Arama",
+        "description": "Tam metin arama, filtre ve etiket sistemiyle okuyucular istediklerini anında buluyor."
+      },
+      "admin": {
+        "title": "Monetizasyon Araçları",
+        "description": "Premium içerik, üyelik sistemi ve reklam alanları ile içeriğinizden gelir elde edin."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "İçerik platformlarının teknik ve stratejik gereksinimlerini anlayan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "SEO DNA'sında Var",
+        "description": "Yazdığınız her içeriğin arama motorlarında görünmesi için teknik altyapıyı en başından doğru kuruyoruz."
+      },
+      "reason2": {
+        "title": "Hız Öncelik",
+        "description": "Yavaş yüklenen blog okuyucuyu kaçırır. Core Web Vitals uyumlu, ultra hızlı platformlar yapıyoruz."
+      },
+      "reason3": {
+        "title": "Ölçeklenebilir Yapı",
+        "description": "100 yazıdan 100.000 yazıya performanstan ödün vermeden büyüyebilen mimari."
+      },
+      "reason4": {
+        "title": "Kolay Yönetim",
+        "description": "İçerik ekipleriniz teknik destek olmadan rahatça çalışabilsin diye sade ve güçlü bir panel tasarlıyoruz."
+      },
+      "reason5": {
+        "title": "Şeffaf Süreç",
+        "description": "Her aşamada bilgilendirilirsiniz. Sürpriz maliyet veya gecikme yaşamazsınız."
+      },
+      "reason6": {
+        "title": "Yayın Sonrası Destek",
+        "description": "Platform büyüdükçe yeni özellikler ekliyoruz. Teknik sorunlarda hızlıca müdahale ediyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "İçerik platformunuzu birlikte hayata geçiriyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "İçerik Mimarisi Planlaması",
+        "description": "Kategori yapısı, yazar rolleri ve hedef kitleyi belirliyoruz. SEO stratejisini ve teknik gereksinimleri planlıyoruz.",
+        "tag": "2-3 Gün"
+      },
+      "design": {
+        "title": "Tasarım & UX",
+        "description": "Okuma deneyimini merkeze alan, marka kimliğinizi yansıtan sayfa tasarımları hazırlıyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & Entegrasyon",
+        "description": "Platformu geliştiriyor, CMS, bülten ve analitik entegrasyonlarını tamamlıyoruz.",
+        "tag": "2-4 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Optimizasyon",
+        "description": "Platformu canlıya alıyor, içerik ekibinizi eğitiyor ve SEO performansını takip ediyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Blog platformu ne kadar sürede hazır olur?",
+        "answer": "Basit bir kurumsal blog 2-3 haftada, kapsamlı haber portalları 4-8 haftada teslim edilir."
+      },
+      "pricing": {
+        "question": "WordPress'ten farkı nedir?",
+        "answer": "Next.js tabanlı platformlarımız WordPress'e kıyasla çok daha hızlı, güvenli ve SEO performanslıdır. Özelleştirme kabiliyeti sınırsızdır."
+      },
+      "revisions": {
+        "question": "İçerikleri kendim ekleyebilir miyim?",
+        "answer": "Evet. Teknik bilgi gerektirmeyen yönetim paneli teslim ediyoruz. İstediğiniz zaman yazı ekleyip düzenleyebilirsiniz."
+      },
+      "maintenance": {
+        "question": "Mevcut blog içeriklerimi taşıyabilir misiniz?",
+        "answer": "Evet. Mevcut WordPress veya Medium içeriklerinizi SEO değerini koruyarak yeni platforma taşıyabiliriz."
+      },
+      "migration": {
+        "question": "Abone ve bülten sistemi kuruluyor mu?",
+        "answer": "Evet. Mailchimp, SendGrid veya özel çözümle abone toplama ve bülten gönderme altyapısı kuruyoruz."
+      },
+      "mobile": {
+        "question": "Reklam alanları eklenebilir mi?",
+        "answer": "Evet. Google AdSense veya doğrudan reklam satışı için reklam alanları tasarlayıp entegre ediyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "İçerik Platformunuzu Birlikte Kuralım",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. İçeriğinizi büyüme motoruna dönüştürmek için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "iOS & Android Mobile Apps"
+  },
+  "hero": {
+    "titleMain": "Connecting Users,",
+    "titleAccent": "iOS & Android Mobile Apps",
+    "description": "From idea to App Store — we develop user-friendly, high-performance and scalable mobile applications."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Your Business Should Live in Your Users' Pockets",
+      "paragraph1": "Is your website great on desktop but managing workflows, communicating with customers or making sales on mobile becoming complicated?",
+      "paragraph2": "Mobile apps are no longer a luxury reserved for large companies. Push notifications, offline functionality and access to device features offer experiences the web simply can't.",
+      "paragraph3": "At Sybor Digital, we develop apps using React Native and native technologies that work flawlessly on both iOS and Android.",
+      "audiences": {
+        "physical": {
+          "title": "I have an app idea",
+          "description": "I want to start with an MVP and grow from there."
+        },
+        "startup": {
+          "title": "I want to mobilize my business",
+          "description": "I need a custom app for my customers or team."
+        },
+        "growing": {
+          "title": "I want an e-commerce app",
+          "description": "I want to add a mobile app alongside my web store."
+        },
+        "global": {
+          "title": "I'm in the service industry",
+          "description": "I need an app for appointment, reservation or order management."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "Full Process Management from Idea to Launch",
+      "paragraph1": "We manage the entire process — from UX research and wireframing to design and development, testing and App Store submission.",
+      "paragraph2": "With React Native we ship to both iOS and Android from a single codebase. For performance-critical apps we also do native development.",
+      "paragraph3": "After launch, we keep your app healthy with user analytics, crash reporting and regular updates.",
+      "badge": "Scope of Service",
+      "cardTitle": "End-to-End Mobile Development",
+      "cardDescription": "Everything your mobile app project needs — under one roof.",
+      "checklist": {
+        "item1": "A single app for both iOS and Android",
+        "item2": "Backend API and database integration",
+        "item3": "Push notification and analytics setup",
+        "item4": "App Store & Google Play submission support"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Modern and scalable mobile app development solutions",
+    "items": {
+      "custom": {
+        "title": "Cross-Platform Development",
+        "description": "Ship to iOS and Android from a single codebase with React Native. Save time and cost."
+      },
+      "payment": {
+        "title": "User Experience Design",
+        "description": "We design intuitive, fluid interfaces through user research, wireframing and prototyping."
+      },
+      "mobile": {
+        "title": "Backend & API Development",
+        "description": "The powerful infrastructure behind your app. Scalable APIs, databases and cloud integrations."
+      },
+      "stock": {
+        "title": "Push Notification System",
+        "description": "Personalized push notification infrastructure that brings users back."
+      },
+      "seo": {
+        "title": "Analytics & Crash Reporting",
+        "description": "Full analytics setup for user behavior, app performance and crash tracking."
+      },
+      "admin": {
+        "title": "App Store & Google Play Submission",
+        "description": "We manage the entire process — App Store Optimization (ASO), screenshots and submission."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "Boutique approach, corporate discipline. A team that genuinely adds value to your app.",
+    "reasons": {
+      "reason1": {
+        "title": "Product Mindset",
+        "description": "We don't just write code. We understand user needs and make the right product decisions together."
+      },
+      "reason2": {
+        "title": "Transparent Process",
+        "description": "We demo after every sprint. You always know exactly where your project stands."
+      },
+      "reason3": {
+        "title": "Fast MVP",
+        "description": "We take your idea to market quickly. We can deliver an MVP in 6-10 weeks."
+      },
+      "reason4": {
+        "title": "Modern Tech Stack",
+        "description": "Performant and scalable apps built with React Native, Node.js and cloud infrastructure."
+      },
+      "reason5": {
+        "title": "Post-Launch Maintenance",
+        "description": "We maintain compatibility with iOS and Android updates. Bug fix and new feature development support."
+      },
+      "reason6": {
+        "title": "Scale-Ready Architecture",
+        "description": "We start with an architecture that can scale from 100 to 100,000 users."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We bring your idea to life step by step.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Product Planning",
+        "description": "We define user stories, app features and technical requirements. We create the prioritized feature list.",
+        "tag": "3-5 Days"
+      },
+      "design": {
+        "title": "UX/UI Design",
+        "description": "We prepare wireframes and high-quality mobile interface designs. We test user flows.",
+        "tag": "1-2 Weeks"
+      },
+      "development": {
+        "title": "Development & Testing",
+        "description": "We develop sprint by sprint. We demo every two weeks and collect your feedback.",
+        "tag": "4-10 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Growth",
+        "description": "We publish to App Store and Google Play and continue development based on user feedback.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does an app take?",
+        "answer": "A simple MVP is typically delivered in 6-10 weeks. Complex apps can take 3-6 months. We provide a custom timeline after the discovery call."
+      },
+      "pricing": {
+        "question": "How much does a mobile app cost?",
+        "answer": "Varies by features, platform (iOS/Android/both) and backend requirements. Transparent proposal after a free call."
+      },
+      "revisions": {
+        "question": "Can I change my mind during development?",
+        "answer": "Since we work in sprints, small changes can be incorporated into each sprint. Major scope changes are evaluated separately."
+      },
+      "maintenance": {
+        "question": "Do you provide post-launch maintenance?",
+        "answer": "Yes. We maintain compatibility with iOS and Android updates. Ongoing support through monthly maintenance packages."
+      },
+      "migration": {
+        "question": "Can you rewrite an existing app?",
+        "answer": "Yes. We rewrite apps built with legacy technologies using modern React Native or native technologies."
+      },
+      "mobile": {
+        "question": "If I have a website, why do I need an app?",
+        "answer": "Push notifications, offline functionality, access to device features like camera and GPS, and higher user engagement all require a native app."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Bring Your App to Life Together",
+    "description": "Get in touch for a free discovery call. We're here to turn your idea into a product.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

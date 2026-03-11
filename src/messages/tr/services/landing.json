@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Landing Page & Kampanya Sayfaları"
+  },
+  "hero": {
+    "titleMain": "Dönüşüm Odaklı",
+    "titleAccent": "Landing Page & Kampanya Sayfaları",
+    "description": "Tek sayfalık landing page'lerden tam kapsamlı kampanya sitelerine — ziyaretçiyi müşteriye dönüştüren yapılar tasarlıyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Reklam Bütçenizin Boşa Gitmesin",
+      "paragraph1": "Google veya sosyal medya reklamı yayınlıyorsunuz ama beklediğiniz dönüşümleri göremiyorsunuz? Sorun genellikle reklamda değil, reklamın yönlendirdiği sayfadadır.",
+      "paragraph2": "Genel web sitesi ziyaretçinin dikkatini dağıtır. Kampanyaya özel landing page tek bir hedef üzerine odaklanır: dönüştürmek.",
+      "paragraph3": "Sybor Digital olarak reklam kampanyanızla uyumlu, A/B teste hazır ve yüksek dönüşümlü landing page'ler tasarlayıp geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Dijital reklam yayınlıyorum",
+          "description": "Reklam harcamamı dönüşüme çevirecek özel bir sayfa istiyorum."
+        },
+        "startup": {
+          "title": "Yeni ürün lansmanı yapıyorum",
+          "description": "Ön kayıt listesi ve duyuru sayfası kurmak istiyorum."
+        },
+        "growing": {
+          "title": "Etkinlik düzenliyorum",
+          "description": "Kayıt toplayan ve katılımcıları bilgilendiren bir sayfa lazım."
+        },
+        "global": {
+          "title": "Lead topluyorum",
+          "description": "Form dolduran ve teklif isteyen ziyaretçileri yakalamak istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Tasarımın Merkezine Dönüşümü Koyuyoruz",
+      "paragraph1": "Her element bir amaca hizmet eder: başlık dikkat çeker, içerik ikna eder, CTA dönüştürür. Hiçbir şey şansa bırakılmaz.",
+      "paragraph2": "Google Ads, Meta Ads ve diğer reklam platformlarıyla uyumlu, hızlı yüklenen ve mobil öncelikli sayfalar geliştiriyoruz.",
+      "paragraph3": "Yayın sonrasında A/B test kurulumu, ısı haritası analizi ve dönüşüm oranı optimizasyonu konularında da destek sağlıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Dönüşüme Odaklı Yapı",
+      "cardDescription": "Landing page projeniz için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "checklist": {
+        "item1": "Dönüşüm odaklı sayfa yapısı ve metin",
+        "item2": "Hızlı yükleme ve Core Web Vitals uyumu",
+        "item3": "Form entegrasyonu ve CRM bağlantısı",
+        "item4": "A/B test ve analitik kurulumu"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Ziyaretçiyi müşteriye dönüştürmek için gereken her şey",
+    "items": {
+      "custom": {
+        "title": "Dönüşüm Odaklı Tasarım",
+        "description": "Her element stratejik olarak yerleştirilir. Başlık, görsel, sosyal kanıt ve CTA — hepsi dönüşüm için optimize edilir."
+      },
+      "payment": {
+        "title": "Ultra Hızlı Yükleme",
+        "description": "Her saniye gecikme dönüşüm kaybettirir. Core Web Vitals uyumlu, 1 saniyenin altında yükleme hedefliyoruz."
+      },
+      "mobile": {
+        "title": "Akıllı Formlar & CRM Entegrasyonu",
+        "description": "HubSpot, Mailchimp ve diğer CRM araçlarıyla otomatik entegrasyon sağlayan lead formları."
+      },
+      "stock": {
+        "title": "A/B Test Altyapısı",
+        "description": "Hangi başlık, görsel veya CTA daha iyi dönüşüm sağlıyor? Veriyle test edin ve optimize edin."
+      },
+      "seo": {
+        "title": "Pixel & Dönüşüm Takibi",
+        "description": "Meta Pixel, Google Tag Manager ve dönüşüm eventi kurulumu ile her tıklamayı ölçün."
+      },
+      "admin": {
+        "title": "Mobil Öncelikli",
+        "description": "Reklam trafiğinin büyük çoğunluğu mobilden gelir. Kusursuz mobil deneyim standarttır."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Performans pazarlamasını gerçekten anlayan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Dönüşümü Anlıyoruz",
+        "description": "Landing page psikoloji ve strateji işidir, sadece tasarım değil. Her kararı veriyle destekliyoruz."
+      },
+      "reason2": {
+        "title": "Reklam Ekosistemini Biliyoruz",
+        "description": "Google Ads ve Meta Ads uyumlu yapılar geliştiriyoruz. Kalite Skoru ve reklam uyumluluğunu destekliyoruz."
+      },
+      "reason3": {
+        "title": "Hızlı Teslimat",
+        "description": "Kampanya takvimlerinize yetişiyoruz. Landing page'leri genellikle 1-2 haftada teslim ediyoruz."
+      },
+      "reason4": {
+        "title": "Şeffaf Süreç",
+        "description": "Her aşamada bilgilendirilirsiniz. Sürpriz maliyet veya gecikme olmaz."
+      },
+      "reason5": {
+        "title": "Optimizasyon Desteği",
+        "description": "Yayın sonrasında dönüşüm analizi ve optimizasyon önerileri sağlıyoruz."
+      },
+      "reason6": {
+        "title": "Ölçeklenebilir Yapı",
+        "description": "Sadece bir kampanya için değil, büyüyen bir pazarlama altyapısı için tasarlıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Kampanyanıza uygun dönüşüm sayfasını hızlıca yayına alıyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Kampanya & Hedef Analizi",
+        "description": "Reklam hedefini, hedef kitleyi ve rekabet ortamını analiz ediyoruz. Sayfa yapısını ve mesajı birlikte belirliyoruz.",
+        "tag": "1 Gün"
+      },
+      "design": {
+        "title": "Tasarım & Metin",
+        "description": "Dönüşüm odaklı sayfa tasarımı ve ikna edici metin hazırlıyoruz. Onayınıza sunuyoruz.",
+        "tag": "2-3 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & Entegrasyon",
+        "description": "Sayfayı geliştiriyor, form ve pixel entegrasyonlarını kuruyor ve hız testlerini tamamlıyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "launch": {
+        "title": "Yayın & Optimizasyon",
+        "description": "Kampanyanızla eş zamanlı canlıya alıyor, performansı izliyor ve optimizasyon önerileri sunuyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Landing page kaç günde hazır olur?",
+        "answer": "Tek sayfalık landing page'ler genellikle 1-2 haftada, daha kapsamlı kampanya siteleri 2-3 haftada teslim edilir."
+      },
+      "pricing": {
+        "question": "Fiyatlar nasıl belirlenir?",
+        "answer": "Sayfa sayısı, form karmaşıklığı ve entegrasyon gereksinimlerine göre belirlenir. Ücretsiz görüşme sonrası net teklif."
+      },
+      "revisions": {
+        "question": "Yayın sonrası değişiklik yapabilir miyim?",
+        "answer": "Evet. Başlık, görsel ve metin değişiklikleri hızlıca yapılır. Kampanya süresince optimizasyon desteği sağlıyoruz."
+      },
+      "maintenance": {
+        "question": "A/B test kurulumu yapıyor musunuz?",
+        "answer": "Evet. Google Optimize veya VWO ile A/B test altyapısı kuruyoruz ve hangi varyantın daha iyi performans gösterdiğini birlikte analiz ediyoruz."
+      },
+      "migration": {
+        "question": "Mevcut bir sayfamı yeniden tasarlayabilir misiniz?",
+        "answer": "Evet. Mevcut sayfanızı analiz edip dönüşüm odaklı yeniden tasarlamak en çok talep gördüğümüz projelerden biri."
+      },
+      "mobile": {
+        "question": "Reklam hesabımla entegrasyon yapılabiliyor mu?",
+        "answer": "Evet. Google Ads dönüşüm takibi ve Meta Pixel kurulumunu sizin adınıza yapıyor ve kampanya ekibinizle koordineli çalışıyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Kampanyanız İçin Dönüşüm Makinesi Kuralım",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Reklam bütçenizi en verimli şekilde kullanmak için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

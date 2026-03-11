@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Landing Pages & Campaign Sites"
+  },
+  "hero": {
+    "titleMain": "Conversion-Focused",
+    "titleAccent": "Landing Pages & Campaign Sites",
+    "description": "From single-page landing pages to full campaign sites — we design structures that turn visitors into customers."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Don't Let Your Ad Budget Go to Waste",
+      "paragraph1": "Running Google or social media ads but not seeing the conversions you expected? The problem is usually not the ad — it's the page the ad points to.",
+      "paragraph2": "A general website distracts visitors. A campaign-specific landing page focuses on a single goal: convert.",
+      "paragraph3": "At Sybor Digital, we design and build landing pages aligned with your ad campaigns — A/B-test ready and built for high conversion.",
+      "audiences": {
+        "physical": {
+          "title": "I'm running digital ads",
+          "description": "I want a dedicated page that turns my ad spend into conversions."
+        },
+        "startup": {
+          "title": "I'm launching a new product",
+          "description": "I want to set up a pre-registration list and announcement page."
+        },
+        "growing": {
+          "title": "I'm organizing an event",
+          "description": "I need a page that collects registrations and informs attendees."
+        },
+        "global": {
+          "title": "I'm collecting leads",
+          "description": "I want to capture visitors who fill out forms and request quotes."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "We Put Conversion at the Center of Design",
+      "paragraph1": "Every element serves a purpose: the headline captures attention, the content persuades, the CTA converts. Nothing is left to chance.",
+      "paragraph2": "We build fast-loading, mobile-first pages compatible with Google Ads, Meta Ads and other ad platforms.",
+      "paragraph3": "After launch, we also support you with A/B test setup, heatmap analysis and conversion rate optimization.",
+      "badge": "Scope of Service",
+      "cardTitle": "Conversion-Centered Structure",
+      "cardDescription": "Everything you need for your landing page project — under one roof.",
+      "checklist": {
+        "item1": "Conversion-focused page structure and copy",
+        "item2": "Fast loading and Core Web Vitals compliance",
+        "item3": "Form integration and CRM connection",
+        "item4": "A/B test and analytics setup"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Everything you need to turn visitors into customers",
+    "items": {
+      "custom": {
+        "title": "Conversion-Focused Design",
+        "description": "Every element is placed strategically. Headline, visual, social proof and CTA — all optimized for conversion."
+      },
+      "payment": {
+        "title": "Ultra-Fast Loading",
+        "description": "Every second of delay costs conversions. We target sub-1-second loading with Core Web Vitals compliance."
+      },
+      "mobile": {
+        "title": "Smart Forms & CRM Integration",
+        "description": "Lead forms with automatic integration to HubSpot, Mailchimp and other CRM tools."
+      },
+      "stock": {
+        "title": "A/B Test Infrastructure",
+        "description": "Which headline, visual or CTA converts better? Test with data and optimize."
+      },
+      "seo": {
+        "title": "Pixel & Conversion Tracking",
+        "description": "Meta Pixel, Google Tag Manager and conversion event setup so you can measure every click."
+      },
+      "admin": {
+        "title": "Mobile-First",
+        "description": "The vast majority of ad traffic comes from mobile. Flawless mobile experience is standard."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that truly understands performance marketing.",
+    "reasons": {
+      "reason1": {
+        "title": "We Understand Conversion",
+        "description": "Landing pages are about psychology and strategy, not just design. Every decision is backed by data."
+      },
+      "reason2": {
+        "title": "We Know the Ad Ecosystem",
+        "description": "We build structures compatible with Google Ads and Meta Ads, supporting Quality Score and ad relevance."
+      },
+      "reason3": {
+        "title": "Fast Delivery",
+        "description": "We meet your campaign timelines. Landing pages are typically delivered in 1-2 weeks."
+      },
+      "reason4": {
+        "title": "Transparent Process",
+        "description": "You're informed at every stage. No surprise costs or delays."
+      },
+      "reason5": {
+        "title": "Optimization Support",
+        "description": "We provide conversion analysis and optimization recommendations after launch."
+      },
+      "reason6": {
+        "title": "Scalable Structure",
+        "description": "We design not just for one campaign — but for a growing marketing infrastructure."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We launch the right conversion page for your campaign, fast.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Campaign & Goal Analysis",
+        "description": "We analyze the ad objective, target audience and competitive landscape. We define the page structure and messaging together.",
+        "tag": "1 Day"
+      },
+      "design": {
+        "title": "Design & Copy",
+        "description": "We prepare a conversion-focused page design and persuasive copy. We present it for your approval.",
+        "tag": "2-3 Days"
+      },
+      "development": {
+        "title": "Development & Integration",
+        "description": "We build the page, set up form and pixel integrations and complete speed tests.",
+        "tag": "3-5 Days"
+      },
+      "launch": {
+        "title": "Launch & Optimization",
+        "description": "We go live in sync with your campaign, monitor performance and provide optimization recommendations.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does a landing page take?",
+        "answer": "Single-page landing pages typically take 1-2 weeks, more comprehensive campaign sites take 2-3 weeks."
+      },
+      "pricing": {
+        "question": "How is pricing determined?",
+        "answer": "Based on page count, form complexity and integration requirements. Clear proposal after a free call."
+      },
+      "revisions": {
+        "question": "Can I make changes after launch?",
+        "answer": "Yes. Headline, visual and copy changes are done quickly. We provide optimization support throughout the campaign."
+      },
+      "maintenance": {
+        "question": "Do you set up A/B tests?",
+        "answer": "Yes. We set up A/B test infrastructure with Google Optimize or VWO and analyze which variant performs better together."
+      },
+      "migration": {
+        "question": "Can you redesign an existing page of mine?",
+        "answer": "Yes. Analyzing your existing page and redesigning it with a conversion focus is one of our most requested projects."
+      },
+      "mobile": {
+        "question": "Can integration with my ad account be done?",
+        "answer": "Yes. We set up Google Ads conversion tracking and Meta Pixel on your behalf and work in coordination with your campaign team."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build a Conversion Machine for Your Campaign",
+    "description": "Get in touch for a free discovery call. We're here to make your ad budget work as efficiently as possible.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

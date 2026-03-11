@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Portfolio & Personal Websites"
+  },
+  "hero": {
+    "titleMain": "Showcasing Your Talent,",
+    "titleAccent": "Portfolio & Personal Websites",
+    "description": "From freelancers to photographers, designers to consultants — we build personal websites that best represent your career and skills."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Are You the Only Address for Your Digital Presence?",
+      "paragraph1": "Your LinkedIn profile isn't enough. Instagram can't fully showcase your portfolio. Without your own domain and website, you're incomplete in the digital world.",
+      "paragraph2": "Clients, employers and partners are searching for you on Google. What do they find? Scattered social profiles — or a dedicated site that represents you at your best?",
+      "paragraph3": "At Sybor Digital, we build websites that carry your personal voice into the digital world — for freelancers, creative professionals, consultants and artists alike.",
+      "audiences": {
+        "physical": {
+          "title": "I'm a freelancer",
+          "description": "I want to look professional to clients and land more work."
+        },
+        "startup": {
+          "title": "I'm a creative professional",
+          "description": "I want to showcase my design, photography or video work."
+        },
+        "growing": {
+          "title": "I'm a consultant or coach",
+          "description": "I want a site that highlights my expertise and attracts clients."
+        },
+        "global": {
+          "title": "I'm focused on career growth",
+          "description": "I want an impressive portfolio to support my job applications."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "A Digital Identity for Your Personal Brand",
+      "paragraph1": "We design a structure that tells your story, values and work in the most effective way possible.",
+      "paragraph2": "Portfolio pages, service descriptions, blog, contact forms and testimonials — we build every important section to fit your personal brand.",
+      "paragraph3": "Once your site is live, we also provide support with content updates, SEO and personal brand development.",
+      "badge": "Scope of Service",
+      "cardTitle": "The Site That Represents You Best",
+      "cardDescription": "Everything you need for your personal site — under one roof.",
+      "checklist": {
+        "item1": "Design aligned with your personal brand identity",
+        "item2": "Portfolio and project showcase",
+        "item3": "Blog and content management",
+        "item4": "Contact and lead generation forms"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What We Offer",
+    "subtitle": "Solutions to put your personal brand front and center",
+    "items": {
+      "custom": {
+        "title": "Fully Custom Design",
+        "description": "A unique visual identity that reflects you. No templates — everything is designed specifically for you."
+      },
+      "payment": {
+        "title": "Project & Portfolio Gallery",
+        "description": "Showcase your work in a filterable, categorized and visually compelling gallery."
+      },
+      "mobile": {
+        "title": "Blog & Content Management",
+        "description": "A blog page to share your expertise and an easy-to-use panel that builds your SEO value."
+      },
+      "stock": {
+        "title": "Smart Contact Forms",
+        "description": "Customized contact and quote request forms to capture potential clients."
+      },
+      "seo": {
+        "title": "Personal SEO Optimization",
+        "description": "Schema markup and technical SEO so people searching your name find you at the top of Google."
+      },
+      "admin": {
+        "title": "Visitor & Performance Analytics",
+        "description": "Who's visiting, what they're looking at, where they come from — track all the data and refine your strategy."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that understands the world of personal branding.",
+    "reasons": {
+      "reason1": {
+        "title": "We Understand You",
+        "description": "Personal branding is strategic, not just technical. We build the right structure aligned with your goals."
+      },
+      "reason2": {
+        "title": "Fast Delivery",
+        "description": "We typically deliver portfolio sites in 2-3 weeks. We won't let you miss opportunities."
+      },
+      "reason3": {
+        "title": "Freelancer-Friendly Pricing",
+        "description": "We offer pricing packages that don't require a corporate budget."
+      },
+      "reason4": {
+        "title": "Easy to Update",
+        "description": "We deliver a management panel so you can add new projects without any technical knowledge."
+      },
+      "reason5": {
+        "title": "SEO-Ready from Day One",
+        "description": "Your site starts getting noticed on Google from the moment it goes live."
+      },
+      "reason6": {
+        "title": "Long-Term Support",
+        "description": "As your career grows, so does your site. We're with you at every new step."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How We Work",
+    "subtitle": "We carry your personal brand into the digital world together.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Brand Analysis",
+        "description": "We analyze your goals, target audience and competitors. We create the site structure and content plan together.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "Design & Concept",
+        "description": "We prepare a visual identity and page designs that reflect your personal brand. We present them for your approval.",
+        "tag": "2-4 Days"
+      },
+      "development": {
+        "title": "Development & Content",
+        "description": "We build the site, upload your portfolio content and test the entire system.",
+        "tag": "1-3 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Growth",
+        "description": "We go live, complete the SEO setup and support your personal brand strategy.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": {
+      "delivery": {
+        "question": "How long does a portfolio site take?",
+        "answer": "We typically deliver in 2-3 weeks. Depends on content scope. Priority processing is available for urgent cases."
+      },
+      "pricing": {
+        "question": "How much does it cost?",
+        "answer": "Varies by page count and feature requirements. Freelancer-friendly packages are available. Clear proposal after a free call."
+      },
+      "revisions": {
+        "question": "Can I update the content myself?",
+        "answer": "Yes. We deliver an easy content management panel. You can add new projects and write blog posts without asking us."
+      },
+      "maintenance": {
+        "question": "Do you provide post-launch support?",
+        "answer": "Yes. 3 months of free technical support after launch. Monthly maintenance packages are available thereafter."
+      },
+      "migration": {
+        "question": "Can you migrate my portfolio from another platform?",
+        "answer": "Yes. We transfer your work from Behance, Dribbble or other platforms to your new site."
+      },
+      "mobile": {
+        "question": "How does domain and hosting work?",
+        "answer": "We provide full support for domain purchase and hosting setup. We can handle it or guide you step by step."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Digital Identity Together",
+    "description": "Get in touch for a free discovery call. We're here to design a portfolio experience tailored specifically to you.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Message on WhatsApp"
+  }
+}

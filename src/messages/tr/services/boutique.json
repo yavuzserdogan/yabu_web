@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Butik Mağaza Siteleri"
+  },
+  "hero": {
+    "titleMain": "Markanızın Ruhunu Yansıtan",
+    "titleAccent": "Butik Mağaza Siteleri",
+    "description": "El yapımı ürünlerden özel koleksiyonlara — markanızın özünü taşıyan ve ziyaretçiyi müşteriye dönüştüren butik e-ticaret deneyimleri kuruyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Ürününüz Özgün, Mağazanız da Öyle Olmalı",
+      "paragraph1": "El yapımı takı mı satıyorsunuz? Kendi giysi tasarımlarınızı mı yapıyorsunuz? Organik gıda mı sunuyorsunuz? Tıpkı ürününüz gibi mağazanız da tek olmalı.",
+      "paragraph2": "Genel şablonlar markanızın ruhunu taşıyamaz. Binlercenin arasında olmak değil, hatırlanan bir deneyim yaratmak istiyorsunuz.",
+      "paragraph3": "Sybor Digital olarak butik markaları dijital dünyada hayata geçiriyor, sattığınız ürünün gerçek değerini yansıtan özgün alışveriş deneyimleri kuruyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "El yapımı ürünler satıyorum",
+          "description": "Özgün eserlerimi sergileyecek şık bir mağaza istiyorum."
+        },
+        "startup": {
+          "title": "Butik moda markam var",
+          "description": "Koleksiyonlarımı güzel gösteren bir site arıyorum."
+        },
+        "growing": {
+          "title": "Özel gıda & içecek satıyorum",
+          "description": "Ürünlerimin hikayesini anlatan bir online mağaza istiyorum."
+        },
+        "global": {
+          "title": "Lifestyle ürünler sunuyorum",
+          "description": "Marka kimliğimi yansıtan premium bir dijital deneyim istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Butik Markalar İçin Özel Dijital Deneyimler",
+      "paragraph1": "Ürün fotoğrafı entegrasyonundan sayfa tasarımına, alışveriş akışından ödeme sistemine kadar her detayı markanıza özel tasarlıyoruz.",
+      "paragraph2": "Shopify ve WooCommerce'i markanızın diliyle konuşacak şekilde özelleştiriyor ya da sıfırdan özgün bir butik alışveriş deneyimi tasarlıyoruz.",
+      "paragraph3": "Yayın sonrasında sosyal medya entegrasyonları, kampanya yönetimi ve müşteri segmentasyonu konularında da destek sağlıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Markanıza Özel Her Şey",
+      "cardDescription": "Butik mağazanız için ihtiyaç duyduğunuz tüm çözümler tek çatı altında.",
+      "checklist": {
+        "item1": "Markanızın ruhuna sadık özgün tasarım",
+        "item2": "Ürününüzün hikayesini anlatan sayfa yapısı",
+        "item3": "Sosyal medya & influencer entegrasyonları",
+        "item4": "Kampanya, indirim ve sadakat sistemleri"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Ne Sunuyoruz?",
+    "subtitle": "Butik markanızı rakiplerinizden ayıracak özellikler",
+    "items": {
+      "custom": {
+        "title": "Özgün Mağaza Tasarımı",
+        "description": "Markanızın renkleri, estetiği ve kimliğine uygun sıfırdan tasarım. Şablon kullanılmaz."
+      },
+      "payment": {
+        "title": "Hikaye Odaklı Ürün Sayfaları",
+        "description": "Her ürünün arkasındaki hikayeyi anlatan, müşteride duygusal bağ kuran sayfa tasarımları."
+      },
+      "mobile": {
+        "title": "Instagram & Sosyal Medya Entegrasyonu",
+        "description": "Instagram akışınızı mağazanıza taşıyın, ürünlerinizi sosyal satışa doğrudan bağlayın."
+      },
+      "stock": {
+        "title": "Esnek Ödeme Seçenekleri",
+        "description": "Kredi kartı, kapıda ödeme, taksit ve dijital cüzdanlar dahil tüm ödeme yöntemleri."
+      },
+      "seo": {
+        "title": "Mobil Öncelikli Tasarım",
+        "description": "Butik alışverişlerin büyük çoğunluğu mobilde gerçekleşir. Kusursuz mobil deneyim garantisi."
+      },
+      "admin": {
+        "title": "Sadakat & Kampanya Sistemi",
+        "description": "Tekrar satın almayı teşvik eden puan sistemi, indirim kuponları ve müşteri segmentleri."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Butik markaların dünyasını gerçekten anlayan bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Marka Duygusunu Anlıyoruz",
+        "description": "Butik markalar ürün değil deneyim satar. Tasarımlarımız o duyguyu dijital dünyaya taşır."
+      },
+      "reason2": {
+        "title": "Şeffaf Süreç",
+        "description": "Her aşamada bilgilendirilirsiniz. Sürpriz maliyet veya gecikme olmaz."
+      },
+      "reason3": {
+        "title": "Hızlı Teslimat",
+        "description": "Sezonluk koleksiyonlarınızın zamanında yayına girmesi için hızlı ve disiplinli çalışıyoruz."
+      },
+      "reason4": {
+        "title": "Dönüşüm Odaklı",
+        "description": "Güzel görünmek yetmez — ziyaretçiyi alıcıya dönüştüren yapılar kuruyoruz."
+      },
+      "reason5": {
+        "title": "Yayın Sonrası Destek",
+        "description": "Yeni koleksiyon eklemek, kampanya kurmak ve teknik sorunlar için yanınızdayız."
+      },
+      "reason6": {
+        "title": "Büyümeye Hazır",
+        "description": "Bugün butik, yarın büyük marka. Ölçeklenebilir altyapıyla başlıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Markanızın dijital mağazasını birlikte inşa ediyoruz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Marka & Hedef Kitle Analizi",
+        "description": "Markanızın ruhu, hedef kitleniz ve rakiplerinizi analiz ediyoruz. Mağazanın görsel dilini ve yapısını birlikte belirliyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Tasarım & Görsel Kimlik",
+        "description": "Renk paleti, tipografi ve ürün sayfası tasarımları hazırlıyoruz. Onayınız olmadan bir adım ileri gitmiyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & İçerik",
+        "description": "Mağazayı geliştiriyor, ürünlerinizi yüklüyor ve tüm sistemi test ediyoruz.",
+        "tag": "2-4 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Büyüme",
+        "description": "Canlıya alıyor, ilk satışlarınızda destek sağlıyor ve büyüme stratejileri geliştiriyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Butik mağaza kaç günde hazır olur?",
+        "answer": "Kapsama ve ürün sayısına göre genellikle 3-6 hafta. Sezonluk aciliyetler için öncelikli işlem seçeneği mevcut."
+      },
+      "pricing": {
+        "question": "Fiyatlar nasıl belirlenir?",
+        "answer": "Ürün sayısı, özelleştirme seviyesi ve entegrasyon gereksinimlerine göre belirlenir. Ücretsiz görüşme sonrası net teklif sunuyoruz."
+      },
+      "revisions": {
+        "question": "Kaç revizyon hakkım var?",
+        "answer": "Tasarım aşamasında sınırsız revizyon. Kapsam dahilindeki geliştirme değişiklikleri ücretsizdir."
+      },
+      "maintenance": {
+        "question": "Ürün eklemek için teknik destek gerekiyor mu?",
+        "answer": "Hayır. Kullanımı kolay yönetim paneli teslim ediyoruz. Eğitim de dahildir."
+      },
+      "migration": {
+        "question": "Başka platformdan geçiş yapabilir miyim?",
+        "answer": "Evet. Etsy, Instagram Shop veya diğer platformlardaki tüm ürün ve müşteri verilerinizi taşıyabiliriz."
+      },
+      "mobile": {
+        "question": "Instagram Shop entegrasyonu kurulabilir mi?",
+        "answer": "Evet. Instagram Shop ve TikTok Shop bağlantısını kurarak sosyal medyanızı doğrudan satış kanalına dönüştürüyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Markanızın Dijital Mağazasını Birlikte Kuralım",
+    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Markanıza özel bir deneyim tasarlamak için buradayız.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}
