@@ -57,7 +57,7 @@ export function MobileNav({ onClose, isScrolled }: { onClose: () => void; isScro
                         <div key={category.id}>
                           <p className={`px-3 py-1 text-xs font-bold uppercase tracking-wider ${isScrolled ? "text-slate-400" : "text-white/40"
                             }`}>
-                            {t(`services.categories.${category.id}`)}
+                            {t(`servicesMenu.categories.${category.id}`)}
                           </p>
                           {category.items.map((serviceItem) => (
                             <button
@@ -71,7 +71,7 @@ export function MobileNav({ onClose, isScrolled }: { onClose: () => void; isScro
                                   : "text-white/70 hover:text-white hover:bg-white/10"
                                 }`}
                             >
-                              {t(`services.items.${serviceItem.id}`)}
+                              {t(`servicesMenu.items.${serviceItem.id}`)}
                             </button>
                           ))}
                         </div>
