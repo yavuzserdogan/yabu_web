@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Corporate Websites"
+  },
+  "hero": {
+    "titleMain": "Reflecting Your Brand",
+    "titleAccent": "Corporate Websites",
+    "description": "We design and develop modern, high-performance corporate websites that reflect the reliability and professionalism of your brand."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Does Your Online Presence Align With Your Brand?",
+      "paragraph1": "The website your potential customers see when they search for you online creates their first impression of your brand. An outdated or amateur-looking site can cause a loss of trust.",
+      "paragraph2": "Your corporate website is not just a storefront. It is one of the most important digital touchpoints demonstrating your brand's reliability, professionalism, and value.",
+      "paragraph3": "As Sybor Digital, we design and develop modern, fast, and user-friendly corporate websites that accurately reflect the power of your brand.",
+      "audiences": {
+        "physical": {
+          "title": "Established Company Executives",
+          "description": "My current website no longer accurately represents my brand. I want to upgrade to a more modern and professional corporate site."
+        },
+        "startup": {
+          "title": "New Startups and Companies",
+          "description": "I want to make a professional entry into the industry and build a website that strongly represents my brand digitally."
+        },
+        "growing": {
+          "title": "Those Renewing Brand Identity",
+          "description": "I need a site that will reflect our new vision and corporate identity in the digital world in a prestigious way."
+        },
+        "global": {
+          "title": "B2B Service Providers",
+          "description": "I want a website that inspires trust in my corporate clients, where I can present my services and references with a strong infrastructure."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "End-to-End Corporate Web Solutions",
+      "paragraph1": "We plan the entire process of your corporate website together with strategy, design, and development stages.",
+      "paragraph2": "By developing fast, mobile-friendly, and SEO-compliant infrastructures, we ensure your website is strong in terms of both user experience and performance.",
+      "paragraph3": "Even after the site goes live, we continue to stand by you with technical support, content updates, and development processes.",
+      "badge": "Scope of Service",
+      "cardTitle": "Complete Corporate Solution",
+      "cardDescription": "We provide all the services your corporate website needs with a single team.",
+      "checklist": {
+        "item1": "Custom design tailored to brand identity",
+        "item2": "SEO and performance optimization",
+        "item3": "Content management system integration",
+        "item4": "Multi-language and multi-location structure support"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What Do We Offer?",
+    "subtitle": "Solutions that will move your corporate website ahead of your competitors",
+    "items": {
+      "custom": {
+        "title": "Custom Corporate Design",
+        "description": "We develop modern and professional interfaces that are tailored entirely to you and fit your brand identity."
+      },
+      "payment": {
+        "title": "Content Management System",
+        "description": "We provide a user-friendly admin panel where you can add and edit content without requiring technical knowledge."
+      },
+      "mobile": {
+        "title": "Multi-Language Structure",
+        "description": "We provide an infrastructure with multi-language and localization support so you can reach international markets."
+      },
+      "stock": {
+        "title": "SEO & Technical Optimization",
+        "description": "We ensure your website is more visible on search engines with technical SEO and performance optimization."
+      },
+      "seo": {
+        "title": "CRM & Tool Integrations",
+        "description": "We provide seamless integration with Google Analytics, CRM systems, and other business tools."
+      },
+      "admin": {
+        "title": "Security & SSL",
+        "description": "We protect your site with SSL certificates, security measures, and regular backup systems."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "Boutique approach, corporate discipline. A team that adds real value to your project.",
+    "reasons": {
+      "reason1": {
+        "title": "Strategy Comes First",
+        "description": "Before designing your website, we analyze your target audience, competitors, and business goals."
+      },
+      "reason2": {
+        "title": "Transparent Communication",
+        "description": "We keep you informed at every stage of the project process and manage all steps transparently."
+      },
+      "reason3": {
+        "title": "On-Time Delivery",
+        "description": "We deliver your project on time by adhering to the established timeline."
+      },
+      "reason4": {
+        "title": "Modern Technology",
+        "description": "We develop fast, secure, and scalable websites using modern web technologies."
+      },
+      "reason5": {
+        "title": "Post-Launch Support",
+        "description": "We stand by you for technical support and content updates even after the site goes live."
+      },
+      "reason6": {
+        "title": "Long-Term Partnership",
+        "description": "Instead of one-off projects, we aim to establish long-term business partnerships."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Work?",
+    "subtitle": "We bring your project to life with a transparent and effective process from start to finish.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Strategy",
+        "description": "We plan the right structure of your website by analyzing your company, goals, and competitors.",
+        "tag": "1-3 Days"
+      },
+      "design": {
+        "title": "Design & Approval",
+        "description": "We prepare designs that reflect your brand identity and develop them based on your feedback.",
+        "tag": "3-7 Days"
+      },
+      "development": {
+        "title": "Development & Testing",
+        "description": "We develop your website with modern technologies and run performance tests.",
+        "tag": "2-4 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Training",
+        "description": "We launch the site, show you how to use the admin panel, and provide technical support.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "The answers to the questions on your mind are here.",
+    "items": {
+      "delivery": {
+        "question": "How many days does it take for a corporate site to be ready?",
+        "answer": "Depending on the scope of the project, it is usually completed within 3-6 weeks."
+      },
+      "pricing": {
+        "question": "How are prices determined?",
+        "answer": "A custom quote is prepared for you based on the number of pages, features, and integration needs."
+      },
+      "revisions": {
+        "question": "How many revision rights do I have?",
+        "answer": "Necessary revisions are made together during the design phase, and the site proceeds with your approval."
+      },
+      "maintenance": {
+        "question": "Is there post-launch support?",
+        "answer": "Yes. We offer technical support and maintenance services after launch."
+      },
+      "migration": {
+        "question": "Can you migrate the existing site?",
+        "answer": "Yes. We can migrate to the new site while preserving your existing content and SEO values."
+      },
+      "mobile": {
+        "question": "Will it be mobile-friendly?",
+        "answer": "Yes. All sites are developed to be mobile-friendly and work seamlessly on all devices."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Corporate Digital Presence Together",
+    "description": "Contact us for a free discovery meeting. Let's plan your project together.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

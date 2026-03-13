@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Landing Page & Kampanya Sayfaları"
+  },
+  "hero": {
+    "titleMain": "Dönüşüm Odaklı",
+    "titleAccent": "Landing Page & Kampanya Sayfaları",
+    "description": "Tek sayfalık landing page'lerden tam kapsamlı kampanya sitelerine kadar, reklam bütçenizi maksimize eden ve ziyaretçileri müşteriye dönüştüren yüksek performanslı yapılar tasarlıyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Reklam Bütçeniz Boşa Gitmesin",
+      "paragraph1": "Google veya sosyal medya reklamlarına bütçe ayırıyor ama beklediğiniz dönüşümleri alamıyor musunuz? Sorun genellikle reklam kampanyanızda değil, trafiği yönlendirdiğiniz sayfadadır.",
+      "paragraph2": "Standart bir web sitesi, içerdiği onlarca menü ve bağlantı ile ziyaretçinin dikkatini dağıtır. Kampanyaya özel tasarlanmış bir landing page ise tek bir hedefe odaklanır: Ziyaretçiyi müşteriye dönüştürmek.",
+      "paragraph3": "Sybor Digital olarak, reklam stratejinizle kusursuz uyum sağlayan, veri odaklı ve yüksek dönüşüm oranına sahip landing page'ler tasarlayıp geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Dijital Reklam Verenler",
+          "description": "Reklam harcamalarımın boşa gitmesini istemiyor, tıklamaları doğrudan satışa veya potansiyel müşteriye dönüştürecek özel bir sayfa istiyorum."
+        },
+        "startup": {
+          "title": "Yeni Ürün Lansmanı Yapanlar",
+          "description": "Yeni ürünüm için heyecan yaratmak, ön kayıt toplamak ve etkili bir duyuru sayfası oluşturmak istiyorum."
+        },
+        "growing": {
+          "title": "Etkinlik ve Webinar Düzenleyenler",
+          "description": "Etkinliğime katılımı artırmak için ziyaretçileri ikna eden ve hızlıca kayıt toplayan bir sayfaya ihtiyacım var."
+        },
+        "global": {
+          "title": "Lead (Talep) Toplayan İşletmeler",
+          "description": "Hizmetlerim için form dolduran, teklif isteyen ve doğrudan iletişime geçen nitelikli potansiyel müşteriler (lead) yakalamak istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Tasarımın Merkezine Dönüşümü Koyuyoruz",
+      "paragraph1": "Sayfadaki her bir elementi tek bir amaca hizmet etmesi için stratejik olarak kurguluyoruz: Başlık dikkat çeker, içerik ikna eder ve harekete geçirici mesaj (CTA) dönüştürür. Hiçbir detayı şansa bırakmıyoruz.",
+      "paragraph2": "Google Ads, Meta Ads ve diğer tüm dijital reklam platformlarıyla tam uyumlu çalışan, ışık hızında yüklenen ve mobil öncelikli sayfalar geliştiriyoruz.",
+      "paragraph3": "Sayfa yayına alındıktan sonra da A/B testleri, kullanıcı davranış analizleri ve dönüşüm oranı optimizasyonu (CRO) ile kampanya performansınızı sürekli artırıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Dönüşüm Odaklı Yapı",
+      "cardDescription": "Kampanyanızın başarıya ulaşması için ihtiyaç duyduğunuz tüm teknik ve stratejik altyapı.",
+      "checklist": {
+        "item1": "İkna edici metin (Copywriting) ve UX/UI tasarımı",
+        "item2": "Core Web Vitals uyumlu ultra hızlı altyapı",
+        "item3": "CRM, e-posta ve pazarlama aracı entegrasyonları",
+        "item4": "Gelişmiş analitik ve A/B test kurulumları"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Landing Page'inizde Neler Olacak?",
+    "subtitle": "Ziyaretçiyi anında müşteriye dönüştürmek için gereken tüm modern araçlar",
+    "items": {
+      "custom": {
+        "title": "Stratejik UX/UI Tasarımı",
+        "description": "Göz hareketlerini yönlendiren, sosyal kanıtları öne çıkaran ve kullanıcıyı doğrudan aksiyona (CTA) iten özel tasarımlar."
+      },
+      "payment": {
+        "title": "Ultra Hızlı Yükleme Süresi",
+        "description": "Sayfa hızındaki her saniyelik gecikme dönüşüm kaybettirir. 1 saniyenin altında yüklenen, Core Web Vitals uyumlu altyapılar."
+      },
+      "mobile": {
+        "title": "Akıllı Formlar & CRM Bağlantısı",
+        "description": "HubSpot, Salesforce, Mailchimp gibi araçlarla anında konuşan, sürtünmesiz ve akıllı lead (talep) toplama formları."
+      },
+      "stock": {
+        "title": "A/B Test ve Optimizasyon Altyapısı",
+        "description": "Hangi başlığın veya görselin daha iyi sattığını varsaymayın; verilerle test edip en karlı varyantı bulmanızı sağlayan sistemler."
+      },
+      "seo": {
+        "title": "Kusursuz Piksel & Olay Takibi",
+        "description": "Meta Pixel, Google Tag Manager ve dönüşüm API'leri ile reklam bütçenizin getirisini (ROAS) kuruşu kuruşuna ölçün."
+      },
+      "admin": {
+        "title": "Mobil Öncelikli Deneyim",
+        "description": "Reklam trafiğinin %80'inden fazlasının mobilden geldiği bilinciyle tasarlanmış, başparmak dostu kusursuz mobil arayüzler."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Performans Pazarlamasının Doğru Partneri",
+    "subtitle": "Sadece güzel görünen değil, ölçülebilir kar getiren sayfalar tasarlıyoruz.",
+    "reasons": {
+      "reason1": {
+        "title": "Dönüşüm Psikolojisini Biliyoruz",
+        "description": "Landing page tasarımı estetikten ziyade bir ikna mühendisliğidir. Her rengi, butonu ve metni veriye dayalı seçiyoruz."
+      },
+      "reason2": {
+        "title": "Reklam Ekosistemine Hakimiz",
+        "description": "Sayfalarımızı Google kalite puanınızı (Quality Score) yükseltecek ve tıklama başı maliyetlerinizi (CPC) düşürecek standartlarda kodluyoruz."
+      },
+      "reason3": {
+        "title": "Çevik ve Hızlı Teslimat",
+        "description": "Dijital pazarlamada hız paradır. Kampanya takvimlerinizi aksatmamak için projeleri kaliteyi bozmadan hızla teslim ediyoruz."
+      },
+      "reason4": {
+        "title": "Bütünsel Yaklaşım",
+        "description": "Tasarım, yazılım, metin yazarlığı (copywriting) ve analitik kurulumunu tek elden, kusursuz bir uyumla yönetiyoruz."
+      },
+      "reason5": {
+        "title": "Veri Odaklı Kararlar",
+        "description": "Varsayımlarla değil, ısı haritaları (heatmaps) ve kullanıcı oturum kayıtları gibi gerçek verilerle sayfanızı optimize ediyoruz."
+      },
+      "reason6": {
+        "title": "Sürekli Destek",
+        "description": "Kampanyanız canlıdayken de yanınızdayız; anlık değişiklikler ve optimizasyon taleplerinize hızla yanıt veriyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Dönüşüm Makinenizi Nasıl Kuruyoruz?",
+    "subtitle": "Kampanyalarınızı hızla satışa çevirecek kanıtlanmış çalışma sürecimiz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Strateji & Hedef Analizi",
+        "description": "Reklam hedeflerinizi, hedef kitlenizi ve sunduğunuz teklifi (offer) analiz ederek sayfanın ikna mimarisini oluşturuyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Tasarım & Copywriting",
+        "description": "Ziyaretçiyi eyleme geçirecek satış metinlerini yazıyor ve dönüşüm odaklı arayüz tasarımını (UI/UX) onayınıza sunuyoruz.",
+        "tag": "2-4 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & Entegrasyon",
+        "description": "Tasarımı ışık hızında çalışan bir sayfaya dönüştürüyor; CRM formlarını ve analitik/piksel kodlarını entegre ediyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "launch": {
+        "title": "Yayın & A/B Testi",
+        "description": "Sayfayı kampanyanızla eş zamanlı yayına alıyor, verileri izliyor ve dönüşüm oranını artıracak testler uyguluyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Landing page ve kampanya sayfaları hakkında merak edilenler.",
+    "items": {
+      "delivery": {
+        "question": "Landing page projesi ne kadar sürede tamamlanır?",
+        "answer": "Projenin kapsamına ve entegrasyon ihtiyaçlarına bağlı olarak genellikle 1 ila 2 hafta içerisinde yayına hazır hale getiriyoruz."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma neleri kapsıyor?",
+        "answer": "Özel tasarım, hızlı web altyapısı, metin yazarlığı danışmanlığı, CRM form entegrasyonları ve temel piksel kurulumlarını kapsar."
+      },
+      "revisions": {
+        "question": "Kampanya devam ederken sayfada değişiklik yapabilir miyiz?",
+        "answer": "Kesinlikle. Dijital pazarlama dinamiktir; kampanya süresince başlık, görsel ve teklif değişikliklerinizi hızlıca uyguluyoruz."
+      },
+      "maintenance": {
+        "question": "A/B testi ve ısı haritası kurulumu yapıyor musunuz?",
+        "answer": "Evet. İhtiyacınıza göre sayfanıza ısı haritası (Hotjar, Clarity) ve A/B test araçları kurarak dönüşümleri bilimsel olarak artırıyoruz."
+      },
+      "migration": {
+        "question": "Sadece tasarım mı yapıyorsunuz, metinleri de yazıyor musunuz?",
+        "answer": "Tasarımın gücü metinden gelir. Mevcut metinlerinizi dönüşüm odaklı (copywriting) prensiplere göre düzenliyor veya baştan yazılmasına destek oluyoruz."
+      },
+      "mobile": {
+        "question": "Mevcut sitemden farklı bir alan adında (domain) yayınlayabilir miyiz?",
+        "answer": "Evet, isterseniz ana domain'inizin bir alt alan adında (kampanya.sirketiniz.com) veya tamamen bağımsız yeni bir alan adında yayınlayabiliriz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Reklam Bütçenizi Satışa Dönüştürme Vakti",
+    "description": "Tıklamaları müşteriye dönüştürecek yüksek performanslı landing page'inizi planlamak için ücretsiz keşif görüşmesi ayarlayın.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

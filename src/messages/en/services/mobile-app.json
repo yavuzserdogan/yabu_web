@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "iOS & Android Mobile Apps"
+  },
+  "hero": {
+    "titleMain": "Connecting Users to Your Brand",
+    "titleAccent": "iOS & Android Mobile Apps",
+    "description": "From idea to the App Store; we develop high-performance, scalable mobile applications that shape user habits."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Your Business Should Live in Your Customers' Pockets",
+      "paragraph1": "Your website might look great on a desktop; but when you want to manage workflows, connect instantly with customers, or build brand loyalty, web browsers fall short.",
+      "paragraph2": "Mobile apps are no longer a luxury exclusive to major tech giants. Provide your users with a seamlessness the web can never offer through push notifications, offline capabilities, and hardware integrations.",
+      "paragraph3": "As Sybor Digital, we leverage the power of Flutter and native technologies to develop flawless, premium mobile experiences that run perfectly in both the iOS and Android ecosystems.",
+      "audiences": {
+        "physical": {
+          "title": "Entrepreneurs with an Innovative Idea",
+          "description": "I want to quickly turn my app idea into a testable MVP, validate it in the market, and scale it with confidence."
+        },
+        "startup": {
+          "title": "Businesses Scaling Their Operations",
+          "description": "I need a custom mobile app for my customers or field team to accelerate and digitize my business processes."
+        },
+        "growing": {
+          "title": "E-Commerce & Sales-Driven Brands",
+          "description": "I want to add a mobile app alongside my existing e-commerce site that will significantly increase customer loyalty and repeat sales."
+        },
+        "global": {
+          "title": "Service Industry Professionals",
+          "description": "I want a modern infrastructure where my customers can manage services like appointments, reservations, or orders directly from their pockets."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "How We Help You",
+      "title": "End-to-End Development from Idea to App Store",
+      "paragraph1": "We manage every step of your project single-handedly, from user experience (UX) research and interface design to software development and store publishing processes.",
+      "paragraph2": "With an advanced Flutter architecture, we deploy simultaneously to both iOS and Android from a single codebase, saving time and costs without sacrificing performance.",
+      "paragraph3": "We don't leave your side after your app enters the markets; we support your growth with analytics tracking, performance optimization, and new version updates.",
+      "badge": "Scope of Service",
+      "cardTitle": "End-to-End Mobile Solution",
+      "cardDescription": "All the technical and strategic infrastructure required for a successful mobile app.",
+      "checklist": {
+        "item1": "Simultaneous native experience for iOS and Android",
+        "item2": "Secure and scalable backend integrations",
+        "item3": "Smart push notifications and user analytics",
+        "item4": "App Store & Google Play approval and publishing management"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What Will Be in Your App?",
+    "subtitle": "Infrastructures creating apps that users won't want to delete from their phones.",
+    "items": {
+      "custom": {
+        "title": "Cross-Platform Architecture",
+        "description": "High-performance applications that feel native on both platforms, using a single codebase with Flutter."
+      },
+      "payment": {
+        "title": "Flawless UI/UX Design",
+        "description": "Thumb-friendly, intuitive, and seamless mobile interface designs centered around user habits."
+      },
+      "mobile": {
+        "title": "Powerful Backend & API",
+        "description": "The heart of your app; a scalable, secure cloud architecture and APIs capable of handling thousands of concurrent users."
+      },
+      "stock": {
+        "title": "Smart Notification Systems",
+        "description": "Personalized push notifications that bring users back to your app by delivering the right message at the right time."
+      },
+      "seo": {
+        "title": "Advanced Analytics & Tracking",
+        "description": "A data infrastructure where you can instantly track in-app user behavior, screen times, and potential issues."
+      },
+      "admin": {
+        "title": "End-to-End Store Management",
+        "description": "We manage the rigorous approval processes of the Apple App Store and Google Play on your behalf, including App Store Optimization (ASO)."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "Your Right Technology Partner",
+    "subtitle": "A tech team that doesn't just write code, but embraces your app as a 'product'.",
+    "reasons": {
+      "reason1": {
+        "title": "Product Manager Mindset",
+        "description": "We don't just look at it as developers. We analyze your target audience and focus on the right product by eliminating unnecessary features."
+      },
+      "reason2": {
+        "title": "Transparent and Agile Process",
+        "description": "Working with Agile methodology, we eliminate surprises by presenting you with testable demos at the end of each development cycle (sprint)."
+      },
+      "reason3": {
+        "title": "Fast Market Entry (MVP)",
+        "description": "We don't keep your idea waiting for months; we bring your core value proposition (MVP) to the market in a testable format in as little as 6-10 weeks."
+      },
+      "reason4": {
+        "title": "Modern Tech Stack",
+        "description": "With Flutter, Node.js, and modern cloud services, we build architectures today that are ready for tomorrow's growth scenarios."
+      },
+      "reason5": {
+        "title": "Continuous Maintenance & Support",
+        "description": "We ensure compatibility with every new operating system update, keeping your app technically fit at all times."
+      },
+      "reason6": {
+        "title": "Scalable Architecture",
+        "description": "Even if you start with 100 users today, we design an infrastructure robust enough to handle 100,000 concurrent users tomorrow."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Develop Your App?",
+    "subtitle": "Our proven development process that will deliver your idea to millions of devices.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Product Architecture",
+        "description": "By analyzing user stories and technical requirements, we create the prioritized feature list (Backlog) of the app.",
+        "tag": "1-2 Weeks"
+      },
+      "design": {
+        "title": "UI/UX Design Process",
+        "description": "We prepare high-quality mobile interface designs fitting your brand identity and test them with interactive prototypes.",
+        "tag": "2-3 Weeks"
+      },
+      "development": {
+        "title": "Agile Development",
+        "description": "We code the project by dividing it into sprints, gathering your feedback on working demos every two weeks.",
+        "tag": "6-12 Weeks"
+      },
+      "launch": {
+        "title": "Store Launch & Growth",
+        "description": "We pass the App Store and Google Play testing processes, publish the app, and continue optimizing it with real user data.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about the mobile app development process.",
+    "items": {
+      "delivery": {
+        "question": "How long does it take for the app to be ready?",
+        "answer": "An MVP with core features usually becomes testable within 6-10 weeks. For comprehensive projects, this timeframe is determined by the features."
+      },
+      "pricing": {
+        "question": "How are mobile app costs determined?",
+        "answer": "We prepare a custom and transparent quote based on the feature set included in the app, backend complexity, and integration needs."
+      },
+      "revisions": {
+        "question": "Can we add new ideas during the development phase?",
+        "answer": "Because we work Agile, we can incorporate your feedback into the process in sprints. Major changes affecting the core architecture are re-planned together."
+      },
+      "maintenance": {
+        "question": "Who ensures the app stays up-to-date after launch?",
+        "answer": "We test your app against new Apple and Google OS updates and guarantee it runs smoothly through our maintenance packages."
+      },
+      "migration": {
+        "question": "Do you just convert my website into a mobile app (WebView)?",
+        "answer": "Instead of simple and low-performance WebView solutions, we develop real (Native/Cross-Platform) apps that utilize device hardware to its full capacity."
+      },
+      "mobile": {
+        "question": "My website is already mobile-friendly; why do I need a separate app?",
+        "answer": "Apps create brand loyalty by living on the phone's home screen. Moreover, they push your conversion rates far beyond the web with push notifications and a faster interface."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Bring Your Mobile App to Life Together",
+    "description": "Contact us to schedule a free discovery meeting that will take your idea to the top of the App Store and Google Play.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

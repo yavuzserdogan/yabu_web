@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "@/i18n/routing"; // Kendi routing'imiz
+import { useRouter } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
 import { Sparkles, Linkedin, Twitter, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -21,9 +21,6 @@ export function FooterBrand() {
         onClick={() => router.push("/")}
         className="flex items-center gap-3 group cursor-pointer"
       >
-        <div className="h-10 w-10 rounded-xl bg-linear-to-br from-blue-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform">
-          <Sparkles className="h-6 w-6 text-white" />
-        </div>
         <span className="text-xl md:text-2xl font-black tracking-tighter text-white uppercase italic">
           Sybor <span className="text-blue-600">DIGITAL</span>
         </span>

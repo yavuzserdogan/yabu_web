@@ -1,0 +1,65 @@
+{
+  "ContactPage": {
+    "title": "İletişim | Sybor Digital",
+    "description": "Projenizi hayata geçirmek için bizimle iletişime geçin. Modern teknolojilerle dijital çözüm ortağınız.",
+    "hero": {
+      "titleMain": "Hadi",
+      "titleAccent": "Konuşalım",
+      "description": "Bir fikriniz mi var? Projenizi dijital dünyada büyütmek için profesyonel bir desteğe mi ihtiyacınız var? Sizi dinlemeye hazırız."
+    },
+    "form": {
+      "title": "Projenizi Hayata Geçirelim",
+      "subtitle": "Teknik detaylarla boğulmayın. Fikrinizi anlatın, biz en uygun teknolojiyle hayata geçirelim.",
+      "labelName": "İsim Soyisim",
+      "placeholderName": "Ahmet Yılmaz",
+      "labelEmail": "E-posta",
+      "placeholderEmail": "ahmet@mail.com",
+      "labelPhone": "Telefon (Opsiyonel)",
+      "placeholderPhone": "555 555 55 55",
+      "labelMessage": "Projeniz Hakkında",
+      "placeholderMessage": "Detayları anlatın...",
+      "button": "Gönder",
+      "success": "Mesajınız iletildi!",
+      "error": "Bir hata oluştu.",
+      "location": "Konum",
+      "locationValue": "Ankara, Türkiye"
+    },
+    "faq": {
+      "title": "Aklınızda Soru İşareti Kalmasın",
+      "questions": {
+        "q1": {
+          "q": "Proje süreci nasıl işliyor, nereden başlıyoruz?",
+          "a": "Her şey bir keşif toplantısıyla başlar. İhtiyaçlarınızı ve hedeflerinizi dinleriz. Ardından size özel bir yol haritası, tasarım taslakları ve teknoloji önerisi sunarız. Onayınızla birlikte tasarım ve kodlama aşamasına geçeriz."
+        },
+        "q2": {
+          "q": "Bir web sitesi veya mobil uygulamanın tamamlanması ne kadar sürer?",
+          "a": "Bu tamamen projenin kapsamına bağlıdır. Kurumsal bir web sitesi ortalama 2-4 hafta sürerken, kapsamlı bir e-ticaret sitesi veya mobil uygulama projesi 6-12 hafta arasında değişebilir."
+        },
+        "q3": {
+          "q": "Hangi teknolojileri kullanıyorsunuz?",
+          "a": "Güncel ve performanslı teknolojileri tercih ediyoruz. Web tarafında Next.js ve Tailwind CSS; mobil tarafında Flutter; backend için ise .NET veya Node.js çözümleri sunuyoruz."
+        },
+        "q4": {
+          "q": "Proje bittikten sonra teknik destek sağlıyor musunuz?",
+          "a": "Kesinlikle. Proje tesliminden sonra 30 gün boyunca ücretsiz teknik destek sağlıyoruz. Daha sonrası için ise aylık bakım ve destek paketlerimiz mevcuttur."
+        },
+        "q5": {
+          "q": "Ödeme koşullarınız nasıl?",
+          "a": "Standart prosedürümüz %50 proje başlangıcında, %50 proje tesliminde şeklindedir. Büyük projelerde belirli kilometre taşlarına göre esnek planlar oluşturabiliyoruz."
+        },
+        "q6": {
+          "q": "Web sitemin SEO uyumu olacak mı?",
+          "a": "Evet, geliştirdiğimiz tüm web sitelerinde temel SEO altyapısını (hız, meta etiketler, mobil uyumluluk) eksiksiz kuruyoruz."
+        },
+        "q7": {
+          "q": "Tasarım üzerinde revizyon hakkımız var mı?",
+          "a": "Evet, tasarım aşamasında size sunulan demolar üzerinden 2 tur ücretsiz revizyon hakkınız bulunur."
+        },
+        "q8": {
+          "q": "Domain ve Hosting süreçleriyle siz mi ilgileniyorsunuz?",
+          "a": "Alan adınız ve sunucunuz yoksa, sizin adınıza en uygun sağlayıcıdan kurulum işlemlerini gerçekleştiriyoruz."
+        }
+      }
+    }
+  }
+}

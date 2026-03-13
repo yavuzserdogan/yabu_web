@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Web Maintenance & Tech Support"
+  },
+  "hero": {
+    "titleMain": "Keeping Your Site Always",
+    "titleAccent": "At Peak Performance",
+    "description": "Put an end to surprise crashes and security vulnerabilities. You just focus on growing your business; let us handle updates, backups, and technical glitches."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Has Your Site Been Left to Its Own Devices?",
+      "paragraph1": "Your website went live with great excitement, but what's next? Have software updates been pending for months, are plugins failing, and does no one know when the last backup was taken?",
+      "paragraph2": "A neglected website is like a neglected vehicle; it will eventually break down, and usually at the most critical moments (like a campaign or launch). A site crash doesn't just damage your reputation; it directly hits your sales.",
+      "paragraph3": "As Sybor Digital, we become your technical team working silently in the background of your site. With proactive maintenance, instant security patches, and 24/7 monitoring, we ensure the lights of your digital branch never go out.",
+      "audiences": {
+        "physical": {
+          "title": "Active Website Owners",
+          "description": "I want to hand over regular maintenance to professionals before waiting for my site to slow down, throw errors, or get hacked."
+        },
+        "startup": {
+          "title": "Agencies and Designers",
+          "description": "I want to free myself from the technical maintenance and support burden of the sites I deliver to my clients and hand this process over to a reliable team."
+        },
+        "growing": {
+          "title": "E-Commerce Managers",
+          "description": "Even a minute of downtime for my site means thousands in losses. I want continuous monitoring and a guarantee of instant technical intervention."
+        },
+        "global": {
+          "title": "Entrepreneurs With No Time",
+          "description": "I need to focus on growing my business. I don't want to deal with technical details like server errors, plugin updates, or broken links."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "How We Help You",
+      "title": "We Intervene Before Issues Turn Into Crises",
+      "paragraph1": "We transition your site from a 'fix when broken' structure to a 'never breaks' structure. We regularly update your CMS infrastructure, themes, and plugins every month by running them through compatibility tests.",
+      "paragraph2": "We never leave your data to chance. Thanks to our automated, encrypted, and cloud-based backup systems; even if things go wrong, we restore your site to its most current and flawless state in minutes.",
+      "paragraph3": "If your site goes offline (downtime) for even a second, our systems notify us instantly. In emergencies, we provide guaranteed and lightning-fast technical intervention under a Service Level Agreement (SLA).",
+      "badge": "Scope of Service",
+      "cardTitle": "Comprehensive Web Maintenance Shield",
+      "cardDescription": "All the technical support needed for your site to run fast and uninterrupted 365 days a year.",
+      "checklist": {
+        "item1": "Tested, secure CMS and plugin updates",
+        "item2": "Daily cloud backups to different locations",
+        "item3": "Uptime monitoring and instant intervention",
+        "item4": "Transparent monthly health, speed, and security reporting"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What's in Your Maintenance Package?",
+    "subtitle": "Technical solutions that will always keep your site fit and secure",
+    "items": {
+      "custom": {
+        "title": "Secure Core Updates",
+        "description": "Outdated software is the main gateway for hackers. We update the system core, themes, and plugins without breaking your site (by testing them in a staging environment)."
+      },
+      "payment": {
+        "title": "Zero-Loss Automated Backup",
+        "description": "We automatically back up your site's entire database and files every day. In case of a disaster, we bring everything back with a single click."
+      },
+      "mobile": {
+        "title": "24/7 Proactive Security Scanning",
+        "description": "We continuously scan and protect your site against malware, unauthorized access attempts, and suspicious activities."
+      },
+      "stock": {
+        "title": "Continuous Speed (Performance) Optimization",
+        "description": "We clean up accumulated cache garbage, optimize the database, and ensure your site remains as fast as day one."
+      },
+      "seo": {
+        "title": "Uninterrupted Uptime Monitor",
+        "description": "We check whether your site is live every minute. When a server-related crash occurs, we know about it before you do."
+      },
+      "admin": {
+        "title": "Priority (VIP) Tech Support",
+        "description": "When you have a technical request, you don't wait in a support queue. We provide instant solutions with guaranteed SLA response times under our agreement."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "We Own Your Site Like It's Our Own",
+    "subtitle": "A true technology partner offering more than cliché support ticket systems.",
+    "reasons": {
+      "reason1": {
+        "title": "Proactive Approach Not Waiting for a Crisis",
+        "description": "We are not mechanics 'called when the site crashes'. By continuously monitoring systems, we solve problems in the background before they reach the crisis stage."
+      },
+      "reason2": {
+        "title": "Contracted Fast Response (SLA)",
+        "description": "We know time is money. In urgent technical crises, we don't say 'We'll get back to you ASAP'; we intervene within the clear timeframe stated in the contract."
+      },
+      "reason3": {
+        "title": "Transparent and Clear Reporting",
+        "description": "What updates did we make to your site that month, how many attacks did we block, where are the backups? We simplify and report all technical details for you."
+      },
+      "reason4": {
+        "title": "Platform-Agnostic Expertise",
+        "description": "Whether your site is WordPress, Next.js, or Webflow; we offer advanced support suitable for any infrastructure, independent of technology."
+      },
+      "reason5": {
+        "title": "No More Surprise Costs",
+        "description": "We do not issue separate invoices for every technical fix. With our fixed monthly maintenance packages, you can clearly forecast your budget."
+      },
+      "reason6": {
+        "title": "Developer Reflex",
+        "description": "Unlike ordinary support teams, we are software developers from the ground up. We analyze and resolve even the most complex code bugs you encounter."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Take Over Your Site?",
+    "subtitle": "Our transparent onboarding process for a seamless transition.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Technical Check-Up & Audit",
+        "description": "Before taking over your site, we deeply analyze its code structure, server status, security vulnerabilities, and speed, generating a health report.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "Improvement & Emergency Intervention",
+        "description": "If we identify critical vulnerabilities or errors threatening your site's operation during the audit, we quickly repair them and stabilize the system.",
+        "tag": "1 Week"
+      },
+      "development": {
+        "title": "Initiating the Continuous Maintenance Cycle",
+        "description": "We activate our automated backup and security shields; we start our regular update and optimization routines.",
+        "tag": "Monthly Routine"
+      },
+      "launch": {
+        "title": "Priority Support & Reporting",
+        "description": "We fulfill your instant content/design revision requests and report your site's performance data to you at the end of each month.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about web maintenance and support processes.",
+    "items": {
+      "delivery": {
+        "question": "When and how can we start the maintenance agreement?",
+        "answer": "After sharing your system information with us, we complete a detailed technical check-up within 1-2 days and immediately initiate the active protection process."
+      },
+      "pricing": {
+        "question": "How are monthly maintenance and support costs determined?",
+        "answer": "We offer custom, fixed-price packages based on your site's infrastructure (e.g., corporate site vs. e-commerce site dynamics differ), traffic volume, and requested instant response (SLA) times."
+      },
+      "revisions": {
+        "question": "Are minor content/visual changes included in the monthly maintenance package?",
+        "answer": "Yes, depending on the scope of the package you choose, we handle your minor revision requests (text changes, adding a new blog, visual updates, etc.) up to a certain number of hours each month at no extra charge."
+      },
+      "maintenance": {
+        "question": "If my site crashes or gets hacked, how quickly do you respond?",
+        "answer": "It is subject to the SLA (Service Level Agreement) times in our contract. For standard sites, we guarantee intervention within 1-2 hours during business hours, and for critical e-commerce sites, 24/7 instant intervention (depending on the package)."
+      },
+      "migration": {
+        "question": "Another agency/developer built my site. Do you still provide maintenance services?",
+        "answer": "Absolutely yes. Before taking over your existing code structure and server, we conduct a detailed audit, get to know the system, and then professionally assume responsibility."
+      },
+      "mobile": {
+        "question": "Where are the backups you take stored, and is the data on my site safe?",
+        "answer": "Your backups are stored entirely independent of the main server hosting your website, highly secured and encrypted on cloud servers in different geographic locations."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Leave Your Site to the Professionals, You Grow Your Business",
+    "description": "Let's schedule our free technical check-up meeting to learn your site's technical status and discover hidden dangers.",
+    "primaryButton": "Get a Free Audit",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

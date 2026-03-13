@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Randevu & Rezervasyon Sistemleri"
+  },
+  "hero": {
+    "titleMain": "Zaman Kazandıran",
+    "titleAccent": "Randevu & Rezervasyon Sistemleri",
+    "description": "Bitmek bilmeyen telefon trafiğini, WhatsApp mesajlarını ve manuel notları geçmişte bırakın. İşletmeniz için 7/24 çalışan, kayıpsız ve akıllı rezervasyon altyapıları kuruyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Randevu Yönetimi İşletmenizi Yavaşlatıyor Mu?",
+      "paragraph1": "Gün içinde çalan telefonlara yetişemiyor musunuz? Müşterileriniz mesai saatleri dışında randevu almak istediğinde eli boş mu dönüyor? İptaller, son dakika değişiklikleri ve çift kayıtlar (double-booking) operasyonunuzu mu kilitliyor?",
+      "paragraph2": "Manuel randevu yönetimi sadece zamanınızı çalmakla kalmaz; insan hatasına zemin hazırlar, müşteri deneyimini zedeler ve büyüme kapasitenizi sınırlar. Otomatik bir sistem ise size ve ekibinize asıl işinize odaklanma özgürlüğü verir.",
+      "paragraph3": "Sybor Digital olarak; kliniklerden güzellik salonlarına, danışmanlık ofislerinden spor tesislerine kadar işletmenizin özel iş akışına kusursuz uyum sağlayan, %100 otomatik randevu ve rezervasyon sistemleri geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Klinik ve Muayenehane Yöneticileri",
+          "description": "Hasta randevularımı manuel hatalar olmadan, dijital bir asistan kusursuzluğuyla ve KVKK uyumlu olarak yönetmek istiyorum."
+        },
+        "startup": {
+          "title": "Güzellik Salonu ve Spa Sahipleri",
+          "description": "Personel bazlı hizmetlerimi optimize edecek ve anlık hatırlatmalarla müşteri gelmeme (no-show) oranını sıfıra indirecek bir sistem istiyorum."
+        },
+        "growing": {
+          "title": "Danışmanlar ve Bağımsız Uzmanlar",
+          "description": "Danışanlarımın 7/24 seans rezerve edip doğrudan online ödeme yapabileceği profesyonel ve global bir altyapı istiyorum."
+        },
+        "global": {
+          "title": "Spor Tesisi ve Stüdyo Yöneticileri",
+          "description": "Grup dersleri, kort kiralama ve özel antrenman randevularındaki karmaşayı ortadan kaldırıp tamamen dijitalleştirmek istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "7/24 Çalışan Kusursuz Rezervasyon Altyapısı",
+      "paragraph1": "İşletmenizin kapıları kapalıyken bile rezervasyon almaya devam edin. Müşterilerinize randevu öncesi otomatik SMS ve e-posta hatırlatmaları göndererek iptalleri ve gelmeme (no-show) durumlarını minimuma indirin.",
+      "paragraph2": "Personelinizin çalışma saatleri, izin günleri, mola süreleri ve sundukları hizmetlerin sürelerini sisteme milimetrik olarak entegre ediyor; çakışmaları ve operasyonel hataları tamamen ortadan kaldırıyoruz.",
+      "paragraph3": "Sisteme entegre ettiğimiz sanal POS altyapısıyla randevu anında depozito veya tam ödeme tahsil edebilir, gelirinizi güvence altına alırken iptal politikalarınızı otomatik olarak uygulayabilirsiniz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Tam Kapsamlı Rezervasyon Çözümü",
+      "cardDescription": "Operasyonunuzu otopilota bağlamak için ihtiyaç duyduğunuz tüm araçlar tek çatı altında.",
+      "checklist": {
+        "item1": "Kullanıcı dostu 7/24 online randevu arayüzü",
+        "item2": "Akıllı SMS ve e-posta hatırlatma otomasyonları",
+        "item3": "Gelişmiş personel takvimi ve kapasite yönetimi",
+        "item4": "Online ödeme, depozito ve fatura entegrasyonu"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Sistemimizde Neler Bulunuyor?",
+    "subtitle": "Randevu ve rezervasyon süreçlerinizi kusursuzlaştıracak modern modüller",
+    "items": {
+      "custom": {
+        "title": "7/24 Otomatik Rezervasyon Motoru",
+        "description": "Müşterilerinizin cihaz fark etmeksizin saniyeler içinde randevu oluşturabildiği, siz uyurken bile satış yapan kesintisiz altyapı."
+      },
+      "payment": {
+        "title": "Akıllı Bildirim & Hatırlatmalar",
+        "description": "Randevu öncesi otomatik gönderilen SMS ve e-posta hatırlatmaları ile 'Unuttum' bahanesini ortadan kaldırın ve no-show oranını %60 düşürün."
+      },
+      "mobile": {
+        "title": "Dinamik Personel Takvimi",
+        "description": "Her bir personelinizin uzmanlık alanını, hizmet süresini, mola ve izinlerini sisteme tanımlayarak kapasitenizi %100 verimle kullanın."
+      },
+      "stock": {
+        "title": "Güvenli Online Ödeme & Depozito",
+        "description": "Randevuyu kesinleştirmek için ön ödeme veya depozito talep edin. Entegre ödeme altyapısıyla gelirinizi garanti altına alın."
+      },
+      "seo": {
+        "title": "Çift Yönlü Takvim Senkronizasyonu",
+        "description": "Sistemdeki tüm randevularınız Google Calendar, Outlook ve Apple Takvim ile anında ve çift yönlü olarak senkronize edilir."
+      },
+      "admin": {
+        "title": "Gelişmiş Doluluk ve Gelir Raporları",
+        "description": "Hangi saatleriniz dolu, hangi personel daha çok gelir getiriyor? Kapsamlı analitik ekranlarıyla işletmenizi verilerle yönetin."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Operasyonel Mükemmelliğin Partneri",
+    "subtitle": "İşletmenizin dinamiklerini anlayan ve yazılımı iş akışınıza uyduran teknoloji ekibi.",
+    "reasons": {
+      "reason1": {
+        "title": "İş Akışınıza Özel Tasarım",
+        "description": "Hazır, esnek olmayan paketler kullanmıyoruz. Kliniğinizin veya salonunuzun gerçek operasyonel gerçeklerine göre sistemi terzi usulü yapılandırıyoruz."
+      },
+      "reason2": {
+        "title": "Sıfır Sürtünmeli Deneyim",
+        "description": "Hem müşterilerinizin randevu alırken zorlanmayacağı hem de resepsiyon ekibinizin anında öğrenebileceği kadar sade arayüzler tasarlıyoruz."
+      },
+      "reason3": {
+        "title": "Kusursuz Entegrasyon",
+        "description": "Sistemi sıfırdan kurmanın yanı sıra; mevcut web sitenize, CRM yazılımınıza ve muhasebe araçlarınıza sorunsuz bir şekilde bağlıyoruz."
+      },
+      "reason4": {
+        "title": "Hızlı ve Güvenli Geçiş",
+        "description": "İşletmenizi durdurmadan, temel sistemi 2-3 hafta içinde devreye alıyor ve mevcut müşteri datalarınızı güvenle içeri aktarıyoruz."
+      },
+      "reason5": {
+        "title": "Üst Düzey Veri Güvenliği (KVKK)",
+        "description": "Özellikle sağlık ve danışmanlık sektörleri için kritik olan hasta/müşteri verilerini en üst düzey şifreleme ile KVKK standartlarında koruyoruz."
+      },
+      "reason6": {
+        "title": "Kesintisiz Bakım ve Destek",
+        "description": "Randevu sisteminizin saniyeler bile durması müşteri kaybıdır. Sisteminizin 7/24 ayakta kalması için proaktif teknik destek sağlıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Sistemi Nasıl Kuruyoruz?",
+    "subtitle": "Sizi manuel yüklerden kurtaracak planlı ve şeffaf entegrasyon sürecimiz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "İş Akışı ve Kapasite Analizi",
+        "description": "Sunduğunuz hizmetleri, personel yapınızı, fiyatlandırmalarınızı ve iptal politikalarınızı detaylıca analiz ediyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Mimari Tasarım & Arayüz",
+        "description": "Marka kimliğinize uygun randevu arayüzünü tasarlıyor ve personelinizin kullanacağı arka plan yönetim panelini yapılandırıyoruz.",
+        "tag": "2-4 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & Otomasyon Kurulumu",
+        "description": "Sistemi kodluyor; SMS/E-posta API'lerini ve sanal POS (ödeme) altyapılarını entegre ederek uçtan uca test ediyoruz.",
+        "tag": "2-3 Hafta"
+      },
+      "launch": {
+        "title": "Eğitim & Canlıya Alma",
+        "description": "Ekibinize uygulamalı sistem eğitimi veriyor, randevu motorunu mevcut sitenize entegre edip canlıya alıyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Randevu ve rezervasyon otomasyonlarıyla ilgili merak edilenler.",
+    "items": {
+      "delivery": {
+        "question": "Sistemin kurulup devreye alınması ne kadar sürer?",
+        "answer": "Temel randevu ve takvim sistemleri genellikle 2-3 hafta içerisinde devreye alınır. Özel CRM ve ödeme entegrasyonlu daha kapsamlı sistemler 4-6 hafta sürebilir."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma modeliniz nasıl işliyor?",
+        "answer": "İşletmenizin personel sayısına, hizmet kapasitesine ve entegrasyon ihtiyaçlarına göre belirlenen tek seferlik kurulum ve operasyon dostu aylık/yıllık lisans modeliyle çalışıyoruz."
+      },
+      "revisions": {
+        "question": "Personel saatlerini, izinleri ve hizmet fiyatlarını kendim değiştirebilir miyim?",
+        "answer": "Kesinlikle. Size sunacağımız son derece basit yönetim paneli üzerinden tüm vardiya planlamalarını, fiyat değişikliklerini ve hizmet sürelerini anında güncelleyebilirsiniz."
+      },
+      "maintenance": {
+        "question": "Sıfırdan bir web sitesi yaptırmam gerekiyor mu, mevcut siteme ekleyebilir misiniz?",
+        "answer": "Sıfırdan site yaptırmanıza gerek yok. Geliştirdiğimiz rezervasyon motorunu (widget) doğrudan mevcut web sitenize sorunsuz bir şekilde entegre edebiliyoruz."
+      },
+      "migration": {
+        "question": "Geçmişteki ve ileri tarihli mevcut randevularımı yeni sisteme aktarabiliyor muyuz?",
+        "answer": "Evet, hiçbir veri kaybı yaşamamanız için Excel veya eski yazılımınızdaki mevcut randevu ve müşteri datalarını yeni sisteminize güvenle içe aktarıyoruz."
+      },
+      "mobile": {
+        "question": "Müşterilerin randevu almak için bir mobil uygulama indirmesi şart mı?",
+        "answer": "Hayır, rezervasyon sistemimiz %100 web tabanlıdır ve tüm mobil cihazlarla kusursuz uyumludur. Ancak işletmenize özel bir native mobil uygulama isterseniz bunu da ayrıca geliştirebiliyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Operasyonunuzu Otopilota Bağlayın",
+    "description": "İşletmenizi manuel yüklerden kurtaracak ve gelirinizi güvence altına alacak otomasyon sistemini planlamak için ücretsiz keşif görüşmemizi ayarlayalım.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

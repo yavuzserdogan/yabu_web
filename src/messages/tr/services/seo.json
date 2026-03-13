@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "SEO & Arama Motoru Optimizasyonu"
+  },
+  "hero": {
+    "titleMain": "Google'da Zirveye Taşıyan",
+    "titleAccent": "SEO & Arama Motoru Optimizasyonu",
+    "description": "Reklam bütçenizi tüketmeden, kalıcı ve nitelikli trafik kazanın. Teknik SEO'dan içerik stratejisine kadar işletmenizi arama motorlarında otorite kılan veri odaklı optimizasyonlar yapıyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Müşterileriniz Sizi Aradığında Rakiplerinizi Mi Buluyor?",
+      "paragraph1": "Harika bir ürününüz, kusursuz bir hizmetiniz ve şık bir web siteniz olabilir. Ancak potansiyel müşterileriniz Google'da arama yaptığında ilk sayfada yoksanız, dijital dünyada adeta görünmezsiniz.",
+      "paragraph2": "Ücretli reklamlar (PPC) bütçeyi kestiğiniz an durur. SEO ise bunun tam aksine; zamanla bileşik getiri sağlayan, dijital varlığınızın değerini artıran ve tıklama başı maliyetleri sıfıra indiren en karlı uzun vadeli yatırımdır.",
+      "paragraph3": "Sybor Digital olarak; sitenizi sadece arama motorları için değil, kullanıcılar için de optimize ediyor, bütünsel bir SEO stratejisiyle markanızı arama sonuçlarının zirvesine taşıyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Yeni Web Sitesi Sahipleri",
+          "description": "Sitemi yeni yayına aldım ancak Google'da görünmüyorum. Sağlam bir SEO temeliyle hızlıca nitelikli organik trafik kazanmak istiyorum."
+        },
+        "startup": {
+          "title": "Trafiği Düşük İşletmeler",
+          "description": "Web sitemi ziyaret eden çok az kişi var. Reklam maliyetlerine bağımlı kalmadan, kalıcı ve sürdürülebilir bir şekilde organik büyümek istiyorum."
+        },
+        "growing": {
+          "title": "E-Ticaret Markaları",
+          "description": "Kategori ve ürün sayfalarımı Google'da ilk sıraya taşıyarak, satın alma niyeti yüksek müşterileri doğrudan mağazama çekmek istiyorum."
+        },
+        "global": {
+          "title": "Yerel Hizmet İşletmeleri",
+          "description": "Bulunduğum şehirde hizmet arayan müşterilerin, Google Haritalar'da ve yerel arama sonuçlarında (Local SEO) beni en üstte görmesini istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Bütünsel SEO Stratejisiyle Organik Büyüme",
+      "paragraph1": "İşe detaylı bir teknik SEO check-up'ı ile başlıyoruz. Google botlarının sitenizi taramasını, anlamasını ve indekslemesini zorlaştıran tüm mimari ve kodlama hatalarını tespit edip kökünden çözüyoruz.",
+      "paragraph2": "Varsayımlarla değil, derinlemesine rakip ve anahtar kelime analizleriyle içerik stratejinizi kurguluyoruz. Sadece yüksek hacimli kelimelere değil, size doğrudan satış getirecek 'uzun kuyruklu' (long-tail) kelimelere odaklanıyoruz.",
+      "paragraph3": "Her ay düzenli olarak sıralama değişimlerinizi, organik trafik artışınızı ve SEO yatırım getirinizi (ROI) içeren şeffaf performans raporları sunarak sizi sürecin içinde tutuyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Tam Kapsamlı SEO Çözümü",
+      "cardDescription": "Sitenizi arama motorlarında otorite yapmak için gereken tüm altyapı tek çatı altında.",
+      "checklist": {
+        "item1": "Kapsamlı teknik SEO denetimi ve mimari optimizasyon",
+        "item2": "Dönüşüm odaklı anahtar kelime araştırması ve stratejisi",
+        "item3": "Arama niyetine (Search Intent) uygun içerik optimizasyonu",
+        "item4": "Sayfa içi (On-Page) ve Sayfa dışı (Off-Page) SEO yönetimi"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "SEO Hizmetimizde Neler Bulunuyor?",
+    "subtitle": "Sitenizi Google'ın gözdesi yapacak modern optimizasyon araçları",
+    "items": {
+      "custom": {
+        "title": "Teknik SEO & Hız Optimizasyonu",
+        "description": "Core Web Vitals uyumluluğu, sayfa yüklenme hızı, taranabilirlik (crawlability) ve site mimarisinin kusursuzlaştırılması."
+      },
+      "payment": {
+        "title": "Stratejik Anahtar Kelime Haritası",
+        "description": "Sektörünüzdeki açıkları bulan, rakiplerinizin zayıf noktalarını hedefleyen ve doğrudan dönüşüm getirecek anahtar kelime analizleri."
+      },
+      "mobile": {
+        "title": "Sayfa İçi (On-Page) Optimizasyon",
+        "description": "Her bir sayfanın sıralama alması için; başlık hiyerarşisi (H1-H6), meta etiketler, URL yapılandırması ve stratejik iç linkleme ağları."
+      },
+      "stock": {
+        "title": "SEO Uyumlu İçerik Stratejisi",
+        "description": "Sadece botlar için değil, insanlar için yazılmış; arama niyetini tam karşılayan, otoriter ve sıralama garantili içerik yönergeleri."
+      },
+      "seo": {
+        "title": "Yerel SEO (Local SEO) Yönetimi",
+        "description": "Bölgesel aramalarda rakiplerinizi geride bırakmanız için Google İşletme Profili optimizasyonu ve yerel dizin (citation) inşası."
+      },
+      "admin": {
+        "title": "Yapılandırılmış Veri (Schema) İşaretlemesi",
+        "description": "Arama sonuçlarında zengin snippet'ler (yıldızlı ürünler, SSS'ler, etkinlikler) ile çıkarak tıklama oranınızı (CTR) maksimize eden teknik kodlamalar."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Algoritmaları Değil, İnsanları Hedefliyoruz",
+    "subtitle": "Kısa vadeli hileler değil, uzun vadeli ve kalıcı başarı sağlayan SEO partneriniz.",
+    "reasons": {
+      "reason1": {
+        "title": "Teknik ve İçerik Uyumu",
+        "description": "Teknik altyapısı zayıf bir sitenin içeriği, içeriği zayıf bir sitenin tekniği işe yaramaz. Biz her iki disiplini kusursuz bir ahenkle yönetiyoruz."
+      },
+      "reason2": {
+        "title": "Şeffaf ve Anlaşılır Raporlama",
+        "description": "Size karmaşık metrikler sunarak kafa karıştırmıyoruz. Hangi kelimede kaçıncı sıradayız, trafiğimiz ne kadar arttı ve size ne kazandırdık net bir şekilde raporluyoruz."
+      },
+      "reason3": {
+        "title": "Güvenilir (%100 White Hat) Stratejiler",
+        "description": "Sitenizi Google'ın kara listesine (sandbox) sokacak riskli ve kısa vadeli (Black Hat) spam yöntemlerinden uzak duruyor, kalıcı otoriteler inşa ediyoruz."
+      },
+      "reason4": {
+        "title": "Sektöre Özel Çözümler",
+        "description": "Bir e-ticaret sitesinin SEO dinamiği ile bir kliniğin yerel SEO dinamiği aynı değildir. Sektörünüze özel, terzi usulü stratejiler kurguluyoruz."
+      },
+      "reason5": {
+        "title": "Geliştirici (Developer) Desteği",
+        "description": "Yazılım ekibi olan bir ajans olmamızın avantajıyla, tespit edilen karmaşık teknik SEO sorunlarını üçüncü partilere ihtiyaç duymadan hızla çözebiliyoruz."
+      },
+      "reason6": {
+        "title": "Dönüşüm (ROI) Odaklılık",
+        "description": "Sadece trafiği artırmakla ilgilenmiyoruz. Gelen ziyaretçinin ürün veya hizmet satın alması için gerekli dönüşüm optimizasyonu (CRO) perspektifiyle çalışıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Sitenizi Nasıl Yükseltiyoruz?",
+    "subtitle": "Disiplinli, şeffaf ve veriye dayalı SEO iş akışımız.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Kapsamlı Denetim & Strateji",
+        "description": "Sitenizi teknik SEO, içerik ve backlink açısından A'dan Z'ye denetliyor, rakiplerinizi analiz edip uzun vadeli yol haritamızı çıkarıyoruz.",
+        "tag": "1.-2. Hafta"
+      },
+      "design": {
+        "title": "Teknik Altyapı İyileştirmeleri",
+        "description": "Taranabilirlik sorunlarını, hız problemlerini ve site mimarisi hatalarını gidererek sitemizin temelini Google için kusursuz hale getiriyoruz.",
+        "tag": "3.-4. Hafta"
+      },
+      "development": {
+        "title": "On-Page & İçerik Optimizasyonu",
+        "description": "Mevcut sayfalarınızın meta etiketlerini, başlıklarını ve içeriklerini belirlenen stratejik anahtar kelimelere göre optimize ediyoruz.",
+        "tag": "Aylık Rutin"
+      },
+      "launch": {
+        "title": "Otorite İnşası & Düzenli Raporlama",
+        "description": "Sektörünüzle alakalı kaliteli platformlardan referanslar (link inşası) alarak site otoritenizi artırıyor ve her ay detaylı raporlar sunuyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "SEO süreçleri ve beklentilerle ilgili merak edilenler.",
+    "items": {
+      "delivery": {
+        "question": "SEO çalışmaları ne zaman sonuç vermeye başlar?",
+        "answer": "Teknik iyileştirmelerin sonuçları ilk 1-2 ay içinde endekslenmeye yansır. Ancak anahtar kelime sıralamalarında ve organık trafikte anlamlı, kalıcı bir büyüme görmek sektörün rekabetine göre genellikle 3 ila 6 ay sürer."
+      },
+      "pricing": {
+        "question": "Aylık SEO danışmanlığı ücretleri nasıl belirleniyor?",
+        "answer": "Sitenizin mevcut durumu (sayfa sayısı, teknik sağlık), hedeflediğiniz pazarın rekabet zorluğu ve üretilecek aylık içerik hacmine göre size özel, şeffaf bir 'retainer' (aylık sözleşme) teklifi hazırlıyoruz."
+      },
+      "revisions": {
+        "question": "Neden minimum 6 aylık bir sözleşme talep ediyorsunuz?",
+        "answer": "SEO, temelleri sağlam atılması gereken uzun vadeli bir yatırımdır. Algoritmaların yapılan değişiklikleri anlamlandırması ve sitenizin otorite kazanması için gereken minimum sağlıklı süre 6 aydır."
+      },
+      "maintenance": {
+        "question": "Teknik SEO kodlamalarını ve site içi düzeltmeleri siz mi yapıyorsunuz?",
+        "answer": "Evet, yazılım yetkinliği gerektiren temel teknik güncellemeleri doğrudan biz uyguluyoruz. Eğer şirket içi kendi yazılım ekibiniz varsa, onlara uygulanabilir net brifler vererek süreci koordine ediyoruz."
+      },
+      "migration": {
+        "question": "Sitemi yeniden tasarlayacağız, mevcut SEO değerim (trafiğim) kaybolur mu?",
+        "answer": "Planlı yapılmazsa evet. Ancak biz 'SEO Migration' (Site Taşıma) stratejimizle, URL yönlendirmelerini (301) ve mimariyi kusursuz kurarak yılların birikimi olan SEO değerinizi koruyarak yeni siteye taşıyoruz."
+      },
+      "mobile": {
+        "question": "Ücretli reklamlar (Google Ads) varken SEO yapmaya gerek var mı?",
+        "answer": "Kesinlikle var. Reklam bütçesi durduğu an trafik sıfırlanır. SEO ise sitenizin kalıcı dijital gayrimenkul değeridir. İkisi birbirini tamamlar; SEO güçlendikçe reklamlara olan bağımlılığınız ve maliyetleriniz azalır."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Rakiplerinizi Arama Sonuçlarında Geride Bırakın",
+    "description": "Sitenizin Google'daki mevcut durumunu analiz etmek ve büyüme potansiyelinizi keşfetmek için ücretsiz SEO denetim (audit) görüşmemizi planlayalım.",
+    "primaryButton": "Ücretsiz Denetim Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

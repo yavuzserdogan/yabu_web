@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Güvenlik & Yedekleme Çözümleri"
+  },
+  "hero": {
+    "titleMain": "Dijital Varlığınızı Güvenceye Alan",
+    "titleAccent": "Güvenlik & Yedekleme Çözümleri",
+    "description": "Siber saldırılara, veri sızıntılarına ve çökme risklerine karşı web altyapınızı kurşungeçirmez hale getiriyoruz. 7/24 aktif koruma ve kayıpsız yedekleme sistemleri kuruyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "İşletmeniz Siber Tehditlere Karşı Ne Kadar Savunmasız?",
+      "paragraph1": "Siber saldırılar artık sadece global devleri hedef almıyor. Zayıf güvenlik duvarına sahip küçük ve orta ölçekli web siteleri, fidye yazılımlarının ve otomatik bot ağlarının bir numaralı hedefi durumunda.",
+      "paragraph2": "Sitenizin bir kez hacklenmesi; yıllarca biriktirdiğiniz müşteri verilerinin çalınması, Google arama sonuçlarından silinmeniz (kara liste) ve telafisi zor bir itibar kaybı yaşamanız anlamına gelir.",
+      "paragraph3": "Sybor Digital olarak işletmenizi şansa bırakmıyoruz. Banka standartlarında güvenlik duvarları, proaktif sızma testleri ve felaket kurtarma senaryolarıyla (Disaster Recovery) dijital kalenizi inşa ediyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "E-Ticaret ve Satış Platformları",
+          "description": "Müşterilerimin kredi kartı, şifre ve kişisel verilerini siber saldırılara karşı en üst düzey şifrelemeyle korumak istiyorum."
+        },
+        "startup": {
+          "title": "Hassas Veri İşleyen Kurumlar",
+          "description": "Sistemimdeki hasta, danışan veya kullanıcı verilerini sızıntılara karşı güvence altına alarak marka itibarımı korumak istiyorum."
+        },
+        "growing": {
+          "title": "Siber Saldırı Mağdurları",
+          "description": "Web sitem hacklendi veya zararlı yazılım bulaştı. Acilen temizlenmesini ve bir daha asla bu kabusu yaşamamayı istiyorum."
+        },
+        "global": {
+          "title": "Yasal Uyumluluk (KVKK) Arayanlar",
+          "description": "Hukuki yaptırımlar ve ağır cezalarla karşılaşmamak için altyapımın KVKK ve GDPR standartlarına %100 uyumlu olmasını istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Tehditleri Kapıya Gelmeden Engelliyoruz",
+      "paragraph1": "Güvenliği tek bir eklentiye bırakmıyoruz. Web sitenizin etrafına; kötü niyetli trafiği, DDoS saldırılarını ve SQL enjeksiyonlarını saniyeler içinde tespit edip engelleyen çok katmanlı bir zırh (WAF) örüyoruz.",
+      "paragraph2": "Sisteminizdeki açıkları korsanlardan önce biz buluyoruz. Düzenli zafiyet taramaları ve sızma testleri (Penetration Testing) ile altyapınızın her zaman güncel ve saldırılara kapalı kalmasını sağlıyoruz.",
+      "paragraph3": "En kötü senaryoya bile her an hazırlıklıyız. Tam otomatik, bulut tabanlı ve çok lokasyonlu yedekleme sistemlerimiz sayesinde sunucunuz çökse bile sitenizi dakikalar içinde veri kaybı olmadan ayağa kaldırıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "360 Derece Web Güvenlik Kalkanı",
+      "cardDescription": "İşletmenizi dijital dünyadaki tüm risklere karşı koruyacak proaktif teknik altyapı.",
+      "checklist": {
+        "item1": "Çok katmanlı Web Uygulama Güvenlik Duvarı (WAF)",
+        "item2": "Günlük otomatik bulut yedekleme ve kurtarma",
+        "item3": "Düzenli zafiyet taramaları ve açık kapatma",
+        "item4": "KVKK ve GDPR uyumlu veri şifreleme altyapısı"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Güvenlik Altyapınızda Neler Olacak?",
+    "subtitle": "Web sitenizi bilgisayar korsanlarından ve arızalardan koruyacak modern sistemler",
+    "items": {
+      "custom": {
+        "title": "Kurumsal SSL ve Trafik Şifreleme",
+        "description": "Sitenizle kullanıcılar arasındaki tüm veri akışını askeri düzeyde (256-bit) şifreler, Google'da 'Güvenli' ibaresi kazanmanızı sağlarız."
+      },
+      "payment": {
+        "title": "Web Uygulama Güvenlik Duvarı (WAF)",
+        "description": "Sitenize gelen trafiği yapay zeka ile süzer, kötü niyetli botları ve siber saldırıları sitenize ulaşmadan saniyeler içinde engelleriz."
+      },
+      "mobile": {
+        "title": "Zararlı Yazılım (Malware) Koruması",
+        "description": "Sitenizi 7/24 tarayan ve herhangi bir virüs veya zararlı kod sızma girişimini anında tespit edip karantinaya alan aktif savunma sistemi."
+      },
+      "stock": {
+        "title": "Sıfır Kayıplı Otomatik Yedekleme",
+        "description": "Verilerinizi her gün otomatik olarak bağımsız bulut sunuculara yedekliyoruz. Bir felaket anında tek tıkla sitenizi eski haline getiriyoruz."
+      },
+      "seo": {
+        "title": "Proaktif Zafiyet Testleri",
+        "description": "Sitenizin altyapısını bir hacker gibi test ediyor, olası güvenlik açıklarını sisteminize zarar verilmeden önce tespit edip kapatıyoruz."
+      },
+      "admin": {
+        "title": "KVKK ve GDPR Uyumluluğu",
+        "description": "Kullanıcı verilerinin saklanması, işlenmesi ve korunması süreçlerini yasal standartlara uygun bir şifreleme mimarisiyle yapılandırıyoruz."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Krizi Yöneten Değil, Krizi Önleyen Ekip",
+    "subtitle": "Dijital itibarınızı ve verilerinizi şansa bırakmayan, sıfır toleranslı güvenlik yaklaşımı.",
+    "reasons": {
+      "reason1": {
+        "title": "Reaktif Değil, Proaktif Savunma",
+        "description": "Saldırı gerçekleşip veriler çalındıktan sonra değil, tehdit henüz kapınıza gelmeden önce harekete geçiyor ve riskleri sıfırlıyoruz."
+      },
+      "reason2": {
+        "title": "Sıfır Veri Kaybı Garantisi",
+        "description": "Uyguladığımız coğrafi bulut yedekleme stratejileri sayesinde, ana sunucunuz fiziksel hasar görse dahi hiçbir verinizi kaybetmiyorsunuz."
+      },
+      "reason3": {
+        "title": "Hız ve Kesintisiz Operasyon",
+        "description": "Güvenlik önlemleri alırken sitenizi yavaşlatmıyoruz. Modern güvenlik kalkanlarımız, hız optimizasyonunu bozmadan sitenizi korur."
+      },
+      "reason4": {
+        "title": "Şeffaf Güvenlik Raporları",
+        "description": "Arka planda kaç saldırının engellendiğini, sisteminizin sağlık durumunu ve alınan aksiyonları size düzenli ve anlaşılır şekilde raporluyoruz."
+      },
+      "reason5": {
+        "title": "Tam Yasal Uyumluluk",
+        "description": "Kurduğumuz güvenlik mimarisi sadece korsanlardan korumakla kalmaz, aynı zamanda sizi ağır KVKK ve GDPR veri ihlali cezalarından da korur."
+      },
+      "reason6": {
+        "title": "Acil Müdahale Ekibi (SLA)",
+        "description": "Herhangi bir siber kriz veya çökme anında saatlerce beklemezsiniz. Uzman ekibimizle dakikalar içinde olaya müdahale garantisi veriyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Sitenizi Nasıl Koruma Altına Alıyoruz?",
+    "subtitle": "Açıkları kapatan ve koruma kalkanını devreye alan sistematik sürecimiz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Güvenlik Check-up & Açık Analizi",
+        "description": "Mevcut web altyapınızı denetliyor, zafiyet haritanızı çıkarıyor ve acil müdahale edilmesi gereken risk noktalarını belirliyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Güvenlik Mimarisi ve Planlama",
+        "description": "Sitenizin trafiğine ve veri hassasiyetine en uygun WAF kurallarını, şifreleme protokollerini ve felaket kurtarma senaryolarını tasarlıyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "development": {
+        "title": "Kalkan Kurulumu & Yapılandırma",
+        "description": "Güvenlik duvarlarını aktif hale getiriyor, otomatik bulut yedekleme sistemlerini kuruyor ve sunucu taraflı açıkları kapatıyoruz.",
+        "tag": "1 Hafta"
+      },
+      "launch": {
+        "title": "7/24 İzleme & Raporlama",
+        "description": "Sitenizi canlı izleme (monitoring) ağına alıyor, olası saldırıları otomatik blokluyor ve size düzenli güvenlik raporları sunuyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Web güvenliği ve yedekleme süreçleriyle ilgili merak edilenler.",
+    "items": {
+      "delivery": {
+        "question": "Güvenlik kalkanının ve yedekleme sisteminin kurulması ne kadar sürer?",
+        "answer": "Sitenizin mevcut yapısına ve boyutuna bağlı olarak SSL, WAF ve tam otomatik yedekleme sisteminin entegrasyonu genellikle 3 ila 7 gün içerisinde tamamlanır."
+      },
+      "pricing": {
+        "question": "Güvenlik hizmetinin maliyeti nasıl belirleniyor?",
+        "answer": "Tek seferlik kurulum bedeli ve 7/24 aktif izleme/yedekleme için aylık bir abonelik modeliyle çalışıyoruz. Fiyatlandırma, site trafiğinize ve veri risk seviyenize göre belirlenir."
+      },
+      "revisions": {
+        "question": "Sitem şu an hacklenmiş durumda (virüslü), yardımcı olabilir misiniz?",
+        "answer": "Kesinlikle. Öncelikle acil müdahale ile sitenizi zararlı kodlardan arındırıyor, arka kapıları (backdoor) kapatıyor ve bir daha aynı durumu yaşamamanız için güvenlik kalkanlarımızı kuruyoruz."
+      },
+      "maintenance": {
+        "question": "Sunucu çökerse sitenin yedekten geri yüklenmesi ne kadar sürer?",
+        "answer": "Felaket kurtarma planımız (Disaster Recovery) sayesinde, sitenizin veri büyüklüğüne bağlı olarak genellikle 30-60 dakika içinde sıfır veri kaybıyla sitenizi tamamen ayağa kaldırıyoruz."
+      },
+      "migration": {
+        "question": "Sadece WordPress sitelerine mi güvenlik hizmeti veriyorsunuz?",
+        "answer": "Hayır. WordPress'in yanı sıra Next.js, React, Webflow gibi modern teknolojiler ve tamamen özel yazılım (custom) altyapılar için de sunucu bazlı kapsamlı güvenlik çözümleri sağlıyoruz."
+      },
+      "mobile": {
+        "question": "KVKK / GDPR uyumluluğu tam olarak neleri kapsıyor?",
+        "answer": "Verilerin şifrelenerek saklanması, izinsiz erişimlerin engellenmesi, çerez (cookie) yönetimi ve gizlilik politikalarının sisteme teknik olarak entegre edilmesini kapsar."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Web Altyapınızı Hemen Güvence Altına Alın",
+    "description": "Saldırganlar harekete geçmeden önce sitenizin ne kadar güvende olduğunu analiz etmek için ücretsiz güvenlik check-up görüşmemizi planlayalım.",
+    "primaryButton": "Ücretsiz Denetim Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

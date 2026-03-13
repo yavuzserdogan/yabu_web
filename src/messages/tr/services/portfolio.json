@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Portfolyo & Kişisel Web Siteleri"
+  },
+  "hero": {
+    "titleMain": "Yeteneğinizi Öne Çıkaran",
+    "titleAccent": "Portfolyo & Kişisel Web Siteleri",
+    "description": "Freelancer'lardan fotoğrafçılara, tasarımcılardan danışmanlara kadar kariyerinizi, vizyonunuzu ve yeteneklerinizi en güçlü şekilde temsil eden kişisel web siteleri tasarlıyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Dijital Varlığınızın Tek Hakimi Siz Misiniz?",
+      "paragraph1": "LinkedIn profiliniz profesyonel ağınız için önemli, Instagram portfolyonuz ise görsel bir vitrin olabilir; ancak kendi alan adınız ve web siteniz olmadan dijital dünyada her zaman eksiksiniz.",
+      "paragraph2": "Potansiyel müşterileriniz, işverenler ve iş ortakları sizi Google'da aradığında ne buluyor? Dağınık sosyal medya profilleri mi, yoksa yeteneklerinizi kanıtlayan prestijli bir web sitesi mi?",
+      "paragraph3": "Sybor Digital olarak; freelancer'lardan yaratıcı profesyonellere, danışmanlardan sanatçılara kadar kişisel sesinizi ve vizyonunuzu dijital dünyaya en şık şekilde taşıyan özel web siteleri kuruyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Freelancer'lar",
+          "description": "Müşterilerime profesyonel görünmek, güven vermek ve daha yüksek bütçeli projeler almak istiyorum."
+        },
+        "startup": {
+          "title": "Yaratıcı Profesyoneller",
+          "description": "Tasarım, fotoğraf veya video projelerimi kendi vizyonumu yansıtan estetik bir portfolyoda sergilemek istiyorum."
+        },
+        "growing": {
+          "title": "Danışmanlar ve Koçlar",
+          "description": "Uzmanlığımı kanıtlayan, güven inşa eden ve doğrudan potansiyel müşterilerimi çeken bir dijital kimlik istiyorum."
+        },
+        "global": {
+          "title": "Kariyer Hedefi Olanlar",
+          "description": "İş başvurularımda ve sektörümde beni rakiplerimden ayıracak, etkileyici bir dijital özgeçmişe ve portfolyoya sahip olmak istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Neler Yapıyoruz?",
+      "title": "Kişisel Markanız İçin Dijital Bir Kimlik",
+      "paragraph1": "Sadece bir web sitesi değil; hikayenizi, değerlerinizi ve çalışmalarınızı en etkili şekilde anlatan bir dijital kimlik tasarlıyoruz.",
+      "paragraph2": "Portfolyo sayfaları, hizmet açıklamaları, uzmanlık blogu ve iletişim formları gibi tüm kritik bölümleri kişisel markanıza uygun olarak kurguluyoruz.",
+      "paragraph3": "Siteniz hazır olduğunda sizi yalnız bırakmıyor; içerik güncellemeleri, kişisel SEO ve marka gelişimi konularında destek sağlamaya devam ediyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Sizi En İyi Temsil Eden Site",
+      "cardDescription": "Kişisel web siteniz için ihtiyaç duyduğunuz tüm araçlar tek çatı altında.",
+      "checklist": {
+        "item1": "Kişisel marka ruhuna uygun özgün tasarım",
+        "item2": "Etkileyici portfolyo ve proje vitrini",
+        "item3": "Uzmanlık gösterebileceğiniz blog altyapısı",
+        "item4": "Potansiyel müşteri yakalayan iletişim formları"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Neler Sunuyoruz?",
+    "subtitle": "Kişisel markanızı rakiplerinizin önüne geçirecek çözümler",
+    "items": {
+      "custom": {
+        "title": "Kişisel Markaya Özel Tasarım",
+        "description": "Sizi yansıtan özgün bir görsel kimlik. Hazır şablonlar kullanmıyor, her detayı tamamen size özel tasarlıyoruz."
+      },
+      "payment": {
+        "title": "Etkileyici Portfolyo Vitrini",
+        "description": "Çalışmalarınızı filtrelenebilir, kategorize edilmiş ve görsel açıdan kusursuz bir deneyimle sergileyin."
+      },
+      "mobile": {
+        "title": "Uzmanlık Odaklı Blog Altyapısı",
+        "description": "Sektörel bilginizi paylaşabileceğiniz ve SEO değeri kazanmanızı sağlayan kullanıcı dostu bir blog modülü."
+      },
+      "stock": {
+        "title": "Dönüşüm Odaklı İletişim Formları",
+        "description": "Site ziyaretçilerinizi müşteriye dönüştürmek için özelleştirilmiş, akıllı iletişim ve teklif talep formları."
+      },
+      "seo": {
+        "title": "Kişisel SEO ve Görünürlük",
+        "description": "İsminizi Google'da arayanların sizi en üst sıralarda bulması için gerekli şema işaretlemeleri ve teknik SEO altyapısı."
+      },
+      "admin": {
+        "title": "Gelişmiş Ziyaretçi Analitiği",
+        "description": "Sitenizi kim ziyaret ediyor, hangi projeniz daha çok inceleniyor? Tüm verileri takip edin ve stratejinizi geliştirin."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Biz",
+    "title": "Neden Sybor Digital?",
+    "subtitle": "Kişisel markalaşmanın dinamiklerini anlayan ve vizyonunuzu destekleyen bir ekip.",
+    "reasons": {
+      "reason1": {
+        "title": "Sizi ve Vizyonunuzu Anlıyoruz",
+        "description": "Kişisel markalaşma sadece kod yazmak değildir; stratejidir. Hedeflerinizi dinliyor ve buna uygun yapıyı kuruyoruz."
+      },
+      "reason2": {
+        "title": "Hızlı ve Çevik Teslimat",
+        "description": "Kariyer fırsatlarını kaçırmamanız için kişisel sitelerinizi kalite standartlarından ödün vermeden hızlıca yayına alıyoruz."
+      },
+      "reason3": {
+        "title": "Freelancer Dostu Yaklaşım",
+        "description": "Kurumsal projelere uyguladığımız kaliteyi, bireysel profesyoneller için daha erişilebilir modellerle sunuyoruz."
+      },
+      "reason4": {
+        "title": "Kolay Yönetilebilirlik",
+        "description": "Hiçbir teknik bilgiye ihtiyaç duymadan yeni projelerinizi ve yazılarınızı ekleyebileceğiniz modern bir panel teslim ediyoruz."
+      },
+      "reason5": {
+        "title": "SEO'ya Hazır Altyapı",
+        "description": "Siteniz yayına girdiği andan itibaren arama motoru dostu olarak kurgulanır ve dijital görünürlüğünüze hemen katkı sağlar."
+      },
+      "reason6": {
+        "title": "Uzun Vadeli Partnerlik",
+        "description": "Kariyeriniz büyüdükçe sitenizin ihtiyaçları da değişir. Her yeni adımınızda teknik olarak arkanızdayız."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Kişisel markanızı dijital dünyaya taşırken uyguladığımız şeffaf adımlar.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif & Marka Analizi",
+        "description": "Hedeflerinizi, hedef kitlenizi ve sektördeki konumunuzu analiz ediyoruz. Sitenizin mimarisini birlikte planlıyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Tasarım & Konsept",
+        "description": "Sizi en iyi ifade eden görsel kimliği oluşturuyor, arayüz tasarımlarını hazırlayıp onayınıza sunuyoruz.",
+        "tag": "2-4 Gün"
+      },
+      "development": {
+        "title": "Geliştirme & İçerik Girişi",
+        "description": "Tasarımları koda döküyor, mevcut portfolyo ve içeriklerinizi sisteme yükleyerek testleri tamamlıyoruz.",
+        "tag": "1-3 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Büyüme Desteği",
+        "description": "Sitenizi kusursuz şekilde yayına alıyor, SEO kurulumlarını tamamlıyor ve markalaşma yolculuğunuzu destekliyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Kişisel web sitesi kurulumuyla ilgili aklınıza takılanlar.",
+    "items": {
+      "delivery": {
+        "question": "Portfolyo sitem kaç günde hazır olur?",
+        "answer": "İçerik kapsamına ve özelliklere bağlı olarak genellikle 2-3 hafta içerisinde projenizi teslim ediyoruz."
+      },
+      "pricing": {
+        "question": "Maliyeti nasıl belirleniyor?",
+        "answer": "İhtiyaç duyduğunuz özelliklere ve sayfa sayısına göre değişir. Bireysel profesyoneller için optimize edilmiş paketlerimiz mevcuttur."
+      },
+      "revisions": {
+        "question": "Sitedeki içerikleri kendim güncelleyebilir miyim?",
+        "answer": "Kesinlikle. Size son derece kolay kullanımlı bir yönetim paneli sunuyoruz; böylece yeni projelerinizi veya blog yazılarınızı rahatça ekleyebilirsiniz."
+      },
+      "maintenance": {
+        "question": "Yayın sonrası teknik destek sağlıyor musunuz?",
+        "answer": "Evet, site yayına alındıktan sonra teknik konularda destek sağlamaya devam ediyor ve gerektiğinde bakım hizmeti sunuyoruz."
+      },
+      "migration": {
+        "question": "Behance veya Dribbble'daki projelerimi taşıyabilir misiniz?",
+        "answer": "Evet. Mevcut platformlardaki (Behance, Dribbble, Medium vb.) içeriklerinizi ve projelerinizi yeni web sitenize entegre edebiliyoruz."
+      },
+      "mobile": {
+        "question": "Domain ve hosting işlemleri nasıl yapılıyor?",
+        "answer": "Bu süreçte tam destek sağlıyoruz. İsterseniz tüm işlemleri sizin adınıza biz yürütüyor, isterseniz de adım adım size rehberlik ediyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Dijital Kimliğinizi Birlikte İnşa Edelim",
+    "description": "Kariyerinizi bir üst seviyeye taşıyacak ücretsiz keşif görüşmemizi planlamak için bizimle iletişime geçin.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

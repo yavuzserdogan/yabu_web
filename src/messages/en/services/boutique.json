@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Boutique Store Websites"
+  },
+  "hero": {
+    "titleMain": "Carrying Your Brand's Story",
+    "titleAccent": "Boutique Store Websites",
+    "description": "From handmade products to exclusive collections, we design boutique e-commerce experiences that reflect your brand's character and turn visitors into loyal customers."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Unique Products Deserve a Unique Store",
+      "paragraph1": "Do you design custom handmade jewelry? Have you founded your own boutique fashion brand? Or do you produce completely natural, specialty food products?",
+      "paragraph2": "Standard, cookie-cutter e-commerce templates cannot convey your brand's soul, your hard work, and the story behind your products to your customers.",
+      "paragraph3": "As Sybor Digital, we don't design ordinary storefronts for boutique brands; we design exclusive shopping experiences that elevate your brand's value, inspire trust, and feel premium.",
+      "audiences": {
+        "physical": {
+          "title": "Handmade Product Designers",
+          "description": "I want to display my handcrafted products not on a standard site, but in an aesthetic store that reflects the soul of my brand."
+        },
+        "startup": {
+          "title": "Boutique Fashion Brands",
+          "description": "I want to present my exclusive collections to my customers with a premium brand identity and a flawless shopping experience."
+        },
+        "growing": {
+          "title": "Specialty Food & Local Producers",
+          "description": "I want a store that accurately conveys the quality of my products and the natural story behind them to my customers."
+        },
+        "global": {
+          "title": "Premium Lifestyle Brands",
+          "description": "I want to provide my target audience with a brand experience that goes beyond an ordinary e-commerce site, offering inspiration and a sense of belonging."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "How We Help You",
+      "title": "Exclusive E-Commerce Experience for Boutique Brands",
+      "paragraph1": "From visual design to payment infrastructure, we craft every detail of your store specifically for your brand identity.",
+      "paragraph2": "We fully customize robust infrastructures like Shopify or WooCommerce exclusively for you, or develop a boutique architecture from scratch.",
+      "paragraph3": "After launch, we don't just stop at technical support; we also stand by you with campaign management, social media integrations, and your growth strategies.",
+      "badge": "Scope of Service",
+      "cardTitle": "Complete Solutions for Your Boutique Store",
+      "cardDescription": "We build all the systems you will need for your online store to operate flawlessly.",
+      "checklist": {
+        "item1": "Unique design reflecting the brand's soul",
+        "item2": "Story and emotion-driven product pages",
+        "item3": "Seamless social media sales integrations",
+        "item4": "Customer loyalty and campaign systems"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What Will Be in Your Boutique Store?",
+    "subtitle": "Modern and sales-oriented e-commerce features that will make your brand stand out",
+    "items": {
+      "custom": {
+        "title": "Authentic Store Design",
+        "description": "A modern digital store designed exclusively for your brand, instead of ready-made and boring templates."
+      },
+      "payment": {
+        "title": "Storytelling Product Pages",
+        "description": "Special pages that don't just display your products, but persuade customers to buy by building an emotional connection."
+      },
+      "mobile": {
+        "title": "Social Media Integration",
+        "description": "Infrastructure that turns your Instagram and other social media accounts directly into a smooth sales channel."
+      },
+      "stock": {
+        "title": "Advanced Payment Systems",
+        "description": "A secure and fast payment experience with credit card, installment options, and digital wallet integrations."
+      },
+      "seo": {
+        "title": "Mobile-First Design",
+        "description": "A flawless and fast mobile shopping experience, knowing that the majority of your customers are on mobile."
+      },
+      "admin": {
+        "title": "Campaign & Loyalty System",
+        "description": "Advanced marketing and campaign tools that increase repeat sales, including discount coupons and point systems."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "The Right Partner for Boutique Brands",
+    "subtitle": "An approach designed to understand your brand's value and grow it.",
+    "reasons": {
+      "reason1": {
+        "title": "Brand-Centric Design",
+        "description": "The greatest strength of boutique brands is their story. Our designs reflect this story in the most aesthetic way."
+      },
+      "reason2": {
+        "title": "Transparent Work Process",
+        "description": "We keep you informed at every stage from project planning to launch, leaving no room for surprises."
+      },
+      "reason3": {
+        "title": "On-Time Delivery",
+        "description": "We work quickly and systematically so you can catch your new season or collection launches."
+      },
+      "reason4": {
+        "title": "Conversion-Oriented Approach",
+        "description": "We design stores that are not only visually impressive but also guide the visitor to make a purchase."
+      },
+      "reason5": {
+        "title": "Uninterrupted Support",
+        "description": "We are by your side for your post-launch needs, such as adding new products, setting up campaigns, and technical support."
+      },
+      "reason6": {
+        "title": "Growth-Ready Infrastructure",
+        "description": "You may be a boutique brand today; we build scalable systems so you can reach massive audiences tomorrow."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Build Your Store?",
+    "subtitle": "Simple, transparent, and effective steps we take while moving your brand to digital.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Brand Analysis & Planning",
+        "description": "We thoroughly analyze your brand's vision, target audience, and market position.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "Visual Design Process",
+        "description": "We create the aesthetic language of your store, prepare interface designs, and present them for your approval.",
+        "tag": "3-5 Days"
+      },
+      "development": {
+        "title": "Technical Development",
+        "description": "We turn designs into code, add your products, and integrate secure payment infrastructures.",
+        "tag": "2-4 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Growth Support",
+        "description": "We smoothly launch the store and provide technical support during your first sales.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about the boutique store setup process.",
+    "items": {
+      "delivery": {
+        "question": "How long does it take for a boutique e-commerce site to be ready?",
+        "answer": "Depending on the project details and the number of products, it is usually launched within 3-6 weeks."
+      },
+      "pricing": {
+        "question": "How is pricing determined?",
+        "answer": "It is determined custom to you based on the store's design customizations, product volume, and requested extra integrations."
+      },
+      "revisions": {
+        "question": "Do I have the right to revisions in design?",
+        "answer": "Yes, we make the necessary revisions together during the design phase until you are completely satisfied."
+      },
+      "maintenance": {
+        "question": "Can I manage products and stock myself?",
+        "answer": "Absolutely. We provide you with an extremely easy-to-use admin panel and offer training on how to use it."
+      },
+      "migration": {
+        "question": "Can I migrate my existing store (Etsy, Shopier, etc.)?",
+        "answer": "Yes, we can seamlessly migrate your products and data from Etsy, Instagram, or other platforms to your new store."
+      },
+      "mobile": {
+        "question": "Do you do Instagram Shop integration?",
+        "answer": "Yes. We set up sales integrations that redirect directly to your store via Instagram and Facebook."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Boutique Store Together",
+    "description": "Let's plan our free discovery meeting to bring your brand's story to the digital world.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "E-Ticaret Sistemleri"
+  },
+  "hero": {
+    "titleMain": "Satışa Dönüştüren",
+    "titleAccent": "E-Ticaret Sistemleri",
+    "description": "Markanıza özel tasarlanmış, hızlı ve ölçeklenebilir e-ticaret altyapıları geliştirerek online satışınızı büyütmenize yardımcı oluyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin?",
+      "title": "Ürününüz Var ve Online Satışa Başlamak İstiyorsunuz",
+      "paragraph1": "Kendi ürettiğiniz ürünler, fiziksel mağazanız veya yeni bir iş fikriniz olabilir. Doğru e-ticaret altyapısı ile ürünlerinizi internet üzerinden kolayca satabilirsiniz.",
+      "paragraph2": "Müşteriler sizi Google'da arıyor, sosyal medyada keşfediyor ve hızlı bir şekilde online sipariş vermek istiyor.",
+      "paragraph3": "Sybor Digital olarak markanızı sadece internete taşımıyoruz. Güven veren, satışa dönüşen ve büyümeye hazır modern e-ticaret sistemleri geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Fiziksel Mağaza Sahipleri",
+          "description": "Mağazamı dijitale taşıyarak internet üzerinden de satış yapmak istiyorum."
+        },
+        "startup": {
+          "title": "Yeni Marka Girişimleri",
+          "description": "Sıfırdan profesyonel bir e-ticaret sitesi ile satışa başlamak istiyorum."
+        },
+        "growing": {
+          "title": "Mevcut Sitesi Yetersiz Olanlar",
+          "description": "Daha hızlı ve daha iyi satış performansı sağlayan yeni bir siteye geçmek istiyorum."
+        },
+        "global": {
+          "title": "Uluslararası Satış Yapmak İsteyenler",
+          "description": "Farklı ülkelere satış yapabileceğim çok dilli bir e-ticaret altyapısına sahip olmak istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz",
+      "title": "E-Ticaret Projeniz İçin Uçtan Uca Çözüm",
+      "paragraph1": "E-ticaret projenizin planlama aşamasından yayına alınmasına kadar tüm süreci tek ekip olarak yönetiyoruz.",
+      "paragraph2": "Shopify ve WooCommerce gibi platformları markanıza göre özelleştiriyor veya tamamen size özel bir e-ticaret sistemi geliştiriyoruz.",
+      "paragraph3": "Yayın sonrasında performans takibi, teknik geliştirmeler ve büyüme stratejileri ile e-ticaret operasyonunuzu destekliyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "E-Ticaret İçin Tam Çözüm",
+      "cardDescription": "Online satış için ihtiyaç duyduğunuz tüm teknik altyapıyı kuruyoruz.",
+      "checklist": {
+        "item1": "Markanıza özel tasarım ve kullanıcı deneyimi",
+        "item2": "Güvenli ödeme sistemleri entegrasyonu",
+        "item3": "Stok, sipariş ve kargo yönetimi altyapısı",
+        "item4": "SEO, hız ve dönüşüm optimizasyonu"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "E-Ticaret Sitenizde Neler Olacak?",
+    "subtitle": "Online satış için ihtiyacınız olan tüm modern altyapı",
+    "items": {
+      "custom": {
+        "title": "Özel E-Ticaret Yazılımı",
+        "description": "İhtiyaçlarınıza göre geliştirilen esnek ve ölçeklenebilir e-ticaret sistemleri."
+      },
+      "payment": {
+        "title": "Ödeme Sistemi Entegrasyonu",
+        "description": "iyzico, PayTR, Stripe ve diğer ödeme altyapıları ile güvenli ödeme deneyimi."
+      },
+      "mobile": {
+        "title": "Mobil Uyumlu Tasarım",
+        "description": "Mobil öncelikli tasarım ile tüm cihazlarda hızlı alışveriş deneyimi."
+      },
+      "stock": {
+        "title": "Stok & Sipariş Yönetimi",
+        "description": "Stok takibi, sipariş yönetimi ve lojistik süreçlerini kontrol edebileceğiniz yönetim paneli."
+      },
+      "seo": {
+        "title": "SEO & Hız Optimizasyonu",
+        "description": "Google uyumlu hızlı altyapı ile arama motorlarında daha görünür bir mağaza."
+      },
+      "admin": {
+        "title": "Admin Panel & Raporlama",
+        "description": "Satış verileri, müşteri davranışları ve performans raporlarını takip edebileceğiniz güçlü yönetim paneli."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital",
+    "title": "E-Ticaret Projeniz İçin Doğru Partner",
+    "subtitle": "Teknik uzmanlık ve stratejik yaklaşım ile markanızı büyütüyoruz.",
+    "reasons": {
+      "reason1": {
+        "title": "Satış Odaklı Yaklaşım",
+        "description": "Sadece güzel görünen değil, satışa dönüşen e-ticaret siteleri geliştiriyoruz."
+      },
+      "reason2": {
+        "title": "Şeffaf Proje Süreci",
+        "description": "Projenin her aşamasında sizi bilgilendirir ve birlikte ilerleriz."
+      },
+      "reason3": {
+        "title": "Hızlı ve Esnek Geliştirme",
+        "description": "Modern geliştirme süreçleri ile projeleri hızlı ve kaliteli şekilde tamamlarız."
+      },
+      "reason4": {
+        "title": "Modern Teknoloji Altyapısı",
+        "description": "Güncel web teknolojileri ile hızlı ve güvenli sistemler geliştiriyoruz."
+      },
+      "reason5": {
+        "title": "Yayın Sonrası Destek",
+        "description": "Site yayına girdikten sonra da teknik destek sağlamaya devam ediyoruz."
+      },
+      "reason6": {
+        "title": "Uzun Vadeli İş Ortaklığı",
+        "description": "Sadece yazılım geliştirmiyoruz, markanızın büyümesine katkı sağlayan bir iş ortağı oluyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "E-Ticaret Projenizi Nasıl Hayata Geçiriyoruz?",
+    "subtitle": "Planlı ve şeffaf bir geliştirme süreci.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif & Planlama",
+        "description": "İhtiyaçlarınızı ve hedef kitlenizi analiz ederek proje planını oluşturuyoruz.",
+        "tag": "1-3 Gün"
+      },
+      "design": {
+        "title": "Tasarım Süreci",
+        "description": "Modern ve kullanıcı odaklı arayüz tasarımları hazırlıyoruz.",
+        "tag": "3-7 Gün"
+      },
+      "development": {
+        "title": "Geliştirme",
+        "description": "E-ticaret sisteminizi geliştiriyor ve performans testlerini yapıyoruz.",
+        "tag": "2-5 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Destek",
+        "description": "Siteyi yayına alıyor ve performansını takip ediyoruz.",
+        "tag": "Süregelen"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "E-ticaret projeleri hakkında merak edilenler.",
+    "items": {
+      "delivery": {
+        "question": "Proje kaç günde teslim edilir?",
+        "answer": "E-ticaret projeleri kapsamına göre genellikle 4-10 hafta arasında tamamlanır."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma nasıl belirlenir?",
+        "answer": "Proje kapsamı ve entegrasyon ihtiyaçlarına göre belirlenir."
+      },
+      "revisions": {
+        "question": "Revizyon hakkım var mı?",
+        "answer": "Tasarım aşamasında gerekli revizyonları birlikte yapıyoruz."
+      },
+      "maintenance": {
+        "question": "Yayın sonrası destek sağlıyor musunuz?",
+        "answer": "Evet. Yayın sonrası teknik destek ve bakım hizmetleri sunuyoruz."
+      },
+      "migration": {
+        "question": "Mevcut e-ticaret sitemi taşıyabilir misiniz?",
+        "answer": "Evet. Ürün, müşteri ve sipariş verilerinizi güvenli şekilde yeni platforma taşıyoruz."
+      },
+      "mobile": {
+        "question": "Mobil uygulama da geliştiriyor musunuz?",
+        "answer": "Evet. İsteğe bağlı olarak e-ticaret sitenizle entegre mobil uygulamalar geliştiriyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Başlayalım",
+    "title": "E-Ticaret Projenizi Birlikte Hayata Geçirelim",
+    "description": "Ücretsiz keşif görüşmesi için bizimle iletişime geçin.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Portfolio & Personal Websites"
+  },
+  "hero": {
+    "titleMain": "Highlighting Your Talent",
+    "titleAccent": "Portfolio & Personal Websites",
+    "description": "From freelancers to photographers, designers to consultants—we design personal websites that represent your career, vision, and talents in the strongest way possible."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Are You the Sole Master of Your Digital Presence?",
+      "paragraph1": "Your LinkedIn profile is important for your professional network, and your Instagram portfolio can be a visual showcase; but without your own domain and website, you are always incomplete in the digital world.",
+      "paragraph2": "When your potential clients, employers, and partners search for you on Google, what do they find? Scattered social media profiles, or a prestigious website that proves your capabilities?",
+      "paragraph3": "As Sybor Digital, we build custom websites that elegantly carry your personal voice and vision into the digital world—from freelancers to creative professionals, consultants to artists.",
+      "audiences": {
+        "physical": {
+          "title": "Freelancers",
+          "description": "I want to look professional to my clients, inspire trust, and land higher-budget projects."
+        },
+        "startup": {
+          "title": "Creative Professionals",
+          "description": "I want to showcase my design, photography, or video projects in an aesthetic portfolio that reflects my own vision."
+        },
+        "growing": {
+          "title": "Consultants & Coaches",
+          "description": "I want a digital identity that proves my expertise, builds trust, and directly attracts my potential clients."
+        },
+        "global": {
+          "title": "Career-Driven Individuals",
+          "description": "I want to have an impressive digital resume and portfolio that sets me apart from my competitors in job applications and my industry."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "What We Do",
+      "title": "A Digital Identity for Your Personal Brand",
+      "paragraph1": "We design more than just a website; we craft a digital identity that tells your story, values, and work in the most effective way.",
+      "paragraph2": "We structure all critical sections, such as portfolio pages, service descriptions, an expertise blog, and contact forms, tailored to your personal brand.",
+      "paragraph3": "Once your site is ready, we don't leave you alone; we continue to provide support with content updates, personal SEO, and brand development.",
+      "badge": "Scope of Service",
+      "cardTitle": "The Site That Represents You Best",
+      "cardDescription": "All the tools you need for your personal website under one roof.",
+      "checklist": {
+        "item1": "Unique design fitting your personal brand's soul",
+        "item2": "Impressive portfolio and project showcase",
+        "item3": "Blog infrastructure to demonstrate expertise",
+        "item4": "Contact forms designed to capture leads"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What Do We Offer?",
+    "subtitle": "Solutions that will put your personal brand ahead of your competitors",
+    "items": {
+      "custom": {
+        "title": "Personal Brand Custom Design",
+        "description": "An authentic visual identity that reflects you. We don't use ready-made templates; every detail is designed exclusively for you."
+      },
+      "payment": {
+        "title": "Impressive Portfolio Showcase",
+        "description": "Showcase your work with a filterable, categorized, and visually flawless experience."
+      },
+      "mobile": {
+        "title": "Expertise-Driven Blog Infrastructure",
+        "description": "A user-friendly blog module where you can share your industry knowledge and gain SEO value."
+      },
+      "stock": {
+        "title": "Conversion-Oriented Contact Forms",
+        "description": "Customized, smart contact and quote request forms to turn your site visitors into clients."
+      },
+      "seo": {
+        "title": "Personal SEO & Visibility",
+        "description": "Necessary schema markups and technical SEO infrastructure so those searching your name on Google find you at the very top."
+      },
+      "admin": {
+        "title": "Advanced Visitor Analytics",
+        "description": "Who is visiting your site? Which project gets the most views? Track all data and improve your strategy."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Us",
+    "title": "Why Sybor Digital?",
+    "subtitle": "A team that understands the dynamics of personal branding and supports your vision.",
+    "reasons": {
+      "reason1": {
+        "title": "We Understand You and Your Vision",
+        "description": "Personal branding isn't just about writing code; it's strategy. We listen to your goals and build the appropriate structure."
+      },
+      "reason2": {
+        "title": "Fast and Agile Delivery",
+        "description": "We launch your personal sites quickly without compromising quality standards, so you don't miss out on career opportunities."
+      },
+      "reason3": {
+        "title": "Freelancer-Friendly Approach",
+        "description": "We offer the quality we apply to corporate projects in more accessible models for individual professionals."
+      },
+      "reason4": {
+        "title": "Easy Manageability",
+        "description": "We deliver a modern panel where you can add your new projects and articles without needing any technical knowledge."
+      },
+      "reason5": {
+        "title": "SEO-Ready Infrastructure",
+        "description": "From the moment it goes live, your site is structured to be search-engine friendly, immediately contributing to your digital visibility."
+      },
+      "reason6": {
+        "title": "Long-Term Partnership",
+        "description": "As your career grows, your site's needs will change. We have your back technically with every new step you take."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Work?",
+    "subtitle": "The transparent steps we take while bringing your personal brand to the digital world.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Brand Analysis",
+        "description": "We analyze your goals, target audience, and position in the industry. We plan your site's architecture together.",
+        "tag": "1-2 Days"
+      },
+      "design": {
+        "title": "Design & Concept",
+        "description": "We create the visual identity that best expresses you, prepare the interface designs, and present them for your approval.",
+        "tag": "2-4 Days"
+      },
+      "development": {
+        "title": "Development & Content Entry",
+        "description": "We turn the designs into code, upload your existing portfolio and content to the system, and complete the testing.",
+        "tag": "1-3 Weeks"
+      },
+      "launch": {
+        "title": "Launch & Growth Support",
+        "description": "We launch your site flawlessly, complete SEO setups, and support your branding journey.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about the personal website setup process.",
+    "items": {
+      "delivery": {
+        "question": "How many days will it take for my portfolio site to be ready?",
+        "answer": "Depending on the content scope and features, we typically deliver your project within 2-3 weeks."
+      },
+      "pricing": {
+        "question": "How is the cost determined?",
+        "answer": "It varies based on the features you need and the number of pages. We have packages optimized for individual professionals."
+      },
+      "revisions": {
+        "question": "Can I update the content on the site myself?",
+        "answer": "Absolutely. We provide you with a highly easy-to-use admin panel, so you can easily add new projects or blog posts."
+      },
+      "maintenance": {
+        "question": "Do you provide post-launch technical support?",
+        "answer": "Yes, we continue to provide technical support after the site goes live and offer maintenance services when needed."
+      },
+      "migration": {
+        "question": "Can you migrate my projects from Behance or Dribbble?",
+        "answer": "Yes. We can integrate your existing content and projects from platforms like Behance, Dribbble, Medium, etc., into your new website."
+      },
+      "mobile": {
+        "question": "How are domain and hosting processes handled?",
+        "answer": "We provide full support during this process. We can either handle all operations on your behalf or guide you step-by-step."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build Your Digital Identity Together",
+    "description": "Contact us to schedule a free discovery meeting that will take your career to the next level.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

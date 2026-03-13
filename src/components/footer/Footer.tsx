@@ -43,7 +43,6 @@ export function Footer() {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-center items-center gap-6">
           <div className="flex items-center gap-2 text-white/60 hover:text-white transition-colors cursor-default">
-            <Sparkles size={16} className="text-cyan-300" />
             <p className="text-sm font-light tracking-wide text-center">
               © {new Date().getFullYear()} {t('copyright')}
             </p>

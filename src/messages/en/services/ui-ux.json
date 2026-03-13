@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "UI/UX & Interface Design"
+  },
+  "hero": {
+    "titleMain": "Binding Users to Your Brand",
+    "titleAccent": "UI/UX & Interface Design",
+    "description": "We design interfaces that are not only aesthetic but also intuitive and conversion-oriented. We manage the entire UX/UI process with data, from user research to interactive prototypes."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "A Great Product Can Fail Because of a Bad Interface",
+      "paragraph1": "Even with flawlessly working technology behind it; if users get lost in your product, abandon processes halfway, or cannot find what they are looking for, your growth will grind to a halt.",
+      "paragraph2": "A bad user experience (UX) is not just an aesthetic flaw; it means high customer churn rates, low conversions, and increased support costs.",
+      "paragraph3": "As Sybor Digital, we act on data, not guesses, combining user psychology with modern user interface (UI) designs to turn your product into a habit.",
+      "audiences": {
+        "physical": {
+          "title": "Those Developing Products from Scratch",
+          "description": "I want to properly structure the UX processes for my new startup (MVP) from the very beginning and enter the market with a flawless experience."
+        },
+        "startup": {
+          "title": "Those Redesigning Their Products",
+          "description": "I am experiencing low conversion rates and user complaints in my current app, and I want to give the interface a modern and intuitive structure."
+        },
+        "growing": {
+          "title": "Enterprise Software (B2B) Managers",
+          "description": "I want to transform the complex internal processes (SaaS/ERP) used by my team or clients into easy-to-learn and smooth interfaces."
+        },
+        "global": {
+          "title": "Mobile App Owners",
+          "description": "I want a consistent experience tailored to the dynamics of iOS and Android platforms, which doesn't tire the user and creates addiction."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "How We Help You",
+      "title": "End-to-End UX/UI from Research to Delivery",
+      "paragraph1": "We start the design process with people, not pixels. Through user research, competitor analysis, and data reviews, we base our decisions on facts, not intuition.",
+      "paragraph2": "We model user flows with wireframes, produce clickable high-fidelity prototypes, and solve errors before coding through real user testing.",
+      "paragraph3": "We don't just draw visuals and leave. We deliver a comprehensive 'Design System' with all components and measurements specified, which your development team can directly turn into code.",
+      "badge": "Scope of Service",
+      "cardTitle": "Data and User-Centric Design",
+      "cardDescription": "All the UX/UI infrastructure you need for a successful digital product.",
+      "checklist": {
+        "item1": "User research and UX strategy",
+        "item2": "Wireframes and interactive prototypes",
+        "item3": "User testing and usability optimization",
+        "item4": "Code-ready UI Design System"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What's in Our UX/UI Process?",
+    "subtitle": "Design modules that will rescue your product from mediocrity and set industry standards.",
+    "items": {
+      "custom": {
+        "title": "UX Research and Personas",
+        "description": "We truly understand your target audience through in-depth interviews, surveys, and behavior maps (user journeys), not with assumptions."
+      },
+      "payment": {
+        "title": "Wireframing & Information Architecture",
+        "description": "We organize complex data and build flawless screen skeletons (wireframes) that allow the user to reach their goal via the shortest path."
+      },
+      "mobile": {
+        "title": "Interactive Prototypes",
+        "description": "Via Figma, we prepare the closest-to-reality simulations that you can click and test on your phone or computer before the product is even coded."
+      },
+      "stock": {
+        "title": "Usability Testing",
+        "description": "We test our designs with real user scenarios and resolve potential frictions before they turn into software development costs."
+      },
+      "seo": {
+        "title": "Comprehensive Design System",
+        "description": "We create scalable UI Kits where fonts, colors, and components are standardized so your product doesn't lose consistency as it grows."
+      },
+      "admin": {
+        "title": "Flawless Developer Handoff",
+        "description": "We provide a perfect handoff process filled with exported assets, eliminating the need for your dev team to ask, 'What is the spacing for this button?'"
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "Why Choose Us?",
+    "subtitle": "An analytically thinking design team that blends aesthetics with software realities.",
+    "reasons": {
+      "reason1": {
+        "title": "Data-Driven Design",
+        "description": "There is an analytical logic behind every color, button, and screen transition. We design because it 'converts', not just because it 'looks good'."
+      },
+      "reason2": {
+        "title": "Developer-Friendly Interfaces",
+        "description": "Thanks to our developer background, we don't draw utopian designs that cannot be coded; we produce viable solutions your software team can easily integrate."
+      },
+      "reason3": {
+        "title": "Accessibility (A11y) Standards",
+        "description": "From color contrasts to readability, we adhere to WCAG standards, making your product inclusive and accessible for everyone."
+      },
+      "reason4": {
+        "title": "Transparent Process with No Surprises",
+        "description": "We don't conduct the design process behind closed doors. You can track our progress instantly via Figma and provide feedback at every stage."
+      },
+      "reason5": {
+        "title": "Agile Iteration",
+        "description": "Instead of clunky processes that take months, we produce output in weekly sprints and make your designs rapidly testable."
+      },
+      "reason6": {
+        "title": "Long-Term Product Partnership",
+        "description": "After your product hits the market, we continue to optimize designs and develop new modules using the acquired user data."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Design Your Product?",
+    "subtitle": "Our proven UX/UI workflow that turns chaos into clarity.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Research & UX Strategy",
+        "description": "We structure the project's UX strategy and information architecture by analyzing user problems, your business goals, and the competitive landscape.",
+        "tag": "1-2 Weeks"
+      },
+      "design": {
+        "title": "Wireframe & Interface (UI) Design",
+        "description": "First, we get screen flows approved with black-and-white skeletons (wireframes), then we create modern UI designs that reflect your brand's soul.",
+        "tag": "2-4 Weeks"
+      },
+      "development": {
+        "title": "Prototyping & User Testing",
+        "description": "We create interactive prototypes by linking screens together and conduct tests with the target audience to iron out design flaws.",
+        "tag": "1-2 Weeks"
+      },
+      "launch": {
+        "title": "Developer Handoff & Support",
+        "description": "We seamlessly transfer all screens, components, and style guides to the software team (Handoff) and provide interface consultancy during development.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about the UX/UI design process.",
+    "items": {
+      "delivery": {
+        "question": "How many days does a UI/UX project take?",
+        "answer": "An MVP design typically takes 3-6 weeks. However, for multi-module enterprise platforms or complex SaaS projects, this period can take up to 2-3 months."
+      },
+      "pricing": {
+        "question": "Do you only do design, or is development (software) included?",
+        "answer": "We work flexibly based on your request. If you wish, we can conduct a flawless UI/UX design process only, or after approving the design, we can code and launch the product with our own software team."
+      },
+      "revisions": {
+        "question": "How many revision rights do I have in design?",
+        "answer": "Because we proceed with an Agile approach, we move forward by getting your approval at every stage. During the Wireframe or UI phase, we shape reasonable revisions together until you are completely satisfied."
+      },
+      "maintenance": {
+        "question": "Are the design source files handed over to me?",
+        "answer": "Yes, the intellectual property of the design belongs entirely to you. At the end of the process, all Figma source files, UI Kit, exported icons, and fonts are handed over to you completely."
+      },
+      "migration": {
+        "question": "Can you redesign my existing product?",
+        "answer": "Absolutely. We call this a UX Audit. We examine the bottlenecks in your current application using Heatmaps and analytical data, and redesign it to be modern and high-converting."
+      },
+      "mobile": {
+        "question": "Do you design for both web and mobile apps?",
+        "answer": "Yes. We don't limit ourselves to a single platform; we design for web, iOS, Android, tablets, and even wearables in accordance with the platforms' native design guidelines (Human Interface & Material Design)."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Make Your Product Indispensable to Users",
+    "description": "Let's schedule our free discovery meeting to tear down your product's UX barriers and design interfaces that users will fall in love with.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

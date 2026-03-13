@@ -25,7 +25,7 @@ export function HomeFeaturedProjects() {
   }, []);
   
   return (
-    <section className={`${t.section.padding} bg-white px-4 md:px-0`}>
+    <section className={`${t.section.padding}${t.section.bg.white} px-4 md:px-0`}>
       <div className={t.section.container}>
         <div className={`text-center ${t.section.header.margin}`}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">

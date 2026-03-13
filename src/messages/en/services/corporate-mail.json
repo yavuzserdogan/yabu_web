@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Corporate Email & Infrastructure"
+  },
+  "hero": {
+    "titleMain": "Adding Prestige to Your Communications",
+    "titleAccent": "Corporate Email & Infrastructure",
+    "description": "Ditch personal accounts and add value to your brand. We set up your secure and professional @yourcompany.com email infrastructure with a zero data loss guarantee."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "How Far Can You Go With info@gmail.com?",
+      "paragraph1": "What does a potential client or partner think when you send a proposal from an info@gmail.com address? A corporate email address signals trust and professionalism from the moment you sit at the table.",
+      "paragraph2": "Beyond prestige, personal or standard hosting emails fall short of your business needs. Emails landing in spam, insufficient storage, lack of team management, and security vulnerabilities slow down your operations.",
+      "paragraph3": "As Sybor Digital, we build modern corporate email infrastructures from scratch via Google Workspace, Microsoft 365, or custom cloud servers, ensuring your team communicates seamlessly and securely.",
+      "audiences": {
+        "physical": {
+          "title": "Entrepreneurs Launching a New Company",
+          "description": "I want to inspire trust as I enter the industry and create professional (@mycompany.com) email addresses for my brand."
+        },
+        "startup": {
+          "title": "Managers with Growing Teams",
+          "description": "I want to set up corporate accounts for my employees where I can easily manage them, assign permissions, and keep data centralized."
+        },
+        "growing": {
+          "title": "Businesses Migrating Their Infrastructure",
+          "description": "I want to migrate emails from my personal accounts or old server to a modern system without experiencing any data loss or downtime."
+        },
+        "global": {
+          "title": "Those Seeking Corporate Compliance",
+          "description": "I want a secure infrastructure that prevents data leaks, archives emails, and is fully compliant with regulations like GDPR."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "How We Help You",
+      "title": "We Handle the Entire Burden of Your Email Infrastructure",
+      "paragraph1": "From domain verification to opening new accounts, from DNS routing to advanced spam protection, we handle all the technical integration for you.",
+      "paragraph2": "By analyzing your needs and budget, we guide you to the right platform (Google Workspace, Microsoft 365, or Custom Server) and carry out the licensing and architectural planning.",
+      "paragraph3": "During the transition, we don't let your business halt for even a second. We migrate all your existing correspondence to the new system, provide usage training to your team, and offer 24/7 technical support.",
+      "badge": "Scope of Service",
+      "cardTitle": "Comprehensive Email Solution",
+      "cardDescription": "All the technical steps required for your corporate communication infrastructure to work flawlessly.",
+      "checklist": {
+        "item1": "Domain-based secure email setup",
+        "item2": "Anti-spam DNS, SPF, DKIM, and DMARC configuration",
+        "item3": "Lossless migration of existing emails, contacts, and calendars",
+        "item4": "Centralized admin panel, team accounts, and permission management"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What's Included in Your Infrastructure?",
+    "subtitle": "Modern tools to professionalize and secure your communications",
+    "items": {
+      "custom": {
+        "title": "Corporate Email Setup",
+        "description": "Prestigious accounts bearing your brand's name (@yourcompany.com). Full integration with Google Workspace, Microsoft 365, or custom server architecture."
+      },
+      "payment": {
+        "title": "Spam and Spoofing Protection",
+        "description": "Thanks to advanced SPF, DKIM, and DMARC records, your emails won't land in your customers' spam folders, and fake emails cannot be sent in your name."
+      },
+      "mobile": {
+        "title": "Lossless Data Migration",
+        "description": "We migrate years of accumulated emails, contacts, and calendar events from your old server to the new system completely and seamlessly."
+      },
+      "stock": {
+        "title": "Advanced Team & Permission Management",
+        "description": "Opening/closing staff accounts, department-specific group addresses (info@, accounting@), and centralized management of shared mailboxes."
+      },
+      "seo": {
+        "title": "Top-Tier Email Security",
+        "description": "Filtering against phishing attacks, Two-Factor Authentication (2FA), and end-to-end email encryption setup."
+      },
+      "admin": {
+        "title": "Data Archiving & Compliance",
+        "description": "Archiving (eDiscovery) solutions and policies that retain emails even if deleted, ensuring legal compliance and corporate memory."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "The Partner That Eliminates Technical Chaos",
+    "subtitle": "A reliable and smooth transition experience that doesn't interrupt your workflow.",
+    "reasons": {
+      "reason1": {
+        "title": "Zero Downtime Guarantee",
+        "description": "We generally perform migration processes outside of business hours, ensuring you are ready for the new day without losing a single email."
+      },
+      "reason2": {
+        "title": "Independent Consultancy",
+        "description": "We don't force you into a single platform. We impartially select the most ideal platform based on your team structure, budget, and other software you use."
+      },
+      "reason3": {
+        "title": "Invisible Technical Setup",
+        "description": "We deal with complex DNS routings, MX records, and security configurations on your behalf, providing you with a turnkey system."
+      },
+      "reason4": {
+        "title": "Hands-On Team Training",
+        "description": "To ensure your team is familiar with the new system, we provide the necessary training on the interface, calendar sharing, and file management."
+      },
+      "reason5": {
+        "title": "Fast and Uninterrupted Support",
+        "description": "From opening an account for a new employee to forgotten passwords, we are instantly by your side for any technical support."
+      },
+      "reason6": {
+        "title": "Security-First Principle",
+        "description": "90% of corporate cyber attacks start through emails. We don't just set up your infrastructure; we armor it with the highest security standards."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Set Up Your System?",
+    "subtitle": "Our planned integration steps for a seamless transition.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Needs Analysis and Platform Selection",
+        "description": "We analyze your company's data storage needs, number of users, and budget to make the right infrastructure (Google/Microsoft/Custom) decision.",
+        "tag": "1 Day"
+      },
+      "design": {
+        "title": "Architecture and Account Planning",
+        "description": "We build your corporate communication tree by determining user lists, routing addresses (aliases), and department groups.",
+        "tag": "1-2 Days"
+      },
+      "development": {
+        "title": "Setup, DNS, and Data Migration",
+        "description": "We configure domain (DNS) settings, open accounts, and copy your old emails to the new servers in the background.",
+        "tag": "2-5 Days"
+      },
+      "launch": {
+        "title": "Go-Live and Orientation",
+        "description": "We activate the system, perform security tests (SPF/DKIM), and provide your team with an orientation on using the new platform.",
+        "tag": "Ongoing"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about corporate email infrastructure.",
+    "items": {
+      "delivery": {
+        "question": "How long does the setup and migration process take?",
+        "answer": "A basic setup from scratch is usually completed within 1-2 days. However, if heavy data (gigabytes of emails) needs to be migrated from an old server, this background process can take 5-7 days."
+      },
+      "pricing": {
+        "question": "Should I choose Google Workspace or Microsoft 365?",
+        "answer": "It depends on your team's working habits. If you heavily use Office programs like Excel/Word, Microsoft 365 is suitable; if you seek collaboration, simplicity, and cloud storage, Google Workspace is better. We decide together after an analysis."
+      },
+      "revisions": {
+        "question": "Can we open as many email accounts as we want?",
+        "answer": "Technically yes, but services like Google and Microsoft charge a monthly license fee 'per user'. To optimize costs, we set up shared addresses (info@, accounting@) as free routing aliases."
+      },
+      "maintenance": {
+        "question": "Will my old emails, folders, or calendar be lost?",
+        "answer": "Absolutely not. With our specialized migration tools, we copy all your emails, folder structures you've created, contacts, and calendar events exactly into the new system."
+      },
+      "migration": {
+        "question": "I don't have a company domain yet, can you help?",
+        "answer": "Yes. We offer the process of finding the most suitable domain name for your corporate identity, purchasing it, registering it, and then setting up the email infrastructure as a single end-to-end package."
+      },
+      "mobile": {
+        "question": "Will I be able to manage my emails from my phone (mobile)?",
+        "answer": "Of course. The systems we set up are 100% compatible with iOS and Android. You can use them with instant synchronization via the official Gmail/Outlook apps or your phone's native mail app."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Professionalize Your Communication Infrastructure",
+    "description": "Let's schedule our free meeting to plan the most suitable email infrastructure that will increase your business's prestige and secure your data.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

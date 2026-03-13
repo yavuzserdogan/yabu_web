@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Sosyal Medya Yönetimi"
+  },
+  "hero": {
+    "titleMain": "Markanızı Büyüten",
+    "titleAccent": "Sosyal Medya Yönetimi",
+    "description": "Sadece beğeni değil, sadakat ve satış üretiyoruz. İçerik üretiminden topluluk yönetimine kadar sosyal medya hesaplarınızı gerçek bir büyüme motoruna dönüştürüyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Sosyal Medyanız Sadece Bir 'Vitrin'den Mi İbaret?",
+      "paragraph1": "Düzensiz paylaşımlar, markanızın kalitesini yansıtmayan amatör görseller ve sadece birkaç beğeni alan içerikler... Sosyal medyanız işletmenize değer katmak yerine prestij kaybettiriyor olabilir mi?",
+      "paragraph2": "Günümüz dijital dünyasında sosyal medya yönetimi, sadece haftada birkaç post paylaşmaktan ibaret değildir. Algoritmaları anlayan stratejik bir planlama, yaratıcı bir görsel dil ve anlık optimizasyon gerektirir.",
+      "paragraph3": "Sybor Digital olarak; markanızın özgün sesini buluyor, hedef kitlenizle duygusal bir bağ kuruyor ve sosyal medya kanallarınızı doğrudan satışa ve bilinirliğe hizmet eden aktif birer kanala dönüştürüyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Yeni Marka Kuran Girişimciler",
+          "description": "Sektöre iddialı bir giriş yapmak ve markamın dijital varlığını ilk günden itibaren profesyonel bir temele oturtmak istiyorum."
+        },
+        "startup": {
+          "title": "Hesabı Büyümeyen İşletmeler",
+          "description": "Düzenli paylaşım yapamıyorum, takipçi sayım aylardır aynı ve paylaşımlarım hedef kitlemde hiçbir etkileşim yaratmıyor."
+        },
+        "growing": {
+          "title": "Satış ve Dönüşüm Hedefleyenler",
+          "description": "Sosyal medyamın sadece güzel görünmesini değil; web siteme trafik çekmesini, potansiyel müşteri (lead) ve doğrudan satış getirmesini istiyorum."
+        },
+        "global": {
+          "title": "Zamanı Olmayan Yöneticiler",
+          "description": "İşimi ve operasyonlarımı yönetmekten içerik üretmeye, yorumlara cevap vermeye ve trendleri takip etmeye kesinlikle vakit bulamıyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Stratejiden Paylaşıma 360 Derece Yönetim",
+      "paragraph1": "İşe önce dinleyerek ve analiz ederek başlıyoruz. Markanızın mevcut durumunu, rakiplerinizin ne yaptığını ve hedef kitlenizin ne tüketmek istediğini belirleyip size özel bir içerik stratejisi çiziyoruz.",
+      "paragraph2": "Bu strateji doğrultusunda; estetik grafik tasarımları, trendlere uygun Reels/TikTok videoları ve ilgi çekici metinler (copywriting) üretiyoruz. Hazırladığımız aylık takvim, siz onaylamadan asla yayına girmiyor.",
+      "paragraph3": "Sadece içerik paylaşıp çekilmiyoruz. Gelen yorumları yanıtlıyor, mesajları (DM) yönetiyor, kriz anlarında müdahale ediyor ve her ayın sonunda şeffaf bir performans raporu ile ne kadar büyüdüğümüzü size sunuyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Tam Kapsamlı Sosyal Medya Çözümü",
+      "cardDescription": "Markanızın dijitalde parlaması için ihtiyaç duyduğu tüm kreatif ve analitik süreçler tek çatı altında.",
+      "checklist": {
+        "item1": "Platformlara özel içerik stratejisi ve planlama",
+        "item2": "Premium görsel tasarım ve Reels/Video üretimi",
+        "item3": "Aktif topluluk yönetimi (Yorum ve DM takibi)",
+        "item4": "Detaylı aylık performans ve büyüme raporlaması"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Hizmet Paketimizde Neler Var?",
+    "subtitle": "Markanızı sosyal medyada rakiplerinden ayıracak profesyonel araçlar",
+    "items": {
+      "custom": {
+        "title": "Veriye Dayalı İçerik Stratejisi",
+        "description": "Tahminlerle değil verilerle hareket ediyoruz. Markanızın ses tonunu (Tone of Voice), yayın sıklığını ve içerik pillerini (content pillars) özenle kurguluyoruz."
+      },
+      "payment": {
+        "title": "Premium İçerik Üretimi",
+        "description": "Sıradan stok görseller kullanmıyoruz. Feed postları, hikayeler, carousel kaydırmalı içerikler ve infografikleri markanıza özel tasarlıyoruz."
+      },
+      "mobile": {
+        "title": "Dinamik Video & Reels Üretimi",
+        "description": "Algoritmaların en çok sevdiği kısa formatlı videoları (Reels, Shorts, TikTok) trendlere uygun kurgular, müzikler ve metinlerle hayata geçiriyoruz."
+      },
+      "stock": {
+        "title": "Aktif Topluluk Yönetimi (CM)",
+        "description": "Takipçilerinizle organik bir bağ kuruyoruz. Gelen yorumlara marka kimliğinize uygun yanıtlar veriyor, etkileşimi canlı tutuyoruz."
+      },
+      "seo": {
+        "title": "Şeffaf Analitik & Raporlama",
+        "description": "Hangi içeriğin daha çok kaydettirildiğini, hangi saatin daha verimli olduğunu detaylı aylık raporlarla size sunuyor ve stratejimizi güncelliyoruz."
+      },
+      "admin": {
+        "title": "Sponsorlu Reklam (Ads) Yönetimi",
+        "description": "Organik büyümenin yetmediği noktalarda, içeriklerinizi doğru hedef kitleye ulaştırmak için Meta (Instagram/Facebook) reklamlarınızı optimize ediyoruz."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Sosyal Medyayı Pazarlama Aracı Olarak Görüyoruz",
+    "subtitle": "Sadece 'post atan' değil, markanıza değer katan stratejik iş ortağınız.",
+    "reasons": {
+      "reason1": {
+        "title": "Amacı Olan İçerikler",
+        "description": "Sayfayı doldurmak için boş içerik üretmeyiz. Hazırladığımız her bir görselin ya eğlendirme, ya eğitme ya da satışa yönlendirme gibi net bir amacı vardır."
+      },
+      "reason2": {
+        "title": "Platform Algoritmalarına Hakimiyet",
+        "description": "Instagram'ın güncel algoritmasından TikTok'un organik yayılım mantığına kadar platformların kurallarını biliyor ve içerikleri buna göre optimize ediyoruz."
+      },
+      "reason3": {
+        "title": "Kusursuz Marka Tutarlılığı",
+        "description": "Profilinize dışarıdan bakıldığında premium bir marka algısı yaratmak için renk paletinize, fontlarınıza ve görsel dilinize %100 sadık kalıyoruz."
+      },
+      "reason4": {
+        "title": "Sürprizlere Yer Yok (Onaylı Süreç)",
+        "description": "Önümüzdeki ayın içerik takvimini ve tasarımlarını size önceden sunuyoruz. Siz görüp onaylamadan markanız adına hiçbir paylaşım yapılmıyor."
+      },
+      "reason5": {
+        "title": "Sürdürülebilir Organik Büyüme",
+        "description": "Geçici ve markaya zarar veren sahte takipçi (bot) veya çekiliş tuzaklarına düşmüyoruz. Hedefimiz size gerçekten ürün/hizmet alacak sadık bir kitle kazandırmak."
+      },
+      "reason6": {
+        "title": "Trendlere Hızlı Reaksiyon",
+        "description": "Sosyal medya anlık yaşanır. Sektörünüzle ilgili viral olan bir akıma (trend) veya anlık gelişmeye (real-time marketing) hızla adapte olup içerik üretiyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Süreci Nasıl Yönetiyoruz?",
+    "subtitle": "Kaosu ortadan kaldıran, planlı ve şeffaf çalışma akışımız.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif & Strateji Kurulumu",
+        "description": "Mevcut hesaplarınızı (audit) ve rakiplerinizi inceliyoruz. Marka dilinizi, görsel kimliğinizi ve ilk ayın içerik stratejisini kurguluyoruz.",
+        "tag": "1. Hafta"
+      },
+      "design": {
+        "title": "İçerik Üretimi & Onay Süreci",
+        "description": "Belirlenen stratejiye uygun metinleri (copywriting) yazıyor, tasarımları hazırlıyor ve aylık içerik takvimini onayınıza sunuyoruz.",
+        "tag": "2. Hafta"
+      },
+      "development": {
+        "title": "Yayınlama & Topluluk Yönetimi",
+        "description": "Onaylanan içerikleri algoritmanın en aktif saatlerinde yayına alıyor, gelen yorum ve mesajları markanız adına yönetiyoruz.",
+        "tag": "Sürekli (Aylık)"
+      },
+      "launch": {
+        "title": "Raporlama & Optimizasyon",
+        "description": "Ay sonunda büyüme verilerinizi, erişim istatistiklerini raporluyor ve bir sonraki ayın stratejisini bu verilere göre iyileştiriyoruz.",
+        "tag": "Her Ay Sonu"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Sosyal medya yönetimi süreçleriyle ilgili aklınıza takılanlar.",
+    "items": {
+      "delivery": {
+        "question": "Sürece ne zaman ve nasıl başlıyoruz?",
+        "answer": "Sözleşme sonrası marka analizi ve strateji oluşturma aşamamız başlar. Genellikle ilk 7-10 gün içinde markanızı analiz edip ilk aylık içerik takviminizi onayınıza sunmuş oluyoruz."
+      },
+      "pricing": {
+        "question": "Aylık yönetim ücretleri nasıl belirleniyor?",
+        "answer": "Yönetilecek platform sayısına (Instagram, TikTok, LinkedIn vb.), haftalık paylaşım sıklığına, video/Reels üretim hacmine ve reklam yönetimi ihtiyaçlarınıza göre size özel bir paket oluşturuyoruz."
+      },
+      "revisions": {
+        "question": "Paylaşımlar yapılmadan önce içerikleri görebilecek miyim?",
+        "answer": "Kesinlikle evet. Aylık içerik takvimi (görseller ve metinler) bir önceki haftadan sizin onayınıza sunulur. Siz onay vermeden veya istediğiniz revizyonlar yapılmadan hiçbir içerik yayına alınmaz."
+      },
+      "maintenance": {
+        "question": "Neden minimum 3 aylık bir sözleşme öneriyorsunuz?",
+        "answer": "Sosyal medya algoritmalarının hesabınızı tanıması, stratejimizin oturması ve gerçek, ölçülebilir bir organik büyüme ivmesi yakalayabilmemiz için en az 3 aylık istikrarlı bir çalışma şarttır."
+      },
+      "migration": {
+        "question": "Hesapların şifresini size mi veriyorum, güvenlik nasıl sağlanıyor?",
+        "answer": "Şifrenizi istemiyoruz. Meta Business Manager üzerinden ajansımızı 'İş Ortağı' (Partner) olarak yetkilendiriyorsunuz. Böylece hem hesaplarınız güvende kalıyor hem de biz yönetimi devralıyoruz."
+      },
+      "mobile": {
+        "question": "Sponsorlu reklam bütçesi hizmet bedeline dahil mi?",
+        "answer": "Hayır, reklam harcamaları (Google/Meta'ya ödenen tutar) tamamen sizin kredi kartınızdan ve belirlediğiniz bütçe üzerinden çekilir. Biz kampanya kurgusunu, hedeflemeyi ve optimizasyonu yönetiriz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Sosyal Medyanızı Gerçek Bir Büyüme Motoruna Dönüştürün",
+    "description": "Markanızı dijitalde hak ettiği konuma taşıyacak stratejiyi oluşturmak için ücretsiz keşif görüşmemizi planlayalım.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

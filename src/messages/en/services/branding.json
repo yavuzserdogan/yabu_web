@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Brand Identity & Visual Design"
+  },
+  "hero": {
+    "titleMain": "Leaving a Mark in the Industry",
+    "titleAccent": "Brand Identity & Visual Design",
+    "description": "From logo to color palette, typography to brand guidelines; we design premium visual identities that reflect your business vision, inspire trust, and make you stand out from your competitors."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Is This Page For You?",
+      "title": "Is Your Brand Strong Enough to Be Remembered?",
+      "paragraph1": "Does your logo look outdated or amateur? Are your colors and fonts constantly changing across different social media platforms, your website, and printed materials?",
+      "paragraph2": "Consumers decide whether a brand is trustworthy at the moment of first visual contact. A strong brand identity is not a coincidence; when structured correctly, it elevates your perceived quality, stays in mind, and directly impacts your sales.",
+      "paragraph3": "As Sybor Digital, we deeply analyze your business values, target audience, and market positioning to build strategic and consistent brand identities that establish you as an authority in your industry.",
+      "audiences": {
+        "physical": {
+          "title": "Entrepreneurs Launching a New Brand",
+          "description": "I want to make a solid entry into the industry with a strong visual identity that is professional, inspires trust, and fully reflects my vision."
+        },
+        "startup": {
+          "title": "Businesses Rebranding",
+          "description": "My logo and visual language have aged. I want to modernize my brand and align it with current trends while preserving its heritage."
+        },
+        "growing": {
+          "title": "Growing and Scaling Companies",
+          "description": "Our company has grown, but our visual identity has fallen behind this growth. I now need a vision that looks corporate and premium."
+        },
+        "global": {
+          "title": "Those Strengthening Their Digital Presence",
+          "description": "I want to create a consistent, clear, and memorable brand perception at every digital touchpoint, from my website to social media."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "How We Help You",
+      "title": "Holistic Brand Architecture from Strategy to Design",
+      "paragraph1": "Before moving on to the design process, we decode your brand DNA. What is your brand's personality? Who is your target audience? What emotion do you want to evoke? Every line we draw is based on this strategy.",
+      "paragraph2": "We create your logo design, corporate color palette, typography (font) family, and brand-specific visual language rules; we standardize all these details within a comprehensive 'Brand Book'.",
+      "paragraph3": "We don't just leave you with a logo. We deliver all the corporate materials your brand will need, such as social media templates, letterheads, business cards, and presentation files, ready for print and digital use.",
+      "badge": "Scope of Service",
+      "cardTitle": "Comprehensive Identity Package",
+      "cardDescription": "All the materials you need to recreate or strengthen your brand.",
+      "checklist": {
+        "item1": "Comprehensive brand strategy and positioning analysis",
+        "item2": "Logo design with multiple usage areas (variants)",
+        "item3": "Detailed Brand Book with established rules",
+        "item4": "Social media templates and corporate identity (print) materials"
+      }
+    }
+  },
+  "features": {
+    "label": "Features",
+    "title": "What Will Be in Your Brand Package?",
+    "subtitle": "Design modules that will make your business look professional on every platform",
+    "items": {
+      "custom": {
+        "title": "Strategic Brand Positioning",
+        "description": "The stage that forms the foundation of the design. We determine with data how your brand will differentiate from competitors, its Tone of Voice, and its character."
+      },
+      "payment": {
+        "title": "Premium Logo & Sub-Variants",
+        "description": "We produce vertical, horizontal, and emblem (favicon) versions of your logo so it looks flawless on a website, social media profile, or in print."
+      },
+      "mobile": {
+        "title": "Brand Guidelines (Brand Book)",
+        "description": "The constitution of your brand. A comprehensive booklet containing how the logo should and shouldn't be used, color codes (HEX, CMYK), and the font family."
+      },
+      "stock": {
+        "title": "Social Media Template Sets",
+        "description": "Ready-to-use design templates integrated with your brand's visual language, allowing your team to easily produce content for Instagram, LinkedIn, and other platforms."
+      },
+      "seo": {
+        "title": "Corporate Identity (Print) Materials",
+        "description": "For moments of physical contact with your customers; print-ready corporate elements like high-quality business cards, letterheads, envelopes, and folders."
+      },
+      "admin": {
+        "title": "Digital Corporate Materials",
+        "description": "Your corporate email signatures, digital presentation (PowerPoint/Keynote) templates, and profile cover images optimized for all digital platforms."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Why Sybor Digital?",
+    "title": "We Design More Than Meets the Eye",
+    "subtitle": "An approach that blends aesthetics with marketing psychology and corporate strategy.",
+    "reasons": {
+      "reason1": {
+        "title": "Strategy First, Design Second",
+        "description": "We don't just draw a 'good-looking' logo. We design a strategic emblem that reflects your business goals and fits market dynamics."
+      },
+      "reason2": {
+        "title": "Zero Templates, 100% Originality",
+        "description": "We do not use ready-made vectors (stock) or AI generators. Your brand's identity is created entirely from scratch, exclusively for you and your story."
+      },
+      "reason3": {
+        "title": "Practical and Usable Delivery",
+        "description": "We deliver not just files that are pretty to look at, but functional (vector) formats that your team and your print shop can easily use in real life."
+      },
+      "reason4": {
+        "title": "Revisions Until You're Satisfied",
+        "description": "We don't leave the design that will be the face of your brand to chance. We offer flexible revisions during the concept stage until you are completely satisfied with the design."
+      },
+      "reason5": {
+        "title": "Adaptation to the Digital World",
+        "description": "We work 'digital-first', calculating how every identity we design will perform on your website and within social media algorithms."
+      },
+      "reason6": {
+        "title": "Holistic Ecosystem",
+        "description": "After creating your brand identity, if you wish, we can also build your website or e-commerce infrastructure with the same team to reflect this identity flawlessly."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "How Do We Create Your Brand?",
+    "subtitle": "Our process that turns words into visuals and vision into a corporate identity.",
+    "stepLabel": "Step",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Strategy Workshop",
+        "description": "We listen to your business story, competitors, and goals; we strategically determine your brand's archetype and visual positioning.",
+        "tag": "2-3 Days"
+      },
+      "design": {
+        "title": "Concept & Moodboard Design",
+        "description": "Based on the strategy, we present you with 3 different creative concepts (moodboards). We shape the main outlines of the logo based on the direction you choose.",
+        "tag": "5-7 Days"
+      },
+      "development": {
+        "title": "Maturation & Applications",
+        "description": "We detail the chosen concept; we integrate the color palette, typography, and corporate materials (social media, business cards, etc.) into the brand.",
+        "tag": "3-5 Days"
+      },
+      "launch": {
+        "title": "Guideline Creation & Delivery",
+        "description": "We prepare the Brand Book, which contains the entire constitution of your brand, and deliver all designs to you in their original (vector) formats.",
+        "tag": "2-3 Days"
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Things you might be wondering about the brand identity design process.",
+    "items": {
+      "delivery": {
+        "question": "How long does it take to complete my brand identity?",
+        "answer": "We usually present the initial design concepts within 5-7 days. Including your feedback and the preparation of corporate materials, the entire process takes an average of 2-3 weeks."
+      },
+      "pricing": {
+        "question": "How is pricing determined?",
+        "answer": "We prepare a custom quote for you depending on whether you only need logo design or a full-fledged corporate identity package (social media, print materials, brand book)."
+      },
+      "revisions": {
+        "question": "What happens if I don't like the design concepts you present?",
+        "answer": "Because we analyze your expectations very clearly at the beginning of the process, this rarely happens. However, we flexibly apply revisions to the designs until they match your vision."
+      },
+      "maintenance": {
+        "question": "In what file formats are the designs delivered to me?",
+        "answer": "All copyright and usage rights of the design belong entirely to you. Files are delivered comprehensively in vector format (AI, EPS, SVG, PDF) for print shops and pixel-based (PNG, JPEG) for digital use."
+      },
+      "migration": {
+        "question": "Can you just modernize my existing logo without completely changing it?",
+        "answer": "Absolutely. We call this a 'Brand Refresh'. While preserving the existing heritage and recognition of your established brand in the consumer's mind, we elevate it to a more modern and aesthetic line."
+      },
+      "mobile": {
+        "question": "Can you also build our website after creating the corporate identity?",
+        "answer": "Yes, this is our most preferred working model. Having the team that created your brand identity also design your website ensures that your digital presence looks much more consistent and premium."
+      }
+    }
+  },
+  "cta": {
+    "label": "Let's Get Started",
+    "title": "Let's Build the Brand That Will Leave a Mark in Your Industry Together",
+    "description": "Let's schedule our free discovery meeting to plan your strong brand identity that will inspire trust in your customers and set you apart from your competitors.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "Write on WhatsApp"
+  }
+}

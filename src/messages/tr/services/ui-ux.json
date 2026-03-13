@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "UI/UX & Arayüz Tasarımı"
+  },
+  "hero": {
+    "titleMain": "Kullanıcıları Markaya Bağlayan",
+    "titleAccent": "UI/UX & Arayüz Tasarımı",
+    "description": "Sadece estetik değil, sezgisel ve dönüşüm odaklı arayüzler tasarlıyoruz. Kullanıcı araştırmasından interaktif prototiplere kadar tüm UX/UI sürecini verilerle yönetiyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Harika Bir Ürün, Kötü Bir Arayüz Yüzünden Kaybedebilir",
+      "paragraph1": "Arkasında kusursuz çalışan bir teknoloji olsa bile; kullanıcılar ürününüzde kayboluyor, işlemleri yarıda bırakıyor veya aradığını bulamıyorsa büyümeniz durma noktasına gelir.",
+      "paragraph2": "Kötü bir kullanıcı deneyimi (UX) yalnızca estetik bir kusur değildir; yüksek müşteri terk oranı (churn), düşük dönüşüm ve artan destek maliyetleri anlamına gelir.",
+      "paragraph3": "Sybor Digital olarak; tahminlerle değil verilerle hareket ediyor, kullanıcı psikolojisini modern arayüz (UI) tasarımlarıyla birleştirerek ürününüzü bir alışkanlığa dönüştürüyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Sıfırdan Ürün Geliştirenler",
+          "description": "Yeni girişimim (MVP) için UX süreçlerini en başından doğru kurgulamak ve pazara kusursuz bir deneyimle girmek istiyorum."
+        },
+        "startup": {
+          "title": "Ürününü Yeniden Tasarlayanlar",
+          "description": "Mevcut uygulamamda düşük dönüşüm oranları ve kullanıcı şikayetleri yaşıyorum, arayüzü modern ve sezgisel bir yapıya kavuşturmak istiyorum."
+        },
+        "growing": {
+          "title": "Kurumsal Yazılım (B2B) Yöneticileri",
+          "description": "Ekibimin veya müşterilerimin kullandığı karmaşık iç süreçleri (SaaS/ERP), öğrenmesi kolay ve pürüzsüz arayüzlere dönüştürmek istiyorum."
+        },
+        "global": {
+          "title": "Mobil Uygulama Sahipleri",
+          "description": "iOS ve Android platformlarının kendi dinamiklerine uygun, kullanıcıyı yormayan ve bağımlılık yaratan tutarlı bir deneyim istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Araştırmadan Teslimata Uçtan Uca UX/UI",
+      "paragraph1": "Tasarım sürecine piksellerle değil, insanlarla başlıyoruz. Kullanıcı araştırmaları, rakip analizleri ve veri incelemeleriyle kararlarımızı sezgilere değil, gerçeklere dayandırıyoruz.",
+      "paragraph2": "Kullanıcı akışlarını wireframeler ile modelliyor, tıklanabilir yüksek kaliteli (high-fidelity) prototipler üretiyor ve gerçek kullanıcı testleriyle hataları kodlamadan önce çözüyoruz.",
+      "paragraph3": "Sadece görsel çizip bırakmıyoruz. Geliştirici ekibinizin doğrudan koda dökebileceği, tüm komponentleri ve ölçüleri belirlenmiş kapsamlı bir 'Tasarım Sistemi' (Design System) teslim ediyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Veri ve Kullanıcı Odaklı Tasarım",
+      "cardDescription": "Başarılı bir dijital ürün için ihtiyaç duyduğunuz tüm UX/UI altyapısı.",
+      "checklist": {
+        "item1": "Kullanıcı araştırması ve UX stratejisi",
+        "item2": "Wireframe ve etkileşimli (interaktif) prototipler",
+        "item3": "Kullanıcı testleri ve kullanılabilirlik optimizasyonu",
+        "item4": "Koda dökülmeye hazır UI Design System (Tasarım Sistemi)"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "UX/UI Sürecimizde Neler Var?",
+    "subtitle": "Ürününüzü sıradanlıktan kurtarıp sektör standartlarını belirleyecek tasarım modülleri",
+    "items": {
+      "custom": {
+        "title": "UX Araştırması ve Persona",
+        "description": "Hedef kitlenizi varsayımlarla değil; derinlemesine görüşmeler, anketler ve davranış haritalarıyla (user journey) gerçekten anlıyoruz."
+      },
+      "payment": {
+        "title": "Wireframe & Bilgi Mimarisi",
+        "description": "Karmaşık verileri düzenliyor, kullanıcının hedefine en kısa yoldan ulaşmasını sağlayan kusursuz ekran iskeletleri (wireframe) kuruyoruz."
+      },
+      "mobile": {
+        "title": "İnteraktif Prototipler",
+        "description": "Figma üzerinden, ürün henüz kodlanmadan önce telefonunuzda veya bilgisayarınızda tıklayıp test edebileceğiniz gerçeğe en yakın simülasyonlar hazırlıyoruz."
+      },
+      "stock": {
+        "title": "Kullanılabilirlik Testleri",
+        "description": "Tasarımlarımızı gerçek kullanıcı senaryolarıyla test ediyor, olası sürtünmeleri (friction) yazılım maliyetine dönüşmeden önce çözüyoruz."
+      },
+      "seo": {
+        "title": "Kapsamlı Tasarım Sistemi",
+        "description": "Ürününüz büyüdükçe tutarlılığını kaybetmemesi için font, renk ve bileşenlerin standartlaştırıldığı ölçeklenebilir UI Kit'ler oluşturuyoruz."
+      },
+      "admin": {
+        "title": "Eksiksiz Developer Teslimi",
+        "description": "Geliştirici ekibinizin 'Bu butonun boşluğu ne kadar?' diye sormasına gerek bırakmayan, export edilmiş assetlerle dolu kusursuz bir Handoff süreci sunuyoruz."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Neden Bizi Seçmelisiniz?",
+    "subtitle": "Estetiği yazılım gerçekleriyle harmanlayan, analitik düşünen tasarım ekibi.",
+    "reasons": {
+      "reason1": {
+        "title": "Veriye Dayalı Tasarım",
+        "description": "Her rengin, butonun ve ekran geçişinin arkasında analitik bir mantık vardır. 'Güzel görünüyor' diye değil, 'dönüştürüyor' diye tasarlarız."
+      },
+      "reason2": {
+        "title": "Yazılım Dostu Arayüzler",
+        "description": "Geliştirici geçmişimiz sayesinde koda dökülemeyecek ütopik tasarımlar çizmiyor, yazılım ekibinizin kolayca entegre edebileceği uygulanabilir çözümler üretiyoruz."
+      },
+      "reason3": {
+        "title": "Erişilebilirlik (A11y) Standartları",
+        "description": "Renk kontrastlarından okunabilirliğe kadar WCAG standartlarına uyuyor, ürününüzü herkes için kapsayıcı ve erişilebilir kılıyoruz."
+      },
+      "reason4": {
+        "title": "Sürprizsiz ve Şeffaf Süreç",
+        "description": "Tasarım sürecini kapalı kapılar ardında yürütmüyoruz. Figma üzerinden sürecimizi anlık takip edebilir, her aşamada geri bildirim verebilirsiniz."
+      },
+      "reason5": {
+        "title": "Çevik (Agile) İterasyon",
+        "description": "Aylarca beklenen hantal süreçler yerine, haftalık sprintlerle çıktı üretiyor ve tasarımlarınızı hızla test edilebilir hale getiriyoruz."
+      },
+      "reason6": {
+        "title": "Uzun Vadeli Ürün Ortaklığı",
+        "description": "Ürününüz pazara çıktıktan sonra elde edilen kullanıcı verileriyle tasarımları optimize etmeye ve yeni modüller geliştirmeye devam ediyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Ürününüzü Nasıl Tasarlıyoruz?",
+    "subtitle": "Kaosu netliğe dönüştüren, kanıtlanmış UX/UI iş akışımız.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Araştırma & UX Stratejisi",
+        "description": "Kullanıcı sorunlarını, iş hedeflerinizi ve rekabet ortamını analiz ederek projenin UX stratejisini ve bilgi mimarisini kurguluyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "design": {
+        "title": "Wireframe & Arayüz (UI) Tasarımı",
+        "description": "Önce siyah-beyaz iskeletlerle (wireframe) ekran akışlarını onaylatıyor, ardından markanızın ruhunu yansıtan modern UI tasarımlarını oluşturuyoruz.",
+        "tag": "2-4 Hafta"
+      },
+      "development": {
+        "title": "Prototipleme & Kullanıcı Testi",
+        "description": "Ekranları birbirine bağlayarak interaktif prototipler yaratıyor, hedef kitleyle testler gerçekleştirerek tasarımdaki pürüzleri gideriyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "launch": {
+        "title": "Developer Teslimatı & Destek",
+        "description": "Tüm ekranları, bileşenleri ve stil rehberlerini yazılım ekibine eksiksiz aktarıyor (Handoff) ve geliştirme sürecinde arayüz danışmanlığı yapıyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "UX/UI tasarım süreciyle ilgili aklınıza takılanlar.",
+    "items": {
+      "delivery": {
+        "question": "UI/UX projesi kaç günde biter?",
+        "answer": "Bir MVP tasarımı genellikle 3-6 hafta sürer. Ancak çok modüllü kurumsal platformlar veya karmaşık SaaS projeleri için bu süre 2-3 ayı bulabilmektedir."
+      },
+      "pricing": {
+        "question": "Sadece tasarım mı yapıyorsunuz, geliştirme (yazılım) de var mı?",
+        "answer": "Talebinize göre esnek çalışıyoruz. Dilerseniz sadece kusursuz bir UI/UX tasarım süreci yürütür, dilerseniz tasarımı onayladıktan sonra kendi yazılım ekibimizle ürünü kodlayıp canlıya alırız."
+      },
+      "revisions": {
+        "question": "Tasarımda kaç revizyon hakkım var?",
+        "answer": "Agile (çevik) yaklaşımla ilerlediğimiz için her aşamada onayınızı alarak yürüyoruz. Wireframe veya UI safhasında, içinize tam sinene kadar makul revizyonları birlikte şekillendiriyoruz."
+      },
+      "maintenance": {
+        "question": "Tasarım kaynak dosyaları bana teslim ediliyor mu?",
+        "answer": "Evet, tasarımın fikri mülkiyeti tamamen size aittir. Süreç sonunda tüm Figma kaynak dosyaları, UI Kit, export edilmiş ikonlar ve fontlarla birlikte size eksiksiz devredilir."
+      },
+      "migration": {
+        "question": "Mevcut ürünümü yeniden tasarlayabilir misiniz (Redesign)?",
+        "answer": "Kesinlikle. Buna UX Audit (Denetim) diyoruz. Mevcut uygulamanızdaki darboğazları Heatmap (ısı haritası) ve analitik verileriyle inceliyor, modern ve yüksek dönüşümlü olarak yeniden tasarlıyoruz."
+      },
+      "mobile": {
+        "question": "Hem web hem mobil uygulama için tasarım yapıyor musunuz?",
+        "answer": "Evet. Tek bir platformla sınırlı kalmıyor; web, iOS, Android, tablet ve hatta akıllı saatler (wearable) için platformların native tasarım yönergelerine (Human Interface & Material Design) uygun tasarımlar yapıyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Ürününüzü Kullanıcıların Vazgeçilmezi Yapın",
+    "description": "Ürününüzün UX bariyerlerini yıkmak ve kullanıcıların aşık olacağı arayüzler tasarlamak için ücretsiz keşif görüşmemizi planlayalım.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

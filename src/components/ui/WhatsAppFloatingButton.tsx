@@ -17,7 +17,7 @@ export function WhatsAppFloatingButton({
 }: WhatsAppFloatingButtonProps) {
   const pathname = usePathname();
   const cleanPathname = pathname.replace(/^\/[a-zA-Z]{2}(\/|$)/, '/').replace(/\/$/, '') || '/';
-  const allowedPaths = ["/", "/contact", "/services", "/projects", "/about", "contact"];
+  const allowedPaths = ["/", "/contact", "/projects", "/about", "contact"];
 
   if (!allowedPaths.includes(cleanPathname)) return null;
 

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Sosyal Medya Reklam Tasarımı"
+  },
+  "hero": {
+    "titleMain": "Kaydırmayı Durduran",
+    "titleAccent": "Reklam Tasarımları",
+    "description": "Meta, TikTok, Google ve LinkedIn için; kullanıcıların dikkatini ilk saniyede yakalayan, markanızı güçlendiren ve reklam bütçenizi satışa dönüştüren yüksek performanslı kreatifler tasarlıyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Reklam Bütçeniz Sıradan Tasarımlar Yüzünden Boşa Mı Gidiyor?",
+      "paragraph1": "Binlerce liralık reklam bütçesi harcıyor ancak beklediğiniz tıklama ve satışları alamıyor musunuz? Sorun genellikle yanlış hedefleme değil, dikkati çekemeyen sıradan tasarımlardır.",
+      "paragraph2": "Dijital dünyada kullanıcılar, reklamınızı geçip geçmeyeceğine sadece ilk 1-3 saniye içinde karar verir. Bu kritik karar anında sizi kurtaracak olan şey; görsel kalite, mesaj netliği ve markanızın verdiği güvendir.",
+      "paragraph3": "Sybor Digital olarak; Meta, TikTok, Google ve LinkedIn platformlarının algoritmalarını ve kullanıcı psikolojisini analiz ediyor, 'kaydırmayı durduran' ve tıklamaya ikna eden dönüşüm odaklı reklam tasarımları üretiyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "E-Ticaret Marka Sahipleri",
+          "description": "Reklam harcamalarımın karşılığını almak, ürün reklamlarımın daha fazla tıklanmasını ve doğrudan satışa dönüşmesini istiyorum."
+        },
+        "startup": {
+          "title": "Hizmet ve B2B Sektörü",
+          "description": "Potansiyel müşterilerimin (lead) dikkatini çekecek, güven veren ve form doldurmaya ikna eden profesyonel reklam kreatifleri istiyorum."
+        },
+        "growing": {
+          "title": "Büyüyen İşletmeler",
+          "description": "Sektörde akılda kalıcı olmak, marka algımı güçlendirmek ve tüm platformlarda premium görünen tutarlı bir görsel dile sahip olmak istiyorum."
+        },
+        "global": {
+          "title": "Pazarlama ve Ajans Ekipleri",
+          "description": "Özel indirim dönemlerinde veya yeni lansmanlarda, ajans kalitesinde hızlı ve çoklu varyantlı kampanya görsellerine ihtiyaç duyuyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Her Platform İçin Dönüşüm Odaklı Kreatifler",
+      "paragraph1": "Her sosyal medya platformunun kendi görsel dili ve tüketim dinamiği vardır. Instagram Feed, TikTok Video veya LinkedIn Banner tasarımlarını birbirinin aynısı kopyalar olarak değil, platformun ruhuna ve boyutlarına uygun olarak baştan kurguluyoruz.",
+      "paragraph2": "Tek bir tasarımla yetinmiyor, A/B testleri yapabilmeniz için çoklu varyantlar üretiyoruz. Farklı başlıklar, vurucu görseller ve 'Harekete Geçirici Mesaj' (CTA) kombinasyonlarıyla en karlı reklamı bulmanızı sağlıyoruz.",
+      "paragraph3": "Sadece tek seferlik kampanyalarda değil; aylık tasarım aboneliklerimizle dijital pazarlama süreçlerinizin kesintisiz ve hızlı bir görsel üretim bandına sahip olmasını sağlıyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Performans Odaklı Tasarım Ekosistemi",
+      "cardDescription": "Reklam kampanyalarınızı görsel olarak zirveye taşıyacak tüm materyaller tek çatı altında.",
+      "checklist": {
+        "item1": "Tüm dijital platformlara optimize edilmiş boyutlar",
+        "item2": "Statik, Carousel, Video ve Reels formatları",
+        "item3": "A/B testi için stratejik görsel varyantları",
+        "item4": "Marka kimliği ve kurumsal çizgiyle kusursuz uyum"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Kreatif Cephaneliğinizde Neler Olacak?",
+    "subtitle": "Reklam performansınızı ve tıklama oranlarınızı (CTR) artıracak modern tasarım çözümleri",
+    "items": {
+      "custom": {
+        "title": "Statik Reklam Görselleri",
+        "description": "Feed, Story ve Banner formatlarında dikkat çekici statik görseller. Her boyut ve platform için optimize edilir."
+      },
+      "payment": {
+        "title": "Video & Reels Reklamları",
+        "description": "İzleyiciyi ilk 3 saniyede durduran, trendlere uygun ve mesajı net ileten kısa video reklamlar ile dinamik motion graphics tasarımları."
+      },
+      "mobile": {
+        "title": "Carousel & Çoklu Görsel Reklamlar",
+        "description": "Ürün kataloglarınızı sergilemek, özellikleri vurgulamak veya hikaye anlatımı (storytelling) yapmak için etkileşimi yüksek çoklu görsel formatları."
+      },
+      "stock": {
+        "title": "UGC Tarzı Kreatifler",
+        "description": "Kullanıcı tarafından üretilmiş gibi doğal duran, reklammış gibi hissettirmeden akışa (feed) kusursuzca karışan yüksek dönüşümlü native tasarımlar."
+      },
+      "seo": {
+        "title": "A/B Test Varyantları",
+        "description": "Hangi mesajın daha iyi sattığını verilerle bulmanız için; aynı reklamın farklı başlık, renk ve CTA kombinasyonlarına sahip stratejik varyasyonları."
+      },
+      "admin": {
+        "title": "Sezonluk Kampanya Setleri",
+        "description": "Black Friday, Sevgililer Günü, bayramlar veya lansman dönemleri için hızlıca üretilen, markanızın diline uygun bütünsel kampanya setleri."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Pazarlamayı Bilen Tasarım Ekibi",
+    "subtitle": "Sadece göze hitap eden değil, psikolojik tetikleyicilerle satışı artıran bir yaklaşım.",
+    "reasons": {
+      "reason1": {
+        "title": "Performansı Anlıyoruz",
+        "description": "Biz sanat eseri değil, satış makinesi üretiyoruz. Tasarımdaki her bir rengin, fontun ve görsel konumlandırmanın tıklama oranına (CTR) etkisini hesaplıyoruz."
+      },
+      "reason2": {
+        "title": "Platform Algoritmalarına Hakimiyet",
+        "description": "Meta'nın %20 metin kuralından TikTok'un güvenli alan (safe zone) boşluklarına kadar tüm platformların teknik ve algoritmik gerekliliklerini çok iyi biliyoruz."
+      },
+      "reason3": {
+        "title": "Ajans Hızında Çevik Teslimat",
+        "description": "Reklam kampanyaları beklemeye gelmez. Gündemi veya trendleri kaçırmamanız için çoğu tasarım setini kaliteyi bozmadan 2-3 iş günü içinde teslim ediyoruz."
+      },
+      "reason4": {
+        "title": "Kusursuz Marka Tutarlılığı",
+        "description": "Farklı kampanyalarda bile markanızın kurumsal çizgisi, renk paleti ve tonundan asla ödün vermiyoruz. Her görsel markanızın imzası niteliğindedir."
+      },
+      "reason5": {
+        "title": "Esnek ve Çözüm Odaklı Revizyonlar",
+        "description": "Kampanya yayındayken verileri inceleyip hızlı değişiklikler yapmanız gerekebilir. Revizyon taleplerinizi bürokrasiye takılmadan hızla işleme alıyoruz."
+      },
+      "reason6": {
+        "title": "Sürdürülebilir Aylık Paketler",
+        "description": "Sürekli kreatif ihtiyacı olan işletmeler için, sürpriz maliyetler çıkarmayan, öngörülebilir ve son derece verimli aylık tasarım abonelik modelleri sunuyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Kreatif Üretim Sürecimiz",
+    "subtitle": "Hız ve kaliteyi bir araya getiren, pazarlama odaklı tasarım iş akışımız.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Strateji & Hedef Analizi",
+        "description": "Kampanya hedefinizi (satış, lead, bilinirlik), hedef kitlenizi ve marka rehberinizi analiz ederek platform bazlı stratejimizi kurguluyoruz.",
+        "tag": "1 Gün"
+      },
+      "design": {
+        "title": "Konsept & Görsel Tasarım",
+        "description": "Dikkat çekecek ilk taslakları ve varyantları hazırlıyoruz. Görsel hiyerarşiyi ve ikna edici mesaj (CTA) yerleşimlerini optimize ediyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "development": {
+        "title": "Revizyon & Çoklu Boyutlandırma",
+        "description": "Geri bildirimlerinizi alarak tasarımları son haline getiriyor, A/B test varyantlarını oluşturuyor ve tüm platformlar için (Story, Feed vb.) boyutlandırıyoruz.",
+        "tag": "1 Gün"
+      },
+      "launch": {
+        "title": "Teslimat & Performans Desteği",
+        "description": "Reklam panellerine yüklemeye hazır, optimize edilmiş dosyaları teslim ediyor ve kampanya süresince oluşabilecek anlık taleplerinizi destekliyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": {
+      "delivery": {
+        "question": "Tasarımlar ne kadar sürede teslim edilir?",
+        "answer": "Standart statik reklam setleri genellikle 2-3 iş günü, hareketli (motion graphics) ve video reklamlar ise kapsamına göre 3-5 iş günü içinde teslim edilir."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma nasıl çalışıyor?",
+        "answer": "İhtiyaçlarınıza göre proje bazlı tek seferlik fiyatlandırma veya sürekli üretim gerektiren durumlar için çok daha avantajlı aylık abonelik (retainer) paketlerimiz mevcuttur."
+      },
+      "revisions": {
+        "question": "Kaç revizyon hakkım var?",
+        "answer": "Her bir kreatif için standart 2 tur revizyon hakkınız bulunur. Tasarımın tamamen içinize sinmesi önceliğimizdir. Aylık paket müşterilerimize ise süreç boyunca esnek revizyon imkanı sağlıyoruz."
+      },
+      "maintenance": {
+        "question": "Mevcut marka rehberimle çalışabilir misiniz?",
+        "answer": "Evet, kesinlikle. Bize ileteceğiniz marka rehberi (brand book), fontlar ve renk paletlerine harfiyen uyarak, kurumsal kimliğinizi koruyan tasarımlar üretiyoruz."
+      },
+      "migration": {
+        "question": "Video reklam da yapıyor musunuz?",
+        "answer": "Evet. Statik görsellerin yanı sıra platform trendlerine uygun motion graphics, 2D animasyon ve kısa Reels/TikTok video reklamları üretiyoruz. (Not: Fiziksel video çekimi ve prodüksiyon hariçtir)."
+      },
+      "mobile": {
+        "question": "Reklam hesabıma yükleyebilir misiniz?",
+        "answer": "Talep etmeniz ve yetkilendirme yapmanız durumunda, tasarımları doğrudan Meta Business Manager veya Google Ads hesaplarınıza yükleyerek kampanya kurgunuza destek olabiliriz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Reklam Bütçenizi Kazanca Dönüştürme Vakti",
+    "description": "Hedef kitlenizi ilk saniyede yakalayacak ve dönüşüm oranlarınızı katlayacak reklam tasarımları için ücretsiz keşif görüşmemizi planlayalım.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

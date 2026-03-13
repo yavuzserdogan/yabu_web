@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Butik Mağaza Web Siteleri"
+  },
+  "hero": {
+    "titleMain": "Markanızın Hikayesini Taşıyan",
+    "titleAccent": "Butik Mağaza Web Siteleri",
+    "description": "El yapımı ürünlerden özel koleksiyonlara kadar, markanızın karakterini yansıtan ve ziyaretçileri sadık müşterilere dönüştüren butik e-ticaret deneyimleri tasarlıyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "Özgün Ürünler, Özgün Bir Mağaza Hak Eder",
+      "paragraph1": "El yapımı özel takılar mı tasarlıyorsunuz? Kendi butik moda markanızı mı kurdunuz? Yoksa tamamen doğal, özel gıda ürünleri mi üretiyorsunuz?",
+      "paragraph2": "Standart ve birbirinin kopyası e-ticaret şablonları, markanızın ruhunu, emeğinizi ve ürünlerinizin arkasındaki hikayeyi müşterinize hissettiremez.",
+      "paragraph3": "Sybor Digital olarak butik markalar için sıradan vitrinler değil; markanızın değerini yükselten, güven veren ve premium hissettiren özel alışveriş deneyimleri tasarlıyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "El Yapımı Ürün Tasarımcıları",
+          "description": "El emeği ürünlerimi standart bir sitede değil, markamın ruhunu yansıtan estetik bir mağazada sergilemek istiyorum."
+        },
+        "startup": {
+          "title": "Butik Moda Markaları",
+          "description": "Özel koleksiyonlarımı, müşterilerime premium bir marka kimliği ve kusursuz bir alışveriş deneyimiyle sunmak istiyorum."
+        },
+        "growing": {
+          "title": "Özel Gıda ve Yerel Üreticiler",
+          "description": "Ürünlerimin kalitesini ve arkasındaki doğal hikayeyi müşterilerime doğru şekilde aktaracak bir mağaza istiyorum."
+        },
+        "global": {
+          "title": "Premium Lifestyle Markaları",
+          "description": "Hedef kitleme sıradan bir e-ticaret sitesinden öte, ilham veren ve aidiyet hissettiren bir marka deneyimi yaşatmak istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Butik Markalar İçin Özel E-Ticaret Deneyimi",
+      "paragraph1": "Görsel tasarımdan ödeme altyapısına kadar, mağazanızın her bir detayını markanızın kimliğine özel olarak kurguluyoruz.",
+      "paragraph2": "Shopify veya WooCommerce gibi güçlü altyapıları tamamen size özel özelleştiriyor ya da sıfırdan butik bir mimari geliştiriyoruz.",
+      "paragraph3": "Yayın sonrasında sadece teknik destekle kalmıyor; kampanya yönetimi, sosyal medya entegrasyonları ve büyüme stratejilerinizde de yanınızda oluyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Butik Mağazanız İçin Tüm Çözümler",
+      "cardDescription": "Online mağazanızın kusursuz çalışması için ihtiyaç duyacağınız tüm sistemleri kuruyoruz.",
+      "checklist": {
+        "item1": "Marka ruhunu yansıtan özgün tasarım",
+        "item2": "Hikaye ve duygu odaklı ürün sayfaları",
+        "item3": "Kesintisiz sosyal medya satış entegrasyonları",
+        "item4": "Müşteri sadakati ve kampanya sistemleri"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Butik Mağazanızda Neler Olacak?",
+    "subtitle": "Markanızı öne çıkaracak modern ve satış odaklı e-ticaret özellikleri",
+    "items": {
+      "custom": {
+        "title": "Özgün Mağaza Tasarımı",
+        "description": "Hazır ve sıkıcı şablonlar yerine, sadece sizin markanıza özel tasarlanmış modern bir dijital mağaza."
+      },
+      "payment": {
+        "title": "Hikaye Anlatan Ürün Sayfaları",
+        "description": "Ürünlerinizi sadece sergilemekle kalmayan, müşteriyle duygusal bağ kurarak satışa ikna eden özel sayfalar."
+      },
+      "mobile": {
+        "title": "Sosyal Medya Entegrasyonu",
+        "description": "Instagram ve diğer sosyal medya hesaplarınızı doğrudan, pürüzsüz bir satış kanalına dönüştüren altyapı."
+      },
+      "stock": {
+        "title": "Gelişmiş Ödeme Sistemleri",
+        "description": "Kredi kartı, taksit seçenekleri ve dijital cüzdan entegrasyonlarıyla güvenli ve hızlı ödeme deneyimi."
+      },
+      "seo": {
+        "title": "Mobil Öncelikli Tasarım",
+        "description": "Müşterilerinizin büyük kısmının mobilde olduğunun bilinciyle, kusursuz ve hızlı bir mobil alışveriş deneyimi."
+      },
+      "admin": {
+        "title": "Kampanya & Sadakat Sistemi",
+        "description": "İndirim kuponları, puan sistemleri ve tekrar satışları artıran gelişmiş pazarlama ve kampanya araçları."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Butik Markalar İçin Doğru Partner",
+    "subtitle": "Markanızın değerini anlayan ve onu büyütmek için tasarlanmış bir yaklaşım.",
+    "reasons": {
+      "reason1": {
+        "title": "Marka Odaklı Tasarım",
+        "description": "Butik markaların en büyük gücü hikayesidir. Tasarımlarımız bu hikayeyi en estetik şekilde yansıtır."
+      },
+      "reason2": {
+        "title": "Şeffaf Çalışma Süreci",
+        "description": "Projenin planlamasından yayına alınmasına kadar her aşamada sizi bilgilendirir, sürprizlere yer bırakmayız."
+      },
+      "reason3": {
+        "title": "Zamanında Teslimat",
+        "description": "Yeni sezon veya koleksiyon lansmanlarınıza yetişebilmeniz için hızlı ve planlı çalışırız."
+      },
+      "reason4": {
+        "title": "Dönüşüm Odaklı Yaklaşım",
+        "description": "Sadece görsel olarak etkileyici değil, aynı zamanda ziyaretçiyi satın almaya yönlendiren mağazalar tasarlarız."
+      },
+      "reason5": {
+        "title": "Kesintisiz Destek",
+        "description": "Yayın sonrası yeni ürün ekleme, kampanya kurgulama ve teknik ihtiyaçlarınızda yanınızdayız."
+      },
+      "reason6": {
+        "title": "Büyümeye Hazır Altyapı",
+        "description": "Bugün butik bir marka olabilirsiniz; yarın büyük kitlelere ulaşabilmeniz için ölçeklenebilir sistemler kurarız."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Mağazanızı Nasıl Kuruyoruz?",
+    "subtitle": "Markanızı dijitale taşırken uyguladığımız basit, şeffaf ve etkili adımlar.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Marka Analizi & Planlama",
+        "description": "Markanızın vizyonunu, hedef kitlenizi ve pazar konumunuzu detaylıca analiz ediyoruz.",
+        "tag": "1-2 Gün"
+      },
+      "design": {
+        "title": "Görsel Tasarım Süreci",
+        "description": "Mağazanızın estetik dilini oluşturuyor, arayüz tasarımlarını hazırlayıp onayınıza sunuyoruz.",
+        "tag": "3-5 Gün"
+      },
+      "development": {
+        "title": "Teknik Geliştirme",
+        "description": "Tasarımları koda döküyor, ürünlerinizi ekliyor ve güvenli ödeme altyapılarını entegre ediyoruz.",
+        "tag": "2-4 Hafta"
+      },
+      "launch": {
+        "title": "Yayın & Büyüme Desteği",
+        "description": "Mağazayı sorunsuz şekilde yayına alıyor ve ilk satışlarınızda teknik destek sağlıyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Butik mağaza kurulumu süreciyle ilgili aklınıza takılanlar.",
+    "items": {
+      "delivery": {
+        "question": "Butik e-ticaret sitesi ne kadar sürede hazır olur?",
+        "answer": "Projenin detaylarına ve ürün sayısına göre genellikle 3-6 hafta içerisinde yayına alınır."
+      },
+      "pricing": {
+        "question": "Fiyatlandırma nasıl belirlenir?",
+        "answer": "Mağazanın tasarım özelleştirmelerine, ürün hacmine ve istenen ekstra entegrasyonlara göre size özel belirlenir."
+      },
+      "revisions": {
+        "question": "Tasarımda revizyon hakkım var mı?",
+        "answer": "Evet, tasarım aşamasında içinize tam olarak sinene kadar gerekli revizyonları birlikte yapıyoruz."
+      },
+      "maintenance": {
+        "question": "Ürünleri ve stokları kendim yönetebilir miyim?",
+        "answer": "Kesinlikle. Size son derece kolay kullanımlı bir yönetim paneli sunuyor ve kullanım eğitimini veriyoruz."
+      },
+      "migration": {
+        "question": "Mevcut mağazamı (Etsy, Shopier vb.) taşıyabilir miyim?",
+        "answer": "Evet, Etsy, Instagram veya diğer platformlardaki ürün ve verilerinizi yeni mağazanıza eksiksiz taşıyabiliyoruz."
+      },
+      "mobile": {
+        "question": "Instagram Shop entegrasyonu yapıyor musunuz?",
+        "answer": "Evet. Instagram ve Facebook üzerinden doğrudan mağazanıza yönlendiren satış entegrasyonlarını kuruyoruz."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Butik Mağazanızı Birlikte İnşa Edelim",
+    "description": "Markanızın hikayesini dijitale taşımak için ücretsiz keşif görüşmemizi planlayalım.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}

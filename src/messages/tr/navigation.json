@@ -1,0 +1,41 @@
+{
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "projects": "Projelerimiz",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cta": "İletişime Geç",
+    "servicesMenu": {
+      "categories": {
+        "web": "Web & E-Ticaret",
+        "mobile": "Mobil Uygulamalar",
+        "growth": "Sosyal Medya & Tasarım",
+        "management": "Altyapı & Destek"
+      },
+      "items": {
+        "corporate": "Kurumsal Web Sitesi",
+        "ecommerce": "E-Ticaret Sistemleri",
+        "boutique": "Butik Mağaza Siteleri",
+        "portfolio": "Portfolyo & Kişisel Siteler",
+        "landing": "Tanıtım & Kampanya Siteleri",
+        "blog": "Haber & Blog Portalları",
+        "app": "iOS & Android Uygulamalar",
+        "qr": "QR Menü & Restoran Çözümleri",
+        "booking": "Randevu & Rezervasyon",
+        "social_media": "Sosyal Medya Yönetimi",
+        "uiux": "UI/UX & Arayüz Tasarımı",
+        "branding": "Kurumsal Kimlik & Post Tasarımı",
+        "ads": "Sosyal Medya Reklam Tasarımları",
+        "seo": "SEO & Arama Motoru Optimizasyonu",
+        "maintenance": "Web Bakım & Teknik Destek",
+        "security": "Güvenlik & Yedekleme",
+        "corporate_mail": "Kurumsal E-Posta & Altyapı"
+      },
+      "banner": {
+        "text": "Projeniz için ücretsiz keşif görüşmesi",
+        "cta": "Hemen İletişime Geç"
+      }
+    }
+  }
+}

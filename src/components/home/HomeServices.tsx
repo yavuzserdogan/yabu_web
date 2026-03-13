@@ -14,6 +14,28 @@ import {
   ArrowUpRight, CheckCircle2
 } from "lucide-react";
 
+const SERVICE_SLUG_MAP: Record<string, string> = {
+  corporate: "corporate-web",
+  ecommerce: "e-commerce",
+  boutique: "boutique",
+  portfolio: "portfolio",
+  landing: "landing",
+
+  app: "mobile-app",
+  qr: "qr-menu",
+  booking: "booking",
+
+  social_media: "social-media",
+  uiux: "ui-ux",
+  branding: "branding",
+  ads: "ads",
+
+  seo: "seo",
+  maintenance: "maintenance",
+  security: "security",
+  corporate_mail: "corporate-mail",
+};
+
 const ICONS: Record<string, ElementType> = {
   monitor: Monitor, shoppingCart: ShoppingCart, layout: LayoutTemplate,
   newspaper: Newspaper, smartphone: Smartphone, cloud: Cloud,
@@ -190,9 +212,12 @@ export function HomeServices() {
                           <ArrowUpRight size={15} />
                         </button>
                       </Link>
-                      <button className="text-sm font-medium text-white hover:text-slate-200 transition-colors cursor-pointer">
+                      <Link
+                        href={`/services/${SERVICE_SLUG_MAP[activeItem]}`}
+                        className="text-sm font-medium text-white hover:text-slate-200 transition-colors"
+                      >
                         {t("secondaryCta")} →
-                      </button>
+                      </Link>
                     </div>
                   </motion.div>
                 </AnimatePresence>

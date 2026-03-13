@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "iOS & Android Mobil Uygulamalar"
+  },
+  "hero": {
+    "titleMain": "Kullanıcıları Markanıza Bağlayan",
+    "titleAccent": "iOS & Android Mobil Uygulamalar",
+    "description": "Fikirden App Store'a kadar; kullanıcı alışkanlıklarını şekillendiren, yüksek performanslı ve ölçeklenebilir mobil uygulamalar geliştiriyoruz."
+  },
+  "overview": {
+    "whatIs": {
+      "label": "Bu Sayfa Sizin İçin Mi?",
+      "title": "İşiniz Müşterilerinizin Cebinde Yaşamalı",
+      "paragraph1": "Web siteniz masaüstünde harika olabilir; ancak iş akışlarını yönetmek, müşterilerinizle anlık bağ kurmak veya marka sadakati yaratmak istediğinizde web tarayıcıları yetersiz kalır.",
+      "paragraph2": "Mobil uygulamalar artık sadece büyük teknoloji devlerine özgü bir lüks değil. Anlık bildirimler (push notifications), çevrimdışı çalışma ve donanım entegrasyonları ile kullanıcılarınıza web'in asla sunamayacağı bir pürüzsüzlük sağlayın.",
+      "paragraph3": "Sybor Digital olarak, Flutter ve native teknolojilerin gücünü kullanarak hem iOS hem de Android ekosisteminde kusursuz çalışan, premium mobil deneyimler geliştiriyoruz.",
+      "audiences": {
+        "physical": {
+          "title": "Yenilikçi Bir Fikri Olan Girişimciler",
+          "description": "Uygulama fikrimi hızlıca test edilebilir bir MVP'ye dönüştürmek, pazarda doğrulamak ve güvenle büyütmek istiyorum."
+        },
+        "startup": {
+          "title": "Operasyonunu Büyüten İşletmeler",
+          "description": "Müşterilerim veya sahadaki ekibim için iş süreçlerimi hızlandıracak ve dijitalleştirecek özel bir mobil uygulamaya ihtiyacım var."
+        },
+        "growing": {
+          "title": "E-Ticaret ve Satış Odaklı Markalar",
+          "description": "Mevcut e-ticaret sitemin yanına, müşteri sadakatini ve tekrar satışları ciddi oranda artıracak bir mobil uygulama eklemek istiyorum."
+        },
+        "global": {
+          "title": "Hizmet Sektörü Profesyonelleri",
+          "description": "Randevu, rezervasyon veya sipariş gibi hizmetlerimi müşterimin doğrudan cebinden yönetebileceği modern bir altyapı istiyorum."
+        }
+      }
+    },
+    "whatWeDo": {
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Fikirden App Store'a Uçtan Uca Geliştirme",
+      "paragraph1": "Kullanıcı deneyimi (UX) araştırmalarından arayüz tasarımına, yazılım geliştirmeden mağaza yayın süreçlerine kadar projenizin her adımını tek elden yönetiyoruz.",
+      "paragraph2": "Gelişmiş Flutter mimarisiyle tek kod tabanından hem iOS hem Android'e eşzamanlı çıkış yapıyor, performans kaybı yaşatmadan zaman ve maliyet tasarrufu sağlıyoruz.",
+      "paragraph3": "Uygulamanız marketlere girdikten sonra da sizi yalnız bırakmıyor; analitik takibi, performans optimizasyonu ve yeni versiyon güncellemeleriyle büyümenizi destekliyoruz.",
+      "badge": "Hizmet Kapsamı",
+      "cardTitle": "Uçtan Uca Mobil Çözüm",
+      "cardDescription": "Başarılı bir mobil uygulama için gereken tüm teknik ve stratejik altyapı.",
+      "checklist": {
+        "item1": "iOS ve Android için eşzamanlı native deneyim",
+        "item2": "Güvenli ve ölçeklenebilir backend entegrasyonları",
+        "item3": "Akıllı anlık bildirim ve kullanıcı analitiği",
+        "item4": "App Store & Google Play onay ve yayın yönetimi"
+      }
+    }
+  },
+  "features": {
+    "label": "Özellikler",
+    "title": "Uygulamanızda Neler Olacak?",
+    "subtitle": "Kullanıcıların telefonlarından silmek istemeyeceği uygulamalar yaratan altyapılar",
+    "items": {
+      "custom": {
+        "title": "Cross-Platform Mimarisi",
+        "description": "Flutter ile tek bir kod tabanı kullanarak her iki platformda da native hissi veren, yüksek performanslı uygulamalar."
+      },
+      "payment": {
+        "title": "Kusursuz UI/UX Tasarımı",
+        "description": "Kullanıcı alışkanlıklarını merkeze alan, başparmak dostu, sezgisel ve pürüzsüz mobil arayüz tasarımları."
+      },
+      "mobile": {
+        "title": "Güçlü Backend & API",
+        "description": "Uygulamanızın kalbi olan; binlerce anlık kullanıcıyı kaldırabilecek ölçeklenebilir, güvenli bulut mimarisi ve API'lar."
+      },
+      "stock": {
+        "title": "Akıllı Bildirim Sistemleri",
+        "description": "Doğru zamanda doğru mesajı ileterek kullanıcıları uygulamanıza geri döndüren kişiselleştirilmiş push bildirimleri."
+      },
+      "seo": {
+        "title": "Gelişmiş Analitik & Takip",
+        "description": "Uygulama içi kullanıcı davranışlarını, ekran sürelerini ve olası sorunları anlık takip edebileceğiniz veri altyapısı."
+      },
+      "admin": {
+        "title": "Uçtan Uca Mağaza Yönetimi",
+        "description": "Apple App Store ve Google Play'in zorlu onay süreçlerini, mağaza optimizasyonu (ASO) dahil olmak üzere adınıza yönetiyoruz."
+      }
+    }
+  },
+  "whyUs": {
+    "label": "Neden Sybor Digital?",
+    "title": "Doğru Teknoloji Partneriniz",
+    "subtitle": "Sadece kod yazan değil, uygulamanızı bir 'ürün' olarak sahiplenen teknoloji ekibi.",
+    "reasons": {
+      "reason1": {
+        "title": "Ürün Yöneticisi Zihniyeti",
+        "description": "Sadece yazılımcı olarak bakmıyoruz. Hedef kitlenizi analiz ediyor, gereksiz özellikleri eleyerek doğru ürüne odaklanıyoruz."
+      },
+      "reason2": {
+        "title": "Şeffaf ve Çevik Süreç",
+        "description": "Agile metodolojiyle çalışıyor, her geliştirme döngüsü (sprint) sonunda size test edilebilir demolar sunarak sürprizleri ortadan kaldırıyoruz."
+      },
+      "reason3": {
+        "title": "Hızlı Pazar Girişi (MVP)",
+        "description": "Fikrinizi aylarca bekletmiyor, temel değer önerinizi (MVP) 6-10 hafta gibi kısa bir sürede test edilebilir şekilde pazara sunuyoruz."
+      },
+      "reason4": {
+        "title": "Modern Teknoloji Yığını",
+        "description": "Flutter, Node.js ve modern bulut servisleriyle yarının büyüme senaryolarına bugünden hazır mimariler kuruyoruz."
+      },
+      "reason5": {
+        "title": "Kesintisiz Bakım ve Destek",
+        "description": "İşletim sistemlerine gelen her yeni güncellemeyle uyumluluğunuzu sağlıyor, uygulamanızı teknik olarak hep zinde tutuyoruz."
+      },
+      "reason6": {
+        "title": "Ölçeklenebilir Mimari",
+        "description": "Bugün 100 kullanıcıyla başlasanız bile, yarın 100.000 anlık kullanıcıyı kaldırabilecek sağlamlıkta bir altyapı tasarlıyoruz."
+      }
+    }
+  },
+  "process": {
+    "label": "Süreç",
+    "title": "Uygulamanızı Nasıl Geliştiriyoruz?",
+    "subtitle": "Fikrinizi milyonlarca cihaza ulaştıracak kanıtlanmış geliştirme sürecimiz.",
+    "stepLabel": "Adım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif & Ürün Mimarisi",
+        "description": "Kullanıcı hikayelerini ve teknik gereksinimleri analiz ederek uygulamanın öncelikli özellik listesini (Backlog) çıkarıyoruz.",
+        "tag": "1-2 Hafta"
+      },
+      "design": {
+        "title": "UI/UX Tasarım Süreci",
+        "description": "Marka kimliğinize uygun yüksek kaliteli mobil arayüz tasarımlarını hazırlıyor ve interaktif prototiplerle test ediyoruz.",
+        "tag": "2-3 Hafta"
+      },
+      "development": {
+        "title": "Çevik Geliştirme (Agile)",
+        "description": "Projeyi sprintlere bölerek kodluyor, her iki haftada bir çalışan demolar üzerinden geri bildirimlerinizi alıyoruz.",
+        "tag": "6-12 Hafta"
+      },
+      "launch": {
+        "title": "Mağaza Yayını & Büyüme",
+        "description": "App Store ve Google Play test süreçlerini geçip uygulamayı yayınlıyor, gerçek kullanıcı verileriyle optimize etmeye devam ediyoruz.",
+        "tag": "Sürekli"
+      }
+    }
+  },
+  "faq": {
+    "label": "SSS",
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Mobil uygulama geliştirme süreciyle ilgili merak edilenler.",
+    "items": {
+      "delivery": {
+        "question": "Uygulamanın hazır olması ne kadar sürer?",
+        "answer": "Temel özelliklere sahip bir MVP genellikle 6-10 hafta içinde test edilebilir hale gelir. Kapsamlı projelerde bu süre özelliklere göre belirlenir."
+      },
+      "pricing": {
+        "question": "Mobil uygulama maliyetleri nasıl belirleniyor?",
+        "answer": "Uygulamanın içerdiği özellik setine, arka plan (backend) karmaşıklığına ve entegrasyon ihtiyaçlarına göre size özel ve şeffaf bir teklif hazırlıyoruz."
+      },
+      "revisions": {
+        "question": "Geliştirme aşamasında yeni fikirler ekleyebilir miyiz?",
+        "answer": "Çevik (Agile) çalıştığımız için geri bildirimlerinizi sprintler halinde sürece dahil edebiliyoruz. Ana mimariyi etkileyen büyük değişimleri birlikte planlıyoruz."
+      },
+      "maintenance": {
+        "question": "Yayından sonra uygulamanın güncel kalmasını kim sağlıyor?",
+        "answer": "Apple ve Google'ın yeni işletim sistemi güncellemelerine karşı uygulamanızı test ediyor ve bakım paketlerimizle sorunsuz çalışmasını güvence altına alıyoruz."
+      },
+      "migration": {
+        "question": "Web sitemi mobil uygulamaya (WebView) dönüştürüyor musunuz?",
+        "answer": "Basit ve düşük performanslı WebView çözümleri yerine, cihaz donanımını tam kapasite kullanan gerçek (Native/Cross-Platform) uygulamalar geliştiriyoruz."
+      },
+      "mobile": {
+        "question": "Web sitem zaten mobil uyumlu, neden ayrıca bir uygulamaya ihtiyacım var?",
+        "answer": "Uygulamalar telefonun ana ekranında yer alarak marka sadakati yaratır. Ayrıca anlık bildirimler ve daha hızlı arayüz ile dönüşüm oranlarınızı web'in çok ötesine taşır."
+      }
+    }
+  },
+  "cta": {
+    "label": "Hadi Başlayalım",
+    "title": "Mobil Uygulamanızı Birlikte Hayata Geçirelim",
+    "description": "Fikrinizi App Store ve Google Play'de zirveye taşıyacak ücretsiz keşif görüşmemizi planlamak için iletişime geçin.",
+    "primaryButton": "Teklif Al",
+    "secondaryButton": "WhatsApp'tan Yaz"
+  }
+}
