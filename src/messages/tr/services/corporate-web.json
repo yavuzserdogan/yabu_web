@@ -5,43 +5,43 @@
   "hero": {
     "titleMain": "Markanızı Yansıtan",
     "titleAccent": "Kurumsal Web Siteleri",
-    "description": "Dijital varlığınızı güçlendiren, güven yaratan ve markanıza özel modern kurumsal web siteleri tasarlayıp geliştiriyoruz."
+    "description": "Markanızın güvenilirliğini ve profesyonelliğini yansıtan, modern ve yüksek performanslı kurumsal web siteleri tasarlıyor ve geliştiriyoruz."
   },
   "overview": {
     "whatIs": {
       "label": "Bu Sayfa Sizin İçin Mi?",
       "title": "Online Varlığınız Markanızla Örtüşüyor Mu?",
-      "paragraph1": "Potansiyel bir müşteri sizi Google'da aradığında ne buluyor? Eski, amatör duran bir site mi — yoksa markanızın gücünü yansıtan profesyonel bir dijital yüz mü?",
-      "paragraph2": "Kurumsal web siteniz sadece bir vitrin değil — potansiyel müşterilerin sizi değerlendirdiği ilk ve en kritik temas noktasıdır. İlk izlenim her şeydir.",
-      "paragraph3": "Sybor Digital olarak şirketinizin değerlerini, vizyonunu ve güvenilirliğini en iyi şekilde yansıtan kurumsal web siteleri tasarlayıp geliştiriyoruz.",
+      "paragraph1": "Potansiyel müşterileriniz sizi internette aradığında gördükleri web sitesi, markanız hakkında ilk izlenimi oluşturur. Eski veya amatör görünen bir site güven kaybettirebilir.",
+      "paragraph2": "Kurumsal web siteniz yalnızca bir vitrin değildir. Markanızın güvenilirliğini, profesyonelliğini ve değerini gösteren en önemli dijital temas noktalarından biridir.",
+      "paragraph3": "Sybor Digital olarak markanızın gücünü doğru şekilde yansıtan, modern, hızlı ve kullanıcı dostu kurumsal web siteleri tasarlıyor ve geliştiriyoruz.",
       "audiences": {
         "physical": {
-          "title": "Köklü bir şirket yönetiyorum",
-          "description": "Mevcut sitem eski ve markamı yansıtmıyor, yenilemek istiyorum."
+          "title": "Köklü Şirket Yöneticileri",
+          "description": "Mevcut web sitem markamı artık doğru temsil etmiyor. Daha modern ve profesyonel bir kurumsal siteye geçmek istiyorum."
         },
         "startup": {
-          "title": "Şirketi yeni kurdum",
-          "description": "Güçlü bir kurumsal site ile profesyonel başlangıç yapmak istiyorum."
+          "title": "Yeni Girişimler ve Şirketler",
+          "description": "Sektöre profesyonel bir giriş yapmak ve markamı dijitalde güçlü bir şekilde temsil edecek bir web sitesi kurmak istiyorum."
         },
         "growing": {
-          "title": "Kurumsal kimliğimi yeniliyorum",
-          "description": "Yeni kimliğimi dijital dünyaya taşıyacak modern bir site lazım."
+          "title": "Marka Kimliğini Yenileyenler",
+          "description": "Yeni vizyonumuzu ve kurumsal kimliğimizi dijital dünyada prestijli bir şekilde yansıtacak bir siteye ihtiyacım var."
         },
         "global": {
-          "title": "B2B satış yapıyorum",
-          "description": "Kurumsal müşteriler için güven veren, referans odaklı bir site istiyorum."
+          "title": "B2B Hizmet Veren Firmalar",
+          "description": "Kurumsal müşterilerime güven veren, hizmetlerimi ve referanslarımı güçlü bir altyapıyla sunabileceğim bir web sitesi istiyorum."
         }
       }
     },
     "whatWeDo": {
       "label": "Neler Yapıyoruz?",
       "title": "Uçtan Uca Kurumsal Web Çözümleri",
-      "paragraph1": "Stratejik planlama ve tasarımdan geliştirme ve yayına alıma kadar tüm süreci profesyonelce yönetiyoruz.",
-      "paragraph2": "Hem estetik hem performans odaklı çalışıyoruz. Her cihazda kusursuz çalışan, hızlı yüklenen ve SEO dostu siteler geliştiriyoruz.",
-      "paragraph3": "Site yayına girdikten sonra da yanınızdayız. İçerik güncellemeleri, teknik bakım ve büyüme stratejileri için destek sağlıyoruz.",
+      "paragraph1": "Kurumsal web sitenizin tüm sürecini strateji, tasarım ve geliştirme aşamalarıyla birlikte planlıyoruz.",
+      "paragraph2": "Hızlı, mobil uyumlu ve SEO dostu altyapılar geliştirerek web sitenizin hem kullanıcı deneyimi hem performans açısından güçlü olmasını sağlıyoruz.",
+      "paragraph3": "Site yayına alındıktan sonra da teknik destek, içerik güncellemeleri ve geliştirme süreçlerinde yanınızda olmaya devam ediyoruz.",
       "badge": "Hizmet Kapsamı",
       "cardTitle": "Tam Kurumsal Çözüm",
-      "cardDescription": "Kurumsal web projenizin ihtiyaç duyduğu her şey tek çatı altında.",
+      "cardDescription": "Kurumsal web sitenizin ihtiyaç duyduğu tüm hizmetleri tek bir ekip ile sunuyoruz.",
       "checklist": {
         "item1": "Marka kimliğine uygun özel tasarım",
         "item2": "SEO ve performans optimizasyonu",
@@ -57,58 +57,58 @@
     "items": {
       "custom": {
         "title": "Özel Kurumsal Tasarım",
-        "description": "Marka kimliğinize uygun, sıfırdan tasarlanan özgün arayüzler. Şablon yok — her şey size özel yapılır."
+        "description": "Marka kimliğinize uygun, tamamen size özel tasarlanan modern ve profesyonel arayüzler geliştiriyoruz."
       },
       "payment": {
         "title": "İçerik Yönetim Sistemi",
-        "description": "Teknik bilgi gerektirmeden içerik ekleyip düzenleyebileceğiniz kullanıcı dostu admin paneli."
+        "description": "Teknik bilgi gerektirmeden içerik ekleyip düzenleyebileceğiniz kullanıcı dostu bir yönetim paneli sunuyoruz."
       },
       "mobile": {
         "title": "Çok Dilli Yapı",
-        "description": "TR, EN ve daha fazlası. Uluslararası pazarlara açılmak için tam lokalizasyon desteği."
+        "description": "Uluslararası pazarlara ulaşabilmeniz için çok dilli ve lokalizasyon destekli altyapı sağlıyoruz."
       },
       "stock": {
         "title": "SEO & Teknik Optimizasyon",
-        "description": "Sayfa hızı, meta yapısı ve teknik SEO optimizasyonu ile Google'da üst sıralara çıkın."
+        "description": "Teknik SEO ve performans optimizasyonu ile web sitenizin arama motorlarında daha görünür olmasını sağlıyoruz."
       },
       "seo": {
         "title": "CRM & Araç Entegrasyonları",
-        "description": "HubSpot, Salesforce, Google Analytics ve daha fazlasıyla sorunsuz entegrasyon."
+        "description": "Google Analytics, CRM sistemleri ve diğer iş araçlarıyla sorunsuz entegrasyon sağlıyoruz."
       },
       "admin": {
         "title": "Güvenlik & SSL",
-        "description": "HTTPS, güvenlik sertifikaları ve düzenli yedeklemelerle verileriniz her zaman korunur."
+        "description": "SSL sertifikaları, güvenlik önlemleri ve düzenli yedekleme sistemleri ile sitenizi koruma altına alıyoruz."
       }
     }
   },
   "whyUs": {
     "label": "Neden Biz",
     "title": "Neden Sybor Digital?",
-    "subtitle": "Butik yaklaşım, kurumsal disiplin. Projenize gerçekten değer katan bir ekip.",
+    "subtitle": "Butik yaklaşım, kurumsal disiplin. Projenize gerçek değer katan bir ekip.",
     "reasons": {
       "reason1": {
         "title": "Strateji Önce Gelir",
-        "description": "Sadece güzel site değil, stratejik yapı kuruyoruz. Hedef kitlenizi, rakiplerinizi ve iş hedeflerinizi anlayarak ilerliyoruz."
+        "description": "Web sitenizi tasarlamadan önce hedef kitlenizi, rakiplerinizi ve iş hedeflerinizi analiz ediyoruz."
       },
       "reason2": {
         "title": "Şeffaf İletişim",
-        "description": "Her aşamada bilgilendirilirsiniz. Sürpriz maliyet, gecikme veya belirsizlik olmaz."
+        "description": "Proje sürecinin her aşamasında sizi bilgilendiriyor ve tüm adımları şeffaf şekilde yönetiyoruz."
       },
       "reason3": {
         "title": "Zamanında Teslimat",
-        "description": "Deadline'lara uyuyoruz. Gereksiz bürokratik yavaşlık olmadan hızlı ve kaliteli teslim ediyoruz."
+        "description": "Belirlenen zaman planına sadık kalarak projenizi zamanında teslim ediyoruz."
       },
       "reason4": {
         "title": "Modern Teknoloji",
-        "description": "Next.js, headless CMS ve modern altyapılarla geleceğe hazır, ölçeklenebilir siteler kuruyoruz."
+        "description": "Modern web teknolojileri ile hızlı, güvenli ve ölçeklenebilir web siteleri geliştiriyoruz."
       },
       "reason5": {
         "title": "Yayın Sonrası Destek",
-        "description": "Site yayına girdikten sonra da yanınızdayız. Teknik destek ve içerik güncellemelerinde yardımcı oluyoruz."
+        "description": "Site yayına girdikten sonra da teknik destek ve içerik güncellemelerinde yanınızda oluyoruz."
       },
       "reason6": {
         "title": "Uzun Vadeli Ortaklık",
-        "description": "Proje bazlı değil, uzun vadeli ilişkiler kuruyoruz. Müşterilerimizle birlikte büyüyoruz."
+        "description": "Tek seferlik projeler yerine uzun vadeli iş ortaklıkları kurmayı hedefliyoruz."
       }
     }
   },
@@ -120,22 +120,22 @@
     "steps": {
       "discovery": {
         "title": "Keşif & Strateji",
-        "description": "Şirketinizi, hedeflerinizi ve rakiplerinizi analiz ediyoruz. İçerik mimarisini ve site yapısını birlikte planlıyoruz.",
+        "description": "Şirketinizi, hedeflerinizi ve rakiplerinizi analiz ederek web sitenizin doğru yapısını planlıyoruz.",
         "tag": "1-3 Gün"
       },
       "design": {
         "title": "Tasarım & Onay",
-        "description": "Marka kimliğinizi yansıtan wireframe ve UI tasarımları hazırlıyoruz. Geri bildirimlerinizle şekillendiriyoruz.",
+        "description": "Marka kimliğinizi yansıtan tasarımlar hazırlıyor ve geri bildirimleriniz doğrultusunda geliştiriyoruz.",
         "tag": "3-7 Gün"
       },
       "development": {
         "title": "Geliştirme & Test",
-        "description": "Temiz kod, hızlı performans ve tarayıcı uyumluluğuyla sitenizi geliştiriyoruz. Her aşamada test ediyoruz.",
+        "description": "Web sitenizi modern teknolojilerle geliştiriyor ve performans testlerinden geçiriyoruz.",
         "tag": "2-4 Hafta"
       },
       "launch": {
         "title": "Yayın & Eğitim",
-        "description": "Siteyi canlıya alıyor, ekibinizi CMS konusunda eğitiyor ve süregelen destek sağlıyoruz.",
+        "description": "Siteyi yayına alıyor, yönetim paneli kullanımını gösteriyor ve teknik destek sağlıyoruz.",
         "tag": "Süregelen"
       }
     }
@@ -147,34 +147,34 @@
     "items": {
       "delivery": {
         "question": "Kurumsal site kaç günde hazır olur?",
-        "answer": "Kapsama göre genellikle 3-6 hafta. Keşif görüşmesinden sonra size özel zaman çizelgesi sunuyoruz."
+        "answer": "Projenin kapsamına bağlı olarak genellikle 3-6 hafta içerisinde tamamlanır."
       },
       "pricing": {
         "question": "Fiyatlar nasıl belirlenir?",
-        "answer": "Sayfa sayısı, özellikler ve entegrasyon gereksinimlerine göre belirlenir. Ücretsiz görüşme sonrası net teklif sunuyoruz."
+        "answer": "Sayfa sayısı, özellikler ve entegrasyon ihtiyaçlarına göre size özel teklif hazırlanır."
       },
       "revisions": {
         "question": "Kaç revizyon hakkım var?",
-        "answer": "Tasarım aşamasında sınırsız revizyon hakkı. Geliştirme aşamasındaki değişiklikler belirlenen kapsam dahilinde yapılır."
+        "answer": "Tasarım aşamasında gerekli revizyonlar birlikte yapılır ve site onayınızla ilerler."
       },
       "maintenance": {
         "question": "Yayın sonrası destek var mı?",
-        "answer": "Evet. Yayın sonrası 3 aylık ücretsiz teknik destek. Sonrasında aylık bakım paketlerimizden birini tercih edebilirsiniz."
+        "answer": "Evet. Yayın sonrası teknik destek ve bakım hizmetleri sunuyoruz."
       },
       "migration": {
         "question": "Mevcut siteyi taşıyabilir misiniz?",
-        "answer": "Evet. Mevcut içeriklerinizi, görsellerinizi ve SEO değerlerinizi kayıpsız yeni siteye aktarıyoruz."
+        "answer": "Evet. Mevcut içeriklerinizi ve SEO değerlerinizi koruyarak yeni siteye taşıyabiliyoruz."
       },
       "mobile": {
         "question": "Mobil uyumlu olacak mı?",
-        "answer": "Kesinlikle. Tüm sitelerimizi mobil öncelikli yaklaşımla geliştiriyoruz. Her cihazda kusursuz çalışır."
+        "answer": "Evet. Tüm siteler mobil uyumlu olarak geliştirilir ve tüm cihazlarda sorunsuz çalışır."
       }
     }
   },
   "cta": {
     "label": "Hadi Başlayalım",
     "title": "Kurumsal Dijital Varlığınızı Birlikte Kuralım",
-    "description": "Ücretsiz keşif görüşmesi için hemen iletişime geçin. Size özel çözümler sunmak için buradayız.",
+    "description": "Ücretsiz keşif görüşmesi için bizimle iletişime geçin. Projenizi birlikte planlayalım.",
     "primaryButton": "Teklif Al",
     "secondaryButton": "WhatsApp'tan Yaz"
   }

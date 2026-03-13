@@ -3,139 +3,139 @@
     "title": "QR Menu & Restaurant Solutions"
   },
   "hero": {
-    "titleMain": "Transforming the Restaurant Experience,",
+    "titleMain": "Digitizing the Restaurant Experience",
     "titleAccent": "QR Menu & Restaurant Solutions",
-    "description": "From paper menus to digital — from tableside ordering to kitchen displays, we build smart solutions that modernize your restaurant."
+    "description": "Eliminate paper menu costs. We build hygienic and smart restaurant systems that accelerate your business, from table ordering to Kitchen Display Systems (KDS)."
   },
   "overview": {
     "whatIs": {
       "label": "Is This Page For You?",
-      "title": "Is Your Restaurant Ready for the Digital Age?",
-      "paragraph1": "Paper menus wear out, take time to update and raise hygiene concerns. Order mistakes, long wait times and staff workload make running your restaurant harder.",
-      "paragraph2": "QR menus are no longer just a trend — they've become a standard requirement for restaurants in terms of speed, hygiene and customer experience.",
-      "paragraph3": "At Sybor Digital, we build digital solutions tailored to your restaurant — from QR menus to tableside ordering, kitchen displays to loyalty programs.",
+      "title": "Is Your Business Ready for Next-Gen Customer Experience?",
+      "paragraph1": "Worn-out paper menus, outdated prices, and order chaos during peak hours cost your business both prestige and customers.",
+      "paragraph2": "QR menu systems are no longer a passing trend; they are an indispensable standard for any modern restaurant seeking speed, hygiene, and operational efficiency.",
+      "paragraph3": "As Sybor Digital, we don't just build a simple digital menu; we install end-to-end restaurant automation including table ordering, contactless payments, kitchen displays, and loyalty programs.",
       "audiences": {
         "physical": {
-          "title": "I have a restaurant or café",
-          "description": "I want to streamline my operations with a QR menu and ordering system."
+          "title": "Restaurant & Cafe Owners",
+          "description": "I want to offer a modern experience to my customers and streamline my ordering operations with a QR menu system."
         },
         "startup": {
-          "title": "I manage a chain of venues",
-          "description": "I want centralized menu management across all my branches."
+          "title": "Chain Business Managers",
+          "description": "I want to manage the menus, prices, and instant campaigns of all my branches simultaneously from a single central hub."
         },
         "growing": {
-          "title": "I have a hotel or resort",
-          "description": "I want to digitize room service and restaurant orders."
+          "title": "Hotel & Facility Managers",
+          "description": "I want to set up a digital infrastructure where my guests can easily place room service and restaurant orders from their own phones."
         },
         "global": {
-          "title": "I'm in a food court or mall",
-          "description": "I want a digital menu system suited to multi-venue management."
+          "title": "Food Courts & Multi-Vendor Venues",
+          "description": "I want a unified digital menu system that gathers different cuisines on a single screen and eliminates ordering confusion."
         }
       }
     },
     "whatWeDo": {
-      "label": "What We Do",
-      "title": "We Digitize Your Restaurant End to End",
-      "paragraph1": "We set up the entire flow — from a digital menu that opens with a QR scan to tableside order terminals, kitchen displays to payment systems.",
-      "paragraph2": "Update the menu yourself — no technical support needed to change prices, add daily specials or introduce seasonal menus.",
-      "paragraph3": "We help you manage your restaurant with data through order analytics, best-selling product reports and customer feedback.",
+      "label": "How We Help You",
+      "title": "Digitizing Your Restaurant from End to End",
+      "paragraph1": "We transform the entire process into a seamless ecosystem, from your customer scanning the QR code at the table to the order dropping into the kitchen and the bill being paid digitally.",
+      "paragraph2": "Thanks to our dynamic admin panel, you can update prices, hide out-of-stock items, or publish the daily menu in seconds. You won't need technical support.",
+      "paragraph3": "By analyzing order data, we identify your most profitable items, report peak hours, and help you increase your revenue by making data-driven decisions.",
       "badge": "Scope of Service",
-      "cardTitle": "Restaurant Digital Transformation Package",
-      "cardDescription": "Every digital solution your restaurant needs — under one roof.",
+      "cardTitle": "Comprehensive Restaurant Solution",
+      "cardDescription": "All the digital systems that will increase the speed and profitability of your business under one roof.",
       "checklist": {
-        "item1": "QR code digital menu",
-        "item2": "Tableside ordering and payment system",
-        "item3": "Kitchen display system (KDS) integration",
-        "item4": "Centralized menu management panel"
+        "item1": "Dynamic and multi-language QR digital menu",
+        "item2": "Table ordering and contactless payment infrastructure",
+        "item3": "Kitchen Display System (KDS) integration",
+        "item4": "Advanced analytics and centralized admin panel"
       }
     }
   },
   "features": {
     "label": "Features",
-    "title": "What We Offer",
-    "subtitle": "Digital solutions to modernize your restaurant",
+    "title": "What is Included in Our System?",
+    "subtitle": "Modern tools to perfect your restaurant operations",
     "items": {
       "custom": {
         "title": "Dynamic QR Menu",
-        "description": "A photo-rich, categorized and filterable digital menu. Price and content updates reflect instantly."
+        "description": "Advanced menu with photos, multiple languages, and allergen warnings. Price and stock changes instantly reflect on the customer's screen."
       },
       "payment": {
-        "title": "Tableside Ordering System",
-        "description": "Customers can order from their table. Staff efficiency increases with a call waiter feature."
+        "title": "Table Ordering System",
+        "description": "Customers can place orders and send extra requests without waiting for a waiter. Table turnover rate and staff efficiency hit maximum levels."
       },
       "mobile": {
         "title": "Kitchen Display System (KDS)",
-        "description": "Orders go directly to the kitchen display. Paper tickets and miscommunication are eliminated."
+        "description": "Orders are sent directly to the kitchen screen in seconds. Lost paper tickets and communication errors between staff are completely eliminated."
       },
       "stock": {
-        "title": "Integrated Payment System",
-        "description": "Pay at the table, split bills and digital receipts. Credit card, cash and digital wallet support."
+        "title": "Integrated Payment Infrastructure",
+        "description": "Customers can request the check, split the bill, or make direct contactless payments via credit card or digital wallet without leaving the table."
       },
       "seo": {
-        "title": "Loyalty Program",
-        "description": "Points system, birthday discounts and special campaign tools that bring customers back."
+        "title": "Customer Loyalty Program",
+        "description": "Point systems, birthday discounts, and personalized campaigns that keep your customers coming back."
       },
       "admin": {
-        "title": "Sales Analytics",
-        "description": "Make data-driven decisions with best-selling products, peak hours and table occupancy rates."
+        "title": "Advanced Sales Analytics",
+        "description": "Which item sells more, which hours are busiest? Manage your restaurant with data, not assumptions, using instant reports."
       }
     }
   },
   "whyUs": {
-    "label": "Why Us",
-    "title": "Why Sybor Digital?",
-    "subtitle": "A team that understands the operational needs of the restaurant industry.",
+    "label": "Why Sybor Digital?",
+    "title": "The Right Partner for the Restaurant Industry",
+    "subtitle": "A tech team that perfectly understands the rush in the kitchen and the expectations in the dining room.",
     "reasons": {
       "reason1": {
-        "title": "We Know the Industry",
-        "description": "We understand restaurant operations. Our solutions are designed around real workflows."
+        "title": "Mastery of Industry Dynamics",
+        "description": "We know that restaurant operations require speed and zero errors. We optimize our systems according to real service workflows."
       },
       "reason2": {
-        "title": "Easy Setup",
-        "description": "We install the system, provide training and configure everything. No technical knowledge required."
+        "title": "Frictionless Setup",
+        "description": "We install your system, digitize your menus, and train your staff. All you have to do is welcome the orders."
       },
       "reason3": {
-        "title": "Fast Deployment",
-        "description": "We typically deploy the core QR menu system within 1-2 weeks."
+        "title": "Agile Integration",
+        "description": "No need to halt your business for days. We rapidly deploy basic QR menu systems without disrupting operations."
       },
       "reason4": {
-        "title": "Centralized Management",
-        "description": "Multi-branch venues can manage all menus from a single panel."
+        "title": "Centralized Branch Management",
+        "description": "From a single cafe to chain restaurants with dozens of branches, we offer scalable infrastructures where you can manage all locations from one screen."
       },
       "reason5": {
-        "title": "24/7 Technical Support",
-        "description": "A system issue during service hours is unacceptable. We guarantee rapid response."
+        "title": "Uninterrupted Technical Support",
+        "description": "It is unacceptable for your system to go down on a busy Saturday night. We guarantee instant intervention for potential technical needs."
       },
       "reason6": {
-        "title": "Built to Scale",
-        "description": "As you grow from one restaurant to a chain, the system grows with you. Scalable infrastructure is standard."
+        "title": "Compatibility with Existing Systems",
+        "description": "We don't just build an independent structure; we develop integrated architectures that can communicate with your compatible POS and ticketing systems."
       }
     }
   },
   "process": {
     "label": "Process",
-    "title": "How We Work",
-    "subtitle": "We digitize your restaurant quickly.",
+    "title": "How Do We Install the System?",
+    "subtitle": "Fast and planned steps we take while digitizing your business.",
     "stepLabel": "Step",
     "steps": {
       "discovery": {
-        "title": "Needs Analysis",
-        "description": "We analyze your restaurant's operational needs, menu structure and service flow.",
+        "title": "Needs and Operations Analysis",
+        "description": "We plan the right infrastructure for you by examining your restaurant's table layout, kitchen workflow, and menu structure.",
         "tag": "1-2 Days"
       },
       "design": {
-        "title": "Menu Design & Setup",
-        "description": "We design your digital menu to match your brand and upload all your products into the system.",
+        "title": "Menu Design & Data Entry",
+        "description": "We design a menu interface suitable for your brand identity and fully upload all product images, descriptions, and pricing to the system.",
         "tag": "3-5 Days"
       },
       "development": {
-        "title": "System Integration",
-        "description": "We set up the ordering system, kitchen display and payment integrations. We test on-site.",
+        "title": "Hardware & System Integration",
+        "description": "We install ordering modules, kitchen screens (KDS), and QR code labels, and conduct detailed system testing.",
         "tag": "1-2 Weeks"
       },
       "launch": {
-        "title": "Go-Live & Training",
-        "description": "We go live, train your staff and provide close monitoring during the first week.",
+        "title": "Staff Training & Go-Live",
+        "description": "We provide practical system training to your team, launch the system, and offer close technical support during the first service days.",
         "tag": "Ongoing"
       }
     }
@@ -143,39 +143,39 @@
   "faq": {
     "label": "FAQ",
     "title": "Frequently Asked Questions",
-    "subtitle": "Answers to the questions on your mind.",
+    "subtitle": "Things you might be wondering about digital menus and ordering systems.",
     "items": {
       "delivery": {
-        "question": "How long does the system take to go live?",
-        "answer": "The core QR menu system is typically ready in 1-2 weeks, the full system with ordering and payment integration in 3-4 weeks."
+        "question": "How long does system installation take?",
+        "answer": "A standalone QR menu setup is completed within 3-5 days. Full systems with table ordering, KDS, and payment integrations usually launch in 2-3 weeks."
       },
       "pricing": {
         "question": "How does pricing work?",
-        "answer": "We work with a one-time setup fee and monthly subscription model. Custom pricing is available based on number of branches."
+        "answer": "It varies based on the modules you need (menu only, ordering, KDS, etc.) and your number of branches. We work with a one-time setup fee and a business-friendly monthly license model."
       },
       "revisions": {
-        "question": "Can I update the menu myself?",
-        "answer": "Yes. You can easily change prices, add or remove products on your own."
+        "question": "Can I update prices and items myself?",
+        "answer": "Absolutely. Through the highly simple admin panel we provide, you can add new items, change prices, or hide out-of-stock items in seconds."
       },
       "maintenance": {
-        "question": "Does the system work without internet?",
-        "answer": "We have offline mode support. Basic menu display continues to work when the connection drops."
+        "question": "Does the system stop if the internet connection is lost?",
+        "answer": "Our system features offline caching support. Even if the internet drops momentarily, your customers can continue to view the basic menu on their devices."
       },
       "migration": {
-        "question": "Does it integrate with our existing POS?",
-        "answer": "We can integrate with popular POS systems. We evaluate your current system during the discovery call."
+        "question": "Will it integrate with the POS system I currently use?",
+        "answer": "We can integrate with many popular POS and ticketing software used in the industry. We analyze your current infrastructure and clearly inform you about the integration status."
       },
       "mobile": {
-        "question": "Do customers need to download an app?",
-        "answer": "No. Customers who scan the QR code see the menu directly in their browser. No app download required."
+        "question": "Do customers have to download an app to order?",
+        "answer": "No. The moment they scan the QR code with their smartphones, they access the menu and place orders directly through their browser, without needing to download any app."
       }
     }
   },
   "cta": {
     "label": "Let's Get Started",
-    "title": "Let's Bring Your Restaurant Into the Digital Age",
-    "description": "Get in touch for a free discovery call. We're here to provide digital solutions tailored to your restaurant.",
+    "title": "Transform Your Restaurant with a Next-Gen Experience",
+    "description": "Let's plan our free discovery meeting to design solutions that will reduce your operational load and increase customer satisfaction.",
     "primaryButton": "Get a Quote",
-    "secondaryButton": "Message on WhatsApp"
+    "secondaryButton": "Write on WhatsApp"
   }
 }

@@ -14,7 +14,9 @@ export function FooterLinks() {
         {t_footer('quickLinks')}
       </h4>
       <ul className="space-y-4">
-        {mainNavigation.map((link) => (
+        {mainNavigation
+          .filter((link) => link.id !== "services") // /services ana sayfası kaldırıldığı için footer linklerinden çıkar
+          .map((link) => (
           <li key={link.path}>
             <Link
               href={link.path}

@@ -14,17 +14,11 @@ export default defineConfig({
     actionTimeout: 10_000,
     navigationTimeout: 30_000,
   },
-  timeout: 60_000, 
+  timeout: 60_000,
   expect: {
-    timeout: 10_000, 
+    timeout: 10_000,
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
   ],
-  webServer: {
-    command: 'npm run dev',
-    url: 'http://localhost:3000',
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000, 
-  },
 });

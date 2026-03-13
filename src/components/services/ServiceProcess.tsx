@@ -22,7 +22,7 @@ export function ServiceProcess({ slug }: Props) {
   const trans = useTranslations(`ServicesPage.${slug}.process`);
 
   return (
-    <section className={`${t.section.paddingSmall} ${t.section.bg.white}`}>
+    <section className={`overflow-hidden ${t.section.paddingSmall} ${t.section.bg.white}`}>
       <div className={t.section.container}>
 
         {/* Başlık */}
@@ -61,10 +61,6 @@ export function ServiceProcess({ slug }: Props) {
                   <div className="shrink-0 flex flex-col items-center gap-2">
                     <div className={`relative w-16 h-16 rounded-2xl bg-linear-to-br ${step.color} shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
                       <Icon className="text-white w-7 h-7" />
-                      {/* Numara badge */}
-                      <div className="absolute -top-2 -right-2 w-6 h-6 bg-slate-900 rounded-full flex items-center justify-center shadow-md">
-                        <span className="text-white font-black text-xs">{step.step}</span>
-                      </div>
                     </div>
                   </div>
 

@@ -71,18 +71,6 @@ export function MegaMenu({ isOpen, isScrolled }: Props) {
                 );
               })}
             </div>
-
-            <div className="px-5 py-3 bg-slate-50 border-t border-slate-100 flex items-center justify-between">
-              <p className="text-xs text-slate-500">
-                {t("banner.text")}
-              </p>
-              <button
-                onClick={() => router.push("/contact" as PushParams)}
-                className="text-xs font-bold text-blue-600 hover:text-blue-700 transition-colors"
-              >
-                {t("banner.cta")} →
-              </button>
-            </div>
           </div>
         </motion.div>
       )}

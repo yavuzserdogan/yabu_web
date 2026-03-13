@@ -8,7 +8,7 @@ export const siteConfig = {
 
   navigation: [
     { label: "Ana Sayfa", path: "/" },
-    { label: "Hizmetler", path: "/services" },
+  // Artık /services ana sayfası yok, sadece detay sayfaları var
     { label: "Projelerimiz", path: "/projects" },
     { label: "Hakkımızda", path: "/about" },
     { label: "İletişim", path: "/contact" },

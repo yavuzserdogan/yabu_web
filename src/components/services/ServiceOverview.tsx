@@ -24,7 +24,7 @@ export function ServiceOverview({ slug }: Props) {
   return (
     <>
       {/* ── BÖLÜM 1: Bu Sayfa Sizin İçin Mi? ── */}
-      <section className={`pt-20 pb-12 px-4 ${t.section.bg.white}`}>
+      <section className={`pt-20 pb-12 px-4 overflow-hidden ${t.section.bg.white}`}>
         <div className={t.section.container}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -82,7 +82,7 @@ export function ServiceOverview({ slug }: Props) {
       </section>
 
       {/* ── BÖLÜM 2: Neler Yapıyoruz? ── */}
-      <section className={`py-12 px-4 ${t.section.bg.slate}`}>
+      <section className={`py-12 px-4 overflow-hidden ${t.section.bg.slate}`}>
         <div className={t.section.container}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 

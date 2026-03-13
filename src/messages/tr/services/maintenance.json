@@ -5,176 +5,176 @@
   "hero": {
     "titleMain": "Sitenizi Her Zaman",
     "titleAccent": "Zirve Performansta Tutan",
-    "description": "Güncellemeler, yedeklemeler, güvenlik yamaları ve teknik sorunlar — siteniz kesintisiz çalışsın, siz işinize odaklanın."
+    "description": "Sürpriz çöküşlere ve güvenlik açıklarına son verin. Siz sadece işinizi büyütmeye odaklanın; güncellemeler, yedeklemeler ve teknik pürüzlerle biz ilgilenelim."
   },
   "overview": {
     "whatIs": {
       "label": "Bu Sayfa Sizin İçin Mi?",
-      "title": "Siteniz Bakımsız Bırakılmamalı",
-      "paragraph1": "Web siteniz yayına girdi, peki sonra? Güncellemeler yapılmıyor, yedeklemeler alınmıyor, güvenlik açıkları kapatılmıyor mu?",
-      "paragraph2": "Bakımsız bir web sitesi, bakımsız bir araç gibidir — eninde sonunda bozulur ve genellikle en kötü zamanda. Site çöktüğünde iş kaybı ve itibar zararı kaçınılmazdır.",
-      "paragraph3": "Sybor Digital olarak düzenli bakım, proaktif güvenlik ve hızlı teknik destek ile sitenizin 7/24 sağlıklı çalışmasını sağlıyoruz.",
+      "title": "Siteniz Kendi Kaderine Mi Terk Edildi?",
+      "paragraph1": "Web siteniz büyük bir heyecanla yayına girdi, peki ya sonra? Yazılım güncellemeleri aylardır bekliyor, eklentiler hata veriyor ve en son ne zaman yedek alındığını kimse bilmiyor mu?",
+      "paragraph2": "Bakımsız bırakılan bir web sitesi, bakımı yapılmayan bir araç gibidir; eninde sonunda ve genellikle de en kritik (kampanya, lansman) anlarda bozulur. Sitenizin çökmesi sadece itibarınızı değil, doğrudan satışlarınızı da vurur.",
+      "paragraph3": "Sybor Digital olarak; sitenizin arka planında sessizce çalışan teknik ekibiniz oluyoruz. Proaktif bakım, anlık güvenlik yamaları ve 7/24 izleme ile dijital şubenizin ışıklarının hiç sönmemesini sağlıyoruz.",
       "audiences": {
         "physical": {
-          "title": "Aktif bir web sitem var",
-          "description": "Düzenli bakım ve güvenliği profesyonel ellere bırakmak istiyorum."
+          "title": "Aktif Web Sitesi Sahipleri",
+          "description": "Sitemin yavaşlamasını, hata vermesini veya hacklenmesini beklemeden düzenli bakımını profesyonel ellere teslim etmek istiyorum."
         },
         "startup": {
-          "title": "Ajans veya freelancer'ım",
-          "description": "Müşterilerimin sitelerini bir bakım planı kapsamında tutmak istiyorum."
+          "title": "Ajanslar ve Tasarımcılar",
+          "description": "Müşterilerime teslim ettiğim sitelerin teknik bakım ve destek yükünden kurtulmak, bu süreci güvenilir bir ekibe devretmek istiyorum."
         },
         "growing": {
-          "title": "E-ticaret sitem var",
-          "description": "Tek bir dakika dahi kesinti kaldıramam, sürekli izleme ve anında müdahale istiyorum."
+          "title": "E-Ticaret Yöneticileri",
+          "description": "Sitemin bir dakika bile kapalı kalması binlerce lira zarar demek. Sürekli izleme (monitoring) ve anında teknik müdahale garantisi istiyorum."
         },
         "global": {
-          "title": "Teknik işlerle uğraşmak istemiyorum",
-          "description": "Güncellemeler, yedeklemeler ve güvenlik sorunlarıyla bizzat ilgilenmek istemiyorum."
+          "title": "Vakti Olmayan Girişimciler",
+          "description": "Ben işimi büyütmeye odaklanmalıyım. Sunucu hataları, eklenti güncellemeleri veya kırık linkler gibi teknik detaylarla uğraşmak istemiyorum."
         }
       }
     },
     "whatWeDo": {
-      "label": "Neler Yapıyoruz?",
-      "title": "Sorunlar Çıkmadan Önce Müdahale Ediyoruz",
-      "paragraph1": "Aylık bakım ziyaretlerinde CMS ve eklenti güncellemelerini yapıyor, güvenlik açıklarını kapatıyor ve performans kontrolleri gerçekleştiriyoruz.",
-      "paragraph2": "Otomatik yedekleme sistemimizle verileriniz her gün güvende. Bir şeyler ters gitse bile dakikalar içinde geri yükleyebiliyoruz.",
-      "paragraph3": "Acil teknik sorunlar için garantili hızlı müdahale. Mesai saatlerinde ne kadar sürede geri döneceğimizi baştan netleştiriyoruz.",
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "Sorunlar Krize Dönüşmeden Müdahale Ediyoruz",
+      "paragraph1": "Sitenizi 'bozulduğunda tamir edilen' bir yapıdan çıkarıp 'hiç bozulmayan' bir yapıya geçiriyoruz. CMS altyapınızı, temanızı ve eklentilerinizi uyumluluk testlerinden geçirerek her ay düzenli olarak güncelliyoruz.",
+      "paragraph2": "Verilerinizi asla şansa bırakmıyoruz. Otomatik, şifrelenmiş ve bulut tabanlı yedekleme sistemlerimiz sayesinde; bir şeyler ters gitse bile sitenizi dakikalar içerisinde en güncel ve sorunsuz haline geri döndürüyoruz.",
+      "paragraph3": "Siteniz bir saniye bile çevrimdışı kalsa (downtime), sistemlerimiz anında bize haber verir. Acil durumlarda Hizmet Seviyesi Sözleşmesi (SLA) kapsamında garantili ve ışık hızında teknik müdahale sağlıyoruz.",
       "badge": "Hizmet Kapsamı",
-      "cardTitle": "Eksiksiz Web Bakım Paketi",
-      "cardDescription": "Sitenizin kesintisiz çalışması için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "cardTitle": "Tam Kapsamlı Web Bakım Kalkanı",
+      "cardDescription": "Sitenizin 365 gün kesintisiz ve hızlı çalışması için gereken tüm teknik destek.",
       "checklist": {
-        "item1": "Aylık CMS ve eklenti güncellemeleri",
-        "item2": "Günlük otomatik yedeklemeler",
-        "item3": "Güvenlik izleme ve yamalar",
-        "item4": "Aylık performans ve çalışma süresi raporu"
+        "item1": "Test edilmiş güvenli CMS ve eklenti güncellemeleri",
+        "item2": "Farklı lokasyonlara günlük bulut yedekleme",
+        "item3": "Uptime (Çalışma süresi) izleme ve anında müdahale",
+        "item4": "Şeffaf aylık sağlık, hız ve güvenlik raporlaması"
       }
     }
   },
   "features": {
     "label": "Özellikler",
-    "title": "Ne Sunuyoruz?",
-    "subtitle": "Sitenizi sağlıklı ve güvenli tutan bakım hizmetleri",
+    "title": "Bakım Paketinizde Neler Var?",
+    "subtitle": "Sitenizi her zaman formda ve güvende tutacak teknik çözümler",
     "items": {
       "custom": {
-        "title": "Düzenli Güncellemeler",
-        "description": "CMS, eklenti ve tema güncellemeleri. Eski yazılım güvenlik açıklarının bir numaralı kaynağıdır."
+        "title": "Güvenli Çekirdek Güncellemeleri",
+        "description": "Eski yazılımlar korsanların ana kapısıdır. Sistem çekirdeğini, temaları ve eklentileri sitenizi bozmadan (staging ortamında test ederek) güncelliyoruz."
       },
       "payment": {
-        "title": "Otomatik Yedeklemeler",
-        "description": "Günlük tam site yedeklemeleri. Bir şeyler ters giderse dakikalar içinde geri yükleme."
+        "title": "Sıfır Kayıplı Otomatik Yedekleme",
+        "description": "Sitenizin tüm veri tabanını ve dosyalarını her gün otomatik olarak yedekleriz. Olası bir felakette tek tıkla her şeyi geri getiririz."
       },
       "mobile": {
-        "title": "Güvenlik İzleme",
-        "description": "Zararlı yazılım tarama, güvenlik duvarı izleme ve şüpheli aktivite tespiti. 7/24 koruma."
+        "title": "7/24 Proaktif Güvenlik Taraması",
+        "description": "Sitenizi zararlı yazılımlara (malware), izinsiz giriş denemelerine ve şüpheli aktivitelere karşı aralıksız tarar ve koruruz."
       },
       "stock": {
-        "title": "Performans Optimizasyonu",
-        "description": "Aylık hız testleri ve optimizasyonlar. Sitenizin zamanla yavaşlamasını önleyin."
+        "title": "Sürekli Hız (Performans) Optimizasyonu",
+        "description": "Zamanla biriken önbellek (cache) çöplerini temizler, veri tabanını optimize eder ve sitenizin ilk günkü hızında kalmasını sağlarız."
       },
       "seo": {
-        "title": "Çalışma Süresi İzleme",
-        "description": "Siteniz çevrimdışı olduğunda anında uyarı alıyor ve hemen müdahale ediyoruz."
+        "title": "Kesintisiz Uptime Monitörü",
+        "description": "Sitenizin yayında olup olmadığını dakikada bir kontrol ederiz. Sunucu kaynaklı bir çökme yaşandığında sizden önce bizim haberimiz olur."
       },
       "admin": {
-        "title": "Öncelikli Teknik Destek",
-        "description": "Teknik sorunlar için garantili yanıt süreleri. Öncelikli destek, bekleme yok."
+        "title": "Öncelikli (VIP) Teknik Destek",
+        "description": "Teknik bir talebiniz olduğunda destek sırası beklemezsiniz. Anlaşmamız kapsamındaki garantili SLA süreleriyle anında çözüm üretiriz."
       }
     }
   },
   "whyUs": {
-    "label": "Neden Biz",
-    "title": "Neden Sybor Digital?",
-    "subtitle": "Sitenizi tanıyan ve sahiplenen bir ekip.",
+    "label": "Neden Sybor Digital?",
+    "title": "Sitenizi Kendi Sitemiz Gibi Sahipleniyoruz",
+    "subtitle": "Klişe 'destek bileti' (ticket) sistemlerinden fazlasını sunan gerçek bir teknoloji partneri.",
     "reasons": {
       "reason1": {
-        "title": "Proaktif Yaklaşım",
-        "description": "Sorun çıktıktan sonra değil, çıkmadan önce müdahale ediyoruz. Beklenmedik kesintileri minimize ediyoruz."
+        "title": "Krizi Beklemeyen Proaktif Yaklaşım",
+        "description": "Biz 'site çökünce aranan' tamirciler değiliz. Sistemleri sürekli izleyerek sorunları henüz kriz aşamasına gelmeden arka planda çözeriz."
       },
       "reason2": {
-        "title": "Hızlı Müdahale",
-        "description": "Acil durumlarda garantili yanıt süreleri. Siteniz çöktüğünde saatlerce beklemezsiniz."
+        "title": "Sözleşmeli Hızlı Müdahale (SLA)",
+        "description": "Zamanın para demek olduğunu biliyoruz. Acil teknik krizlerde size 'En kısa sürede döneceğiz' demez, sözleşmedeki net süre içinde müdahale ederiz."
       },
       "reason3": {
-        "title": "Şeffaf Raporlama",
-        "description": "Her ay ne yaptığımızı, sitenizin sağlık durumunu ve çalışma süresi rakamlarını paylaşıyoruz."
+        "title": "Şeffaf ve Anlaşılır Raporlama",
+        "description": "O ay sitenize hangi güncellemeleri yaptık, kaç saldırı engelledik, yedekler nerede? Tüm teknik detayları sizin için sadeleştirerek raporlarız."
       },
       "reason4": {
-        "title": "Her CMS, Sorun Değil",
-        "description": "WordPress, Next.js, Webflow ve daha fazlası. Teknolojiden bağımsız destek sağlıyoruz."
+        "title": "Platform Bağımsız Uzmanlık",
+        "description": "Siteniz ister WordPress, ister Next.js, ister Webflow olsun; teknolojiden bağımsız olarak her altyapıya uygun ileri düzey destek sunarız."
       },
       "reason5": {
-        "title": "Öngörülebilir Sabit Maliyet",
-        "description": "Sabit aylık ücretle öngörülebilir maliyetler. Sürpriz fatura yok."
+        "title": "Sürpriz Maliyetlere Son",
+        "description": "Her teknik düzeltme için ayrı fatura kesmeyiz. Sabit aylık bakım paketlerimiz sayesinde bütçenizi net bir şekilde öngörebilirsiniz."
       },
       "reason6": {
-        "title": "Sitenizi Tanıyoruz",
-        "description": "Sıfırdan yaptığımız ya da devraldığımız sitenizi en iyi biz biliriz."
+        "title": "Geliştirici (Developer) Refleksi",
+        "description": "Sıradan destek ekiplerinin aksine, biz çekirdekten yetişme yazılımcılarız. Karşılaştığınız en karmaşık kod hatalarını (bug) bile analiz edip çözeriz."
       }
     }
   },
   "process": {
     "label": "Süreç",
-    "title": "Nasıl Çalışıyoruz?",
-    "subtitle": "Bakım sürecini basit ve şeffaf tutuyoruz.",
+    "title": "Sitenizi Nasıl Devralıyoruz?",
+    "subtitle": "Sorunsuz bir geçiş için uyguladığımız şeffaf katılım (onboarding) sürecimiz.",
     "stepLabel": "Adım",
     "steps": {
       "discovery": {
-        "title": "Site Denetimi",
-        "description": "Sitenizin mevcut durumunu, teknoloji altyapısını ve kritik sorunları değerlendiriyoruz.",
+        "title": "Teknik Check-Up & Denetim",
+        "description": "Sitenizi devralmadan önce kod yapısını, sunucu durumunu, güvenlik açıklarını ve hızını detaylıca analiz ederek bir sağlık raporu çıkarıyoruz.",
         "tag": "1-2 Gün"
       },
       "design": {
-        "title": "Bakım Planı",
-        "description": "Sitenize özel bakım takvimi ve öncelik listesi oluşturuyoruz. Varsa acil düzeltmeleri yapıyoruz.",
+        "title": "İyileştirme & Acil Müdahale",
+        "description": "Eğer denetim sırasında sitenizin çalışmasını tehdit eden kritik açıklar veya hatalar tespit edersek, bunları hızla onarıp sistemi stabilize ediyoruz.",
         "tag": "1 Hafta"
       },
       "development": {
-        "title": "Aylık Bakım",
-        "description": "Güncellemeler, yedeklemeler, güvenlik taramaları ve performans kontrolleri düzenli olarak yapılır.",
-        "tag": "Aylık"
+        "title": "Sürekli Bakım Döngüsünün Başlaması",
+        "description": "Otomatik yedekleme ve güvenlik kalkanlarımızı aktif hale getiriyor; düzenli güncelleme ve optimizasyon rutinlerimizi başlatıyoruz.",
+        "tag": "Aylık Rutin"
       },
       "launch": {
-        "title": "Raporlama & İletişim",
-        "description": "Aylık bakım raporunu paylaşıyor, öneriler sunuyor ve öncelikli destek sağlıyoruz.",
-        "tag": "Süregelen"
+        "title": "Öncelikli Destek & Raporlama",
+        "description": "Sizden gelen anlık içerik/tasarım revizyon taleplerini karşılıyor ve her ayın sonunda sitenizin performans verilerini size raporluyoruz.",
+        "tag": "Sürekli"
       }
     }
   },
   "faq": {
     "label": "SSS",
     "title": "Sıkça Sorulan Sorular",
-    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "subtitle": "Web bakım ve destek süreçleriyle ilgili aklınıza takılanlar.",
     "items": {
       "delivery": {
-        "question": "Ne zaman başlayabiliriz?",
-        "answer": "Site denetiminin ardından genellikle 3-5 gün içinde aktif bakıma başlıyoruz."
+        "question": "Bakım anlaşmasına ne zaman ve nasıl başlayabiliriz?",
+        "answer": "Sistem bilgilerinizi bizimle paylaştıktan sonra 1-2 gün içerisinde detaylı teknik denetimi (check-up) tamamlar ve hemen aktif koruma sürecini başlatırız."
       },
       "pricing": {
-        "question": "Aylık bakım maliyeti ne kadar?",
-        "answer": "Site büyüklüğü, teknoloji ve destek seviyesine göre değişir. Sabit aylık paketlerimiz mevcut."
+        "question": "Aylık bakım ve destek maliyetleri nasıl belirleniyor?",
+        "answer": "Sitenizin altyapısına (örneğin kurumsal site ile e-ticaret sitesinin dinamikleri farklıdır), trafik hacmine ve talep ettiğiniz anlık müdahale (SLA) sürelerine göre size özel, sabit fiyatlı paketler sunuyoruz."
       },
       "revisions": {
-        "question": "Küçük içerik değişiklikleri dahil mi?",
-        "answer": "Pakete göre aylık belirli sayıda içerik değişikliği dahildir."
+        "question": "Aylık bakım paketine küçük içerik/görsel değişiklikleri dahil mi?",
+        "answer": "Evet, seçtiğiniz paketin kapsamına göre her ay belirli bir saate kadar olan ufak revizyon (metin değişimi, yeni blog ekleme, görsel güncelleme vb.) taleplerinizi ekstra ücretlendirmeden yapıyoruz."
       },
       "maintenance": {
-        "question": "Sitem çökerse ne kadar sürede müdahale edilir?",
-        "answer": "Mesai saatlerinde 1 saat garantili müdahale. Kritik e-ticaret siteleri için 4 saat garantili müdahale."
+        "question": "Sitem çökerse veya hacklenirse ne kadar sürede müdahale ediyorsunuz?",
+        "answer": "Anlaşmamızdaki SLA (Hizmet Seviyesi Sözleşmesi) sürelerine tabidir. Standart sitelerde mesai saatleri içinde 1-2 saatte, kritik e-ticaret sitelerinde ise (pakete bağlı olarak) 7/24 anında müdahale garantisi sunuyoruz."
       },
       "migration": {
-        "question": "Başka ajansın yaptığı siteye bakım yapabilir misiniz?",
-        "answer": "Evet. Önce site denetimi yapıyor, yapıyı öğreniyor ve ardından bakımı devralıyoruz."
+        "question": "Sitemi başka bir ajans/yazılımcı yaptı. Yine de bakım hizmeti veriyor musunuz?",
+        "answer": "Kesinlikle evet. Mevcut kod yapınızı ve sunucunuzu devralmadan önce detaylı bir inceleme (audit) yapar, sistemi tanır ve ardından sorumluluğu profesyonelce üstleniriz."
       },
       "mobile": {
-        "question": "Yedeklemeler nerede saklanıyor?",
-        "answer": "Yedeklemeler çoklu coğrafi konumlarda bulutta saklanıyor. Verileriniz her zaman güvende."
+        "question": "Aldığınız yedekler nerede saklanıyor, sitemdeki veriler güvende mi?",
+        "answer": "Yedekleriniz, web sitenizin barındırıldığı ana sunucudan tamamen bağımsız, yüksek güvenlikli ve farklı coğrafi lokasyonlardaki bulut (cloud) sunucularda şifrelenmiş olarak saklanır."
       }
     }
   },
   "cta": {
     "label": "Hadi Başlayalım",
-    "title": "Sitenizi Güvenli Ellere Bırakın, İşinize Odaklanın",
-    "description": "Ücretsiz site denetimi için hemen iletişime geçin. Sitenizin nasıl performans gösterdiğini birlikte görelim.",
+    "title": "Sitenizi Profesyonellere Bırakın, Siz İşinizi Büyütün",
+    "description": "Sitenizin teknik olarak ne durumda olduğunu öğrenmek ve gizli tehlikeleri keşfetmek için ücretsiz teknik check-up görüşmemizi planlayalım.",
     "primaryButton": "Ücretsiz Denetim Al",
     "secondaryButton": "WhatsApp'tan Yaz"
   }

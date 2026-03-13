@@ -1,141 +1,141 @@
 {
   "meta": {
-    "title": "Landing Pages & Campaign Sites"
+    "title": "Landing Pages & Campaign Pages"
   },
   "hero": {
-    "titleMain": "Conversion-Focused",
-    "titleAccent": "Landing Pages & Campaign Sites",
-    "description": "From single-page landing pages to full campaign sites — we design structures that turn visitors into customers."
+    "titleMain": "Conversion-Oriented",
+    "titleAccent": "Landing Pages & Campaign Pages",
+    "description": "From single-page landing pages to full-scale campaign sites, we design high-performance structures that maximize your ad budget and turn visitors into customers."
   },
   "overview": {
     "whatIs": {
       "label": "Is This Page For You?",
       "title": "Don't Let Your Ad Budget Go to Waste",
-      "paragraph1": "Running Google or social media ads but not seeing the conversions you expected? The problem is usually not the ad — it's the page the ad points to.",
-      "paragraph2": "A general website distracts visitors. A campaign-specific landing page focuses on a single goal: convert.",
-      "paragraph3": "At Sybor Digital, we design and build landing pages aligned with your ad campaigns — A/B-test ready and built for high conversion.",
+      "paragraph1": "Are you allocating budget to Google or social media ads but not getting the conversions you expect? The problem is usually not your ad campaign, but the page you are directing traffic to.",
+      "paragraph2": "A standard website distracts the visitor with dozens of menus and links. A campaign-specific landing page, on the other hand, focuses on a single goal: converting the visitor into a customer.",
+      "paragraph3": "As Sybor Digital, we design and develop data-driven, high-converting landing pages that perfectly align with your advertising strategy.",
       "audiences": {
         "physical": {
-          "title": "I'm running digital ads",
-          "description": "I want a dedicated page that turns my ad spend into conversions."
+          "title": "Digital Advertisers",
+          "description": "I don't want my ad spend to go to waste; I want a dedicated page that will convert clicks directly into sales or leads."
         },
         "startup": {
-          "title": "I'm launching a new product",
-          "description": "I want to set up a pre-registration list and announcement page."
+          "title": "Those Launching New Products",
+          "description": "I want to build excitement for my new product, collect pre-registrations, and create an effective announcement page."
         },
         "growing": {
-          "title": "I'm organizing an event",
-          "description": "I need a page that collects registrations and informs attendees."
+          "title": "Event & Webinar Organizers",
+          "description": "I need a page that persuades visitors and quickly collects registrations to increase attendance at my event."
         },
         "global": {
-          "title": "I'm collecting leads",
-          "description": "I want to capture visitors who fill out forms and request quotes."
+          "title": "Lead Generation Businesses",
+          "description": "I want to capture qualified potential customers (leads) who fill out forms, request quotes, and contact us directly for my services."
         }
       }
     },
     "whatWeDo": {
-      "label": "What We Do",
+      "label": "How We Help You",
       "title": "We Put Conversion at the Center of Design",
-      "paragraph1": "Every element serves a purpose: the headline captures attention, the content persuades, the CTA converts. Nothing is left to chance.",
-      "paragraph2": "We build fast-loading, mobile-first pages compatible with Google Ads, Meta Ads and other ad platforms.",
-      "paragraph3": "After launch, we also support you with A/B test setup, heatmap analysis and conversion rate optimization.",
+      "paragraph1": "We strategically structure every element on the page to serve a single purpose: the headline grabs attention, the content persuades, and the call to action (CTA) converts. We leave no detail to chance.",
+      "paragraph2": "We develop lightning-fast, mobile-first pages that work in perfect harmony with Google Ads, Meta Ads, and all other digital advertising platforms.",
+      "paragraph3": "Even after the page is live, we continuously increase your campaign performance with A/B testing, user behavior analysis, and conversion rate optimization (CRO).",
       "badge": "Scope of Service",
-      "cardTitle": "Conversion-Centered Structure",
-      "cardDescription": "Everything you need for your landing page project — under one roof.",
+      "cardTitle": "Conversion-Oriented Structure",
+      "cardDescription": "All the technical and strategic infrastructure you need for your campaign to succeed.",
       "checklist": {
-        "item1": "Conversion-focused page structure and copy",
-        "item2": "Fast loading and Core Web Vitals compliance",
-        "item3": "Form integration and CRM connection",
-        "item4": "A/B test and analytics setup"
+        "item1": "Persuasive copywriting and UX/UI design",
+        "item2": "Core Web Vitals compliant ultra-fast infrastructure",
+        "item3": "CRM, email, and marketing tool integrations",
+        "item4": "Advanced analytics and A/B test setups"
       }
     }
   },
   "features": {
     "label": "Features",
-    "title": "What We Offer",
-    "subtitle": "Everything you need to turn visitors into customers",
+    "title": "What Will Be on Your Landing Page?",
+    "subtitle": "All the modern tools needed to instantly turn a visitor into a customer",
     "items": {
       "custom": {
-        "title": "Conversion-Focused Design",
-        "description": "Every element is placed strategically. Headline, visual, social proof and CTA — all optimized for conversion."
+        "title": "Strategic UX/UI Design",
+        "description": "Custom designs that guide eye movements, highlight social proof, and push the user directly to action (CTA)."
       },
       "payment": {
-        "title": "Ultra-Fast Loading",
-        "description": "Every second of delay costs conversions. We target sub-1-second loading with Core Web Vitals compliance."
+        "title": "Ultra-Fast Loading Time",
+        "description": "Every second of delay in page speed costs conversions. Core Web Vitals compliant infrastructures that load in under 1 second."
       },
       "mobile": {
-        "title": "Smart Forms & CRM Integration",
-        "description": "Lead forms with automatic integration to HubSpot, Mailchimp and other CRM tools."
+        "title": "Smart Forms & CRM Connection",
+        "description": "Frictionless and smart lead capture forms that instantly talk to tools like HubSpot, Salesforce, and Mailchimp."
       },
       "stock": {
-        "title": "A/B Test Infrastructure",
-        "description": "Which headline, visual or CTA converts better? Test with data and optimize."
+        "title": "A/B Testing and Optimization Infrastructure",
+        "description": "Don't guess which headline or image sells better; systems that allow you to test with data and find the most profitable variant."
       },
       "seo": {
-        "title": "Pixel & Conversion Tracking",
-        "description": "Meta Pixel, Google Tag Manager and conversion event setup so you can measure every click."
+        "title": "Flawless Pixel & Event Tracking",
+        "description": "Measure the return on your ad spend (ROAS) down to the penny with Meta Pixel, Google Tag Manager, and Conversion APIs."
       },
       "admin": {
-        "title": "Mobile-First",
-        "description": "The vast majority of ad traffic comes from mobile. Flawless mobile experience is standard."
+        "title": "Mobile-First Experience",
+        "description": "Flawless, thumb-friendly mobile interfaces designed with the awareness that over 80% of ad traffic comes from mobile."
       }
     }
   },
   "whyUs": {
-    "label": "Why Us",
-    "title": "Why Sybor Digital?",
-    "subtitle": "A team that truly understands performance marketing.",
+    "label": "Why Sybor Digital?",
+    "title": "The Right Partner for Performance Marketing",
+    "subtitle": "We design pages that don't just look good, but bring measurable profit.",
     "reasons": {
       "reason1": {
-        "title": "We Understand Conversion",
-        "description": "Landing pages are about psychology and strategy, not just design. Every decision is backed by data."
+        "title": "We Know Conversion Psychology",
+        "description": "Landing page design is an engineering of persuasion rather than aesthetics. We choose every color, button, and text based on data."
       },
       "reason2": {
-        "title": "We Know the Ad Ecosystem",
-        "description": "We build structures compatible with Google Ads and Meta Ads, supporting Quality Score and ad relevance."
+        "title": "We Master the Ad Ecosystem",
+        "description": "We code our pages to standards that will increase your Google Quality Score and lower your Cost Per Click (CPC)."
       },
       "reason3": {
-        "title": "Fast Delivery",
-        "description": "We meet your campaign timelines. Landing pages are typically delivered in 1-2 weeks."
+        "title": "Agile and Fast Delivery",
+        "description": "In digital marketing, speed is money. We deliver projects rapidly without compromising quality so as not to disrupt your campaign calendars."
       },
       "reason4": {
-        "title": "Transparent Process",
-        "description": "You're informed at every stage. No surprise costs or delays."
+        "title": "Holistic Approach",
+        "description": "We manage design, development, copywriting, and analytics setup from a single source with perfect harmony."
       },
       "reason5": {
-        "title": "Optimization Support",
-        "description": "We provide conversion analysis and optimization recommendations after launch."
+        "title": "Data-Driven Decisions",
+        "description": "We optimize your page using real data like heatmaps and user session recordings, not assumptions."
       },
       "reason6": {
-        "title": "Scalable Structure",
-        "description": "We design not just for one campaign — but for a growing marketing infrastructure."
+        "title": "Continuous Support",
+        "description": "We are by your side even when your campaign is live; we quickly respond to your instant changes and optimization requests."
       }
     }
   },
   "process": {
     "label": "Process",
-    "title": "How We Work",
-    "subtitle": "We launch the right conversion page for your campaign, fast.",
+    "title": "How Do We Build Your Conversion Machine?",
+    "subtitle": "Our proven workflow to quickly turn your campaigns into sales.",
     "stepLabel": "Step",
     "steps": {
       "discovery": {
-        "title": "Campaign & Goal Analysis",
-        "description": "We analyze the ad objective, target audience and competitive landscape. We define the page structure and messaging together.",
-        "tag": "1 Day"
+        "title": "Strategy & Goal Analysis",
+        "description": "We analyze your advertising goals, target audience, and offer to build the persuasion architecture of the page.",
+        "tag": "1-2 Days"
       },
       "design": {
-        "title": "Design & Copy",
-        "description": "We prepare a conversion-focused page design and persuasive copy. We present it for your approval.",
-        "tag": "2-3 Days"
+        "title": "Design & Copywriting",
+        "description": "We write the sales copy that will prompt the visitor to take action and present the conversion-oriented interface design (UI/UX) for your approval.",
+        "tag": "2-4 Days"
       },
       "development": {
         "title": "Development & Integration",
-        "description": "We build the page, set up form and pixel integrations and complete speed tests.",
+        "description": "We turn the design into a lightning-fast page; we integrate CRM forms and analytics/pixel codes.",
         "tag": "3-5 Days"
       },
       "launch": {
-        "title": "Launch & Optimization",
-        "description": "We go live in sync with your campaign, monitor performance and provide optimization recommendations.",
+        "title": "Launch & A/B Testing",
+        "description": "We launch the page simultaneously with your campaign, monitor the data, and apply tests that will increase the conversion rate.",
         "tag": "Ongoing"
       }
     }
@@ -143,39 +143,39 @@
   "faq": {
     "label": "FAQ",
     "title": "Frequently Asked Questions",
-    "subtitle": "Answers to the questions on your mind.",
+    "subtitle": "Things you might be wondering about landing pages and campaign sites.",
     "items": {
       "delivery": {
-        "question": "How long does a landing page take?",
-        "answer": "Single-page landing pages typically take 1-2 weeks, more comprehensive campaign sites take 2-3 weeks."
+        "question": "How long does it take to complete a landing page project?",
+        "answer": "Depending on the scope of the project and integration needs, we usually have it ready to launch within 1 to 2 weeks."
       },
       "pricing": {
-        "question": "How is pricing determined?",
-        "answer": "Based on page count, form complexity and integration requirements. Clear proposal after a free call."
+        "question": "What does the pricing include?",
+        "answer": "It includes custom design, fast web infrastructure, copywriting consultation, CRM form integrations, and basic pixel setups."
       },
       "revisions": {
-        "question": "Can I make changes after launch?",
-        "answer": "Yes. Headline, visual and copy changes are done quickly. We provide optimization support throughout the campaign."
+        "question": "Can we make changes to the page while the campaign is running?",
+        "answer": "Absolutely. Digital marketing is dynamic; we quickly implement your headline, image, and offer changes during the campaign."
       },
       "maintenance": {
-        "question": "Do you set up A/B tests?",
-        "answer": "Yes. We set up A/B test infrastructure with Google Optimize or VWO and analyze which variant performs better together."
+        "question": "Do you set up A/B testing and heatmaps?",
+        "answer": "Yes. Based on your needs, we scientifically increase conversions by installing heatmaps (Hotjar, Clarity) and A/B testing tools on your page."
       },
       "migration": {
-        "question": "Can you redesign an existing page of mine?",
-        "answer": "Yes. Analyzing your existing page and redesigning it with a conversion focus is one of our most requested projects."
+        "question": "Do you only do the design, or do you also write the copy?",
+        "answer": "The power of design comes from the copy. We edit your existing texts according to conversion-oriented (copywriting) principles or support rewriting them from scratch."
       },
       "mobile": {
-        "question": "Can integration with my ad account be done?",
-        "answer": "Yes. We set up Google Ads conversion tracking and Meta Pixel on your behalf and work in coordination with your campaign team."
+        "question": "Can we publish it on a different domain than my current site?",
+        "answer": "Yes, if you wish, we can publish it on a subdomain of your main domain (campaign.yourcompany.com) or on a completely independent new domain."
       }
     }
   },
   "cta": {
     "label": "Let's Get Started",
-    "title": "Let's Build a Conversion Machine for Your Campaign",
-    "description": "Get in touch for a free discovery call. We're here to make your ad budget work as efficiently as possible.",
+    "title": "Time to Turn Your Ad Budget Into Sales",
+    "description": "Schedule a free discovery meeting to plan your high-performance landing page that will turn clicks into customers.",
     "primaryButton": "Get a Quote",
-    "secondaryButton": "Message on WhatsApp"
+    "secondaryButton": "Write on WhatsApp"
   }
 }

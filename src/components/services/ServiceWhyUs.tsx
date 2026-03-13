@@ -46,9 +46,7 @@ export function ServiceWhyUs({ slug }: Props) {
               transition={{ delay: index * 0.1 }}
               className={`${t.card.base} ${t.card.bg.white} ${t.card.padding.lg} ${t.card.hover}`}
             >
-              <div className={`${t.iconBox.md} ${t.colors.icon.bgLight} mb-4 rounded-xl flex items-center justify-center`}>
-                <CheckCircle2 className="w-5 h-5 text-blue-600" />
-              </div>
+            
               <h4 className={`${t.typography.cardTitleLarge} ${t.colors.text.primary} mb-2`}>
                 {trans(`reasons.${item.key}.title`)}
               </h4>

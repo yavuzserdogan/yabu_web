@@ -15,7 +15,6 @@ const audienceKeys: Record<string, string[]> = {
   "boutique":       ["handmade", "fashion", "food", "lifestyle"],
   "portfolio":      ["freelancer", "creative", "consultant", "jobseeker"],
   "landing":        ["ads", "launch", "event", "lead"],
-  "blog":           ["corporate", "media", "content", "magazine"],
   "mobile-app":     ["startup", "business", "ecommerce", "service"],
   "qr-menu":        ["restaurant", "chain", "hotel", "foodcourt"],
   "booking":        ["health", "beauty", "consultant", "sports"],

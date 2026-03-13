@@ -3,139 +3,139 @@
     "title": "SEO & Search Engine Optimization"
   },
   "hero": {
-    "titleMain": "Ranking at the Top of Google,",
+    "titleMain": "Reaching the Top of Google",
     "titleAccent": "SEO & Search Engine Optimization",
-    "description": "Earn organic traffic without an ad budget. Comprehensive optimization services from technical SEO to content strategy, link building to local SEO."
+    "description": "Gain lasting, high-quality organic traffic without burning through your ad budget. We implement data-driven optimizations from technical SEO to content strategy, making your business an authority on search engines."
   },
   "overview": {
     "whatIs": {
       "label": "Is This Page For You?",
-      "title": "Are Your Customers Finding You on Google?",
-      "paragraph1": "You have a great product and website but you're falling far behind your competitors on Google? Are potential customers going to your competitors without ever finding you?",
-      "paragraph2": "SEO is no longer optional — it's a necessity. Organic traffic, unlike paid ads, is an asset that grows and provides long-term cost advantages.",
-      "paragraph3": "At Sybor Digital, we take your site to the top of Google rankings with a holistic SEO approach — from technical infrastructure to content strategy.",
+      "title": "When Your Customers Search, Do They Find Your Competitors?",
+      "paragraph1": "You may have a great product, flawless service, and a stylish website. But if you are not on the first page when your potential customers search on Google, you are virtually invisible in the digital world.",
+      "paragraph2": "Paid ads (PPC) stop the moment you cut the budget. SEO, on the contrary, is the most profitable long-term investment that provides compounding returns over time, increases the value of your digital presence, and drops your cost-per-click to zero.",
+      "paragraph3": "As Sybor Digital, we optimize your site not just for search engines, but for users, carrying your brand to the top of search results with a holistic SEO strategy.",
       "audiences": {
         "physical": {
-          "title": "I just launched a new site",
-          "description": "I want to become visible on Google and quickly earn organic traffic."
+          "title": "New Website Owners",
+          "description": "I just launched my site but I'm not visible on Google. I want to quickly gain qualified organic traffic with a solid SEO foundation."
         },
         "startup": {
-          "title": "My traffic is very low",
-          "description": "Very few people visit my site — I want to grow organically."
+          "title": "Businesses with Low Traffic",
+          "description": "Very few people visit my website. I want to grow organically and sustainably without depending on advertising costs."
         },
         "growing": {
-          "title": "I have an e-commerce site",
-          "description": "I want to push my product pages to the top of Google."
+          "title": "E-Commerce Brands",
+          "description": "I want to rank my category and product pages at the top of Google, drawing high-intent buyers directly to my store."
         },
         "global": {
-          "title": "I'm a local business",
-          "description": "I want to rank at the top of Google in my city."
+          "title": "Local Service Businesses",
+          "description": "I want customers searching for services in my city or region to see me at the very top of Google Maps and local search results (Local SEO)."
         }
       }
     },
     "whatWeDo": {
-      "label": "What We Do",
+      "label": "How We Help You",
       "title": "Organic Growth with a Holistic SEO Strategy",
-      "paragraph1": "We start with a technical SEO audit. We identify and fix all technical issues preventing Google from properly understanding your site.",
-      "paragraph2": "We build a content strategy through keyword research and competitor analysis. We get you ranking for the right keywords.",
-      "paragraph3": "We track ranking changes, traffic growth and ROI transparently with monthly reports.",
+      "paragraph1": "We start with a detailed technical SEO check-up. We identify and fundamentally resolve all architectural and coding errors that make it difficult for Google bots to crawl, understand, and index your site.",
+      "paragraph2": "We build your content strategy with in-depth competitor and keyword analyses, not assumptions. We focus not only on high-volume keywords but also on 'long-tail' keywords that will bring you direct sales.",
+      "paragraph3": "We keep you in the loop by providing transparent performance reports every month that include your ranking changes, organic traffic growth, and SEO return on investment (ROI).",
       "badge": "Scope of Service",
-      "cardTitle": "A Complete SEO Solution",
-      "cardDescription": "Everything you need for organic growth — under one roof.",
+      "cardTitle": "Comprehensive SEO Solution",
+      "cardDescription": "All the infrastructure you need to make your site an authority on search engines under one roof.",
       "checklist": {
-        "item1": "Technical SEO audit and fixes",
-        "item2": "Keyword research and strategy",
-        "item3": "Content optimization and production",
-        "item4": "Monthly reporting and ranking tracking"
+        "item1": "Comprehensive technical SEO audit and architecture optimization",
+        "item2": "Conversion-oriented keyword research and strategy",
+        "item3": "Content optimization tailored to Search Intent",
+        "item4": "On-Page and Off-Page SEO management"
       }
     }
   },
   "features": {
     "label": "Features",
-    "title": "What We Offer",
-    "subtitle": "Comprehensive SEO services to take you to the top of Google",
+    "title": "What's Included in Our SEO Service?",
+    "subtitle": "Modern optimization tools that will make your site Google's favorite",
     "items": {
       "custom": {
-        "title": "Technical SEO",
-        "description": "Page speed, Core Web Vitals, crawlability, schema markup and site architecture optimization."
+        "title": "Technical SEO & Speed Optimization",
+        "description": "Core Web Vitals compliance, page load speed, crawlability, and perfecting the site architecture."
       },
       "payment": {
-        "title": "Keyword Strategy",
-        "description": "A conversion-focused keyword map built through competitor analysis and search volume research."
+        "title": "Strategic Keyword Mapping",
+        "description": "Keyword analyses that find gaps in your industry, target your competitors' weak spots, and bring direct conversions."
       },
       "mobile": {
         "title": "On-Page Optimization",
-        "description": "Every page is ranking-ready — meta tags, heading structure, internal linking and content optimization."
+        "description": "Ensuring every page ranks: heading hierarchy (H1-H6), meta tags, URL structuring, and strategic internal linking networks."
       },
       "stock": {
-        "title": "SEO Content Production",
-        "description": "Content that your target audience is searching for. Content that both readers and Google love and rank."
+        "title": "SEO-Friendly Content Strategy",
+        "description": "Content guidelines written for humans, not just bots; fully satisfying search intent, authoritative, and guaranteed to rank."
       },
       "seo": {
-        "title": "Local SEO",
-        "description": "Google Business Profile optimization, local citations and ranking higher in map results."
+        "title": "Local SEO Management",
+        "description": "Google Business Profile optimization and local citation building so you can outrank competitors in regional searches."
       },
       "admin": {
-        "title": "Monthly Reporting",
-        "description": "Ranking changes, traffic growth and conversion tracking. Transparent and easy-to-understand reports."
+        "title": "Structured Data (Schema) Markup",
+        "description": "Technical coding that maximizes your click-through rate (CTR) by making you appear with rich snippets (starred products, FAQs, events) in search results."
       }
     }
   },
   "whyUs": {
-    "label": "Why Us",
-    "title": "Why Sybor Digital?",
-    "subtitle": "A team that delivers both technical and strategic SEO.",
+    "label": "Why Sybor Digital?",
+    "title": "We Target People, Not Algorithms",
+    "subtitle": "Your SEO partner providing long-term and lasting success, not short-term tricks.",
     "reasons": {
       "reason1": {
-        "title": "Technical + Content Together",
-        "description": "Most agencies do either technical or content. We run both simultaneously and in sync."
+        "title": "Harmony of Tech and Content",
+        "description": "The content of a technically weak site, or the technique of a content-poor site, is useless. We manage both disciplines in perfect harmony."
       },
       "reason2": {
-        "title": "Transparent Reporting",
-        "description": "We share what we did, why we did it and the results in a detailed monthly report."
+        "title": "Transparent and Clear Reporting",
+        "description": "We don't confuse you with complex metrics. We clearly report what position we hold for which keyword, how much our traffic has increased, and what we have earned you."
       },
       "reason3": {
-        "title": "White Hat Approach",
-        "description": "We don't use techniques that boost rankings short-term then attract long-term penalties."
+        "title": "Reliable (100% White Hat) Strategies",
+        "description": "We stay away from risky, short-term (Black Hat) spam methods that will put your site on Google's blacklist (sandbox), and build lasting authority."
       },
       "reason4": {
-        "title": "Industry Expertise",
-        "description": "We develop sector-specific strategies for e-commerce, local business and enterprise SEO."
+        "title": "Industry-Specific Solutions",
+        "description": "The SEO dynamics of an e-commerce site and the local SEO dynamics of a clinic are not the same. We construct tailor-made strategies specific to your industry."
       },
       "reason5": {
-        "title": "Continuous Optimization",
-        "description": "SEO is not a one-time task — it's a continuous process. We quickly adapt to algorithm changes."
+        "title": "Developer Support",
+        "description": "With the advantage of being an agency with an in-house software team, we can rapidly resolve identified complex technical SEO issues without needing third parties."
       },
       "reason6": {
-        "title": "ROI-Focused",
-        "description": "Not rankings — traffic and conversions. We optimize for real business results."
+        "title": "Conversion (ROI) Focus",
+        "description": "We are not just interested in increasing traffic. We work with a Conversion Rate Optimization (CRO) perspective necessary for incoming visitors to purchase products or services."
       }
     }
   },
   "process": {
     "label": "Process",
-    "title": "How We Work",
-    "subtitle": "A systematic, data-driven SEO process.",
+    "title": "How Do We Elevate Your Site?",
+    "subtitle": "Our disciplined, transparent, and data-driven SEO workflow.",
     "stepLabel": "Step",
     "steps": {
       "discovery": {
-        "title": "Audit & Strategy",
-        "description": "We conduct a technical SEO audit, competitor analysis and keyword research. We establish priorities.",
-        "tag": "1 Week"
+        "title": "Comprehensive Audit & Strategy",
+        "description": "We audit your site from A to Z in terms of technical SEO, content, and backlinks, analyze your competitors, and draw our long-term roadmap.",
+        "tag": "Weeks 1-2"
       },
       "design": {
-        "title": "Technical Fixes",
-        "description": "We resolve technical SEO issues, apply on-page optimizations and improve site structure.",
-        "tag": "2-4 Weeks"
+        "title": "Technical Infrastructure Improvements",
+        "description": "We resolve crawlability issues, speed problems, and site architecture errors, making the foundation of our site flawless for Google.",
+        "tag": "Weeks 3-4"
       },
       "development": {
-        "title": "Content & Link Building",
-        "description": "We produce SEO content, strengthen internal linking structure and build authority through link building.",
-        "tag": "Monthly"
+        "title": "On-Page & Content Optimization",
+        "description": "We optimize the meta tags, headings, and content of your existing pages according to the determined strategic keywords.",
+        "tag": "Monthly Routine"
       },
       "launch": {
-        "title": "Reporting & Optimization",
-        "description": "We present the monthly performance report and update strategy based on ranking changes.",
+        "title": "Authority Building & Regular Reporting",
+        "description": "We increase your site authority by obtaining references (link building) from high-quality platforms related to your industry and provide detailed reports every month.",
         "tag": "Ongoing"
       }
     }
@@ -143,39 +143,39 @@
   "faq": {
     "label": "FAQ",
     "title": "Frequently Asked Questions",
-    "subtitle": "Answers to the questions on your mind.",
+    "subtitle": "Things you might be wondering about SEO processes and expectations.",
     "items": {
       "delivery": {
-        "question": "When will SEO results be visible?",
-        "answer": "Initial technical improvements start showing within 1-2 months. Meaningful traffic growth typically takes 3-6 months. SEO is a long-term investment."
+        "question": "When do SEO efforts start showing results?",
+        "answer": "The results of initial technical improvements are reflected in indexing within the first 1-2 months. However, seeing a meaningful, lasting growth in keyword rankings and organic traffic generally takes 3 to 6 months depending on the industry's competition."
       },
       "pricing": {
-        "question": "How much does SEO cost?",
-        "answer": "Varies by site size, industry competition and required scope. We work on a monthly retainer model."
+        "question": "How are monthly SEO consultancy fees determined?",
+        "answer": "We prepare a custom, transparent 'retainer' (monthly contract) quote based on the current state of your site (number of pages, technical health), the competitive difficulty of your target market, and the volume of content to be produced monthly."
       },
       "revisions": {
-        "question": "What is the minimum contract length?",
-        "answer": "By the nature of SEO, we work with a minimum 6-month agreement. Sufficient time is needed for guaranteed results."
+        "question": "Why do you require a minimum 6-month contract?",
+        "answer": "SEO is a long-term investment that needs solid foundations. 6 months is the minimum healthy period required for algorithms to make sense of the changes made and for your site to gain authority."
       },
       "maintenance": {
-        "question": "Who makes the technical SEO changes?",
-        "answer": "We make small technical changes ourselves. For larger development changes, we work in coordination with your dev team."
+        "question": "Do you do the technical SEO coding and on-site fixes?",
+        "answer": "Yes, we directly implement basic technical updates that require software expertise. If you have your own in-house dev team, we coordinate the process by providing them with clear, actionable briefs."
       },
       "migration": {
-        "question": "Will SEO value be lost during a site migration?",
-        "answer": "Not with proper planning. We manage the technical transition in a way that preserves all your SEO value."
+        "question": "We are going to redesign my site; will I lose my existing SEO value (traffic)?",
+        "answer": "If not planned correctly, yes. But with our 'SEO Migration' strategy, we flawlessly set up URL redirects (301s) and architecture, safely transferring years of accumulated SEO value to the new site."
       },
       "mobile": {
-        "question": "Can I run paid ads alongside SEO?",
-        "answer": "Absolutely. SEO and paid ads complement each other. As organic traffic grows, your dependency on ads decreases."
+        "question": "Is there a need for SEO when there are paid ads (Google Ads)?",
+        "answer": "Absolutely. The moment the ad budget stops, traffic drops to zero. SEO, on the other hand, is your site's permanent digital real estate value. They complement each other; as SEO strengthens, your dependence on ads and your costs decrease."
       }
     }
   },
   "cta": {
     "label": "Let's Get Started",
-    "title": "Let's Get You Ahead of Your Competitors on Google",
-    "description": "Get in touch for a free SEO audit. Let's see where your site stands and where we can take it.",
+    "title": "Leave Your Competitors Behind in Search Results",
+    "description": "Let's schedule our free SEO audit meeting to analyze your site's current situation on Google and discover your growth potential.",
     "primaryButton": "Get a Free Audit",
-    "secondaryButton": "Message on WhatsApp"
+    "secondaryButton": "Write on WhatsApp"
   }
 }

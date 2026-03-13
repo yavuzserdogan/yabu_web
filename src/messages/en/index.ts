@@ -6,7 +6,6 @@ import about from "./about.json";
 import contact from "./contact.json";
 import projects from "./projects.json";
 import ads from "./services/ads.json";
-import blog from "./services/blog.json";
 import booking from "./services/booking.json";
 import boutique from "./services/boutique.json";
 import branding from "./services/branding.json";
@@ -33,7 +32,6 @@ const messages = {
   ...projects,
   ServicesPage: {
     "ads": ads,
-    "blog": blog,
     "booking": booking,
     "boutique": boutique,
     "branding": branding,

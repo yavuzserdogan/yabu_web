@@ -3,179 +3,179 @@
     "title": "Social Media Management"
   },
   "hero": {
-    "titleMain": "Growing Your Brand,",
+    "titleMain": "Growing Your Brand",
     "titleAccent": "Social Media Management",
-    "description": "From strategy and content creation to community management and ad optimization — we turn your social media into a growth engine."
+    "description": "We don't just generate likes; we build loyalty and drive sales. From content creation to community management, we turn your social media accounts into a true growth engine."
   },
   "overview": {
     "whatIs": {
       "label": "Is This Page For You?",
-      "title": "Does Your Social Media Represent Your Brand?",
-      "paragraph1": "Inconsistent posts, mismatched visuals, low engagement... If your social media isn't adding value to your brand — or worse, damaging it — something needs to change.",
-      "paragraph2": "Social media today isn't just about posting. It requires strategy, content planning, analysis and continuous optimization.",
-      "paragraph3": "At Sybor Digital, we find your brand's voice, grow it with a consistent content language and build a loyal audience through community management.",
+      "title": "Is Your Social Media Just an 'Empty Storefront'?",
+      "paragraph1": "Irregular posts, amateur visuals that don't reflect your brand's quality, and content that only gets a few likes... Could your social media be costing you prestige instead of adding value to your business?",
+      "paragraph2": "In today's digital world, social media management is not just about posting a few times a week. It requires strategic planning that understands algorithms, a creative visual language, and instant optimization.",
+      "paragraph3": "As Sybor Digital, we find your brand's unique voice, build an emotional connection with your target audience, and transform your social media into active channels that directly serve sales and awareness.",
       "audiences": {
         "physical": {
-          "title": "I'm launching a new brand",
-          "description": "I want to build a social media presence from scratch."
+          "title": "Entrepreneurs Launching a New Brand",
+          "description": "I want to make a bold entry into the industry and put my brand's digital presence on a professional foundation from day one."
         },
         "startup": {
-          "title": "My account is stagnant",
-          "description": "I post inconsistently and my engagement is very low."
+          "title": "Businesses with Stagnant Accounts",
+          "description": "I can't post regularly, my follower count has been the same for months, and my posts generate zero engagement from my target audience."
         },
         "growing": {
-          "title": "I want to grow",
-          "description": "I want more followers, engagement and sales."
+          "title": "Those Aiming for Sales and Conversions",
+          "description": "I don't just want my social media to look pretty; I want it to drive traffic to my website, generate leads, and bring direct sales."
         },
         "global": {
-          "title": "I don't have time",
-          "description": "I can't keep up with social media while running my business."
+          "title": "Managers with No Time",
+          "description": "Between managing my business and operations, I absolutely have no time to create content, reply to comments, and follow trends."
         }
       }
     },
     "whatWeDo": {
-      "label": "What We Do",
-      "title": "Full Social Media Management from Strategy to Post",
-      "paragraph1": "We start with brand analysis and competitor research. We build a content strategy and visual identity aligned with your target audience.",
-      "paragraph2": "We produce monthly content calendars, original graphic designs, video reels and story content. Nothing goes live without your approval.",
-      "paragraph3": "We actively manage comment responses, DM tracking and community growth. We keep you informed with a monthly performance report.",
+      "label": "How We Help You",
+      "title": "360-Degree Management from Strategy to Posting",
+      "paragraph1": "We start by listening and analyzing. We determine your brand's current situation, what your competitors are doing, and what your target audience wants to consume, then we draw up a custom content strategy for you.",
+      "paragraph2": "In line with this strategy, we produce aesthetic graphic designs, trendy Reels/TikTok videos, and engaging copywriting. The monthly calendar we prepare never goes live without your approval.",
+      "paragraph3": "We don't just post content and walk away. We reply to comments, manage direct messages (DMs), intervene during crises, and present you with a transparent performance report at the end of each month to show how much we've grown.",
       "badge": "Scope of Service",
-      "cardTitle": "A Complete Social Media Solution",
-      "cardDescription": "Everything you need for social media management — under one roof.",
+      "cardTitle": "Comprehensive Social Media Solution",
+      "cardDescription": "All the creative and analytical processes your brand needs to shine digitally, under one roof.",
       "checklist": {
-        "item1": "Monthly content calendar and strategy",
-        "item2": "Original visual and video content production",
-        "item3": "Community management and DM tracking",
-        "item4": "Monthly performance report and optimization"
+        "item1": "Platform-specific content strategy and planning",
+        "item2": "Premium visual design and Reels/Video production",
+        "item3": "Active community management (Comment and DM tracking)",
+        "item4": "Detailed monthly performance and growth reporting"
       }
     }
   },
   "features": {
     "label": "Features",
-    "title": "What We Offer",
-    "subtitle": "Solutions to take your brand to the front on social media",
+    "title": "What's in Our Service Package?",
+    "subtitle": "Professional tools that will set your brand apart from competitors on social media",
     "items": {
       "custom": {
-        "title": "Content Strategy",
-        "description": "We analyze your audience and competitors. We define a content language, tone and publishing strategy tailored to your brand."
+        "title": "Data-Driven Content Strategy",
+        "description": "We act on data, not guesses. We carefully construct your brand's Tone of Voice, posting frequency, and content pillars."
       },
       "payment": {
-        "title": "Original Content Production",
-        "description": "Feed visuals, Reels, Stories, carousels — we create platform-specific content. No stock photos used."
+        "title": "Premium Content Creation",
+        "description": "We don't use ordinary stock images. We custom-design feed posts, stories, scrollable carousel content, and infographics specifically for your brand."
       },
       "mobile": {
-        "title": "Community Management",
-        "description": "We reply to comments, track DMs and build a genuine connection with your followers."
+        "title": "Dynamic Video & Reels Production",
+        "description": "We bring short-form videos (Reels, Shorts, TikTok) that algorithms love the most to life with trendy edits, music, and text."
       },
       "stock": {
-        "title": "Ad Management",
-        "description": "We set up, test and optimize Meta Ads and TikTok Ads campaigns."
+        "title": "Active Community Management (CM)",
+        "description": "We build an organic bond with your followers. We reply to incoming comments in accordance with your brand identity and keep engagement alive."
       },
       "seo": {
-        "title": "Analytics & Reporting",
-        "description": "Monthly detailed performance report. See what's working and what isn't, backed by data."
+        "title": "Transparent Analytics & Reporting",
+        "description": "We present you with detailed monthly reports showing which content gets the most saves and which hours are most efficient, and we update our strategy accordingly."
       },
       "admin": {
-        "title": "Influencer Collaborations",
-        "description": "We manage the collaboration process with micro and macro influencers suited to your brand."
+        "title": "Sponsored Ads Management",
+        "description": "Where organic growth isn't enough, we optimize your Meta (Instagram/Facebook) ads to deliver your content to the right target audience."
       }
     }
   },
   "whyUs": {
-    "label": "Why Us",
-    "title": "Why Sybor Digital?",
-    "subtitle": "A team that truly understands social media.",
+    "label": "Why Sybor Digital?",
+    "title": "We View Social Media as a Marketing Tool",
+    "subtitle": "Your strategic business partner that adds value to your brand, not just an agency that 'posts'.",
     "reasons": {
       "reason1": {
-        "title": "Strategy Comes First",
-        "description": "We don't post randomly. Every piece of content serves a defined strategy and goal."
+        "title": "Content with a Purpose",
+        "description": "We don't produce empty content just to fill the page. Every visual we prepare has a clear purpose: to entertain, educate, or drive sales."
       },
       "reason2": {
-        "title": "Original Production",
-        "description": "No stock visuals, no copied templates. Every piece of content is produced originally for your brand."
+        "title": "Mastery of Platform Algorithms",
+        "description": "From Instagram's latest algorithm to TikTok's organic distribution logic, we know the rules of the platforms and optimize content accordingly."
       },
       "reason3": {
-        "title": "Transparent Reporting",
-        "description": "We share what we did and the results in a detailed monthly report."
+        "title": "Flawless Brand Consistency",
+        "description": "To create a premium brand perception when someone looks at your profile, we stay 100% true to your color palette, fonts, and visual language."
       },
       "reason4": {
-        "title": "Platform Expertise",
-        "description": "We closely follow algorithm changes on Instagram, TikTok, LinkedIn and X."
+        "title": "No Surprises (Approved Process)",
+        "description": "We present you with next month's content calendar and designs in advance. Nothing is posted on behalf of your brand until you see and approve it."
       },
       "reason5": {
-        "title": "Quick Approval Process",
-        "description": "We submit content for your approval before publishing. We manage the calendar together."
+        "title": "Sustainable Organic Growth",
+        "description": "We don't fall for fake follower (bot) or giveaway traps that are temporary and harm the brand. Our goal is to gain you a loyal audience that will actually buy your product/service."
       },
       "reason6": {
-        "title": "Long-Term Growth",
-        "description": "We don't chase viral content. We work for sustainable, organic growth."
+        "title": "Fast Reaction to Trends",
+        "description": "Social media is lived in the moment. We quickly adapt to a viral trend in your industry or an instant development (real-time marketing) and produce content."
       }
     }
   },
   "process": {
     "label": "Process",
-    "title": "How We Work",
-    "subtitle": "We build your brand's social media presence together.",
+    "title": "How Do We Manage the Process?",
+    "subtitle": "Our planned and transparent workflow that eliminates chaos.",
     "stepLabel": "Step",
     "steps": {
       "discovery": {
-        "title": "Brand & Competitor Analysis",
-        "description": "We analyze your brand, target audience and industry competitors. We define the content strategy and visual identity.",
-        "tag": "3-5 Days"
+        "title": "Discovery & Strategy Setup",
+        "description": "We audit your current accounts and examine your competitors. We structure your brand language, visual identity, and the first month's content strategy.",
+        "tag": "Week 1"
       },
       "design": {
-        "title": "Content Plan & Templates",
-        "description": "We prepare the monthly content calendar and visual templates. We present them for your approval.",
-        "tag": "3-5 Days"
+        "title": "Content Creation & Approval Process",
+        "description": "We write copy in line with the determined strategy, prepare designs, and present the monthly content calendar for your approval.",
+        "tag": "Week 2"
       },
       "development": {
-        "title": "Production & Publishing",
-        "description": "We produce content, publish on schedule and engage with the community.",
-        "tag": "Monthly"
+        "title": "Publishing & Community Management",
+        "description": "We publish the approved content during the algorithm's most active hours and manage incoming comments and messages on behalf of your brand.",
+        "tag": "Ongoing (Monthly)"
       },
       "launch": {
-        "title": "Analysis & Optimization",
-        "description": "We share the monthly performance report and update the strategy. We continuously improve.",
-        "tag": "Ongoing"
+        "title": "Reporting & Optimization",
+        "description": "At the end of the month, we report your growth data and reach statistics, and we improve the next month's strategy based on this data.",
+        "tag": "End of Each Month"
       }
     }
   },
   "faq": {
     "label": "FAQ",
     "title": "Frequently Asked Questions",
-    "subtitle": "Answers to the questions on your mind.",
+    "subtitle": "Things you might be wondering about social media management processes.",
     "items": {
       "delivery": {
-        "question": "When can we start?",
-        "answer": "After the brand analysis and strategy phase, we typically present the first content calendar within 7-10 days."
+        "question": "When and how do we start the process?",
+        "answer": "After the contract, our brand analysis and strategy creation phase begins. Usually, within the first 7-10 days, we analyze your brand and present your first monthly content calendar for your approval."
       },
       "pricing": {
-        "question": "How do packages work?",
-        "answer": "Packages vary by number of platforms, monthly content volume and ad management needs. Custom proposal after a free call."
+        "question": "How are monthly management fees determined?",
+        "answer": "We create a custom package for you based on the number of platforms to be managed (Instagram, TikTok, LinkedIn, etc.), weekly posting frequency, video/Reels production volume, and your ad management needs."
       },
       "revisions": {
-        "question": "Can I approve content before it goes live?",
-        "answer": "Yes. All content is submitted for your approval before publishing. We make any requested changes."
+        "question": "Will I be able to see the content before it's posted?",
+        "answer": "Absolutely yes. The monthly content calendar (visuals and texts) is presented for your approval the week before. No content goes live without your approval or requested revisions."
       },
       "maintenance": {
-        "question": "What is the minimum contract length?",
-        "answer": "Social media management is a long-term process. We work with a minimum 3-month agreement. Monthly continuation is possible afterwards."
+        "question": "Why do you recommend a minimum 3-month contract?",
+        "answer": "To allow social media algorithms to recognize your account, for our strategy to settle in, and to capture a real, measurable organic growth momentum, a steady effort of at least 3 months is essential."
       },
       "migration": {
-        "question": "Can you take over my existing accounts?",
-        "answer": "Yes. We're ready to analyze your existing Instagram, TikTok or LinkedIn accounts and strategically take over management."
+        "question": "Do I give you the passwords to my accounts; how is security ensured?",
+        "answer": "We don't ask for your password. You authorize our agency as a 'Partner' through Meta Business Manager. This way, your accounts remain secure while we take over the management."
       },
       "mobile": {
-        "question": "Does ad spend come from my own account?",
-        "answer": "Yes. Ad spend comes directly from your own account. We only handle campaign setup and management."
+        "question": "Is the sponsored ad budget included in the service fee?",
+        "answer": "No, ad spend (the amount paid to Google/Meta) is drawn entirely from your credit card and based on the budget you determine. We manage the campaign setup, targeting, and optimization."
       }
     }
   },
   "cta": {
     "label": "Let's Get Started",
-    "title": "Let's Turn Your Social Media Into a Growth Engine",
-    "description": "Get in touch for a free strategy call. We're here to build a social media plan tailored to your brand.",
+    "title": "Turn Your Social Media Into a Real Growth Engine",
+    "description": "Let's schedule our free discovery meeting to create the strategy that will take your brand to the position it deserves in the digital world.",
     "primaryButton": "Get a Quote",
-    "secondaryButton": "Message on WhatsApp"
+    "secondaryButton": "Write on WhatsApp"
   }
 }

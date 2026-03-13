@@ -3,178 +3,178 @@
     "title": "Kurumsal E-Posta & Altyapı"
   },
   "hero": {
-    "titleMain": "Profesyonel ve Güvenilir",
+    "titleMain": "İletişiminize Prestij Katan",
     "titleAccent": "Kurumsal E-Posta & Altyapı",
-    "description": "Gmail veya kişisel hesaplardan kurumsal yapıya geçin. @sirketiniz.com uzantılı, güvenli ve profesyonel e-posta altyapısı kuruyoruz."
+    "description": "Kişisel hesaplardan kurtulun, markanıza değer katın. Sıfır veri kaybı garantisiyle @sirketiniz.com uzantılı, güvenli ve profesyonel e-posta altyapınızı kuruyoruz."
   },
   "overview": {
     "whatIs": {
       "label": "Bu Sayfa Sizin İçin Mi?",
-      "title": "info@gmail.com Artık Yetmiyor",
-      "paragraph1": "Bir müşteri info@gmail.com adresinizden e-posta aldığında ne düşünür? Kurumsal bir e-posta adresi, ilk mesajdan itibaren profesyonellik ve güven sinyali verir.",
-      "paragraph2": "Görünümün ötesinde kişisel e-posta servisleri iş ihtiyaçları için yetersiz kalır — ekip yönetimi, paylaşılan posta kutuları, e-posta arşivleme ve güvenlik konularında boşluklar oluşur.",
-      "paragraph3": "Sybor Digital olarak Google Workspace, Microsoft 365 veya özel mail sunucusu üzerinden kendi domaininizle kurumsal e-posta altyapısı kuruyoruz.",
+      "title": "info@gmail.com İle Ne Kadar İleri Gidebilirsiniz?",
+      "paragraph1": "Potansiyel bir müşteriye veya iş ortağına info@gmail.com adresinden teklif gönderdiğinizde ne düşünürler? Kurumsal bir e-posta adresi, masaya oturduğunuz ilk andan itibaren güven ve profesyonellik sinyali verir.",
+      "paragraph2": "Prestijin ötesinde; kişisel veya standart hosting e-postaları iş ihtiyaçlarınız için yetersiz kalır. Spama düşen mailler, yetersiz depolama alanı, ekip yönetimi eksikliği ve güvenlik açıkları operasyonunuzu yavaşlatır.",
+      "paragraph3": "Sybor Digital olarak; Google Workspace, Microsoft 365 veya size özel bulut sunucular üzerinden, ekibinizin kesintisiz ve güvenle haberleşeceği modern kurumsal e-posta altyapılarını sıfırdan inşa ediyoruz.",
       "audiences": {
         "physical": {
-          "title": "Şirketi yeni kurdum",
-          "description": "Şirket adıma kurumsal e-posta adresleri oluşturmak istiyorum."
+          "title": "Yeni Şirket Kuran Girişimciler",
+          "description": "Sektöre adım atarken güven vermek ve markam adına profesyonel (@sirketim.com) e-posta adresleri oluşturmak istiyorum."
         },
         "startup": {
-          "title": "Ekibim büyüyor",
-          "description": "Çalışanlarım için yönetimli kurumsal e-posta hesapları kurmak istiyorum."
+          "title": "Ekibi Büyüyen Yöneticiler",
+          "description": "Çalışanlarım için kolayca yönetebileceğim, yetkilendirme yapabileceğim ve verileri merkezde tutabileceğim kurumsal hesaplar kurmak istiyorum."
         },
         "growing": {
-          "title": "Geçiş yapmak istiyorum",
-          "description": "Kişisel e-postadan kurumsal sisteme veri kaybetmeden geçmek istiyorum."
+          "title": "Altyapısını Taşıyan İşletmeler",
+          "description": "Kişisel hesaplarımdaki veya eski sunucumdaki e-postaları hiçbir veri kaybı ve kesinti yaşamadan modern bir sisteme taşımak istiyorum."
         },
         "global": {
-          "title": "Kurumsal uyumluluk gerekiyor",
-          "description": "E-posta arşivleme, güvenlik politikaları ve mevzuat uyumluluğu ihtiyacım var."
+          "title": "Kurumsal Uyumluluk Arayanlar",
+          "description": "Veri sızıntılarını önleyecek, e-posta arşivleme yapacak ve KVKK gibi mevzuatlara tam uyumlu güvenli bir altyapı istiyorum."
         }
       }
     },
     "whatWeDo": {
-      "label": "Neler Yapıyoruz?",
-      "title": "Kurumsal E-Posta Kurulumunun Tamamını Üstleniyoruz",
-      "paragraph1": "Domain doğrulamasından hesap oluşturmaya, DNS yapılandırmasından spam korumasına kadar tüm teknik kurulumu biz yapıyoruz.",
-      "paragraph2": "Google Workspace, Microsoft 365 veya özel mail sunucusu seçeneklerinden ihtiyacınıza en uygun çözümü belirliyoruz.",
-      "paragraph3": "Kurulumun ardından mevcut e-postalarınızın taşınması, ekip eğitimi ve süregelen teknik destek sağlıyoruz.",
+      "label": "Size Nasıl Yardımcı Oluyoruz?",
+      "title": "E-Posta Altyapınızın Tüm Yükünü Üstleniyoruz",
+      "paragraph1": "Domain (alan adı) doğrulamasından yeni hesapların açılmasına, DNS yönlendirmelerinden gelişmiş spam korumasına kadar tüm teknik entegrasyonu sizin yerinize yapıyoruz.",
+      "paragraph2": "İhtiyaçlarınızı ve bütçenizi analiz ederek sizi en doğru platforma (Google Workspace, Microsoft 365 veya Özel Sunucu) yönlendiriyor, lisans ve mimari planlamasını gerçekleştiriyoruz.",
+      "paragraph3": "Geçiş sürecinde işlerinizin bir saniye bile aksamasına izin vermiyoruz. Mevcut tüm yazışmalarınızı yeni sisteme aktarıyor, ekibinize kullanım eğitimi veriyor ve 7/24 teknik destek sağlıyoruz.",
       "badge": "Hizmet Kapsamı",
-      "cardTitle": "Eksiksiz Kurumsal E-Posta Çözümü",
-      "cardDescription": "Kurumsal e-posta altyapısı için ihtiyaç duyduğunuz her şey tek çatı altında.",
+      "cardTitle": "Tam Kapsamlı E-Posta Çözümü",
+      "cardDescription": "Kurumsal iletişim altyapınızın kusursuz çalışması için gereken tüm teknik adımlar.",
       "checklist": {
-        "item1": "Domain tabanlı e-posta kurulumu",
-        "item2": "DNS, SPF, DKIM ve DMARC yapılandırması",
-        "item3": "Mevcut e-postaların taşınması",
-        "item4": "Ekip hesapları ve yetki yönetimi"
+        "item1": "Alan adı (domain) tabanlı güvenli e-posta kurulumu",
+        "item2": "Spam önleyici DNS, SPF, DKIM ve DMARC yapılandırması",
+        "item3": "Mevcut e-posta, kişi ve takvimlerin kayıpsız taşınması",
+        "item4": "Merkezi admin paneli, ekip hesapları ve yetki yönetimi"
       }
     }
   },
   "features": {
     "label": "Özellikler",
-    "title": "Ne Sunuyoruz?",
-    "subtitle": "Profesyonel kurumsal e-posta altyapısı için tüm çözümler",
+    "title": "Altyapınızda Neler Bulunuyor?",
+    "subtitle": "İletişiminizi profesyonelleştirecek ve güvenceye alacak modern araçlar",
     "items": {
       "custom": {
         "title": "Kurumsal E-Posta Kurulumu",
-        "description": "@sirketiniz.com uzantılı e-posta hesapları. Google Workspace, Microsoft 365 veya özel sunucu seçenekleri."
+        "description": "Markanızın adını taşıyan (@sirketiniz.com) prestijli hesaplar. Google Workspace, Microsoft 365 veya özel sunucu mimarisiyle tam entegrasyon."
       },
       "payment": {
-        "title": "DNS & E-Posta Güvenliği",
-        "description": "SPF, DKIM ve DMARC yapılandırması. E-postalarınız spam'e düşmez, sahtecilik engellenir."
+        "title": "Spam ve Sahtecilik Koruması",
+        "description": "Gelişmiş SPF, DKIM ve DMARC kayıtları sayesinde e-postalarınız müşterilerinizin spam kutusuna düşmez, adınıza sahte mail atılamaz."
       },
       "mobile": {
-        "title": "E-Posta Taşıma",
-        "description": "Mevcut e-postalarınızı, kişilerinizi ve takviminizi yeni sisteme eksiksiz ve kesintisiz aktarıyoruz."
+        "title": "Kayıpsız Veri Taşıma (Migration)",
+        "description": "Eski sunucunuzdaki yılların birikimi olan e-postalarınızı, rehberinizi ve takvim kayıtlarınızı yeni sisteme eksiksiz ve kesintisiz aktarıyoruz."
       },
       "stock": {
-        "title": "Ekip & Yetki Yönetimi",
-        "description": "Personel hesapları, grup e-posta adresleri, paylaşılan posta kutuları ve admin panel kurulumu."
+        "title": "Gelişmiş Ekip & Yetki Yönetimi",
+        "description": "Personel hesapları açma/kapatma, departmanlara özel grup adresleri (info@, muhasebe@) ve paylaşılan posta kutularının merkezi yönetimi."
       },
       "seo": {
-        "title": "E-Posta Güvenliği",
-        "description": "Spam filtreleme, anti-phishing, iki faktörlü doğrulama ve e-posta şifreleme kurulumu."
+        "title": "Üst Düzey E-Posta Güvenliği",
+        "description": "Oltalama (phishing) saldırılarına karşı filtreleme, iki faktörlü doğrulama (2FA) ve uçtan uca e-posta şifreleme kurulumu."
       },
       "admin": {
-        "title": "E-Posta Arşivleme",
-        "description": "Yasal ve kurumsal uyumluluk için e-posta arşivleme çözümleri. Arama, dışa aktarma ve saklama politikaları."
+        "title": "Veri Arşivleme & Uyumluluk",
+        "description": "Yasal zorunluluklar ve kurumsal hafıza için silinmiş olsa bile e-postaları saklayan arşivleme (eDiscovery) çözümleri ve politikaları."
       }
     }
   },
   "whyUs": {
-    "label": "Neden Biz",
-    "title": "Neden Sybor Digital?",
-    "subtitle": "Teknik altyapıyı basit ve anlaşılır kılan bir ekip.",
+    "label": "Neden Sybor Digital?",
+    "title": "Teknik Karmaşayı Ortadan Kaldıran Partner",
+    "subtitle": "İş akışınızı kesintiye uğratmayan, güvenilir ve pürüzsüz bir geçiş deneyimi.",
     "reasons": {
       "reason1": {
-        "title": "Sorunsuz Geçiş",
-        "description": "Geçiş sürecinde tek bir e-posta kaybetmemenizi ve iş akışınızın aksamamasını sağlıyoruz."
+        "title": "Sıfır Kesinti Garantisi",
+        "description": "Geçiş (migration) işlemlerini genellikle mesai saatleri dışında yapıyor, tek bir e-posta bile kaybetmeden yeni güne hazır olmanızı sağlıyoruz."
       },
       "reason2": {
-        "title": "Doğru Platform Seçimi",
-        "description": "Ekip büyüklüğünüze ve ihtiyaçlarınıza göre en uygun ve ekonomik platformu belirliyoruz."
+        "title": "Bağımsız Danışmanlık",
+        "description": "Sizi tek bir platforma zorlamıyoruz. Ekip yapınıza, bütçenize ve kullandığınız diğer yazılımlara göre en ideal platformu tarafsızca seçiyoruz."
       },
       "reason3": {
-        "title": "Tam Teknik Kurulum",
-        "description": "DNS kayıtları, güvenlik yapılandırmaları ve tüm teknik detaylar — siz hiçbir şeyle uğraşmadan hallolur."
+        "title": "Görünmez Teknik Kurulum",
+        "description": "Karmaşık DNS yönlendirmeleri, MX kayıtları ve güvenlik yapılandırmalarıyla sizin yerinize biz uğraşıyor, size anahtar teslim sistem sunuyoruz."
       },
       "reason4": {
-        "title": "Ekip Eğitimi",
-        "description": "Personelinizi yeni sistemi hızlıca kullanmaları için eğitiyoruz. Sorunsuz geçiş garantisi."
+        "title": "Uygulamalı Ekip Eğitimi",
+        "description": "Yeni sisteme geçişte ekibinizin yabancılık çekmemesi için arayüz, takvim paylaşımı ve dosya yönetimi konularında gerekli eğitimleri veriyoruz."
       },
       "reason5": {
-        "title": "Süregelen Destek",
-        "description": "Yeni çalışan hesabı, şifre sıfırlama veya teknik sorunlar için hızlıca yanında oluyoruz."
+        "title": "Hızlı ve Kesintisiz Destek",
+        "description": "İşe yeni başlayan bir personel için hesap açılmasından unutulan şifrelere kadar her türlü teknik destekte anında yanınızdayız."
       },
       "reason6": {
-        "title": "Güvenlik Önce",
-        "description": "Kurumsal e-posta siber saldırıların en çok hedef aldığı noktadır. Güvenliği en baştan doğru kuruyoruz."
+        "title": "Önce Güvenlik Prensibi",
+        "description": "Kurumsal siber saldırıların %90'ı e-postalar üzerinden başlar. Biz altyapınızı sadece kurmakla kalmıyor, en yüksek güvenlik standartlarıyla zırhlıyoruz."
       }
     }
   },
   "process": {
     "label": "Süreç",
-    "title": "Nasıl Çalışıyoruz?",
-    "subtitle": "Kurumsal e-posta altyapınızı hızlı ve sorunsuz kuruyoruz.",
+    "title": "Sisteminizi Nasıl Kuruyoruz?",
+    "subtitle": "Sorunsuz bir geçiş için uyguladığımız planlı entegrasyon adımları.",
     "stepLabel": "Adım",
     "steps": {
       "discovery": {
-        "title": "İhtiyaç Analizi",
-        "description": "Ekip büyüklüğünüzü, mevcut yapıyı ve gereksinimleri değerlendiriyoruz. Doğru platformu seçiyoruz.",
+        "title": "İhtiyaç Analizi ve Platform Seçimi",
+        "description": "Şirketinizin veri depolama ihtiyacını, kullanıcı sayısını ve bütçesini analiz ederek en doğru altyapı (Google/Microsoft/Özel) kararını alıyoruz.",
         "tag": "1 Gün"
       },
       "design": {
-        "title": "Hesap Yapısı Planlaması",
-        "description": "E-posta hesapları, grup adresleri ve yetki yapısını planlıyoruz.",
-        "tag": "1 Gün"
+        "title": "Mimari ve Hesap Planlaması",
+        "description": "Kullanıcı listelerini, yönlendirme adreslerini (alias) ve departman gruplarını belirleyerek kurumsal iletişim ağacınızı oluşturuyoruz.",
+        "tag": "1-2 Gün"
       },
       "development": {
-        "title": "Kurulum & Taşıma",
-        "description": "Hesapları oluşturuyor, DNS yapılandırmalarını yapıyor ve mevcut e-postaları taşıyoruz.",
+        "title": "Kurulum, DNS ve Veri Taşıma",
+        "description": "Alan adı (DNS) ayarlarını yapılandırıyor, hesapları açıyor ve eski e-postalarınızı arka planda yeni sunuculara kopyalıyoruz.",
         "tag": "2-5 Gün"
       },
       "launch": {
-        "title": "Eğitim & Devreye Alma",
-        "description": "Ekibinizi eğitiyor, sistemi canlıya alıyor ve süregelen destek sağlıyoruz.",
-        "tag": "1-2 Gün"
+        "title": "Canlıya Alma ve Oryantasyon",
+        "description": "Sistemi aktifleştiriyor, güvenlik testlerini (SPF/DKIM) yapıyor ve ekibinize yeni platformun kullanımına dair oryantasyon sağlıyoruz.",
+        "tag": "Sürekli"
       }
     }
   },
   "faq": {
     "label": "SSS",
     "title": "Sıkça Sorulan Sorular",
-    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "subtitle": "Kurumsal e-posta altyapısıyla ilgili merak edilenler.",
     "items": {
       "delivery": {
-        "question": "Kurulum ne kadar sürer?",
-        "answer": "Temel kurulum 2-3 günde, taşıma dahil tam kurulum genellikle 5-7 günde tamamlanır."
+        "question": "Kurulum ve geçiş süreci ne kadar zaman alır?",
+        "answer": "Sıfırdan temel bir kurulum genellikle 1-2 gün içinde tamamlanır. Ancak eski sunucudan yoğun veri (gigabaytlarca mail) taşınacaksa bu süreç arka planda çalışarak 5-7 günü bulabilir."
       },
       "pricing": {
-        "question": "Google Workspace mı, Microsoft 365 mi?",
-        "answer": "Her ikisinin artıları ve eksileri var. Ekip büyüklüğünüze, kullandığınız araçlara ve bütçenize göre birlikte en uygununu belirliyoruz."
+        "question": "Google Workspace mi yoksa Microsoft 365 mi seçmeliyim?",
+        "answer": "Ekibinizin çalışma alışkanlıklarına göre değişir. Excel/Word gibi Office programlarını yoğun kullanıyorsanız Microsoft 365; ortak çalışma, sadelik ve bulut depolama arıyorsanız Google Workspace daha uygundur. Analiz sonrası birlikte karar veriyoruz."
       },
       "revisions": {
-        "question": "Kaç e-posta hesabı açabiliriz?",
-        "answer": "Teknik olarak sınırsız. Pratik sınır seçtiğiniz platform planına göre şekillenir. Doğru planı seçmenize yardımcı oluyoruz."
+        "question": "İstediğimiz kadar e-posta hesabı açabilir miyiz?",
+        "answer": "Teknik olarak evet, ancak Google ve Microsoft gibi servisler 'kullanıcı başına' aylık lisans ücreti talep eder. Maliyeti optimize etmek için ortak (info@, muhasebe@) adresleri ücretsiz yönlendirme (alias) olarak kuruyoruz."
       },
       "maintenance": {
-        "question": "Eski e-postalarım kaybolur mu?",
-        "answer": "Hayır. Taşıma sürecini titizlikle planlıyor ve tüm e-postalarınızı, kişilerinizi ve takviminizi eksiksiz aktarıyoruz."
+        "question": "Eski e-postalarım, klasörlerim veya takvimim kaybolur mu?",
+        "answer": "Kesinlikle hayır. Özel taşıma (migration) araçlarımızla tüm e-postalarınızı, oluşturduğunuz klasör yapılarını, kişilerinizi ve takvim etkinliklerinizi birebir yeni sisteme kopyalıyoruz."
       },
       "migration": {
-        "question": "Henüz özel domain'im yoksa ne yapacağım?",
-        "answer": "Domain alımında da yardımcı olabiliriz. Domain satın alma, DNS kurulumu ve e-posta yapılandırmasını paket olarak sunuyoruz."
+        "question": "Henüz bir şirket alan adım (domain) yok, yardımcı olur musunuz?",
+        "answer": "Evet. Kurumsal kimliğinize en uygun alan adının bulunması, satın alınması, tescil edilmesi ve ardından e-posta altyapısının kurulması süreçlerini uçtan uca tek paket olarak sunuyoruz."
       },
       "mobile": {
-        "question": "Mobilde kullanabilir miyiz?",
-        "answer": "Evet. iOS ve Android kurulumunu yapıyoruz. Tüm cihazlardan erişim sağlanır."
+        "question": "E-postalarımı telefonumdan (mobil) yönetebilecek miyim?",
+        "answer": "Elbette. Kurduğumuz sistemler iOS ve Android ile %100 uyumludur. İster Gmail/Outlook resmi uygulamalarından isterseniz telefonun kendi mail uygulamasından anlık senkronizasyonla kullanabilirsiniz."
       }
     }
   },
   "cta": {
     "label": "Hadi Başlayalım",
-    "title": "Kurumsal E-Posta Altyapınızı Kuralım",
-    "description": "Ücretsiz danışmanlık görüşmesi için hemen iletişime geçin. İhtiyacınıza en uygun çözümü birlikte belirleyelim.",
+    "title": "İletişim Altyapınızı Profesyonelleştirin",
+    "description": "İşletmenizin prestijini artıracak ve verilerinizi güvenceye alacak en uygun e-posta altyapısını planlamak için ücretsiz görüşmemizi ayarlayalım.",
     "primaryButton": "Teklif Al",
     "secondaryButton": "WhatsApp'tan Yaz"
   }

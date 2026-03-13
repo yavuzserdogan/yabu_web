@@ -1,70 +1,53 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.sybordigital.com'
+  const baseUrl = "https://www.sybordigital.com";
 
-  return [
-    {
-      url: `${baseUrl}/tr`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/tr/services`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/tr/projects`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/tr/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/tr/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
+  const locales = ["tr", "en"];
 
+  const staticPages = [
+    "",
+    "/projects",
+    "/about",
+    "/contact",
+  ];
 
-    {
-      url: `${baseUrl}/en`,
+  const services = [
+    "e-commerce",
+    "corporate-web",
+    "boutique",
+    "portfolio",
+    "landing",
+    "mobile-app",
+    "qr-menu",
+    "booking",
+    "social-media",
+    "ui-ux",
+    "branding",
+    "ads",
+    "seo",
+    "maintenance",
+    "security",
+    "corporate-mail",
+  ];
+
+  const staticUrls = locales.flatMap((locale) =>
+    staticPages.map((page) => ({
+      url: `${baseUrl}/${locale}${page}`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/en/services`,
+      changeFrequency: "monthly" as const,
+      priority: page === "" ? 1 : 0.8,
+    }))
+  );
+
+  const serviceUrls = locales.flatMap((locale) =>
+    services.map((slug) => ({
+      url: `${baseUrl}/${locale}/services/${slug}`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: "monthly" as const,
       priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/en/projects`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/en/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/en/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-  ]
+    }))
+  );
+
+  return [...staticUrls, ...serviceUrls];
 }
