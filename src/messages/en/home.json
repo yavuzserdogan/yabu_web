@@ -598,7 +598,7 @@
       "subtitle": "Explore some of our successful digital solutions",
       "items": {
         "project1": {
-          "title": "Speech & Language Therapist – Feyza Şahan",
+          "title": "Speech & Language Therapist / Feyza Şahan",
           "category": "Web Development",
           "description": "A customized digital platform developed specifically for speech and language therapists.",
           "cta": "View Project"
@@ -610,9 +610,9 @@
           "cta": "View Project"
         },
         "project3": {
-          "title": "Fitness Mobile Application",
+          "title": "Food Roulette Mobile Application",
           "category": "Mobile App Development",
-          "description": "A personalized fitness application featuring custom workout programs and nutrition tracking.",
+          "description": "A food recommendation app that offers random restaurant suggestions based on filtered options.",
           "cta": "View Project"
         }
       }

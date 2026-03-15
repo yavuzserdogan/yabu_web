@@ -12,6 +12,7 @@ interface Props {
 
 export function ProjectsGrid({ projects }: Props) {
     const theme = contentTheme;
+    // 'ProjectsPage.items' anahtarına odaklanıyoruz
     const t = useTranslations('ProjectsPage.items');
 
     return (
@@ -30,6 +31,7 @@ export function ProjectsGrid({ projects }: Props) {
                             >
                                 <div className={`${theme.card.bg.white} rounded-2xl overflow-hidden ${theme.card.base} hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-slate-100`}>
                                     
+                                    {/* Görsel Alanı */}
                                     <div className="relative h-48 sm:h-56 w-full overflow-hidden">
                                         <Image
                                             src={project.image}
@@ -42,14 +44,17 @@ export function ProjectsGrid({ projects }: Props) {
                                     </div>
 
                                     <div className={`${theme.card.padding.md} flex flex-col grow p-5 md:p-6`}>
+                                        {/* Proje Başlığı */}
                                         <h3 className={`${theme.typography.cardTitle} text-lg md:text-xl ${theme.colors.text.primary} mb-2 group-hover:text-blue-600 transition-colors`}>
                                             {t(`${project.title}.title`)}
                                         </h3>
 
+                                        {/* Proje Açıklaması */}
                                         <p className={`${theme.typography.body} text-sm md:text-base mb-6 line-clamp-3 grow`}>
                                             {t(`${project.title}.description`)}
                                         </p>
 
+                                        {/* Link ve CTA Butonu */}
                                         <a
                                             href={project.link}
                                             target="_blank"
@@ -62,10 +67,13 @@ export function ProjectsGrid({ projects }: Props) {
                                             </svg>
                                         </a>
 
+                                        {/* Etiketler (Tags) - JSON'dan Çekilen Kısım */}
                                         <div className="flex flex-wrap gap-2 md:gap-3 mt-auto pt-4 border-t border-gray-100">
-                                            {project.tags?.map((tag, i) => (
+                                            {/* t.raw ile JSON içindeki tags dizisini alıyoruz */}
+                                            {Array.isArray(t.raw(`${project.title}.tags`)) && 
+                                                (t.raw(`${project.title}.tags`) as string[]).map((tag, idx) => (
                                                 <span
-                                                    key={`${project.id}-${i}-${tag}`}
+                                                    key={`${project.id}-${idx}`}
                                                     className={`${theme.badge.tag} text-[10px] md:text-xs px-3 py-1`}
                                                 >
                                                     {tag}

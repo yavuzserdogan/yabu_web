@@ -19,19 +19,34 @@
         "title": "Online DKT Therapy",
         "category": "Web",
         "description": "A specialized platform for speech and language therapists.",
-        "cta": "View Project"
+        "cta": "View Project",
+        "tags": [
+          "Corporate Website",
+          "Online Therapy Platform",
+          "Appointment & Payment Integration"
+        ]
       },
       "project2": {
         "title": "Ortho Origin",
         "category": "Web",
         "description": "An e-commerce platform selling orthopedic products.",
-        "cta": "View Project"
+        "cta": "View Project",
+        "tags": [
+          "E-Commerce Platform",
+          "Inventory & Stock Management",
+          "Multi-Language & Currency Support"
+        ]
       },
       "project3": {
-        "title": "Fitness Mobile App",
+        "title": "Food Roulette Mobile App",
         "category": "Mobile",
-        "description": "Personalized workout programs and nutrition tracking application.",
-        "cta": "View Project"
+        "description": "A food recommendation app that offers random restaurant suggestions based on filtered options.",
+        "cta": "View Project",
+        "tags": [
+          "Mobile Application",
+          "Google Maps API Integration",
+          "UI/UX Design"
+        ]
       }
     },
     "cta": {

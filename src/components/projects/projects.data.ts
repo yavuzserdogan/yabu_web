@@ -10,12 +10,7 @@ export const projects: Project[] = [
     category: 'web',
     description: '',
     image: '/images/onlinedktterapi.png',
-    tags: [
-      'Kurumsal Web Sitesi',
-      'Online Terapi Platformu',
-      'Randevu & Ödeme Entegrasyonu',
-    ],
-    link: 'https://github.com/Buraktalhaa/onlinedktterapi'
+    link: 'https://onlinedktterapi.vercel.app'
   },
   {
     id: 2,
@@ -23,11 +18,6 @@ export const projects: Project[] = [
     category: 'web',
     description: '',
     image: '/images/otrhoorigin.png',
-    tags: [
-      'E-Ticaret Platformu',
-      'Ürün & Stok Yönetimi',
-      'Çoklu Dil & Para Birimi',
-    ],
     link: 'https://www.orthoorigin.com/tr'
   },
   {
@@ -35,12 +25,7 @@ export const projects: Project[] = [
     title: 'project3',
     category: 'mobile',
     description: '',
-    image: 'https://images.unsplash.com/photo-1707836916010-3c4ad261936c',
-    tags: [
-      'Mobil Fitness Uygulaması',
-      'Antrenman & Beslenme Takibi',
-      'Push Bildirim & Hedef Takibi',
-    ],
-    link: 'https://github.com/Buraktalhaa/onlinedktterapi'
+    image: '/images/foodRoulette.png',
+    link: 'https://github.com/Buraktalhaa/food-roulette'
   },
 ];
