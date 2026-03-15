@@ -73,7 +73,7 @@ export const projects: Project[] = [
     id: 3,
     title: "",
     category: "",
-    image: "https://images.unsplash.com/photo-1707836916010-3c4ad261936c",
+    image: "/images/foodRoulette.png",
   },
 ];
 

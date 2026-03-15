@@ -19,19 +19,34 @@
         "title": "Dil ve Konuşma Terapisti - Feyza Şahan",
         "category": "Web",
         "description": "Dil ve konuşma terapistleri için özelleştirilmiş bir platform.",
-        "cta": "Projeyi İncele"
+        "cta": "Projeyi İncele",
+        "tags": [
+          "Kurumsal Web Sitesi",
+          "Online Terapi Platformu",
+          "Randevu & Ödeme Entegrasyonu"
+        ]
       },
       "project2": {
         "title": "Ortho Origin",
         "category": "Web",
         "description": "Ortopedik ürünler satan bir e-ticaret platformu.",
-        "cta": "Projeyi İncele"
+        "cta": "Projeyi İncele",
+        "tags": [
+          "E-Ticaret Platformu",
+          "Ürün & Stok Yönetimi",
+          "Çoklu Dil & Para Birimi"
+        ]
       },
       "project3": {
-        "title": "Fitness Mobil Uygulaması",
+        "title": "Yemek Ruleti Mobil Uygulaması",
         "category": "Mobil",
-        "description": "Kişiselleştirilmiş antrenman programları ve beslenme takibi uygulaması.",
-        "cta": "Projeyi İncele"
+        "description": "Filtrelenmiş seçeneklere göre rastgele restoran önerileri sunan bir yemek öneri uygulaması.",
+        "cta": "Projeyi İncele",
+        "tags": [
+          "Mobil Uygulama",
+          "Google Maps API Bağlantısı",
+          "UI/UX Tasarımı"
+        ]
       }
     },
     "cta": {
