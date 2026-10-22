@@ -84,7 +84,7 @@ export function ContactForm() {
       <Field label={t("message")} name="message" multiline rows={3} placeholder={t("messagePh")}
         value={values.message} onChange={set("message")} />
       <div className="sy-form__foot">
-        <Button type="submit" size="l" magnetic icon="arrow-right" loading={state === "sending"}>{t("submit")}</Button>
+        <Button type="submit" size="l" icon="arrow-right" loading={state === "sending"}>{t("submit")}</Button>
         <span className="sy-t-caption sy-muted">{t("kvkk")}</span>
       </div>
       {state === "error" && (

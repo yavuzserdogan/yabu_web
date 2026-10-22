@@ -29,17 +29,10 @@ export default async function WorkPage({ params }: Props) {
       <section className="sy-wrap sy-page-head" style={{ paddingBottom: "var(--space-64)" }}>
         <SectionLabel aside="2023 — 2026">{tc("nav.work")}</SectionLabel>
         <div className="sy-grid">
-          <Reveal
-            as="h1"
-            trigger="mount"
-            className="sy-t-h1 sy-col-8"
-            lines={[
-              <>
-                {t("title")}
-                <sup className="sy-t-label sy-muted" style={{ verticalAlign: "top", marginLeft: 8 }}>({count})</sup>
-              </>,
-            ]}
-          />
+          <div className="sy-col-8" style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+            <Reveal as="h1" trigger="mount" className="sy-t-h1" lines={[t("title")]} />
+            <span className="sy-t-label sy-muted sy-num" style={{ marginTop: "0.4em" }}>({count})</span>
+          </div>
           <p className="sy-t-bodyl sy-muted sy-col-4">{t("text")}</p>
         </div>
       </section>

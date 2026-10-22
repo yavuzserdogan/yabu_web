@@ -71,7 +71,7 @@ export function ClosingCTA() {
               </span>
             </a>
           </div>
-          <Button variant="round" magnetic href="/iletisim">{tc("cta.talk")}</Button>
+          <Button variant="round" href="/iletisim">{tc("cta.talk")}</Button>
         </div>
       </div>
     </section>

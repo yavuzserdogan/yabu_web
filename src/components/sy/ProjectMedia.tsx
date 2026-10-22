@@ -12,6 +12,8 @@ type Props = {
   /** set false when the media is not itself a link target */
   cursor?: boolean;
   hover?: boolean;
+  /** contain: show the whole screenshot (letterboxed) instead of cropping it */
+  fit?: "cover" | "contain";
   sizes?: string;
   priority?: boolean;
   className?: string;
@@ -19,9 +21,9 @@ type Props = {
 };
 
 /** Project imagery: the real screenshot when there is one, otherwise the design's device mockup. */
-export function ProjectMedia({ project, label = false, cursor = true, hover, sizes = "(max-width: 860px) 100vw, 60vw", priority, className, style }: Props) {
+export function ProjectMedia({ project, label = false, cursor = true, hover, fit = "cover", sizes = "(max-width: 860px) 100vw, 60vw", priority, className, style }: Props) {
   return (
-    <div className={cn("sy-media", hover && "is-hover", className)} data-cursor={cursor ? "view" : undefined} style={style}>
+    <div className={cn("sy-media", hover && "is-hover", fit === "contain" && "sy-media--contain", className)} data-cursor={cursor ? "view" : undefined} style={style}>
       <div className="sy-media__inner">
         {project.image ? (
           <Image src={project.image} alt={project.name ?? ""} fill sizes={sizes} priority={priority} className="sy-media__img" />

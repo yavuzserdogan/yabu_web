@@ -2,12 +2,12 @@ import type { CSSProperties, ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { Reveal } from "./Reveal";
 
-type SectionProps = { id?: string; className?: string; style?: CSSProperties; children: ReactNode };
+type SectionProps = { id?: string; className?: string; style?: CSSProperties; theme?: "inverse"; children: ReactNode };
 
 /** Vertical rhythm: space-160 top/bottom (space-96 on mobile) inside the page wrap. */
-export function Section({ id, className, style, children }: SectionProps) {
+export function Section({ id, className, style, theme, children }: SectionProps) {
   return (
-    <section id={id} className={cn("sy-section", className)} style={style}>
+    <section id={id} className={cn("sy-section", className)} style={style} data-theme={theme}>
       <div className="sy-wrap">{children}</div>
     </section>
   );

@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { Icon, type IconName } from "./Icon";
-import { Magnetic } from "./Magnetic";
 import { SmartLink, type AppHref } from "./SmartLink";
 
 type Props = {
@@ -10,10 +9,8 @@ type Props = {
   icon?: IconName;
   href?: AppHref;
   type?: "button" | "submit";
-  magnetic?: boolean;
   disabled?: boolean;
   loading?: boolean;
-  cursor?: string;
   className?: string;
   onClick?: () => void;
   children: ReactNode;
@@ -25,10 +22,8 @@ export function Button({
   icon,
   href,
   type = "button",
-  magnetic,
   disabled,
   loading,
-  cursor,
   className,
   onClick,
   children,
@@ -42,7 +37,6 @@ export function Button({
   );
   const inner = (
     <>
-      <span className="sy-btn__fill" aria-hidden />
       <span className="sy-btn__label">
         {children}
         {icon && <Icon name={icon} size={18} className="sy-btn__icon" />}
@@ -51,28 +45,13 @@ export function Button({
     </>
   );
 
-  const el =
-    href && !disabled ? (
-      <SmartLink href={href} className={cls} onClick={onClick} data-cursor={cursor}>
-        {inner}
-      </SmartLink>
-    ) : (
-      <button
-        type={type}
-        className={cls}
-        onClick={onClick}
-        disabled={disabled}
-        aria-busy={loading || undefined}
-        data-cursor={cursor}
-      >
-        {inner}
-      </button>
-    );
-
-  if (!magnetic) return el;
-  return (
-    <Magnetic strength={variant === "round" ? 0.3 : 0.25} padding={variant === "round" ? 40 : 20}>
-      {el}
-    </Magnetic>
+  return href && !disabled ? (
+    <SmartLink href={href} className={cls} onClick={onClick}>
+      {inner}
+    </SmartLink>
+  ) : (
+    <button type={type} className={cls} onClick={onClick} disabled={disabled} aria-busy={loading || undefined}>
+      {inner}
+    </button>
   );
 }

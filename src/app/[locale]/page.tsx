@@ -4,10 +4,10 @@ import type { Locale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
 import { getProjects, getTestimonials } from "@/content/projects";
 import { getServices } from "@/content/services";
-import { assurances, faq, manifesto, principles, steps, team } from "@/content/studio";
+import { assurances, faq, manifesto, principles, team } from "@/content/studio";
 import { Hero } from "@/components/home/Hero";
 import { ServiceAccordion } from "@/components/home/ServiceAccordion";
-import { Manifesto, Principles, ProcessStrip, TeamCard } from "@/components/home/Studio";
+import { Manifesto, Principles, TeamCard } from "@/components/home/Studio";
 import { ClosingCTA } from "@/components/layout/ClosingCTA";
 import { Accordion } from "@/components/sy/Accordion";
 import { AssuranceStrip } from "@/components/sy/AssuranceStrip";
@@ -45,7 +45,7 @@ export default async function HomePage({ params }: Props) {
     <>
       <Hero />
 
-      <Section id={tc("anchors.work")}>
+      <Section id={tc("anchors.work")} theme="inverse">
         <SectionLabel num="01" aside={t("work.aside")}>{t("work.label")}</SectionLabel>
         <Intro lines={t.raw("work.titleLines")} text={t("work.text")} />
         <FeaturedWork projects={featured} />
@@ -59,7 +59,7 @@ export default async function HomePage({ params }: Props) {
         )}
       </Section>
 
-      <Section id={tc("anchors.all")} style={{ paddingTop: 0 }}>
+      <Section id={tc("anchors.all")}>
         <SectionLabel num="02" aside={tc("projectCount", { count: projects.length })}>{t("all.label")}</SectionLabel>
         <Spacer size={48} />
         <ProjectList projects={projects} />
@@ -75,8 +75,6 @@ export default async function HomePage({ params }: Props) {
         <div className="sy-team">
           {team[locale].map((m, i) => <TeamCard key={i} {...m} />)}
         </div>
-        <Spacer size={128} />
-        <ProcessStrip steps={steps[locale]} />
       </Section>
 
       <Section id={tc("anchors.services")} style={{ paddingTop: 0 }}>

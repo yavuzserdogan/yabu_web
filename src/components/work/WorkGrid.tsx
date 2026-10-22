@@ -10,13 +10,13 @@ import { FilterBar } from "./FilterBar";
 import { projectHref } from "./projectHref";
 import { useProjectFilter } from "./useProjectFilter";
 
-type CardProps = { project: Project; index?: number; enter?: boolean };
+type CardProps = { project: Project; index?: number; enter?: boolean; priority?: boolean };
 
-export function ProjectCard({ project: p, index = 0, enter }: CardProps) {
+export function ProjectCard({ project: p, index = 0, enter, priority }: CardProps) {
   const href = projectHref(p);
   const body = (
     <>
-      <ProjectMedia project={p} cursor={!!href} sizes="(max-width: 760px) 100vw, 50vw" />
+      <ProjectMedia project={p} cursor={!!href} fit="contain" priority={priority} sizes="(max-width: 760px) 100vw, 50vw" />
       <div className="sy-card__row">
         <div>
           <div className="sy-card__name">{p.name}</div>
@@ -43,7 +43,7 @@ export function WorkGrid({ projects }: { projects: Project[] }) {
         <span className="sy-t-caption sy-muted sy-num">{t("projectCount", { count: f.shown.length })}</span>
       </div>
       <div className="sy-wgrid" key={f.key}>
-        {f.shown.map((p, i) => <ProjectCard key={p.slug} project={p} index={i} enter />)}
+        {f.shown.map((p, i) => <ProjectCard key={p.slug} project={p} index={i} enter priority={i < 2} />)}
       </div>
     </div>
   );

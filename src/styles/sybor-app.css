@@ -49,3 +49,29 @@ html.lenis, html.lenis body { height: auto; }
 
 /* ---------- form error state on chip groups ---------- */
 .sy-form__error { font-size: 14px; font-weight: 500; display: flex; gap: 6px; align-items: center; }
+
+/* ---------- simple buttons (no curved fill, no magnetic pull) ---------- */
+.sy-btn { transition: background-color var(--dur-fast) linear, color var(--dur-fast) linear, border-color var(--dur-fast) linear; }
+.sy-btn--primary:hover { color: var(--bg); opacity: .85; }
+.sy-btn--ghost:hover, .sy-btn--round:hover { color: var(--fg); background: var(--surface); border-color: var(--fg); }
+.sy-btn:hover .sy-btn__icon { transform: none; }
+.sy-btn:active { transform: scale(.98); }
+
+/* ---------- inverse (black) sections ---------- */
+.sy-section[data-theme="inverse"] { background: var(--bg); color: var(--fg); }
+
+/* ---------- featured work CTA ---------- */
+.sy-feature__cta { padding-top: var(--space-8); }
+.sy-feature__cta .sy-btn__icon { transition: transform var(--dur-fast) var(--ease-out); }
+.sy-feature__cta .sy-btn:hover .sy-btn__icon { transform: translate(2px, -2px); }
+
+/* ---------- featured work: media matches the text column (no sticky drift) ---------- */
+.sy-feature__grid { align-items: stretch; }
+.sy-feature__media { position: relative; top: auto; display: block; }
+.sy-feature__media .sy-media { aspect-ratio: auto; height: 100%; min-height: 420px; }
+@container (max-width: 860px) {
+  .sy-feature__media .sy-media { aspect-ratio: 4 / 3; height: auto; min-height: 0; }
+}
+
+/* whole screenshot, centred on the surface — no cropping */
+.sy-media--contain .sy-media__img { object-fit: contain; object-position: center; padding: 6%; }

@@ -12,7 +12,6 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SmoothScroll } from "@/components/layout/SmoothScroll";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
-import { Cursor } from "@/components/sy/Cursor";
 
 // Inter Tight variable (OFL) — Design system font, self-hosted for zero CLS.
 const interTight = localFont({
@@ -99,7 +98,6 @@ export default async function RootLayout({
           </Script>
 
           <SmoothScroll />
-          <Cursor />
           <Header />
           <main>{children}</main>
           <Footer />

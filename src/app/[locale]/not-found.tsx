@@ -23,8 +23,8 @@ export default function NotFound() {
             <p className="sy-t-bodyl sy-muted" style={{ marginTop: 16, maxWidth: 520 }}>{t("description")}</p>
           </div>
           <div className="sy-404__ctas">
-            <Button magnetic href="/" icon="arrow-right">{t("backHome")}</Button>
-            <Button variant="ghost" magnetic href="/isler">{tc("seeWork")}</Button>
+            <Button href="/" icon="arrow-right">{t("backHome")}</Button>
+            <Button variant="ghost" href="/isler">{tc("seeWork")}</Button>
           </div>
         </div>
       </div>

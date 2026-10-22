@@ -72,7 +72,7 @@ export default async function ServicePage({ params }: Props) {
           <div className="sy-col-3" style={{ display: "grid", gap: 24 }}>
             <p className="sy-t-bodyl">{service.desc}</p>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-              <Button magnetic href="/iletisim" icon="arrow-right">{tc("cta.quote")}</Button>
+              <Button href="/iletisim" icon="arrow-right">{tc("cta.quote")}</Button>
               <Button variant="ghost" href={{ pathname: "/", hash: tc("anchors.work") }}>{tc("cta.examples")}</Button>
             </div>
           </div>

@@ -9,7 +9,6 @@ import { siteConfig, telHref } from "@/config/site";
 import { Button } from "@/components/sy/Button";
 import { Icon } from "@/components/sy/Icon";
 import { Logo } from "@/components/sy/Logo";
-import { Magnetic } from "@/components/sy/Magnetic";
 import { Portal } from "@/components/sy/Portal";
 import { TextLink } from "@/components/sy/TextLink";
 import { LangSwitch } from "./LangSwitch";
@@ -52,15 +51,13 @@ export function Header() {
         <nav className="sy-header__nav" aria-label={t("nav.mainMenu")}>
           <div className="sy-header__links">
             {links.map((l) => (
-              <Magnetic key={l.key} strength={0.25} padding={8}>
-                <TextLink href={l.href} className={isActive(l.key) ? "is-hover" : undefined}>
-                  {t(`nav.${l.key}`)}
-                </TextLink>
-              </Magnetic>
+              <TextLink key={l.key} href={l.href} className={isActive(l.key) ? "is-hover" : undefined}>
+                {t(`nav.${l.key}`)}
+              </TextLink>
             ))}
           </div>
           <LangSwitch />
-          <Button size="s" magnetic href="/iletisim" icon="arrow-right">{t("cta.talk")}</Button>
+          <Button size="s" href="/iletisim" icon="arrow-right">{t("cta.talk")}</Button>
         </nav>
         <button
           type="button"

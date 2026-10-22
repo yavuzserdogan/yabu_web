@@ -1,12 +1,11 @@
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import type { Project } from "@/content/types";
-import { Badge, Tag } from "@/components/sy/Badge";
+import { Button } from "@/components/sy/Button";
 import { ProjectMedia } from "@/components/sy/ProjectMedia";
 import { Reveal } from "@/components/sy/Reveal";
 import { SmartLink } from "@/components/sy/SmartLink";
 import { StatBox } from "@/components/sy/StatBox";
-import { TextLink } from "@/components/sy/TextLink";
 import { projectHref } from "./projectHref";
 
 type FeatureProps = { project: Project; flip?: boolean; index: string };
@@ -22,19 +21,15 @@ export function ProjectFeature({ project: p, flip, index }: FeatureProps) {
       <div className="sy-feature__grid">
         {href ? (
           <SmartLink href={href} className="sy-feature__media" aria-label={p.name}>
-            <ProjectMedia project={p} />
+            <ProjectMedia project={p} fit="contain" />
           </SmartLink>
         ) : (
-          <div className="sy-feature__media"><ProjectMedia project={p} cursor={false} /></div>
+          <div className="sy-feature__media"><ProjectMedia project={p} cursor={false} fit="contain" /></div>
         )}
         <div className="sy-feature__body">
           <div className="sy-feature__index"><span>{index}</span><span>{p.year}</span></div>
           <Reveal as="h3" className="sy-feature__name" lines={[p.name]} />
           <p className="sy-feature__desc">{p.desc}</p>
-          <div className="sy-feature__tags">
-            {p.tags.map((tag) => <Tag key={tag}>{tag}</Tag>)}
-            <Badge status={p.status} />
-          </div>
           {(p.problem || p.solution) && (
             <div className="sy-ps">
               {p.problem && <div className="sy-ps__row"><b>{tc("problem")}</b><p>{p.problem}</p></div>}
@@ -46,13 +41,11 @@ export function ProjectFeature({ project: p, flip, index }: FeatureProps) {
               {p.stats.map((s, i) => <StatBox key={i} compact {...s} />)}
             </div>
           )}
-          {p.placeholder && <div className="sy-feature__note">{t("placeholderNote")}</div>}
-          {p.tech && (
-            <div className="sy-feature__tech" aria-label={t("tech")}>
-              {p.tech.map((x) => <span key={x}>{x}</span>)}
+          {href && (
+            <div className="sy-feature__cta">
+              <Button href={href} icon="arrow-up-right">{t("cta.viewProject")}</Button>
             </div>
           )}
-          {href && <div><TextLink href={href} arrow variant="underline">{t("cta.viewProject")}</TextLink></div>}
         </div>
       </div>
     </article>

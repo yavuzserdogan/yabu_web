@@ -92,8 +92,8 @@ export function Hero() {
           <Fade className="sy-hero__bottom" delay={500}>
             <p className="sy-hero__sub">{t("sub")}</p>
             <div className="sy-hero__ctas">
-              <Button magnetic href="/iletisim" icon="arrow-right">{tc("cta.talk")}</Button>
-              <Button variant="ghost" magnetic href={{ pathname: "/", hash: tc("anchors.work") }}>{tc("cta.seeWork")}</Button>
+              <Button href="/iletisim" icon="arrow-right">{tc("cta.talk")}</Button>
+              <Button variant="ghost" href={{ pathname: "/", hash: tc("anchors.work") }}>{tc("cta.seeWork")}</Button>
             </div>
           </Fade>
         </div>
