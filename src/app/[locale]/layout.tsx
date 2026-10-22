@@ -1,20 +1,29 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "../globals.css";
-import { Footer } from "@/components/footer/Footer";
-import { Header } from "@/components/header/Header";
-import { Toaster } from "sonner";
 import Script from "next/script";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-import { WhatsAppFloatingButton } from "@/components/ui/WhatsAppFloatingButton";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { Toaster } from "sonner";
+import { routing } from "@/i18n/routing";
+import { siteConfig } from "@/config/site";
+import { Footer } from "@/components/layout/Footer";
+import { Header } from "@/components/layout/Header";
+import { SmoothScroll } from "@/components/layout/SmoothScroll";
+import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
+// Inter Tight variable (OFL) — Design system font, self-hosted for zero CLS.
+const interTight = localFont({
+  src: "../../fonts/InterTight-Variable.woff2",
+  weight: "100 900",
+  variable: "--font-inter-tight",
+  display: "swap",
 });
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params
@@ -25,15 +34,12 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
-    metadataBase: new URL("https://sybordigital.com"),
+    metadataBase: new URL(siteConfig.url),
     title: {
       default: t('title'),
       template: `%s | ${t('siteName')}`,
     },
     description: t('description'),
-    alternates: {
-      canonical: `https://sybordigital.com/${locale}`,
-    },
     appleWebApp: {
       title: "Sybor",
     },
@@ -43,13 +49,12 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
-      url: `https://sybordigital.com/${locale}`,
       siteName: t('siteName'),
       title: t('ogTitle'),
       description: t('description'),
       images: [
         {
-          url: "/images/og-image.png",
+          url: "/og-image.png",
           width: 1200,
           height: 630,
           alt: t('siteName'),
@@ -68,16 +73,16 @@ export default async function RootLayout({
 }) {
   const { locale } = await params;
 
-
-  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+  if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  setRequestLocale(locale);
 
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className="scroll-smooth">
-      <body className={`${inter.variable} font-sans bg-white antialiased`}>
+    <html lang={locale} className={interTight.variable}>
+      <body id="top" className="sy-root font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           <Script
             strategy="afterInteractive"
@@ -92,16 +97,12 @@ export default async function RootLayout({
             `}
           </Script>
 
+          <SmoothScroll />
           <Header />
           <main>{children}</main>
-          <Toaster
-            position="bottom-center"
-            expand={false}
-            richColors
-            duration={4000}
-          />
           <Footer />
-          <WhatsAppFloatingButton />
+          <WhatsAppButton />
+          <Toaster position="bottom-center" expand={false} duration={4000} />
         </NextIntlClientProvider>
       </body>
     </html>

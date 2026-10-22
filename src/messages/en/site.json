@@ -1,0 +1,234 @@
+{
+  "Metadata": {
+    "title": "Sybor Digital | Web, mobile and brand studio",
+    "siteName": "Sybor Digital",
+    "description": "A small digital studio designing and building websites, mobile apps and brand identities. Fixed price, clear deadline, direct access to the team.",
+    "ogTitle": "Sybor Digital | Digital experiences for your brand"
+  },
+  "Common": {
+    "cursor": {
+      "view": "View",
+      "play": "Play",
+      "copy": "Copy",
+      "details": "Details"
+    },
+    "status": {
+      "live": "Live",
+      "soon": "Coming soon",
+      "past": "Past project"
+    },
+    "video": {
+      "note": "Showreel · with sound · placeholder",
+      "close": "Close",
+      "play": "Play",
+      "pause": "Pause",
+      "mute": "Mute",
+      "unmute": "Unmute"
+    },
+    "nav": {
+      "home": "Home",
+      "work": "Work",
+      "services": "Services",
+      "studio": "Studio",
+      "contact": "Contact",
+      "menu": "Menu",
+      "close": "Close",
+      "mainMenu": "Main menu",
+      "language": "Language",
+      "logoHome": "Sybor Digital — home"
+    },
+    "anchors": {
+      "work": "work",
+      "all": "all-projects",
+      "studio": "studio",
+      "services": "services",
+      "faq": "faq"
+    },
+    "cta": {
+      "talk": "Let's talk",
+      "seeWork": "See our work",
+      "viewProject": "View project",
+      "allWork": "See all work",
+      "details": "Explore the details",
+      "quote": "Get a quote",
+      "examples": "Example work",
+      "visit": "Visit the site"
+    },
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "design": "Design",
+      "label": "Filter"
+    },
+    "projectCount": "{count, plural, one {# project} other {# projects}}",
+    "placeholderNote": "Sample copy and values — to be replaced with real, measured data before launch.",
+    "teamPlaceholder": "B/W portrait — placeholder",
+    "tech": "Technologies",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "Hero": {
+    "lines": [
+      [
+        "We design"
+      ],
+      [
+        "VIDEO",
+        "digital"
+      ],
+      [
+        "experiences"
+      ],
+      [
+        "for your brand."
+      ]
+    ],
+    "title": "We design digital experiences for your brand.",
+    "sub": "Websites, mobile apps and brand identities. Fixed price, clear deadline, direct access to the team.",
+    "meta": "Web · Mobile · Brand",
+    "scroll": "Scroll",
+    "reelLabel": "Play showreel with sound",
+    "reelTag": "Showreel 2026 · placeholder"
+  },
+  "Home": {
+    "title": "Sybor Digital | Web, mobile and brand studio",
+    "description": "Websites, mobile apps and brand identities. Fixed price, clear deadline, direct access to the team.",
+    "work": {
+      "label": "Selected work",
+      "aside": "2023 — 2026",
+      "titleLines": [
+        "Selected work,",
+        "measurable results."
+      ],
+      "text": "For every project we show what we did and what changed — in numbers."
+    },
+    "all": {
+      "label": "All projects"
+    },
+    "studio": {
+      "label": "Studio",
+      "aside": "{city} · remote"
+    },
+    "services": {
+      "label": "Services",
+      "aside": "3 services",
+      "titleLines": [
+        "We do three things,",
+        "and do them well."
+      ]
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Before you ask"
+    },
+    "assure": {
+      "title": "For companies and teams",
+      "count": "4 guarantees"
+    }
+  },
+  "Closing": {
+    "word": "Let's talk.",
+    "text": "Tell us your idea in a few sentences. We’ll send a written scope and a fixed-price quote.",
+    "copied": "Copied"
+  },
+  "Footer": {
+    "brand": "A small digital studio designing websites, mobile apps and brands.",
+    "menu": "Menu",
+    "services": "Services",
+    "contact": "Contact",
+    "follow": "Follow",
+    "rights": "© {year} Sybor Digital. All rights reserved.",
+    "top": "Back to top"
+  },
+  "WhatsApp": {
+    "label": "Message us on WhatsApp"
+  },
+  "Work": {
+    "title": "Work",
+    "description": "Websites, mobile apps and brand work. For each one we wrote down what we did and what changed.",
+    "text": "Websites, mobile apps and brand work. For each one we wrote down what we did and what changed."
+  },
+  "CaseStudy": {
+    "back": "All work",
+    "problem": "Problem",
+    "solution": "Solution",
+    "results": "Results",
+    "resultsAside": "Sample values",
+    "specs": {
+      "client": "Client",
+      "year": "Year",
+      "service": "Service",
+      "platform": "Platform"
+    },
+    "next": "Next project",
+    "story": "This is where we'll tell what we learned in discovery, which decisions we made and why, and what we tested.",
+    "shotDesktop": "Screenshot — desktop",
+    "shotMobile": "Mobile screens"
+  },
+  "ServicePage": {
+    "label": "Services",
+    "count": "Service {n} / {total}",
+    "what": "What we do",
+    "process": "Process",
+    "examples": "Example projects",
+    "faq": "FAQ",
+    "videoNote": "Service video / image — placeholder"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Tell us about your project in a few sentences; we’ll send a written scope, timeline and fixed-price quote.",
+    "label": "Contact",
+    "aside": "Reply within 1 business day",
+    "titleLines": [
+      "Tell us about",
+      "your project."
+    ],
+    "text": "A few sentences is enough. We’ll send you a written scope, timeline and fixed-price quote.",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "form": {
+      "name": "Your name",
+      "namePh": "Full name",
+      "email": "Email",
+      "emailPh": "you@company.com",
+      "phone": "Phone",
+      "phonePh": "+90",
+      "company": "Company",
+      "companyPh": "Company name",
+      "optional": "optional",
+      "services": "Which service?",
+      "servicesHint": "you can pick more than one",
+      "serviceOptions": [
+        "Website",
+        "Web app",
+        "Mobile app",
+        "UI/UX",
+        "Brand identity",
+        "Not sure yet"
+      ],
+      "budget": "Budget range",
+      "budgetOptions": [
+        "Under ₺50,000",
+        "₺50–150k",
+        "₺150–300k",
+        "₺300k +",
+        "Not sure"
+      ],
+      "message": "Tell us about your project in a few sentences",
+      "messagePh": "What do you want to build, and by when?",
+      "submit": "Send",
+      "kvkk": "By sending, you confirm you have read the privacy notice (KVKK).",
+      "success": "Your message arrived. We’ll reply in writing within 1 business day.",
+      "errorRequired": "This field is required.",
+      "errorEmail": "Enter a valid email address.",
+      "errorSend": "The message could not be sent. Please try again or email us directly."
+    }
+  },
+  "NotFoundPage": {
+    "title": "This page isn't live.",
+    "description": "You may have mistyped the address, or the page has moved. But since you're here: shall we design a new page for you?",
+    "backHome": "Back to home"
+  }
+}
