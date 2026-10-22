@@ -1,10 +1,6 @@
-import navigation from "./navigation.json";
-import footer from "./footer.json";
-import metadata from "./metadata.json";
-import home from "./home.json";
-import about from "./about.json";
-import contact from "./contact.json";
-import projects from "./projects.json";
+import site from "./site.json";
+// Eski 17 hizmet sayfası (legacy) — yeni tasarıma taşınana kadar duruyor.
+import legacy from "./legacy.json";
 import ads from "./services/ads.json";
 import booking from "./services/booking.json";
 import boutique from "./services/boutique.json";
@@ -23,13 +19,8 @@ import socialMedia from "./services/social-media.json";
 import uiux from "./services/ui-ux.json";
 
 const messages = {
-  ...navigation,
-  ...footer,
-  ...metadata,
-  ...home,
-  ...about,
-  ...contact,
-  ...projects,
+  ...site,
+  ...legacy,
   ServicesPage: {
     "ads": ads,
     "booking": booking,

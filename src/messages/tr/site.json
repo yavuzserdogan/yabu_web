@@ -1,0 +1,234 @@
+{
+  "Metadata": {
+    "title": "Sybor Digital | Web, mobil ve marka stüdyosu",
+    "siteName": "Sybor Digital",
+    "description": "Web siteleri, mobil uygulamalar ve marka kimlikleri tasarlayıp geliştiren küçük bir dijital stüdyo. Sabit fiyat, net teslim tarihi, doğrudan ekip.",
+    "ogTitle": "Sybor Digital | Markanız için dijital deneyimler"
+  },
+  "Common": {
+    "cursor": {
+      "view": "Gör",
+      "play": "Play",
+      "copy": "Kopyala",
+      "details": "Detay"
+    },
+    "status": {
+      "live": "Yayında",
+      "soon": "Yakında",
+      "past": "Geçmiş proje"
+    },
+    "video": {
+      "note": "Showreel · sesli · yer tutucu",
+      "close": "Kapat",
+      "play": "Oynat",
+      "pause": "Duraklat",
+      "mute": "Sesi kapat",
+      "unmute": "Sesi aç"
+    },
+    "nav": {
+      "home": "Ana sayfa",
+      "work": "İşlerimiz",
+      "services": "Hizmetler",
+      "studio": "Stüdyo",
+      "contact": "İletişim",
+      "menu": "Menü",
+      "close": "Kapat",
+      "mainMenu": "Ana menü",
+      "language": "Dil",
+      "logoHome": "Sybor Digital — ana sayfa"
+    },
+    "anchors": {
+      "work": "isler",
+      "all": "tum-projeler",
+      "studio": "studyo",
+      "services": "hizmetler",
+      "faq": "sss"
+    },
+    "cta": {
+      "talk": "Görüşelim",
+      "seeWork": "İşlerimizi görün",
+      "viewProject": "Projeyi incele",
+      "allWork": "Tüm işleri gör",
+      "details": "Detayları inceleyin",
+      "quote": "Teklif alın",
+      "examples": "Örnek işler",
+      "visit": "Siteyi ziyaret edin"
+    },
+    "filters": {
+      "all": "Tümü",
+      "web": "Web",
+      "mobile": "Mobil",
+      "design": "Tasarım",
+      "label": "Filtre"
+    },
+    "projectCount": "{count} proje",
+    "placeholderNote": "Örnek metin ve değerler — yayından önce gerçek, ölçülmüş verilerle değiştirilecek.",
+    "teamPlaceholder": "S/B portre — yer tutucu",
+    "tech": "Teknolojiler",
+    "prev": "Önceki",
+    "next": "Sonraki"
+  },
+  "Hero": {
+    "lines": [
+      [
+        "Markanız için"
+      ],
+      [
+        "VIDEO",
+        "dijital"
+      ],
+      [
+        "deneyimler"
+      ],
+      [
+        "tasarlıyoruz."
+      ]
+    ],
+    "title": "Markanız için dijital deneyimler tasarlıyoruz.",
+    "sub": "Web siteleri, mobil uygulamalar ve marka kimlikleri. Sabit fiyat, net teslim tarihi, doğrudan ekip.",
+    "meta": "Web · Mobil · Marka",
+    "scroll": "Kaydırın",
+    "reelLabel": "Showreel’i sesli oynat",
+    "reelTag": "Showreel 2026 · yer tutucu"
+  },
+  "Home": {
+    "title": "Sybor Digital | Web, mobil ve marka stüdyosu",
+    "description": "Web siteleri, mobil uygulamalar ve marka kimlikleri. Sabit fiyat, net teslim tarihi, doğrudan ekip.",
+    "work": {
+      "label": "İşlerimiz",
+      "aside": "2023 — 2026",
+      "titleLines": [
+        "Seçili işler,",
+        "ölçülebilir sonuçlar."
+      ],
+      "text": "Her projede ne yaptığımızı ve neyin değiştiğini sayılarla anlatıyoruz."
+    },
+    "all": {
+      "label": "Tüm projeler"
+    },
+    "studio": {
+      "label": "Stüdyo",
+      "aside": "{city} · uzaktan"
+    },
+    "services": {
+      "label": "Hizmetler",
+      "aside": "3 hizmet",
+      "titleLines": [
+        "Üç işi",
+        "iyi yapıyoruz."
+      ]
+    },
+    "faq": {
+      "label": "Sık sorulanlar",
+      "title": "Aklınızdakiler"
+    },
+    "assure": {
+      "title": "Şirketler ve ekipler için",
+      "count": "4 güvence"
+    }
+  },
+  "Closing": {
+    "word": "Konuşalım.",
+    "text": "Fikrinizi birkaç cümleyle anlatın, size yazılı kapsam ve sabit fiyatlı teklif gönderelim.",
+    "copied": "Kopyalandı"
+  },
+  "Footer": {
+    "brand": "Web siteleri, mobil uygulamalar ve markalar tasarlayan küçük bir dijital stüdyo.",
+    "menu": "Menü",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "follow": "Takip edin",
+    "rights": "© {year} Sybor Digital. Tüm hakları saklıdır.",
+    "top": "Başa dön"
+  },
+  "WhatsApp": {
+    "label": "WhatsApp’tan yazın"
+  },
+  "Work": {
+    "title": "İşlerimiz",
+    "description": "Web siteleri, mobil uygulamalar ve marka işleri. Her birinde ne yaptığımızı ve sonucu yazdık.",
+    "text": "Web siteleri, mobil uygulamalar ve marka işleri. Her birinde ne yaptığımızı ve sonucu yazdık."
+  },
+  "CaseStudy": {
+    "back": "Tüm işler",
+    "problem": "Problem",
+    "solution": "Çözüm",
+    "results": "Sonuçlar",
+    "resultsAside": "Örnek değerler",
+    "specs": {
+      "client": "Müşteri",
+      "year": "Yıl",
+      "service": "Hizmet",
+      "platform": "Platform"
+    },
+    "next": "Sonraki proje",
+    "story": "Keşifte ne öğrendiğimizi, hangi kararları neden verdiğimizi ve neyi test ettiğimizi burada anlatacağız.",
+    "shotDesktop": "Ekran görüntüsü — masaüstü",
+    "shotMobile": "Mobil ekranlar"
+  },
+  "ServicePage": {
+    "label": "Hizmetler",
+    "count": "Hizmet {n} / {total}",
+    "what": "Ne yapıyoruz",
+    "process": "Süreç",
+    "examples": "Örnek projeler",
+    "faq": "Sık sorulanlar",
+    "videoNote": "Hizmet videosu / görseli — yer tutucu"
+  },
+  "Contact": {
+    "title": "İletişim",
+    "description": "Projenizi birkaç cümleyle anlatın; size yazılı kapsam, takvim ve sabit fiyatlı teklif gönderelim.",
+    "label": "İletişim",
+    "aside": "Yanıt: 1 iş günü",
+    "titleLines": [
+      "Projenizi",
+      "anlatın."
+    ],
+    "text": "Birkaç cümle yeter. Size yazılı kapsam, takvim ve sabit fiyatlı teklif gönderelim.",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "form": {
+      "name": "Adınız",
+      "namePh": "Ad Soyad",
+      "email": "E-posta",
+      "emailPh": "ad@sirket.com",
+      "phone": "Telefon",
+      "phonePh": "+90",
+      "company": "Şirket",
+      "companyPh": "Şirket adı",
+      "optional": "opsiyonel",
+      "services": "Hangi hizmet?",
+      "servicesHint": "birden fazla seçebilirsiniz",
+      "serviceOptions": [
+        "Web sitesi",
+        "Web uygulaması",
+        "Mobil uygulama",
+        "UI/UX",
+        "Marka kimliği",
+        "Henüz emin değilim"
+      ],
+      "budget": "Bütçe aralığı",
+      "budgetOptions": [
+        "50.000 ₺ altı",
+        "50–150 bin ₺",
+        "150–300 bin ₺",
+        "300 bin ₺ +",
+        "Bilmiyorum"
+      ],
+      "message": "Projenizi birkaç cümleyle anlatın",
+      "messagePh": "Ne yapmak istiyorsunuz, ne zamana yetişmeli?",
+      "submit": "Gönder",
+      "kvkk": "Göndererek KVKK aydınlatma metnini okuduğunuzu onaylarsınız.",
+      "success": "Mesajınız ulaştı. 1 iş günü içinde yazılı dönüş yapacağız.",
+      "errorRequired": "Bu alan gerekli.",
+      "errorEmail": "Geçerli bir e-posta adresi yazın.",
+      "errorSend": "Mesaj gönderilemedi. Lütfen tekrar deneyin ya da doğrudan e-posta gönderin."
+    }
+  },
+  "NotFoundPage": {
+    "title": "Bu sayfa yayında değil.",
+    "description": "Adresi yanlış yazmış olabilirsiniz ya da sayfa taşındı. Ama madem buradasınız: yeni bir sayfa tasarlamamızı ister misiniz?",
+    "backHome": "Ana sayfaya dönün"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "HomePage": {
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Explore some of our successful digital solutions",
+      "items": {
+        "project1": {
+          "title": "Speech & Language Therapist / Feyza Şahan",
+          "category": "Web Development",
+          "description": "A customized digital platform developed specifically for speech and language therapists.",
+          "cta": "View Project"
+        },
+        "project2": {
+          "title": "Ortho Origin",
+          "category": "Web Development",
+          "description": "A modern e-commerce platform designed for orthopedic product sales.",
+          "cta": "View Project"
+        },
+        "project3": {
+          "title": "Food Roulette Mobile Application",
+          "category": "Mobile App Development",
+          "description": "A food recommendation app that offers random restaurant suggestions based on filtered options.",
+          "cta": "View Project"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+/* Sybor Digital — production additions on top of sybor.css (Design export).
+   sybor.css stays a verbatim copy of the design system; app-only rules live here. */
+
+/* ---------- Lenis ---------- */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* ---------- hero sits under the sticky header ---------- */
+.sy-hero { margin-top: calc(-1 * var(--header-h)); }
+@media (max-width: 900px) { .sy-hero { margin-top: -72px; } }
+
+/* ---------- page grid helpers (inline gridColumn spans break on the 4-col mobile grid) ---------- */
+.sy-col-3 { grid-column: span 3; }
+.sy-col-4 { grid-column: span 4; }
+.sy-col-5 { grid-column: span 5; }
+.sy-col-6 { grid-column: span 6; }
+.sy-col-8 { grid-column: span 8; }
+.sy-col-9 { grid-column: span 9; }
+.sy-col-first { grid-column-start: 1; }
+.sy-col-from-7 { grid-column: 7 / span 6; }
+@media (max-width: 1199px) {
+  .sy-col-3, .sy-col-4, .sy-col-5, .sy-col-6, .sy-col-8, .sy-col-9, .sy-col-from-7 { grid-column: 1 / -1; }
+}
+
+.sy-intro { margin-top: var(--space-48); margin-bottom: var(--space-96); row-gap: var(--space-24); }
+.sy-intro > p { align-self: end; }
+.sy-page-head { padding-top: var(--space-64); }
+.sy-page-head .sy-grid { margin-top: var(--space-48); row-gap: var(--space-24); align-items: end; }
+@media (max-width: 767px) {
+  .sy-intro { margin-bottom: var(--space-64); }
+  .sy-page-head { padding-top: var(--space-32); }
+}
+
+.sy-split-2-1 { display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-24); }
+.sy-cols-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-24); }
+.sy-cols-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-48) var(--space-24); }
+@media (max-width: 960px) { .sy-cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 767px) { .sy-split-2-1, .sy-cols-2, .sy-cols-3 { grid-template-columns: 1fr; } }
+
+/* ---------- real project imagery inside ProjectMedia ---------- */
+.sy-media__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: left top; }
+
+/* ---------- 404 ---------- */
+.sy-404-page { min-height: calc(100svh - var(--header-h)); display: flex; }
+.sy-404-page .sy-404 { flex: 1; padding-bottom: var(--space-64); }
+.sy-404__row { display: flex; justify-content: space-between; align-items: flex-end; gap: var(--space-32); flex-wrap: wrap; }
+.sy-404__ctas { display: flex; gap: var(--space-12); flex-wrap: wrap; }
+
+/* ---------- form error state on chip groups ---------- */
+.sy-form__error { font-size: 14px; font-weight: 500; display: flex; gap: 6px; align-items: center; }

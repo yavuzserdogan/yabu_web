@@ -1,0 +1,22 @@
+{
+  "HomePage": {
+    "projects": {
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Başarılı projelere göz atın",
+      "items": {
+        "project1": {
+          "title": "Dil ve Konuşma Terapisti - Feyza Şahan",
+          "category": "Web Geliştirme"
+        },
+        "project2": {
+          "title": "Ortho Origin",
+          "category": "Web Geliştirme"
+        },
+        "project3": {
+          "title": "Yemek Ruleti Mobil Uygulaması",
+          "category": "Mobil Uygulama"
+        }
+      }
+    }
+  }
+}
